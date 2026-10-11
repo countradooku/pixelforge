@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "operation": "generate",
+  "cases": [
+    {
+      "id": "blend-normal-o100-f100",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-normal-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-opaque-default",
+      "family": "pixels",
+      "feature": "opaque",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-opaque-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-psb-default",
+      "family": "pixels",
+      "feature": "psb",
+      "variant": "default",
+      "params": {
+        "psb": true
+      },
+      "filename": "pixels-psb-default.psb",
+      "fidelity": "exact"
+    }
+  ],
+  "planned_count": 319,
+  "selected_count": 3,
+  "coverage_complete": false,
+  "note": "Generated feature coverage is measured per distinct feature and parameter; failures remain failures.",
+  "generator_sha256": "e9d765b7d08ae205fd419b297ddbe364d2321caa6d194adc1b80af237b3ad3b8"
+}

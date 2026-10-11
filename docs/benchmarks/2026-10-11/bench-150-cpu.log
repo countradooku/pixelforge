@@ -1,0 +1,28 @@
+  memory before: RSS 11.4 MiB; depth 8 bits/channel
+PixelForge engine benchmark — 14204 × 10652 (151 MP), 18 threads
+
+blank white canvas (shared tiles)                  1.4 ms
+  memory for blank canvas                           32 tiles (8.00 MB)
+procedural fill (generate every pixel)            54.3 ms       2789 MP/s
+mip pyramid build                                 15.4 ms       9794 MP/s
+  mip levels                                         6 levels
+brush stroke (400 events, 300 px soft)           116.1 ms
+  touched                                         2075 tile updates
+  incremental mip update for stroke                1.9 ms
+hue/saturation (full image)                       81.5 ms       1856 MP/s
+levels inside elliptical selection                 9.6 ms      15692 MP/s
+gaussian blur r=20 (full image)                   77.0 ms       1966 MP/s
+gaussian blur r=120 (full image)                 192.3 ms        787 MP/s
+unsharp mask (full image)                         65.5 ms       2309 MP/s
+linear gradient (full image)                      41.4 ms       3655 MP/s
+flip horizontal                                   13.1 ms      11540 MP/s
+rotate 90° clockwise                              13.5 ms      11237 MP/s
+resize to 50% (mip + bilinear)                    10.6 ms      14243 MP/s
+magic wand, contiguous (blank canvas)              0.3 ms     489979 MP/s
+magic wand, global (procedural)                    6.0 ms      25172 MP/s
+flatten 2 layers (multiply blend)                  4.2 ms      36373 MP/s
+display: 135 screen tiles at mip level 0           1.0 ms
+display: 135 screen tiles at mip level 3           1.0 ms
+display: 135 screen tiles at mip level -2          1.0 ms
+display: live blur r=60 preview at level 2         6.1 ms
+  memory after: RSS 2915.8 MiB; peak RSS 2915.8 MiB (process lifetime); page-ins 0 (includes file reads)

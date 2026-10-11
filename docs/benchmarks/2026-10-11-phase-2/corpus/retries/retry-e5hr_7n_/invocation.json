@@ -1,0 +1,280 @@
+{
+  "operation": "generate",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/retries/retry-e5hr_7n_",
+  "cases": [
+    {
+      "id": "adjustment-channelmixer-setting0",
+      "family": "adjustment",
+      "feature": "channelmixer",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-channelmixer-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-channelmixer-setting1",
+      "family": "adjustment",
+      "feature": "channelmixer",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-channelmixer-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-channelmixer-setting2",
+      "family": "adjustment",
+      "feature": "channelmixer",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-channelmixer-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting0",
+      "family": "adjustment",
+      "feature": "selectivecolor",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-selectivecolor-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting1",
+      "family": "adjustment",
+      "feature": "selectivecolor",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-selectivecolor-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting2",
+      "family": "adjustment",
+      "feature": "selectivecolor",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-selectivecolor-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting0",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-colorlookup-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting1",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-colorlookup-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting2",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-colorlookup-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting0",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "fill-pattern-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting1",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "fill-pattern-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting2",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "fill-pattern-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-chromefx-contour",
+      "family": "style",
+      "feature": "chromeFX",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-chromefx-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-solidfill-contour",
+      "family": "style",
+      "feature": "solidFill",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-solidfill-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-gradientfill-contour",
+      "family": "style",
+      "feature": "gradientFill",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-gradientfill-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-small",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "small",
+      "params": {},
+      "filename": "style-patternfill-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-large",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "large",
+      "params": {},
+      "filename": "style-patternfill-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-contour",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-patternfill-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-framefx-contour",
+      "family": "style",
+      "feature": "frameFX",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-framefx-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-area-default",
+      "family": "text",
+      "feature": "area",
+      "variant": "default",
+      "params": {},
+      "filename": "text-area-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-add",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-ellipse-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-add",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-rounded-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-pattern-fill-default",
+      "family": "shape",
+      "feature": "pattern-fill",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-pattern-fill-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-warp-default",
+      "family": "smart",
+      "feature": "warp",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-warp-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-slices-default",
+      "family": "metadata",
+      "feature": "slices",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-slices-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-notes-default",
+      "family": "metadata",
+      "feature": "notes",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-notes-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-print-default",
+      "family": "metadata",
+      "feature": "print",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-print-default.psd",
+      "fidelity": "perceptual"
+    }
+  ],
+  "input": "",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/retries/retry-e5hr_7n_/reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/retries/retry-e5hr_7n_/abort-requested.txt"
+}

@@ -1,0 +1,53 @@
+Work in /Users/radudiaconu/Desktop/Code/Rust/pixelforge. Implement ONLY Phase 3 of PROMPT_PSD.md and finish its verification; do not begin the next phase.
+
+First read PROMPT_PSD.md in full, README.md, the applicable local instructions and Rust/GPUI skills, docs/benchmarks/2026-10-11-phase1/REPORT.md, and docs/benchmarks/2026-10-11-phase1-followup/REPORT.md. Inspect the current source and the most recent phase reports: earlier phases must be verified from evidence, not assumed complete. Identify prerequisite gaps and resolve the ones necessary for this phase. Keep the original brief's compatibility and performance acceptance bars; don't redefine completion as a minimal implementation.
+
+The workspace currently has no Git repository. Preserve existing work and make a dated source backup and a copy of the working release executable before changing this phase. Reuse the 256-square COW tiles, unified MemoryBudget, compressed cold storage, scratch disk, history, worker jobs, and CPU/GPU fallback architecture. Keep unrelated PROMPT_MCP.md unchanged. Read the installed Rust skills and both GPUI coding/design guides before relevant implementation or UI changes.
+
+Ask before any new crate or download, including promoting a transitive dependency: state name, source, version, size and licence. Existing approved direct dependencies may be reused. Implement the PSD/PSB and descriptor codecs in this repository. Verify niche format details against current official specifications; locally generated Photoshop documents are the interoperability reference.
+
+Do the work, rather than only making a plan. Continue through implementation and the required checks. Run heavy builds, tests and benchmarks serially. Use isolated test configuration directories. Never silently reduce depth, flatten editable content, discard unknown blocks, weaken tests, or relax latency budgets to obtain a pass. Keep 8-bit output and performance intact: compare against the preserved baseline with repeated measurements and investigate regressions over 5%.
+
+Photoshop is installed and is the reference. Use JSX automation with an independent CoreGraphics dialog watchdog for every run, restoring user preferences and closing only test documents. Read the existing tools/photoshop_phase1.py and .jsx for the working watchdog approach. Camera Raw can intercept TIFF opens and block the scripting bridge; use suitable fixtures and fail visibly on dialogs. Do not dismiss user documents, kill Photoshop, or treat a timed-out script as successful.
+
+Phase boundary: complete 16-bit editing and file interoperability on top of the verified PSD/PSB implementation. Retain the 8-bit SWAR path and unified memory accounting. Define the generic pixel-format architecture so float can follow, but leave 32-bit mode unavailable until Phase 4 supplies its actual engine and HDR Toning. Complete and test 8 <-> 16 now; the full 32-bit conversion UI is verified in Phase 4. Never advertise a placeholder conversion as implemented. During development, genuinely unsupported 16-bit operations must be disabled with an explanation; this is not permission to omit the engine work listed below.
+
+Validate Photoshop's 0..32768 internal/channel conventions separately from external 16-bit PNG/TIFF encoding. Cover alpha, transparent colours, rounding, dithering, boundaries and COW/history/compression/scratch restoration at the new depth. Run all four benchmark tiers at both 8 and 16-bit; publish per-depth CPU/GPU priors. GPU integer results must be bit-exact with the 16-bit CPU path; quantised 16-bit results must match the 8-bit reference within 1/255 where defined that way.
+
+## Phase 3: 16-bit documents
+
+1. **Pixel type:**
+   - Tiles become generic over the pixel format (RGBA8 premultiplied, RGBA16 in Photoshop's
+     0…32768 range, RGBA32F linear).
+   - Keep the 8-bit SWAR fast paths. Add 16-bit SWAR (one channel per 32-bit lane, or 4 × 16 in
+     64-bit) and SIMD where it pays off.
+   - Decide premultiplied versus straight per depth by measurement and Photoshop equality, and
+     document why.
+2. **Image ▸ Mode:**
+   - 8 ↔ 16 ↔ 32 conversion with Photoshop's rules: dithering when going down (Photoshop's
+     "Use Dither (8-bit/channel images)" preference) and the 32 → 16/8 HDR Toning dialog.
+   - The Info panel shows depth and mode.
+3. **Engine, in order:**
+   - compositing, blend modes, masks and styles;
+   - mips;
+   - brushes and all paint tools;
+   - selections and masks;
+   - every adjustment and filter (including the Filter Gallery);
+   - retouching;
+   - resampling and transforms;
+   - Liquify and Perspective Warp;
+   - Select and Mask;
+   - Content-Aware Fill;
+   - gradients (16-bit gradients without banding).
+   Anything not yet 16-bit-capable is greyed out with a tooltip, never silently 8-bit.
+4. **GPU:** a 16-bit variant of every kernel (`rgba16uint` or packed storage), bit-exact
+   against the 16-bit CPU path, with cost-model priors per depth.
+5. **Files:** PSD and PSB 16-bit read and write (`Lr16`, 16-bit image data, Photoshop's 32768
+   scale), 16-bit PNG and TIFF import and export.
+
+Verification and handoff:
+- Require a warning-free release build and cargo test --release passing in default, PF_GPU=off and PF_GPU=force modes. Report ignored tests and pre-existing lint failures separately.
+- Add meaningful correctness/error-path tests for every new codec block, mapping and depth path. Preserve the integer CPU reference and depth-specific GPU equality requirements in PROMPT_PSD.md.
+- Run the applicable corpus, Photoshop round trips, structural preservation checks, fidelity comparisons and serial tiered benchmarks. Record real results, raw logs, configurations and source/binary fingerprints. Do not claim an unsupported operation passed or confuse ordinary file page-ins with swap activity.
+- Run applicable PF_DEMO=tools scenarios; capture and inspect the app with document mode/depth and file format visible. For file support, include Photoshop reopening results. Fix visual problems. A screenshot alone does not prove HDR precision.
+- Update README.md and write docs/benchmarks/<date>-phase-3/REPORT.md. Report exactly what was built, corpus results by feature family, fidelity, CPU/GPU/Photoshop timings, peak memory, screenshots inspected, remaining acceptance failures and externally blocked items. Do not call the phase complete while required work remains. Stop after this phase and leave a concise handoff.

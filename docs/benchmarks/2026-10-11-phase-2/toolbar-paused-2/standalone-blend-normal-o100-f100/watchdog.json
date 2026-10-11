@@ -1,0 +1,960 @@
+{
+  "status": "passed",
+  "restoration_confirmed": true,
+  "bridge_exit_code": 0,
+  "seconds": 33.073,
+  "observations": [
+    {
+      "seconds": 0.206,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.796,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.373,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.949,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 2.533,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.097,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.677,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.262,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.854,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.445,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.036,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.626,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.217,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.809,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.399,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.991,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.581,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.174,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.764,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.357,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.947,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.541,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.131,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.716,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.304,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.896,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.492,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 16.083,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 16.674,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 17.263,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 17.857,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 18.447,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 19.033,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 19.616,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 20.204,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 20.788,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 21.38,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 21.969,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 22.562,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 23.151,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 23.742,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 24.334,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 24.928,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 25.52,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 26.117,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 26.714,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 27.3,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 27.886,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 28.476,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 29.068,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 29.66,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 30.252,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 30.846,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 31.417,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 31.985,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 32.567,
+      "windows": [
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    }
+  ]
+}

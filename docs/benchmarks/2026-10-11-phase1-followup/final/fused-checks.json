@@ -1,0 +1,42 @@
+[
+  {
+    "name": "build",
+    "exit_code": 0,
+    "seconds": 30.61
+  },
+  {
+    "name": "object-comparison-150",
+    "exit_code": 0,
+    "seconds": 54.03
+  },
+  {
+    "name": "tests-off",
+    "exit_code": 0,
+    "seconds": 2.94
+  },
+  {
+    "name": "tests-default",
+    "exit_code": 0,
+    "seconds": 76.64
+  },
+  {
+    "name": "tests-force",
+    "exit_code": 0,
+    "seconds": 84.45
+  },
+  {
+    "name": "tools",
+    "exit_code": 0,
+    "seconds": 38.63
+  },
+  {
+    "name": "object-comparison",
+    "exit_code": 0,
+    "seconds": 13.6
+  },
+  {
+    "name": "demo",
+    "exit_code": 0,
+    "seconds": 25.5
+  }
+]

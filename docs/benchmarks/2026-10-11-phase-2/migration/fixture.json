@@ -1,0 +1,12 @@
+{
+  "source": "locally authored PFORGE01 test data using src/engine/io.rs documented wire layout",
+  "dimensions": [
+    64,
+    64
+  ],
+  "layers": [
+    "opaque RGB base",
+    "premultiplied alpha upper layer"
+  ],
+  "purpose": "migration reader and new PSD/PSB writer native Photoshop reopen; does not prove complete native model coverage"
+}

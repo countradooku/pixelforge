@@ -1,0 +1,1 @@
+A transient Photoshop dialog was observed; warning-free gate failed

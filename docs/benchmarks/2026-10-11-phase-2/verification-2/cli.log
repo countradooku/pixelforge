@@ -1,0 +1,20 @@
+    Finished `release` profile [optimized] target(s) in 0.21s
+     Running unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)
+
+running 13 tests
+test psd_cli::tests::canonical_parent_resolution_catches_new_output_aliases ... ok
+test psd_cli::tests::check_rejects_collisions_among_every_output_before_decoding ... ok
+test psd_cli::tests::check_rejects_derived_rendering_aliasing_input_before_decoding ... ok
+test psd_cli::tests::check_rejects_source_as_output_or_report_before_decoding ... ok
+test psd_cli::tests::dangling_output_symlink_fails_without_writing_its_target ... ok
+test psd_cli::tests::existing_hard_links_are_rejected_for_conversion_and_outputs ... ok
+test psd_cli::tests::json_quotes_control_characters_and_paths ... ok
+test psd_cli::tests::metric_budget_refusal_releases_reservations_before_pixel_allocation ... ok
+test psd_cli::tests::metric_decoding_tracks_retained_pixels_and_native_conversion_allocations ... ok
+test psd_cli::tests::metric_dimensions_admit_the_full_acceptance_image_and_bound_larger_inputs ... ok
+test psd_cli::tests::metric_inputs_may_alias_but_the_report_must_be_distinct ... ok
+test psd_cli::tests::missing_output_names_are_conservatively_compared_without_ascii_case ... ok
+test psd_cli::tests::symlink_files_and_new_outputs_in_symlink_parents_are_resolved ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 498 filtered out; finished in 0.00s
+

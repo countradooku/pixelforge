@@ -1,0 +1,10 @@
+{
+  "operation": "snapshot",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd/snapshot",
+  "cases": [],
+  "input": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd-reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd/snapshot/abort-requested.txt",
+  "expected_jsx_sha256": "9e834056d5983a06b0638e33214a19267eed1e4d3059cc9f9e8999e5a7aa93cc",
+  "resave_output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/resave-psd"
+}

@@ -1,0 +1,28 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            118.4 ms
+dodge 500 px: p95 per mouse event                               0.46 ms   budget     2.0 ms   ok
+burn 500 px: p95 per mouse event                                0.42 ms   budget     2.0 ms   ok
+sponge 500 px: p95 per mouse event                              0.51 ms   budget     2.0 ms   ok
+blur 500 px: p95 per mouse event                                0.42 ms   budget     2.0 ms   ok
+sharpen 500 px: p95 per mouse event                             0.43 ms   budget     2.0 ms   ok
+smudge 500 px: p95 per mouse event                              0.97 ms   budget     2.0 ms   ok
+mixer 500 px: p95 per mouse event                               0.92 ms   budget     2.0 ms   ok
+color replacement 500 px: p95 per mouse event                   0.78 ms   budget     2.0 ms   ok
+color replacement, Limits: Contiguous 500 px: p95 per mouse event      1.31 ms   budget     2.0 ms   ok
+color replacement, Limits: Find Edges 500 px: p95 per mouse event      1.65 ms   budget     2.0 ms   ok
+background eraser 500 px: p95 per mouse event                   0.42 ms   budget     2.0 ms   ok
+magic eraser (sky, sample all layers, AA)                      12.28 ms   budget  1000.0 ms   ok
+paint bucket with pattern (sky)                                13.18 ms   budget  1000.0 ms   ok
+gradient Linear (spectrum, dither)                             16.82 ms   budget   400.0 ms   ok
+gradient Radial (spectrum, dither)                             11.06 ms   budget   400.0 ms   ok
+gradient Angle (spectrum, dither)                              14.22 ms   budget   400.0 ms   ok
+gradient Reflected (spectrum, dither)                          10.75 ms   budget   400.0 ms   ok
+gradient Diamond (spectrum, dither)                            11.36 ms   budget   400.0 ms   ok
+live gradient preview: 135 display tiles                        2.08 ms   budget    26.0 ms   ok
+
+19 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 597.0 MiB
+  memory after: RSS 854.0 MiB; peak RSS 854.0 MiB (process lifetime); page-ins 0 (includes file reads)

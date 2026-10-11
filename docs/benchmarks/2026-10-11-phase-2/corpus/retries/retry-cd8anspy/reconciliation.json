@@ -1,0 +1,7 @@
+{
+  "aggregate": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/photoshop-results.json",
+  "restoration_confirmed": true,
+  "historical_watchdog_unchanged": true,
+  "generated": 22,
+  "remaining_generation_failures": 17
+}

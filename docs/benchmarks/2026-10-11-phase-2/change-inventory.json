@@ -1,0 +1,43 @@
+{
+  "backup": "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448",
+  "changed": [
+    "src/main.rs",
+    "src/ui/dock.rs",
+    "src/ui/actions.rs",
+    "src/ui/render.rs",
+    "src/ui/editor.rs",
+    "src/ui/demo.rs",
+    "src/engine/io.rs",
+    "src/engine/blend.rs",
+    "src/engine/mod.rs",
+    "src/engine/document.rs",
+    "src/engine/text.rs",
+    "src/engine/composite.rs",
+    "src/engine/styles.rs",
+    "src/engine/gpu/compose.rs",
+    "src/engine/gpu/compose_tests.rs",
+    "src/engine/gpu/wgsl/compose.wgsl",
+    "src/engine/gpu/wgsl/styles.wgsl",
+    "README.md"
+  ],
+  "added": [
+    "src/psd_cli.rs",
+    "src/engine/advanced_blend.rs",
+    "src/engine/psd/compression.rs",
+    "src/engine/psd/descriptor.rs",
+    "src/engine/psd/engine_data.rs",
+    "src/engine/psd/mod.rs",
+    "src/engine/psd/mapping.rs",
+    "src/engine/psd/text.rs",
+    "src/engine/psd/masks.rs",
+    "src/engine/psd/inspect.rs",
+    "tools/psd_corpus.py",
+    "tools/phase2_compare.py",
+    "tools/photoshop_psd.jsx",
+    "tools/photoshop_psd.py"
+  ],
+  "PROMPT_MCP.md_unchanged": true,
+  "PROMPT_PSD.md_unchanged": true,
+  "Cargo.toml_unchanged": true,
+  "Cargo.lock_unchanged": true
+}

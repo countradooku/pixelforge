@@ -1,0 +1,27 @@
+    Finished `release` profile [optimized] target(s) in 0.50s
+     Running unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)
+
+running 1 test
+Verified 35 authored text layers decode and retain bytes; actual Txt2 text edit refusal verified separately
+test engine::psd::text::tests::authored_photoshop_text_files_decode_preserve_and_refuse_stale_global_cache ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 516 filtered out; finished in 0.05s
+
+        0.58 real         0.12 user         0.17 sys
+           160710656  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               14620  page reclaims
+                  96  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                3489  voluntary context switches
+                 812  involuntary context switches
+          3301670041  instructions retired
+          1121064893  cycles elapsed
+           135136096  peak memory footprint

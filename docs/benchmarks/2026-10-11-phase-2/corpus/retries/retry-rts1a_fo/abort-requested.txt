@@ -1,0 +1,1 @@
+Photoshop dialog detected; only the script bridge is stopped: [{"id": 366, "name": "Progress", "layer": 8, "bounds": {"X": 628, "Height": 129, "Y": 466, "Width": 472}}]

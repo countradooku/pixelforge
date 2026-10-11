@@ -1,0 +1,30 @@
+GPU benchmark — Apple M5 Pro · Metal integrated · 37.4 GB unified
+  backend Metal · driver — · features: f16 true · subgroups true (4–64) · timestamps true · immediates true · mappable primary true · pipeline cache false
+  limits: max buffer 28753 MB · max storage binding 4095 MB · workgroup storage 32 KB · 1024 invocations · budget 18569 MB
+  18 CPU threads
+  cost model: fixed 0.41 ms · transfer 0.025 ns/B · GPU probe 1.73 ms (x1.00) · CPU probe 2.75 ms (x1.00)
+  budget before: 118.5 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 118.5 MB GPU
+  memory before: RSS 229.7 MiB; depth 8 bits/channel
+
+16384 × 16384 (268.4 MP)
+kernel                                          CPU ms    GPU ms  resident    kernel  auto  budget
+Layer Style shadow+stroke+bevel                  361.4     566.5     385.9     331.6
+Levels black: 12, white: 230, gamma: 1.3          20.3      40.1      11.0       0.0  CPU   ok
+Curves pts: [0, 80, 128, 180, 255.0]              19.7      40.8      11.1       9.3  CPU   ok
+Hue/Saturation name: "Hue/Saturation", lut:      128.9      47.7      15.9       0.0  GPU   ok
+Threshold level: 128.0                            39.6      42.7      11.6       0.0  GPU   ok
+Desaturate                                        41.3      42.6       9.5       0.0  GPU   ok
+Add Noise amount: 25, mono: false                 43.1      41.9       9.8       9.5  GPU   ok
+Gaussian Blur r=2.0                               61.7     131.9      91.6      77.5  CPU   ok
+Gaussian Blur r=20.0                             141.5     131.7      87.6      73.4  GPU   ok
+Gaussian Blur r=120.0                            354.6     296.7     176.1     160.6  GPU   ok
+Box Blur r=10.0                                   59.8      76.9      38.3      23.8  CPU   ok
+Blur                                              36.7      76.9      38.5      24.5  CPU   ok
+Unsharp Mask amount: 100, r=1.5, t0.0            104.3     116.8      79.1      65.2  CPU   ok
+Smart Sharpen amount: 100, r=1.5, noise: 5,       81.4     122.4      82.7      82.2  CPU   ok
+High Pass r=10.0                                 121.7     134.4      82.8      81.2  GPU   OVER
+Lens Blur r=15, bloom: 30, b0, c0, rotation:     433.6     284.2     268.6     231.1  GPU   ok
+Lens Blur r=60, bloom: 30, b6, c20, rotation    4061.5     610.3     545.7     542.0  GPU   ok
+Lens Blur r=30, bloom: 30, b5, c0, rotation:    4362.2     287.0     234.6     234.3  GPU   ok
+Shape Blur r=15, shape: 3                        378.4     254.0     201.7     197.4  GPU   ok
+Shape Blur r=100, shape: 4                      6565.3    1174.3    1077.4    1068.2  GPU   ok

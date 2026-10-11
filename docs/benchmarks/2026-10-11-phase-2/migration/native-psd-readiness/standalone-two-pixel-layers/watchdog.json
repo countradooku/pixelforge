@@ -1,0 +1,50 @@
+{
+  "status": "failed",
+  "restoration_confirmed": true,
+  "error": "Native Photoshop open displayed a dialog before inspection: [{\"id\": 1519, \"name\": \"Adobe Photoshop\", \"layer\": 8, \"bounds\": {\"X\": 861, \"Height\": 6, \"Y\": 342, \"Width\": 6}}]",
+  "inspection_started": false,
+  "seconds": 0.222,
+  "observations": [
+    {
+      "seconds": 0.221,
+      "stage": "native-open-readiness",
+      "windows": [
+        {
+          "id": 1519,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 861,
+            "Height": 6,
+            "Y": 342,
+            "Width": 6
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1519,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 861,
+            "Height": 6,
+            "Y": 342,
+            "Width": 6
+          }
+        }
+      ]
+    }
+  ]
+}

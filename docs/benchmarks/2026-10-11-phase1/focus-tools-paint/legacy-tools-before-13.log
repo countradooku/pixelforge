@@ -1,0 +1,24 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            118.1 ms
+dodge 500 px: p95 per mouse event                               0.46 ms   budget     2.0 ms   ok
+burn 500 px: p95 per mouse event                                0.39 ms   budget     2.0 ms   ok
+sponge 500 px: p95 per mouse event                              0.50 ms   budget     2.0 ms   ok
+blur 500 px: p95 per mouse event                                0.40 ms   budget     2.0 ms   ok
+sharpen 500 px: p95 per mouse event                             0.44 ms   budget     2.0 ms   ok
+smudge 500 px: p95 per mouse event                              0.97 ms   budget     2.0 ms   ok
+mixer 500 px: p95 per mouse event                               0.95 ms   budget     2.0 ms   ok
+color replacement 500 px: p95 per mouse event                   0.76 ms   budget     2.0 ms   ok
+color replacement, Limits: Contiguous 500 px: p95 per mouse event      1.30 ms   budget     2.0 ms   ok
+color replacement, Limits: Find Edges 500 px: p95 per mouse event      1.58 ms   budget     2.0 ms   ok
+background eraser 500 px: p95 per mouse event                   0.39 ms   budget     2.0 ms   ok
+magic eraser (sky, sample all layers, AA), 268 MP              13.17 ms   budget  1000.0 ms   ok
+paint bucket with pattern (sky), 268 MP                        13.45 ms   budget  1000.0 ms   ok
+gradient Linear (spectrum, dither), 268 MP                     18.35 ms   budget   400.0 ms   ok
+gradient Radial (spectrum, dither), 268 MP                     11.16 ms   budget   400.0 ms   ok
+gradient Angle (spectrum, dither), 268 MP                      14.05 ms   budget   400.0 ms   ok
+gradient Reflected (spectrum, dither), 268 MP                  10.65 ms   budget   400.0 ms   ok
+gradient Diamond (spectrum, dither), 268 MP                    11.20 ms   budget   400.0 ms   ok
+live gradient preview: 135 display tiles                        2.06 ms   budget    26.0 ms   ok
+
+19 checks, 0 over budget

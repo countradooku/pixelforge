@@ -1,0 +1,171 @@
+[
+  {
+    "budget_misses": [
+      "OVER: Gaussian Blur r=20.0 @ 6000x4000",
+      "OVER: Gaussian Blur r=120.0 @ 6000x4000",
+      "OVER: Gradient grad: Gradient { name: \"Chrome\", st @ 6000x4000",
+      "OVER: Gallery: Film Grain @ 6000x4000",
+      "OVER: Gallery: Watercolor @ 6000x4000",
+      "OVER: Gallery: Photocopy @ 6000x4000"
+    ],
+    "suite": "gpu",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 81.17,
+    "log": "docs/benchmarks/2026-10-11-phase1/gpu-24.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: Gallery: Colored Pencil @ 9504x6336",
+      "OVER: Gallery: Film Grain @ 9504x6336",
+      "OVER: Gallery: Fresco @ 9504x6336",
+      "OVER: Gallery: Neon Glow @ 9504x6336",
+      "OVER: Gallery: Plastic Wrap @ 9504x6336",
+      "OVER: Gallery: Smudge Stick @ 9504x6336",
+      "OVER: Gallery: Watercolor @ 9504x6336",
+      "OVER: Gallery: Ink Outlines @ 9504x6336",
+      "OVER: Gallery: Spatter @ 9504x6336",
+      "OVER: Gallery: Sprayed Strokes @ 9504x6336",
+      "OVER: Gallery: Diffuse Glow @ 9504x6336",
+      "OVER: Gallery: Photocopy @ 9504x6336",
+      "OVER: Gallery: Reticulation @ 9504x6336",
+      "OVER: Gallery: Water Paper @ 9504x6336",
+      "OVER: Gallery: Grain @ 9504x6336"
+    ],
+    "suite": "gpu",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 130.87,
+    "log": "docs/benchmarks/2026-10-11-phase1/gpu-61.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: Threshold level: 128.0 @ 14204x10652",
+      "OVER: Skin Smoothing r=8, smoothness: 40.0 @ 14204x10652",
+      "OVER: Gallery: Cutout @ 14204x10652",
+      "OVER: Gallery: Fresco @ 14204x10652",
+      "OVER: Gallery: Plastic Wrap @ 14204x10652",
+      "OVER: Gallery: Ink Outlines @ 14204x10652",
+      "OVER: Gallery: Photocopy @ 14204x10652",
+      "OVER: Gallery: Reticulation @ 14204x10652"
+    ],
+    "suite": "gpu",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 279.68,
+    "log": "docs/benchmarks/2026-10-11-phase1/gpu-150.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: Skin Smoothing r=8, smoothness: 40.0 @ 16384x16384",
+      "OVER: Gallery: Cutout @ 16384x16384",
+      "OVER: Gallery: Fresco @ 16384x16384",
+      "OVER: Gallery: Photocopy @ 16384x16384"
+    ],
+    "suite": "gpu",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 433.92,
+    "log": "docs/benchmarks/2026-10-11-phase1/gpu-268.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "engine",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 0.9,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-24.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "engine",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 0.49,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-61.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "engine",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 0.94,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-150.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "engine",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 1.59,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-268.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "filters",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 8.16,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-24.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "filters",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 22.65,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-61.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "filters",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 56.06,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-150.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "filters",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 97.36,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-268.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: object finder precompute (6 objects, background) (2487.10 ms > 2000.0 ms)"
+    ],
+    "suite": "tools",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 9.45,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-24.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 8.69,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-61.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: object finder precompute (5 objects, background) (4494.35 ms > 2000.0 ms)"
+    ],
+    "suite": "tools",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 13.95,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-150.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 12.21,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-268.log"
+  }
+]

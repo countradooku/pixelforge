@@ -1,0 +1,528 @@
+{
+  "operation": "generate",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/retries/retry-rts1a_fo",
+  "cases": [
+    {
+      "id": "blend-color-o100-f100",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-color-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-color-o37-f100",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-color-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-color-o100-f37",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-color-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-color-o37-f37",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-color-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-vector-default",
+      "family": "mask",
+      "feature": "vector",
+      "variant": "default",
+      "params": {},
+      "filename": "mask-vector-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-and-vector-default",
+      "family": "mask",
+      "feature": "user-and-vector",
+      "variant": "default",
+      "params": {},
+      "filename": "mask-user-and-vector-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "adjustment-colorlookup-setting0",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-colorlookup-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting1",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-colorlookup-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting2",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-colorlookup-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting0",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "fill-pattern-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting1",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "fill-pattern-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting2",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "fill-pattern-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-small",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "small",
+      "params": {},
+      "filename": "style-patternfill-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-large",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "large",
+      "params": {},
+      "filename": "style-patternfill-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-contour",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-patternfill-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-paragraph-styles-default",
+      "family": "text",
+      "feature": "paragraph-styles",
+      "variant": "default",
+      "params": {},
+      "filename": "text-paragraph-styles-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-path-default",
+      "family": "text",
+      "feature": "path",
+      "variant": "default",
+      "params": {},
+      "filename": "text-path-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-area-default",
+      "family": "text",
+      "feature": "area",
+      "variant": "default",
+      "params": {},
+      "filename": "text-area-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rectangle-subtract",
+      "family": "shape",
+      "feature": "rectangle",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-rectangle-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rectangle-intersect",
+      "family": "shape",
+      "feature": "rectangle",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-rectangle-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rectangle-xor",
+      "family": "shape",
+      "feature": "rectangle",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-rectangle-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-add",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-ellipse-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-subtract",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-ellipse-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-intersect",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-ellipse-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-xor",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-ellipse-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-add",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-rounded-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-subtract",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-rounded-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-intersect",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-rounded-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-xor",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-rounded-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-polygon-subtract",
+      "family": "shape",
+      "feature": "polygon",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-polygon-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-polygon-intersect",
+      "family": "shape",
+      "feature": "polygon",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-polygon-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-polygon-xor",
+      "family": "shape",
+      "feature": "polygon",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-polygon-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-stroke-solid-default",
+      "family": "shape",
+      "feature": "stroke-solid",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-stroke-solid-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-stroke-dashed-default",
+      "family": "shape",
+      "feature": "stroke-dashed",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-stroke-dashed-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-gradient-fill-default",
+      "family": "shape",
+      "feature": "gradient-fill",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-gradient-fill-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-pattern-fill-default",
+      "family": "shape",
+      "feature": "pattern-fill",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-pattern-fill-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-warp-default",
+      "family": "smart",
+      "feature": "warp",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-warp-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-grayscale-default",
+      "family": "mode",
+      "feature": "grayscale",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-grayscale-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-bitmap-default",
+      "family": "mode",
+      "feature": "bitmap",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-bitmap-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-indexed-default",
+      "family": "mode",
+      "feature": "indexed",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-indexed-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-duotone-default",
+      "family": "mode",
+      "feature": "duotone",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-duotone-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-lab-default",
+      "family": "mode",
+      "feature": "lab",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-lab-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-cmyk-default",
+      "family": "mode",
+      "feature": "cmyk",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-cmyk-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-multichannel-default",
+      "family": "mode",
+      "feature": "multichannel",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-multichannel-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-slices-default",
+      "family": "metadata",
+      "feature": "slices",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-slices-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-notes-default",
+      "family": "metadata",
+      "feature": "notes",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-notes-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-count-default",
+      "family": "metadata",
+      "feature": "count",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-count-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-print-default",
+      "family": "metadata",
+      "feature": "print",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-print-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-artboard-default",
+      "family": "metadata",
+      "feature": "artboard",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-artboard-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "large-layered-150",
+      "family": "large",
+      "feature": "layered",
+      "variant": "150",
+      "params": {
+        "width": 14204,
+        "height": 10652,
+        "psb": true
+      },
+      "filename": "large-layered-150.psb",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "large-layered-268",
+      "family": "large",
+      "feature": "layered",
+      "variant": "268",
+      "params": {
+        "width": 16384,
+        "height": 16384,
+        "psb": true
+      },
+      "filename": "large-layered-268.psb",
+      "fidelity": "perceptual"
+    }
+  ],
+  "input": "",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/retries/retry-rts1a_fo/reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/retries/retry-rts1a_fo/abort-requested.txt"
+}

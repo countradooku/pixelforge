@@ -1,0 +1,43 @@
+Work in /Users/radudiaconu/Desktop/Code/Rust/pixelforge. Implement ONLY Phase 5 of PROMPT_PSD.md and finish its verification; do not begin the next phase.
+
+First read PROMPT_PSD.md in full, README.md, the applicable local instructions and Rust/GPUI skills, docs/benchmarks/2026-10-11-phase1/REPORT.md, and docs/benchmarks/2026-10-11-phase1-followup/REPORT.md. Inspect the current source and the most recent phase reports: earlier phases must be verified from evidence, not assumed complete. Identify prerequisite gaps and resolve the ones necessary for this phase. Keep the original brief's compatibility and performance acceptance bars; don't redefine completion as a minimal implementation.
+
+The workspace currently has no Git repository. Preserve existing work and make a dated source backup and a copy of the working release executable before changing this phase. Reuse the 256-square COW tiles, unified MemoryBudget, compressed cold storage, scratch disk, history, worker jobs, and CPU/GPU fallback architecture. Keep unrelated PROMPT_MCP.md unchanged. Read the installed Rust skills and both GPUI coding/design guides before relevant implementation or UI changes.
+
+Ask before any new crate or download, including promoting a transitive dependency: state name, source, version, size and licence. Existing approved direct dependencies may be reused. Implement the PSD/PSB and descriptor codecs in this repository. Verify niche format details against current official specifications; locally generated Photoshop documents are the interoperability reference.
+
+Do the work, rather than only making a plan. Continue through implementation and the required checks. Run heavy builds, tests and benchmarks serially. Use isolated test configuration directories. Never silently reduce depth, flatten editable content, discard unknown blocks, weaken tests, or relax latency budgets to obtain a pass. Keep 8-bit output and performance intact: compare against the preserved baseline with repeated measurements and investigate regressions over 5%.
+
+Photoshop is installed and is the reference. Use JSX automation with an independent CoreGraphics dialog watchdog for every run, restoring user preferences and closing only test documents. Read the existing tools/photoshop_phase1.py and .jsx for the working watchdog approach. Camera Raw can intercept TIFF opens and block the scripting bridge; use suitable fixtures and fail visibly on dialogs. Do not dismiss user documents, kill Photoshop, or treat a timed-out script as successful.
+
+Phase boundary: implement genuine camera-raw and DNG decoding/development into verified 16-bit or float documents. The existing 8-bit Camera Raw Filter is not raw decoding. First propose the decoder and await dependency approval as required by the brief; meanwhile inspect the integration and prepare locally generated DNG fixtures using existing dependencies. Do not download sample photographs without approval of their source and licence.
+
+Keep originals and development settings non-destructive. Verify CPU/GPU float processing, as-shot metadata, orientation, black/white levels, colour matrices, camera coverage and malformed files. Expose workflow bit depth and smart-object opening in the UI. Raw smart objects must remain re-editable and survive Photoshop PSD/PSB round trips; merely embedding arbitrary bytes is not interoperability. Compare identical inputs/defaults and fixed slider settings with Adobe Camera Raw, reporting measured SSIM, DeltaE00 and timing without claiming pixel identity for different demosaicing algorithms. Do not begin the broad Phase 6 optimisation campaign.
+
+## Phase 5: Raw
+
+1. **Decoding:** propose a decoder (from the candidates above) with its licence, size and
+   camera coverage, and wait for my approval. DNG is decoded in-repo from the spec if the chosen
+   library doesn't cover all of it.
+2. **Development pipeline:**
+   - Run it in float, on the GPU with the CPU reference: black/white levels, white balance (as
+     shot, presets, custom), demosaic (a high-quality algorithm, benchmarked against the others),
+     camera matrix to a linear working space, highlight reconstruction, lens profile corrections
+     where available, then the existing Camera Raw controls.
+   - The open dialog is the Camera Raw Filter UI extended with raw-only controls.
+   - Open into 16-bit or 32-bit (a preference, like Camera Raw's workflow options), or as a
+     smart object that keeps the raw and the settings (re-editable, saved inside the PSD the way
+     Photoshop does).
+3. **Photoshop comparison:**
+   - Open the same raws with Camera Raw defaults and with a fixed set of slider values by script
+     (watching for dialogs).
+   - Report SSIM and ΔE00 against PixelForge, and time.
+   - Use test raws generated or captured locally, or ask me before downloading samples (source
+     and licence).
+
+Verification and handoff:
+- Require a warning-free release build and cargo test --release passing in default, PF_GPU=off and PF_GPU=force modes. Report ignored tests and pre-existing lint failures separately.
+- Add meaningful correctness/error-path tests for every new codec block, mapping and depth path. Preserve the integer CPU reference and depth-specific GPU equality requirements in PROMPT_PSD.md.
+- Run the applicable corpus, Photoshop round trips, structural preservation checks, fidelity comparisons and serial tiered benchmarks. Record real results, raw logs, configurations and source/binary fingerprints. Do not claim an unsupported operation passed or confuse ordinary file page-ins with swap activity.
+- Run applicable PF_DEMO=tools scenarios; capture and inspect the app with document mode/depth and file format visible. For file support, include Photoshop reopening results. Fix visual problems. A screenshot alone does not prove HDR precision.
+- Update README.md and write docs/benchmarks/<date>-phase-5/REPORT.md. Report exactly what was built, corpus results by feature family, fidelity, CPU/GPU/Photoshop timings, peak memory, screenshots inspected, remaining acceptance failures and externally blocked items. Do not call the phase complete while required work remains. Stop after this phase and leave a concise handoff.

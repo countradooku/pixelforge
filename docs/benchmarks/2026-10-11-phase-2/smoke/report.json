@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 1179, \"name\": \"New\", \"layer\": 8, \"bounds\": {\"X\": 591, \"Height\": 389, \"Y\": 337, \"Width\": 546}}]",
+  "restoration": "Check watchdog.json. A blocked bridge cannot confirm restoration; Photoshop was not killed and dialogs were not dismissed."
+}

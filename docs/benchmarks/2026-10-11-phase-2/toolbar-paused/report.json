@@ -1,0 +1,24 @@
+{
+  "operation": "native-verify",
+  "count": 1,
+  "failed": 0,
+  "status": "passed",
+  "coverage_complete": false,
+  "fidelity_deferred": true,
+  "warning_gate_verified": true,
+  "cases": [
+    {
+      "id": "standalone-blend-normal-o100-f100",
+      "family": "standalone-writer",
+      "feature": "native-open-and-resave",
+      "variant": null,
+      "status": "generated",
+      "native_open": true,
+      "pause_before_export_seconds": 20,
+      "seconds": 22.082,
+      "restoration_confirmed": true,
+      "warning_gate_verified": true,
+      "watchdog_passed": true
+    }
+  ]
+}

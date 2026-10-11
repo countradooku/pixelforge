@@ -1,0 +1,5 @@
+  memory before: RSS 11.4 MiB; depth 8 bits/channel
+Filter benchmark — 9504 × 6336 (60 MP), 18 threads, default parameters
+
+Adjustments  Invert                               20.8 ms       2896 MP/s
+  memory after: RSS 668.8 MiB; peak RSS 668.8 MiB (process lifetime); page-ins 0 (includes file reads)

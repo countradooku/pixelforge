@@ -1,0 +1,6 @@
+{
+  "method": "CUA native accessibility inspection and click",
+  "verified_dialog_filename": "negative-truncated.psd",
+  "action": "dismissed only the expected task-owned Photoshop error using its OK button",
+  "result": "Photoshop main window returned; no document was closed or application killed"
+}

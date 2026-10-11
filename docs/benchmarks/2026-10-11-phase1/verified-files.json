@@ -1,0 +1,20 @@
+{
+  "files": {
+    "Cargo.toml": "c72cb2f3f6a302378d776e7088464c675252451fbe13581fa014ed15eae74119",
+    "Cargo.lock": "b8d59f07969fb173db6eb1ce22d4dbc23ad4a501241c430dfbd691a5a071556b",
+    "src/engine/memory.rs": "54740f86820cb51fbae6ab96f7455ce9d5eec8fcdfdfc0677c78b1694bd90753",
+    "src/engine/scratch.rs": "5e6590e091068f49ebc7fff1733badf97564a658b9db4c0e4e1e18037b567f7b",
+    "src/engine/grid.rs": "0b3557f3ba29a60228cdde9b09552e8b9dec6b27ed1370cfaec4f4f6dffbf9d0",
+    "src/engine/mips.rs": "906263ca68dcc9a4f1a344cb96b310e34f06c95a40192efff9bf5ac0ab4727e0",
+    "src/engine/document.rs": "ba3a0011da480debdb884410d59f89c64d873ac9e1daaaead022b85101c17cd8",
+    "src/engine/annot.rs": "93262b7d2e04e171770155ac269245d1263250287f09953ed8f2545a57f0e393",
+    "src/engine/slices.rs": "a596764fa25c8ebf2fb173a43480937ca3f34f6bdf2bd9429a73f0ee9a886fbd",
+    "src/engine/webexport.rs": "dd7beba4a6d2b8234605c65491a6ce8645da123891bbf5ba5b7f1f57e0a9e3d7",
+    "src/engine/brush.rs": "8c53448f6fb09fe7fa69e35908cd1a00b909407a68a7a4bde86cb53d55fa5068",
+    "src/engine/paint.rs": "1555e61ee8cbabb45888501076824fe088b58906f52ae6b53984fef3198d6cbf",
+    "src/engine/vector.rs": "c5cb7277a3ce708fdcaa820e52f7d9f49bf96002c01390e7d05cd79d3f34408f",
+    "src/engine/ops.rs": "645cd35edfad35eb39d4e44e941d9124655af667d027aa4c5baf6874c4dac36b",
+    "target/release/pixelforge": "c9d2d57f485ac03de2d5bf32a270201efbdf6d2447d020fda7624640637d9cbc"
+  },
+  "note": "Final source and executable hashes. Raw benchmarks were collected across the documented optimization iterations; focused repeats override matching full-suite rows."
+}

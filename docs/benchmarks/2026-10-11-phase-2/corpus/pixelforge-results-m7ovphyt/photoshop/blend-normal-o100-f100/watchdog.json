@@ -1,0 +1,66 @@
+{
+  "status": "failed",
+  "restoration_confirmed": true,
+  "bridge_exit_code": 0,
+  "error": "A transient Photoshop dialog was observed; warning-free gate failed",
+  "seconds": 1.331,
+  "observations": [
+    {
+      "seconds": 0.239,
+      "windows": [
+        {
+          "id": 369,
+          "name": "blend-normal-o100-f100.psd @ 100% (Foreground, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.825,
+      "windows": [
+        {
+          "id": 1445,
+          "name": "Pixel Layer Bar",
+          "layer": 8,
+          "bounds": {
+            "X": 443,
+            "Height": 32,
+            "Y": 526,
+            "Width": 539
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1445,
+          "name": "Pixel Layer Bar",
+          "layer": 8,
+          "bounds": {
+            "X": 443,
+            "Height": 32,
+            "Y": 526,
+            "Width": 539
+          }
+        }
+      ]
+    }
+  ]
+}

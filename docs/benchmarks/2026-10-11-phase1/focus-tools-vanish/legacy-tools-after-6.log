@@ -1,0 +1,15 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.0 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            124.2 ms
+Vanishing Point: tear off a perpendicular plane                 0.00 ms   budget     1.0 ms   ok
+Vanishing Point brush dab, 200 px on the plane (median)         0.38 ms   budget     4.0 ms   ok
+Vanishing Point stamp dab, 200 px (median)                      0.83 ms   budget     6.0 ms   ok
+Vanishing Point marquee copy, 1000 × 1000 plane px             16.19 ms   budget   150.0 ms   ok
+Vanishing Point marquee copy with Heal                         52.73 ms   budget   400.0 ms   ok
+Vanishing Point: place a 2000 × 2000 image on the plane        10.39 ms   budget   300.0 ms   ok
+
+6 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 397.0 MiB
+  memory after: RSS 588.6 MiB; peak RSS 588.6 MiB (process lifetime); page-ins 0 (includes file reads)

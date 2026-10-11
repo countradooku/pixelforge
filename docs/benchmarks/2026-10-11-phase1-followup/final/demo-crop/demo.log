@@ -1,0 +1,13 @@
+object finder: 1 objects in 184 ms
+object finder: 1 objects, hover Some(0), lookup 0.004 ms
+SHOT pA_object_finder_hover
+SHOT pA_object_finder_click_selects
+SHOT pA_select_subject_classical
+SHOT pA_caf_workspace_auto
+SHOT pA_caf_custom_sampling_rotation_mirror
+SHOT pA_caf_applied_new_layer
+SHOT pA_spot_heal_create_texture
+SHOT pA_color_replacement_limits
+exact heal: last dab 11.2 ms
+SHOT pA_heal_quality_exact
+DONE

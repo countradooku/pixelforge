@@ -1,0 +1,15 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            113.7 ms
+object selection: first result (coarse GrabCut)                13.81 ms   budget   150.0 ms   ok
+object selection: refined (1 MP GrabCut + guided edge)        133.84 ms   budget  1000.0 ms   ok
+Select Subject (GrabCut)                                       67.29 ms   budget   800.0 ms   ok
+object finder precompute (7 objects, background)               62.53 ms   budget  2000.0 ms   ok
+object finder hover lookup (938/2000 on an object): p95         0.00 ms   budget    16.0 ms   ok
+object finder click → selection (guided upsample)               4.47 ms   budget  1000.0 ms   ok
+
+6 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 346.9 MiB
+  memory after: RSS 624.2 MiB; peak RSS 624.2 MiB (process lifetime); page-ins 0 (includes file reads)

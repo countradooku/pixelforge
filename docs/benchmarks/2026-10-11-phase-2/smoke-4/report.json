@@ -1,0 +1,40 @@
+{
+  "operation": "generate",
+  "count": 3,
+  "failed": 0,
+  "status": "passed",
+  "coverage_complete": false,
+  "fidelity_deferred": false,
+  "cases": [
+    {
+      "id": "blend-normal-o100-f100",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o100-f100",
+      "status": "generated",
+      "save_ms": 292.15,
+      "open_ms": 34.045,
+      "seconds": 1.581
+    },
+    {
+      "id": "pixels-opaque-default",
+      "family": "pixels",
+      "feature": "opaque",
+      "variant": "default",
+      "status": "generated",
+      "save_ms": 281.465,
+      "open_ms": 28.063,
+      "seconds": 1.583
+    },
+    {
+      "id": "pixels-psb-default",
+      "family": "pixels",
+      "feature": "psb",
+      "variant": "default",
+      "status": "generated",
+      "save_ms": 266.123,
+      "open_ms": 20.289,
+      "seconds": 1.331
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "operation": "native-verify",
+  "count": 1,
+  "failed": 1,
+  "status": "failed",
+  "coverage_complete": true,
+  "fidelity_deferred": true,
+  "warning_gate_verified": false,
+  "cases": [
+    {
+      "id": "blend-normal-o100-f100",
+      "family": "blend",
+      "status": "failed",
+      "error": "A transient Photoshop dialog was observed; warning-free gate failed",
+      "watchdog_dialog_confirmed": true,
+      "watchdog_passed": false,
+      "warning_gate_verified": false,
+      "restoration_confirmed": true
+    }
+  ]
+}

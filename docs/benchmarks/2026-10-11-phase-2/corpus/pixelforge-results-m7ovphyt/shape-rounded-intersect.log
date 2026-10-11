@@ -1,0 +1,19 @@
+PSD editable mapping failed: Layer "Compound rounded intersect" contains SoCo whose editable mapping is not implemented; the raw codec preserves it
+        0.01 real         0.00 user         0.00 sys
+            16580608  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1377  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                 186  involuntary context switches
+            81023378  instructions retired
+            35866079  cycles elapsed
+             7488160  peak memory footprint

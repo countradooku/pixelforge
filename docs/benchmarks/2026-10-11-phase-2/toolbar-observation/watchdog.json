@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "mode": "native LaunchServices",
+  "per_case_evidence": [
+    "standalone-large-layered-24/watchdog.json"
+  ],
+  "restoration_confirmed": true
+}

@@ -1,0 +1,19 @@
+PSD editable mapping failed: This document is Bitmap at 1 bits/channel. Colour-mode conversion is not implemented; raw PSD preservation remains available
+        0.01 real         0.00 user         0.00 sys
+            14073856  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1226  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   6  voluntary context switches
+                  19  involuntary context switches
+            64516781  instructions retired
+            24912654  cycles elapsed
+             5194352  peak memory footprint

@@ -1,0 +1,21 @@
+Running compare-engine
+compare-engine exit 0
+Running compare-tools
+compare-tools exit 0
+Running compare-filters
+compare-filters exit 0
+Running tests-default
+tests-default exit 0
+Running tests-force
+tests-force exit 0
+Running clippy
+clippy exit 101
+Running demo-runner
+demo-runner exit 0
+Running demo-cold-runner
+demo-cold-runner exit 0
+Running fixture-24
+fixture-24 exit 0
+Running photoshop-24
+photoshop-24 exit 1
+Post-validation finished

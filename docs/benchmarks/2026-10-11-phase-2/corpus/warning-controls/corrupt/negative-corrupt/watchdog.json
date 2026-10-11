@@ -1,0 +1,208 @@
+{
+  "status": "failed",
+  "restoration_confirmed": false,
+  "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 1411, \"name\": \"Adobe Photoshop\", \"layer\": 8, \"bounds\": {\"X\": 734, \"Height\": 208, \"Y\": 237, \"Width\": 260}}]",
+  "seconds": 2.625,
+  "observations": [
+    {
+      "seconds": 0.241,
+      "windows": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 858,
+            "Height": 10,
+            "Y": 336,
+            "Width": 12
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 858,
+            "Height": 10,
+            "Y": 336,
+            "Width": 12
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 0.831,
+      "windows": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 1.428,
+      "windows": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 2.024,
+      "windows": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 2.623,
+      "windows": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1411,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 208,
+            "Y": 237,
+            "Width": 260
+          }
+        }
+      ]
+    }
+  ]
+}

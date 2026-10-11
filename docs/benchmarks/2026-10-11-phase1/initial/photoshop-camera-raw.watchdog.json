@@ -1,0 +1,133 @@
+[
+  {
+    "seconds": 0.1,
+    "windows": [],
+    "dialogs": []
+  },
+  {
+    "seconds": 1.2,
+    "windows": [],
+    "dialogs": []
+  },
+  {
+    "seconds": 2.2,
+    "windows": [],
+    "dialogs": []
+  },
+  {
+    "seconds": 3.3,
+    "windows": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ],
+    "dialogs": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ]
+  },
+  {
+    "seconds": 4.4,
+    "windows": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ],
+    "dialogs": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ]
+  },
+  {
+    "seconds": 5.5,
+    "windows": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ],
+    "dialogs": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ]
+  },
+  {
+    "seconds": 6.6,
+    "windows": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ],
+    "dialogs": [
+      {
+        "id": 375,
+        "name": "Camera Raw 18.7",
+        "layer": 0,
+        "bounds": {
+          "X": 129,
+          "Height": 1021,
+          "Y": 33,
+          "Width": 1469
+        }
+      }
+    ]
+  }
+]

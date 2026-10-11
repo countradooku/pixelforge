@@ -1,0 +1,50 @@
+Work in /Users/radudiaconu/Desktop/Code/Rust/pixelforge. Implement ONLY Phase 4 of PROMPT_PSD.md and finish its verification; do not begin the next phase.
+
+First read PROMPT_PSD.md in full, README.md, the applicable local instructions and Rust/GPUI skills, docs/benchmarks/2026-10-11-phase1/REPORT.md, and docs/benchmarks/2026-10-11-phase1-followup/REPORT.md. Inspect the current source and the most recent phase reports: earlier phases must be verified from evidence, not assumed complete. Identify prerequisite gaps and resolve the ones necessary for this phase. Keep the original brief's compatibility and performance acceptance bars; don't redefine completion as a minimal implementation.
+
+The workspace currently has no Git repository. Preserve existing work and make a dated source backup and a copy of the working release executable before changing this phase. Reuse the 256-square COW tiles, unified MemoryBudget, compressed cold storage, scratch disk, history, worker jobs, and CPU/GPU fallback architecture. Keep unrelated PROMPT_MCP.md unchanged. Read the installed Rust skills and both GPUI coding/design guides before relevant implementation or UI changes.
+
+Ask before any new crate or download, including promoting a transitive dependency: state name, source, version, size and licence. Existing approved direct dependencies may be reused. Implement the PSD/PSB and descriptor codecs in this repository. Verify niche format details against current official specifications; locally generated Photoshop documents are the interoperability reference.
+
+Do the work, rather than only making a plan. Continue through implementation and the required checks. Run heavy builds, tests and benchmarks serially. Use isolated test configuration directories. Never silently reduce depth, flatten editable content, discard unknown blocks, weaken tests, or relax latency budgets to obtain a pass. Keep 8-bit output and performance intact: compare against the preserved baseline with repeated measurements and investigate regressions over 5%.
+
+Photoshop is installed and is the reference. Use JSX automation with an independent CoreGraphics dialog watchdog for every run, restoring user preferences and closing only test documents. Read the existing tools/photoshop_phase1.py and .jsx for the working watchdog approach. Camera Raw can intercept TIFF opens and block the scripting bridge; use suitable fixtures and fail visibly on dialogs. Do not dismiss user documents, kill Photoshop, or treat a timed-out script as successful.
+
+Phase boundary: complete float editing, 32-bit PSD/PSB and HDR import/export/display, including the full 8/16/32 Image Mode conversion workflow and HDR Toning. Do not begin camera-raw decoding. Validate the previous PSD and 16-bit phases first. Use f32 linear-light values; retain values above 1 and negative scene values where meaningful. Measure any f16 storage optimisation before adopting it and document its precision bounds. Verify the installed Photoshop's actual supported 32-bit menu operations by script rather than relying on a stale list.
+
+Close the Phase 1 deferred memory gate: a 150 MP 32-bit document with 20 real history states stays interactive under the configured MemoryBudget with no macOS swapping. Verify state restoration and scratch failure/corruption recovery at float depth, and report tracked memory, peak RSS, compression, scratch usage, latency and OS paging counters. HDR display proof requires drawable/texture readback showing values above SDR white and actual screen headroom, plus SDR fallback screenshots. Float GPU relative error must be <= 1e-5 unless explicitly justified per kernel; Photoshop pixel-layer comparisons <= 1e-3 per channel. Do not substitute 8-bit exports for float comparisons.
+
+## Phase 4: 32-bit float and HDR
+
+1. **32-bit documents:**
+   - Linear-light float (f32; benchmark storing tiles as f16 with f32 math and keep it where
+     precision holds).
+   - Offer the same tools and filters Photoshop allows in 32-bit (checked by script against
+     Photoshop 2026's enabled menu items), plus any PixelForge can do correctly in float.
+   - Add Exposure, the 32-bit Preview options (exposure / gamma on the view), HDR Toning (local
+     adaptation, equalize histogram, exposure and gamma, highlight compression) and Merge to HDR
+     (from bracketed files: alignment, ghost removal, response curve).
+2. **HDR display:**
+   - Patch the vendored GPUI Metal layer for EDR: an `rgba16Float` drawable in an
+     extended-linear space and half-float display tiles.
+   - HDR documents show highlights above SDR white up to the screen's current EDR headroom.
+     They are tone-mapped on SDR screens and in screenshots.
+   - A preference to turn this off.
+   - Info panel: current headroom.
+   - Verify by reading the display texture's values (above 1.0 where expected), since
+     screenshots may clip.
+3. **HDR files:**
+   - OpenEXR (half and float, multipart where needed) and Radiance `.hdr`.
+   - 32-bit TIFF and 32-bit PSD and PSB (`Lr32`, ZIP with prediction byte layout).
+   - AVIF and JPEG XL with ISO 21496-1 gain maps, and HDR-to-SDR export with tone mapping.
+   - Ask before each crate.
+4. **Photoshop comparison:** the same 32-bit operations in Photoshop by script (Exposure, HDR
+   Toning, Merge to HDR, 32-bit filters) on the same bracketed and EXR inputs, compared with
+   relative error and SSIM of the tone-mapped outputs, and timed.
+
+Verification and handoff:
+- Require a warning-free release build and cargo test --release passing in default, PF_GPU=off and PF_GPU=force modes. Report ignored tests and pre-existing lint failures separately.
+- Add meaningful correctness/error-path tests for every new codec block, mapping and depth path. Preserve the integer CPU reference and depth-specific GPU equality requirements in PROMPT_PSD.md.
+- Run the applicable corpus, Photoshop round trips, structural preservation checks, fidelity comparisons and serial tiered benchmarks. Record real results, raw logs, configurations and source/binary fingerprints. Do not claim an unsupported operation passed or confuse ordinary file page-ins with swap activity.
+- Run applicable PF_DEMO=tools scenarios; capture and inspect the app with document mode/depth and file format visible. For file support, include Photoshop reopening results. Fix visual problems. A screenshot alone does not prove HDR precision.
+- Update README.md and write docs/benchmarks/<date>-phase-4/REPORT.md. Report exactly what was built, corpus results by feature family, fidelity, CPU/GPU/Photoshop timings, peak memory, screenshots inspected, remaining acceptance failures and externally blocked items. Do not call the phase complete while required work remains. Stop after this phase and leave a concise handoff.

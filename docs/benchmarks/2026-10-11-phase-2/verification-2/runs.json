@@ -1,0 +1,50 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "cargo",
+      "build",
+      "--release",
+      "--offline",
+      "--locked"
+    ],
+    "exit_code": 0,
+    "seconds": 35.53938791700057,
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  },
+  {
+    "name": "psd",
+    "command": [
+      "cargo",
+      "test",
+      "--release",
+      "--offline",
+      "--locked",
+      "engine::psd::",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "seconds": 30.993940791999194,
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  },
+  {
+    "name": "cli",
+    "command": [
+      "cargo",
+      "test",
+      "--release",
+      "--offline",
+      "--locked",
+      "psd_cli::",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "seconds": 0.25136879199999385,
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  }
+]

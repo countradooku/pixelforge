@@ -1,0 +1,1 @@
+Photoshop dialog detected; only the script bridge is stopped: [{"id": 1411, "name": "Adobe Photoshop", "layer": 8, "bounds": {"X": 734, "Height": 208, "Y": 237, "Width": 260}}]

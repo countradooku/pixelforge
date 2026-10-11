@@ -1,0 +1,66 @@
+[package]
+name = "pixelforge"
+version = "0.1.0"
+edition = "2024"
+description = "A tiled, mipmapped, multi-threaded raster editor built on GPUI"
+
+[dependencies]
+png = "0.18"
+flate2 = "1.1"
+gpui-kit = "0.7.1"
+rayon = "1.10"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "tiff", "webp", "bmp", "rayon"] }
+bytemuck = "1"
+anyhow = "1"
+lz4_flex = "0.11"
+mimalloc = "0.1"
+cosmic-text = "0.19"
+swash = "0.2"
+# GPU compute path for filters and compositing (CPU stays the reference and
+# fallback). Same version as GPUI's wgpu backend, so there's one copy.
+wgpu = "29.0.4"
+# Optional ML backend (`--features ml`): ONNX Runtime. Every GPU execution
+# provider is enabled and `lax-feature-matching` makes the build download
+# the closest prebuilt runtime per platform (CoreML on macOS, CUDA/TensorRT
+# on Linux and Windows, DirectML on Windows); providers that are missing at
+# run time fall back to the CPU. Models are looked up at runtime in `models/`.
+ort = { version = "=2.0.0-rc.13", optional = true, features = ["coreml", "directml", "cuda", "tensorrt", "lax-feature-matching"] }
+
+# Metal queries wgpu doesn't expose (recommended working-set size for the
+# VRAM estimate); same crates and versions wgpu-hal already uses.
+[target.'cfg(target_vendor = "apple")'.dependencies]
+objc2 = "0.6"
+objc2-metal = { version = "0.3.2", default-features = false, features = ["std", "MTLDevice"] }
+
+[dev-dependencies]
+# Offline validation of every WGSL module for Metal, DirectX and Vulkan.
+naga = { version = "29.0.4", features = ["wgsl-in", "msl-out", "hlsl-out", "spv-out"] }
+
+[features]
+ml = ["dep:ort"]
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 8
+debug = false
+
+# GPUI with transformed image sprites (Rotate View draws the cached display
+# tiles rotated on the GPU): PolychromeSprite gains a transformation, with
+# matching Metal / WGSL / HLSL shaders and transformed-bounds culling. See
+# vendor/README.md.
+[patch.crates-io]
+gpui-pre = { path = "vendor/gpui-pre" }
+gpui-pre-apple = { path = "vendor/gpui-pre-apple" }
+gpui-pre-wgpu = { path = "vendor/gpui-pre-wgpu" }
+gpui-pre-windows = { path = "vendor/gpui-pre-windows" }
+
+# Existing block 0.1.6, copied from the local Cargo cache; fix its foreign
+# uninhabited static for current Rust. No new dependency/version/download.
+block = { path = "vendor/block" }

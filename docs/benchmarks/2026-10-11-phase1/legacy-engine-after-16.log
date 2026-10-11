@@ -1,0 +1,38 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.0 MiB; depth 8 bits/channel
+PixelForge engine benchmark — 8192 × 8192 (67 MP), 18 threads
+
+blank white canvas (shared tiles)                  0.061 ms
+  memory for blank canvas                            1 tiles (0.25 MB)
+procedural fill (generate every pixel)            26.981 ms       2487 MP/s
+mip pyramid build                                  7.325 ms       9161 MP/s
+  mip levels                                         5 levels
+brush stroke (400 events, 300 px soft)           141.729 ms
+  latency target: 802.0 ms — PASS
+  touched                                         1942 tile updates
+  incremental mip update for stroke                1.571 ms
+hue/saturation (full image)                       43.820 ms       1531 MP/s
+  latency target: 400.0 ms — PASS
+levels inside elliptical selection                 5.528 ms      12139 MP/s
+gaussian blur r=20 (full image)                   43.153 ms       1555 MP/s
+gaussian blur r=120 (full image)                  97.753 ms        687 MP/s
+unsharp mask (full image)                         35.545 ms       1888 MP/s
+linear gradient (full image)                      20.554 ms       3265 MP/s
+flip horizontal                                    3.659 ms      18343 MP/s
+rotate 90° clockwise                               5.465 ms      12279 MP/s
+resize to 50% (mip + bilinear)                     5.701 ms      11772 MP/s
+magic wand, contiguous (blank canvas)              0.014 ms    4751070 MP/s
+magic wand, global (procedural)                    3.227 ms      20797 MP/s
+flatten 2 layers (multiply blend)                  3.742 ms      17932 MP/s
+  latency target: 100.0 ms — PASS
+display: 135 screen tiles at mip level 0           1.901 ms
+display: 135 screen tiles at mip level 3           0.970 ms
+display: 135 screen tiles at mip level -2          1.322 ms
+display: live blur r=60 preview at level 2         6.674 ms
+  latency target: 50.0 ms — PASS
+native document save                              32.697 ms       2052 MP/s
+  latency target: 6000.0 ms — PASS
+native document open                              14.518 ms       4623 MP/s
+  latency target: 6000.0 ms — PASS
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 940.0 MiB
+  memory after: RSS 1514.2 MiB; peak RSS 1514.2 MiB (process lifetime); page-ins 0 (includes file reads)

@@ -1,0 +1,569 @@
+{
+  "status": "passed",
+  "restoration_confirmed": true,
+  "bridge_exit_code": 0,
+  "seconds": 19.283,
+  "observations": [
+    {
+      "seconds": 0.16,
+      "windows": [
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.737,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-adjustment-channelmixer-setting0 @ 100% (Editable channelmixer, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.321,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export-layers @ 100% (Editable channelmixer, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.902,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export-layers @ 100% (Editable channelmixer, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 2.483,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-adjustment-channelmixer-setting1 @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.067,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Editable channelmixer, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.65,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Editable channelmixer, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.236,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-adjustment-channelmixer-setting2 @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.815,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Editable channelmixer, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.4,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export-layers @ 100% (Editable channelmixer, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.986,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-adjustment-selectivecolor-setting0 @ 100% (Layer 1, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.564,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Editable selectivecolor, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.144,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export-layers @ 100% (Editable selectivecolor, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.724,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-adjustment-selectivecolor-setting1 @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.303,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Editable selectivecolor, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.886,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Editable selectivecolor, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.468,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-adjustment-selectivecolor-setting2 @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.049,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Editable selectivecolor, Layer Mask/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.634,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export-layers @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.209,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-adjustment-colorlookup-setting0 @ 100% (Layer 1, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.789,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-fill-pattern-setting0 @ 100% (Layer 1, RGB/8)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.37,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-fill-pattern-setting2 @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.953,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-style-chromefx-contour @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.536,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.119,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-style-gradientfill-contour @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.706,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-style-patternfill-large @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.286,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-style-framefx-contour @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.872,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-shape-ellipse-add @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 16.447,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-smart-warp-default @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 17.029,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-smart-warp-default @ 100% (Smart warp, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 17.612,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-metadata-print-default @ 100% (Backdrop, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 18.196,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 18.778,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    }
+  ]
+}

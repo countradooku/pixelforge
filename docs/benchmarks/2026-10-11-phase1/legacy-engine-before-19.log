@@ -1,0 +1,26 @@
+PixelForge engine benchmark — 8192 × 8192 (67 MP), 18 threads
+
+blank white canvas (shared tiles)                  0.6 ms
+  memory for blank canvas                            1 tiles (0.25 MB)
+procedural fill (generate every pixel)            27.1 ms       2474 MP/s
+mip pyramid build                                  7.0 ms       9568 MP/s
+  mip levels                                         5 levels
+brush stroke (400 events, 300 px soft)           136.9 ms
+  touched                                         1942 tile updates
+  incremental mip update for stroke                1.9 ms
+hue/saturation (full image)                       41.4 ms       1623 MP/s
+levels inside elliptical selection                 5.6 ms      11892 MP/s
+gaussian blur r=20 (full image)                   39.0 ms       1721 MP/s
+gaussian blur r=120 (full image)                  87.4 ms        768 MP/s
+unsharp mask (full image)                         34.3 ms       1959 MP/s
+linear gradient (full image)                      20.3 ms       3299 MP/s
+flip horizontal                                    4.1 ms      16402 MP/s
+rotate 90° clockwise                               6.4 ms      10464 MP/s
+resize to 50% (mip + bilinear)                     5.5 ms      12240 MP/s
+magic wand, contiguous (blank canvas)              0.3 ms     265603 MP/s
+magic wand, global (procedural)                    3.5 ms      19247 MP/s
+flatten 2 layers (multiply blend)                  3.3 ms      20249 MP/s
+display: 135 screen tiles at mip level 0           1.7 ms
+display: 135 screen tiles at mip level 3           0.8 ms
+display: 135 screen tiles at mip level -2          1.1 ms
+display: live blur r=60 preview at level 2         7.0 ms

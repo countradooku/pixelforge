@@ -1,0 +1,555 @@
+    Checking pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+warning: unused import: `Context`
+ --> src/psd_cli.rs:5:14
+  |
+5 | use anyhow::{Context, Result, bail, ensure};
+  |              ^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: variants `Raw` and `PackBits` are never constructed
+  --> src/engine/psd/compression.rs:35:5
+   |
+34 | pub(crate) enum Method {
+   |                 ------ variants in this enum
+35 |     Raw = 0,
+   |     ^^^
+36 |     PackBits = 1,
+   |     ^^^^^^^^
+   |
+   = note: `Method` has derived impls for the traits `Debug` and `Clone`, but these are intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: struct `Limits` is never constructed
+  --> src/engine/psd/descriptor.rs:21:12
+   |
+21 | pub struct Limits {
+   |            ^^^^^^
+
+warning: enum `Id` is never used
+  --> src/engine/psd/descriptor.rs:41:10
+   |
+41 | pub enum Id {
+   |          ^^
+
+warning: method `bytes` is never used
+  --> src/engine/psd/descriptor.rs:47:12
+   |
+46 | impl Id {
+   | ------- method in this implementation
+47 |     pub fn bytes(&self) -> &[u8] {
+   |            ^^^^^
+
+warning: struct `Class` is never constructed
+  --> src/engine/psd/descriptor.rs:58:12
+   |
+58 | pub struct Class {
+   |            ^^^^^
+
+warning: associated function `new` is never used
+  --> src/engine/psd/descriptor.rs:64:12
+   |
+63 | impl Class {
+   | ---------- associated function in this implementation
+64 |     pub fn new(name: &str, id: Id) -> Self {
+   |            ^^^
+
+warning: struct `Entry` is never constructed
+  --> src/engine/psd/descriptor.rs:74:12
+   |
+74 | pub struct Entry {
+   |            ^^^^^
+
+warning: associated function `new` is never used
+  --> src/engine/psd/descriptor.rs:80:12
+   |
+79 | impl Entry {
+   | ---------- associated function in this implementation
+80 |     pub fn new(key: Id, value: Value) -> Self {
+   |            ^^^
+
+warning: struct `Descriptor` is never constructed
+  --> src/engine/psd/descriptor.rs:88:12
+   |
+88 | pub struct Descriptor {
+   |            ^^^^^^^^^^
+
+warning: associated items `new`, `get`, `get_mut`, and `set` are never used
+   --> src/engine/psd/descriptor.rs:94:12
+    |
+ 93 | impl Descriptor {
+    | --------------- associated items in this implementation
+ 94 |     pub fn new(class: Class) -> Self {
+    |            ^^^
+...
+101 |     pub fn get(&self, key: &[u8]) -> Option<&Value> {
+    |            ^^^
+...
+108 |     pub fn get_mut(&mut self, key: &[u8]) -> Option<&mut Value> {
+    |            ^^^^^^^
+...
+116 |     pub fn set(&mut self, key: Id, value: Value) {
+    |            ^^^
+
+warning: enum `Reference` is never used
+   --> src/engine/psd/descriptor.rs:126:10
+    |
+126 | pub enum Reference {
+    |          ^^^^^^^^^
+
+warning: enum `Value` is never used
+   --> src/engine/psd/descriptor.rs:151:10
+    |
+151 | pub enum Value {
+    |          ^^^^^
+
+warning: associated items `double`, `text`, `as_f64`, and `type_code` are never used
+   --> src/engine/psd/descriptor.rs:185:12
+    |
+184 | impl Value {
+    | ---------- associated items in this implementation
+185 |     pub fn double(value: f64) -> Self {
+    |            ^^^^^^
+...
+188 |     pub fn text(value: &str) -> Self {
+    |            ^^^^
+...
+191 |     pub fn as_f64(&self) -> Option<f64> {
+    |            ^^^^^^
+...
+197 |     pub fn type_code(&self) -> [u8; 4] {
+    |            ^^^^^^^^^
+
+warning: enum `Block` is never used
+   --> src/engine/psd/descriptor.rs:223:10
+    |
+223 | pub enum Block {
+    |          ^^^^^
+
+warning: struct `UnknownType` is never constructed
+   --> src/engine/psd/descriptor.rs:235:8
+    |
+235 | struct UnknownType([u8; 4]);
+    |        ^^^^^^^^^^^
+
+warning: function `decode` is never used
+   --> src/engine/psd/descriptor.rs:247:8
+    |
+247 | pub fn decode(bytes: &[u8], limits: Limits) -> Result<Descriptor> {
+    |        ^^^^^^
+
+warning: function `decode_prefix` is never used
+   --> src/engine/psd/descriptor.rs:258:8
+    |
+258 | pub fn decode_prefix(bytes: &[u8], limits: Limits) -> Result<(Descriptor, usize)> {
+    |        ^^^^^^^^^^^^^
+
+warning: function `decode_preserving` is never used
+   --> src/engine/psd/descriptor.rs:275:8
+    |
+275 | pub fn decode_preserving(bytes: &[u8], limits: Limits) -> Result<Block> {
+    |        ^^^^^^^^^^^^^^^^^
+
+warning: function `encode` is never used
+   --> src/engine/psd/descriptor.rs:313:8
+    |
+313 | pub fn encode(descriptor: &Descriptor, limits: Limits) -> Result<Vec<u8>> {
+    |        ^^^^^^
+
+warning: function `encode_block` is never used
+   --> src/engine/psd/descriptor.rs:323:8
+    |
+323 | pub fn encode_block(block: &Block, limits: Limits) -> Result<Vec<u8>> {
+    |        ^^^^^^^^^^^^
+
+warning: function `copy_bytes` is never used
+   --> src/engine/psd/descriptor.rs:347:4
+    |
+347 | fn copy_bytes(bytes: &[u8]) -> Result<Vec<u8>> {
+    |    ^^^^^^^^^^
+
+warning: struct `Reader` is never constructed
+   --> src/engine/psd/descriptor.rs:356:8
+    |
+356 | struct Reader<'a> {
+    |        ^^^^^^
+
+warning: multiple methods are never used
+   --> src/engine/psd/descriptor.rs:365:8
+    |
+364 | impl<'a> Reader<'a> {
+    | ------------------- methods in this implementation
+365 |     fn take(&mut self, len: usize) -> Result<&'a [u8]> {
+    |        ^^^^
+...
+379 |     fn fixed<const N: usize>(&mut self) -> Result<[u8; N]> {
+    |        ^^^^^
+...
+384 |     fn u32(&mut self) -> Result<u32> {
+    |        ^^^
+...
+387 |     fn u64(&mut self) -> Result<u64> {
+    |        ^^^
+...
+390 |     fn allocate<T>(&mut self, count: usize) -> Result<Vec<T>> {
+    |        ^^^^^^^^
+...
+401 |     fn charge(&mut self, bytes: usize) -> Result<()> {
+    |        ^^^^^^
+...
+412 |     fn count(&mut self, minimum_size: usize) -> Result<usize> {
+    |        ^^^^^
+...
+428 |     fn blob(&mut self) -> Result<Vec<u8>> {
+    |        ^^^^
+...
+435 |     fn id(&mut self) -> Result<Id> {
+    |        ^^
+...
+445 |     fn unicode(&mut self) -> Result<Vec<u16>> {
+    |        ^^^^^^^
+...
+456 |     fn class(&mut self) -> Result<Class> {
+    |        ^^^^^
+...
+462 |     fn descriptor(&mut self, depth: usize) -> Result<Descriptor> {
+    |        ^^^^^^^^^^
+...
+480 |     fn boxed_descriptor(&mut self, depth: usize) -> Result<Box<Descriptor>> {
+    |        ^^^^^^^^^^^^^^^^
+...
+484 |     fn value(&mut self, type_code: [u8; 4], depth: usize) -> Result<Value> {
+    |        ^^^^^
+...
+546 |     fn reference(&mut self) -> Result<Reference> {
+    |        ^^^^^^^^^
+
+warning: struct `Writer` is never constructed
+   --> src/engine/psd/descriptor.rs:574:8
+    |
+574 | struct Writer {
+    |        ^^^^^^
+
+warning: multiple methods are never used
+   --> src/engine/psd/descriptor.rs:580:8
+    |
+579 | impl Writer {
+    | ----------- methods in this implementation
+580 |     fn write(&mut self, bytes: &[u8]) -> Result<()> {
+    |        ^^^^^
+...
+600 |     fn u32(&mut self, value: u32) -> Result<()> {
+    |        ^^^
+...
+603 |     fn len(&mut self, value: usize) -> Result<()> {
+    |        ^^^
+...
+606 |     fn count(&mut self, count: usize) -> Result<()> {
+    |        ^^^^^
+...
+617 |     fn blob(&mut self, value: &[u8]) -> Result<()> {
+    |        ^^^^
+...
+621 |     fn id(&mut self, value: &Id) -> Result<()> {
+    |        ^^
+...
+633 |     fn unicode(&mut self, value: &[u16]) -> Result<()> {
+    |        ^^^^^^^
+...
+640 |     fn class(&mut self, value: &Class) -> Result<()> {
+    |        ^^^^^
+...
+644 |     fn descriptor(&mut self, value: &Descriptor, depth: usize) -> Result<()> {
+    |        ^^^^^^^^^^
+...
+657 |     fn value(&mut self, value: &Value, depth: usize) -> Result<()> {
+    |        ^^^^^
+...
+706 |     fn reference(&mut self, value: &Reference) -> Result<()> {
+    |        ^^^^^^^^^
+
+warning: enum `Value` is never used
+  --> src/engine/psd/engine_data.rs:17:10
+   |
+17 | pub enum Value {
+   |          ^^^^^
+
+warning: struct `Entry` is never constructed
+  --> src/engine/psd/engine_data.rs:31:12
+   |
+31 | pub struct Entry {
+   |            ^^^^^
+
+warning: associated items `new`, `key`, `value`, and `value_mut` are never used
+  --> src/engine/psd/engine_data.rs:37:12
+   |
+36 | impl Entry {
+   | ---------- associated items in this implementation
+37 |     pub fn new(key: Vec<u8>, value: Node) -> Self {
+   |            ^^^
+...
+40 |     pub fn key(&self) -> &[u8] {
+   |            ^^^
+...
+43 |     pub fn value(&self) -> &Node {
+   |            ^^^^^
+...
+46 |     pub fn value_mut(&mut self) -> &mut Node {
+   |            ^^^^^^^^^
+
+warning: struct `Node` is never constructed
+  --> src/engine/psd/engine_data.rs:52:12
+   |
+52 | pub struct Node {
+   |            ^^^^
+
+warning: multiple associated items are never used
+   --> src/engine/psd/engine_data.rs:61:12
+    |
+ 60 | impl Node {
+    | --------- associated items in this implementation
+ 61 |     pub fn new(value: Value) -> Self {
+    |            ^^^
+...
+ 70 |     pub fn value(&self) -> &Value {
+    |            ^^^^^
+...
+ 73 |     pub fn replace(&mut self, value: Value) {
+    |            ^^^^^^^
+...
+ 77 |     pub fn get(&self, key: &[u8]) -> Option<&Node> {
+    |            ^^^
+...
+ 86 |     pub fn get_mut(&mut self, key: &[u8]) -> Option<&mut Node> {
+    |            ^^^^^^^
+...
+ 95 |     pub fn get_index(&self, index: usize) -> Option<&Node> {
+    |            ^^^^^^^^^
+...
+101 |     pub fn get_index_mut(&mut self, index: usize) -> Option<&mut Node> {
+    |            ^^^^^^^^^^^^^
+...
+108 |     pub fn set(&mut self, key: &[u8], value: Value) -> Result<()> {
+    |            ^^^
+...
+123 |     pub fn text(value: &str) -> Self {
+    |            ^^^^
+...
+131 |     pub fn as_text(&self) -> Result<String> {
+    |            ^^^^^^^
+
+warning: struct `EngineData` is never constructed
+   --> src/engine/psd/engine_data.rs:160:12
+    |
+160 | pub struct EngineData {
+    |            ^^^^^^^^^^
+
+warning: associated items `new`, `root`, `root_mut`, `source`, `parse`, and `to_bytes` are never used
+   --> src/engine/psd/engine_data.rs:167:12
+    |
+166 | impl EngineData {
+    | --------------- associated items in this implementation
+167 |     pub fn new(root: Node) -> Self {
+    |            ^^^
+...
+174 |     pub fn root(&self) -> &Node {
+    |            ^^^^
+...
+177 |     pub fn root_mut(&mut self) -> &mut Node {
+    |            ^^^^^^^^
+...
+180 |     pub fn source(&self) -> &[u8] {
+    |            ^^^^^^
+...
+184 |     pub fn parse(bytes: &[u8], limits: Limits) -> Result<Self> {
+    |            ^^^^^
+...
+221 |     pub fn to_bytes(&self, limits: Limits) -> Result<Vec<u8>> {
+    |            ^^^^^^^^
+
+warning: function `whitespace` is never used
+   --> src/engine/psd/engine_data.rs:248:4
+    |
+248 | fn whitespace(byte: u8) -> bool {
+    |    ^^^^^^^^^^
+
+warning: function `delimiter` is never used
+   --> src/engine/psd/engine_data.rs:251:4
+    |
+251 | fn delimiter(byte: u8) -> bool {
+    |    ^^^^^^^^^
+
+warning: function `hex` is never used
+   --> src/engine/psd/engine_data.rs:258:4
+    |
+258 | fn hex(byte: u8) -> Option<u8> {
+    |    ^^^
+
+warning: struct `Parser` is never constructed
+   --> src/engine/psd/engine_data.rs:267:8
+    |
+267 | struct Parser<'a> {
+    |        ^^^^^^
+
+warning: multiple methods are never used
+   --> src/engine/psd/engine_data.rs:276:8
+    |
+275 | impl<'a> Parser<'a> {
+    | ------------------- methods in this implementation
+276 |     fn peek(&self) -> Option<u8> {
+    |        ^^^^
+...
+279 |     fn trivia(&mut self) {
+    |        ^^^^^^
+...
+295 |     fn charge(&mut self, bytes: usize) -> Result<()> {
+    |        ^^^^^^
+...
+306 |     fn copy(&mut self, span: Range<usize>) -> Result<Vec<u8>> {
+    |        ^^^^
+...
+315 |     fn push_byte(&mut self, output: &mut Vec<u8>, byte: u8) -> Result<()> {
+    |        ^^^^^^^^^
+...
+320 |     fn reserve<T>(&mut self, values: &mut Vec<T>) -> Result<()> {
+    |        ^^^^^^^
+...
+342 |     fn node(&mut self, depth: usize) -> Result<Node> {
+    |        ^^^^
+...
+385 |     fn count_node(&mut self) -> Result<()> {
+    |        ^^^^^^^^^^
+...
+396 |     fn dictionary(&mut self, depth: usize, implicit: bool) -> Result<Node> {
+    |        ^^^^^^^^^^
+...
+433 |     fn name(&mut self) -> Result<Vec<u8>> {
+    |        ^^^^
+...
+459 |     fn atom(&mut self) -> Result<Value> {
+    |        ^^^^
+...
+487 |     fn string(&mut self) -> Result<Vec<u8>> {
+    |        ^^^^^^
+...
+545 |     fn hex_string(&mut self) -> Result<Vec<u8>> {
+    |        ^^^^^^^^^^
+
+warning: struct `Writer` is never constructed
+   --> src/engine/psd/engine_data.rs:572:8
+    |
+572 | struct Writer<'a> {
+    |        ^^^^^^
+
+warning: methods `write`, `node`, `child`, `name`, and `canonical` are never used
+   --> src/engine/psd/engine_data.rs:580:8
+    |
+579 | impl Writer<'_> {
+    | --------------- methods in this implementation
+580 |     fn write(&mut self, bytes: &[u8]) -> Result<()> {
+    |        ^^^^^
+...
+600 |     fn node(&mut self, node: &Node, depth: usize) -> Result<()> {
+    |        ^^^^
+...
+644 |     fn child(&mut self, node: &Node, position: usize, depth: usize) -> Result<usize> {
+    |        ^^^^^
+...
+657 |     fn name(&mut self, name: &[u8]) -> Result<()> {
+    |        ^^^^
+...
+669 |     fn canonical(&mut self, value: &Value, depth: usize, implicit: bool) -> Result<()> {
+    |        ^^^^^^^^^
+
+warning: struct `Inspection` is never constructed
+  --> src/engine/psd/inspect.rs:18:19
+   |
+18 | pub(crate) struct Inspection {
+   |                   ^^^^^^^^^^
+
+warning: struct `Counts` is never constructed
+  --> src/engine/psd/inspect.rs:28:8
+   |
+28 | struct Counts {
+   |        ^^^^^^
+
+warning: struct `Opaque` is never constructed
+  --> src/engine/psd/inspect.rs:35:8
+   |
+35 | struct Opaque(String);
+   |        ^^^^^^
+
+warning: function `inspect` is never used
+  --> src/engine/psd/inspect.rs:44:15
+   |
+44 | pub(crate) fn inspect(document: &PsdDocument) -> Vec<Inspection> {
+   |               ^^^^^^^
+
+warning: function `inspection` is never used
+  --> src/engine/psd/inspect.rs:79:4
+   |
+79 | fn inspection(location: String, key: String, result: Result<Counts>) -> Inspection {
+   |    ^^^^^^^^^^
+
+warning: function `inspect_additional` is never used
+   --> src/engine/psd/inspect.rs:107:4
+    |
+107 | fn inspect_additional(block: &AdditionalInfo, location: String) -> Inspection {
+    |    ^^^^^^^^^^^^^^^^^^
+
+warning: function `additional_payload` is never used
+   --> src/engine/psd/inspect.rs:113:4
+    |
+113 | fn additional_payload(key: &[u8; 4], bytes: &[u8]) -> Result<Counts> {
+    |    ^^^^^^^^^^^^^^^^^^
+
+warning: function `type_tool` is never used
+   --> src/engine/psd/inspect.rs:176:4
+    |
+176 | fn type_tool(bytes: &[u8]) -> Result<Counts> {
+    |    ^^^^^^^^^
+
+warning: function `single_descriptor` is never used
+   --> src/engine/psd/inspect.rs:193:4
+    |
+193 | fn single_descriptor(bytes: &[u8], version_offset: usize, counts: &mut Counts) -> Result<Counts> {
+    |    ^^^^^^^^^^^^^^^^^
+
+warning: function `descriptor_at` is never used
+   --> src/engine/psd/inspect.rs:200:4
+    |
+200 | fn descriptor_at(bytes: &[u8], offset: usize, counts: &mut Counts) -> Result<usize> {
+    |    ^^^^^^^^^^^^^
+
+warning: function `inspect_engine_data` is never used
+   --> src/engine/psd/inspect.rs:238:4
+    |
+238 | fn inspect_engine_data(descriptor: &Descriptor, counts: &mut Counts) -> Result<()> {
+    |    ^^^^^^^^^^^^^^^^^^^
+
+warning: function `inspect_nested_value` is never used
+   --> src/engine/psd/inspect.rs:261:4
+    |
+261 | fn inspect_nested_value(value: &Value, counts: &mut Counts) -> Result<()> {
+    |    ^^^^^^^^^^^^^^^^^^^^
+
+warning: function `take` is never used
+   --> src/engine/psd/inspect.rs:276:4
+    |
+276 | fn take(bytes: &[u8], offset: usize, length: usize) -> Result<&[u8]> {
+    |    ^^^^
+
+warning: function `known_u16` is never used
+   --> src/engine/psd/inspect.rs:284:4
+    |
+284 | fn known_u16(bytes: &[u8], offset: usize, expected: u16, name: &str) -> Result<()> {
+    |    ^^^^^^^^^
+
+warning: function `known_u32` is never used
+   --> src/engine/psd/inspect.rs:295:4
+    |
+295 | fn known_u32(bytes: &[u8], offset: usize, expected: &[u32], name: &str) -> Result<()> {
+    |    ^^^^^^^^^
+
+warning: `pixelforge` (bin "pixelforge") generated 55 warnings (run `cargo fix --bin "pixelforge" -p pixelforge` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 4.99s

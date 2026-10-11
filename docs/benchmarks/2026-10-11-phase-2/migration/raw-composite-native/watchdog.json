@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "mode": "native LaunchServices",
+  "per_case_evidence": [
+    "standalone-two-pixel-raw-composite/watchdog.json"
+  ],
+  "restoration_confirmed": true
+}

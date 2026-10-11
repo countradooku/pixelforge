@@ -1,0 +1,3536 @@
+{
+  "schema": 1,
+  "operation": "generate",
+  "cases": [
+    {
+      "id": "blend-normal-o100-f100",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-normal-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-normal-o37-f100",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-normal-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-normal-o100-f37",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-normal-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-normal-o37-f37",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-normal-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-dissolve-o100-f100",
+      "family": "blend",
+      "feature": "dissolve",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-dissolve-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-dissolve-o37-f100",
+      "family": "blend",
+      "feature": "dissolve",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-dissolve-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-dissolve-o100-f37",
+      "family": "blend",
+      "feature": "dissolve",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-dissolve-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-dissolve-o37-f37",
+      "family": "blend",
+      "feature": "dissolve",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-dissolve-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darken-o100-f100",
+      "family": "blend",
+      "feature": "darken",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-darken-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darken-o37-f100",
+      "family": "blend",
+      "feature": "darken",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-darken-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darken-o100-f37",
+      "family": "blend",
+      "feature": "darken",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-darken-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darken-o37-f37",
+      "family": "blend",
+      "feature": "darken",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-darken-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-multiply-o100-f100",
+      "family": "blend",
+      "feature": "multiply",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-multiply-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-multiply-o37-f100",
+      "family": "blend",
+      "feature": "multiply",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-multiply-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-multiply-o100-f37",
+      "family": "blend",
+      "feature": "multiply",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-multiply-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-multiply-o37-f37",
+      "family": "blend",
+      "feature": "multiply",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-multiply-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colorburn-o100-f100",
+      "family": "blend",
+      "feature": "colorburn",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-colorburn-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colorburn-o37-f100",
+      "family": "blend",
+      "feature": "colorburn",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-colorburn-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colorburn-o100-f37",
+      "family": "blend",
+      "feature": "colorburn",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-colorburn-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colorburn-o37-f37",
+      "family": "blend",
+      "feature": "colorburn",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-colorburn-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearburn-o100-f100",
+      "family": "blend",
+      "feature": "linearburn",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-linearburn-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearburn-o37-f100",
+      "family": "blend",
+      "feature": "linearburn",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-linearburn-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearburn-o100-f37",
+      "family": "blend",
+      "feature": "linearburn",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-linearburn-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearburn-o37-f37",
+      "family": "blend",
+      "feature": "linearburn",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-linearburn-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darkercolor-o100-f100",
+      "family": "blend",
+      "feature": "darkercolor",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-darkercolor-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darkercolor-o37-f100",
+      "family": "blend",
+      "feature": "darkercolor",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-darkercolor-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darkercolor-o100-f37",
+      "family": "blend",
+      "feature": "darkercolor",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-darkercolor-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-darkercolor-o37-f37",
+      "family": "blend",
+      "feature": "darkercolor",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-darkercolor-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lighten-o100-f100",
+      "family": "blend",
+      "feature": "lighten",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-lighten-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lighten-o37-f100",
+      "family": "blend",
+      "feature": "lighten",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-lighten-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lighten-o100-f37",
+      "family": "blend",
+      "feature": "lighten",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-lighten-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lighten-o37-f37",
+      "family": "blend",
+      "feature": "lighten",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-lighten-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-screen-o100-f100",
+      "family": "blend",
+      "feature": "screen",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-screen-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-screen-o37-f100",
+      "family": "blend",
+      "feature": "screen",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-screen-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-screen-o100-f37",
+      "family": "blend",
+      "feature": "screen",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-screen-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-screen-o37-f37",
+      "family": "blend",
+      "feature": "screen",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-screen-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colordodge-o100-f100",
+      "family": "blend",
+      "feature": "colordodge",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-colordodge-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colordodge-o37-f100",
+      "family": "blend",
+      "feature": "colordodge",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-colordodge-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colordodge-o100-f37",
+      "family": "blend",
+      "feature": "colordodge",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-colordodge-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-colordodge-o37-f37",
+      "family": "blend",
+      "feature": "colordodge",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-colordodge-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lineardodge-o100-f100",
+      "family": "blend",
+      "feature": "lineardodge",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-lineardodge-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lineardodge-o37-f100",
+      "family": "blend",
+      "feature": "lineardodge",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-lineardodge-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lineardodge-o100-f37",
+      "family": "blend",
+      "feature": "lineardodge",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-lineardodge-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lineardodge-o37-f37",
+      "family": "blend",
+      "feature": "lineardodge",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-lineardodge-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lightercolor-o100-f100",
+      "family": "blend",
+      "feature": "lightercolor",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-lightercolor-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lightercolor-o37-f100",
+      "family": "blend",
+      "feature": "lightercolor",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-lightercolor-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lightercolor-o100-f37",
+      "family": "blend",
+      "feature": "lightercolor",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-lightercolor-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-lightercolor-o37-f37",
+      "family": "blend",
+      "feature": "lightercolor",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-lightercolor-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-overlay-o100-f100",
+      "family": "blend",
+      "feature": "overlay",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-overlay-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-overlay-o37-f100",
+      "family": "blend",
+      "feature": "overlay",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-overlay-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-overlay-o100-f37",
+      "family": "blend",
+      "feature": "overlay",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-overlay-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-overlay-o37-f37",
+      "family": "blend",
+      "feature": "overlay",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-overlay-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-softlight-o100-f100",
+      "family": "blend",
+      "feature": "softlight",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-softlight-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-softlight-o37-f100",
+      "family": "blend",
+      "feature": "softlight",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-softlight-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-softlight-o100-f37",
+      "family": "blend",
+      "feature": "softlight",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-softlight-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-softlight-o37-f37",
+      "family": "blend",
+      "feature": "softlight",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-softlight-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardlight-o100-f100",
+      "family": "blend",
+      "feature": "hardlight",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-hardlight-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardlight-o37-f100",
+      "family": "blend",
+      "feature": "hardlight",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-hardlight-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardlight-o100-f37",
+      "family": "blend",
+      "feature": "hardlight",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-hardlight-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardlight-o37-f37",
+      "family": "blend",
+      "feature": "hardlight",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-hardlight-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-vividlight-o100-f100",
+      "family": "blend",
+      "feature": "vividlight",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-vividlight-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-vividlight-o37-f100",
+      "family": "blend",
+      "feature": "vividlight",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-vividlight-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-vividlight-o100-f37",
+      "family": "blend",
+      "feature": "vividlight",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-vividlight-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-vividlight-o37-f37",
+      "family": "blend",
+      "feature": "vividlight",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-vividlight-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearlight-o100-f100",
+      "family": "blend",
+      "feature": "linearlight",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-linearlight-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearlight-o37-f100",
+      "family": "blend",
+      "feature": "linearlight",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-linearlight-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearlight-o100-f37",
+      "family": "blend",
+      "feature": "linearlight",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-linearlight-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-linearlight-o37-f37",
+      "family": "blend",
+      "feature": "linearlight",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-linearlight-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-pinlight-o100-f100",
+      "family": "blend",
+      "feature": "pinlight",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-pinlight-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-pinlight-o37-f100",
+      "family": "blend",
+      "feature": "pinlight",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-pinlight-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-pinlight-o100-f37",
+      "family": "blend",
+      "feature": "pinlight",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-pinlight-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-pinlight-o37-f37",
+      "family": "blend",
+      "feature": "pinlight",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-pinlight-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardmix-o100-f100",
+      "family": "blend",
+      "feature": "hardmix",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-hardmix-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardmix-o37-f100",
+      "family": "blend",
+      "feature": "hardmix",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-hardmix-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardmix-o100-f37",
+      "family": "blend",
+      "feature": "hardmix",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-hardmix-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hardmix-o37-f37",
+      "family": "blend",
+      "feature": "hardmix",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-hardmix-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-difference-o100-f100",
+      "family": "blend",
+      "feature": "difference",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-difference-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-difference-o37-f100",
+      "family": "blend",
+      "feature": "difference",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-difference-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-difference-o100-f37",
+      "family": "blend",
+      "feature": "difference",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-difference-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-difference-o37-f37",
+      "family": "blend",
+      "feature": "difference",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-difference-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-exclusion-o100-f100",
+      "family": "blend",
+      "feature": "exclusion",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-exclusion-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-exclusion-o37-f100",
+      "family": "blend",
+      "feature": "exclusion",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-exclusion-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-exclusion-o100-f37",
+      "family": "blend",
+      "feature": "exclusion",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-exclusion-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-exclusion-o37-f37",
+      "family": "blend",
+      "feature": "exclusion",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-exclusion-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-subtract-o100-f100",
+      "family": "blend",
+      "feature": "subtract",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-subtract-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-subtract-o37-f100",
+      "family": "blend",
+      "feature": "subtract",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-subtract-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-subtract-o100-f37",
+      "family": "blend",
+      "feature": "subtract",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-subtract-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-subtract-o37-f37",
+      "family": "blend",
+      "feature": "subtract",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-subtract-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-divide-o100-f100",
+      "family": "blend",
+      "feature": "divide",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-divide-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-divide-o37-f100",
+      "family": "blend",
+      "feature": "divide",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-divide-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-divide-o100-f37",
+      "family": "blend",
+      "feature": "divide",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-divide-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-divide-o37-f37",
+      "family": "blend",
+      "feature": "divide",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-divide-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hue-o100-f100",
+      "family": "blend",
+      "feature": "hue",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-hue-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hue-o37-f100",
+      "family": "blend",
+      "feature": "hue",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-hue-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hue-o100-f37",
+      "family": "blend",
+      "feature": "hue",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-hue-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-hue-o37-f37",
+      "family": "blend",
+      "feature": "hue",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-hue-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-saturation-o100-f100",
+      "family": "blend",
+      "feature": "saturation",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-saturation-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-saturation-o37-f100",
+      "family": "blend",
+      "feature": "saturation",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-saturation-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-saturation-o100-f37",
+      "family": "blend",
+      "feature": "saturation",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-saturation-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-saturation-o37-f37",
+      "family": "blend",
+      "feature": "saturation",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-saturation-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-color-o100-f100",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-color-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-color-o37-f100",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-color-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-color-o100-f37",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-color-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-color-o37-f37",
+      "family": "blend",
+      "feature": "color",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-color-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-luminosity-o100-f100",
+      "family": "blend",
+      "feature": "luminosity",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-luminosity-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-luminosity-o37-f100",
+      "family": "blend",
+      "feature": "luminosity",
+      "variant": "o37-f100",
+      "params": {
+        "opacity": 37,
+        "fill": 100
+      },
+      "filename": "blend-luminosity-o37-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-luminosity-o100-f37",
+      "family": "blend",
+      "feature": "luminosity",
+      "variant": "o100-f37",
+      "params": {
+        "opacity": 100,
+        "fill": 37
+      },
+      "filename": "blend-luminosity-o100-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "blend-luminosity-o37-f37",
+      "family": "blend",
+      "feature": "luminosity",
+      "variant": "o37-f37",
+      "params": {
+        "opacity": 37,
+        "fill": 37
+      },
+      "filename": "blend-luminosity-o37-f37.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-opaque-default",
+      "family": "pixels",
+      "feature": "opaque",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-opaque-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-transparent-default",
+      "family": "pixels",
+      "feature": "transparent",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-transparent-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-partial-alpha-default",
+      "family": "pixels",
+      "feature": "partial-alpha",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-partial-alpha-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-negative-offset-default",
+      "family": "pixels",
+      "feature": "negative-offset",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-negative-offset-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-offcanvas-default",
+      "family": "pixels",
+      "feature": "offcanvas",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-offcanvas-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-unicode-name-default",
+      "family": "pixels",
+      "feature": "unicode-name",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-unicode-name-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-psb-default",
+      "family": "pixels",
+      "feature": "psb",
+      "variant": "default",
+      "params": {
+        "psb": true
+      },
+      "filename": "pixels-psb-default.psb",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-empty-layer-default",
+      "family": "pixels",
+      "feature": "empty-layer",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-empty-layer-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-feather0-inverse0",
+      "family": "mask",
+      "feature": "user",
+      "variant": "feather0-inverse0",
+      "params": {
+        "feather": 0,
+        "inverse": false
+      },
+      "filename": "mask-user-feather0-inverse0.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-feather0-inverse1",
+      "family": "mask",
+      "feature": "user",
+      "variant": "feather0-inverse1",
+      "params": {
+        "feather": 0,
+        "inverse": true
+      },
+      "filename": "mask-user-feather0-inverse1.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-feather1-inverse0",
+      "family": "mask",
+      "feature": "user",
+      "variant": "feather1-inverse0",
+      "params": {
+        "feather": 1,
+        "inverse": false
+      },
+      "filename": "mask-user-feather1-inverse0.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-feather1-inverse1",
+      "family": "mask",
+      "feature": "user",
+      "variant": "feather1-inverse1",
+      "params": {
+        "feather": 1,
+        "inverse": true
+      },
+      "filename": "mask-user-feather1-inverse1.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-feather5-inverse0",
+      "family": "mask",
+      "feature": "user",
+      "variant": "feather5-inverse0",
+      "params": {
+        "feather": 5,
+        "inverse": false
+      },
+      "filename": "mask-user-feather5-inverse0.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-feather5-inverse1",
+      "family": "mask",
+      "feature": "user",
+      "variant": "feather5-inverse1",
+      "params": {
+        "feather": 5,
+        "inverse": true
+      },
+      "filename": "mask-user-feather5-inverse1.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-disabled-default",
+      "family": "mask",
+      "feature": "disabled",
+      "variant": "default",
+      "params": {},
+      "filename": "mask-disabled-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-vector-default",
+      "family": "mask",
+      "feature": "vector",
+      "variant": "default",
+      "params": {},
+      "filename": "mask-vector-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "mask-user-and-vector-default",
+      "family": "mask",
+      "feature": "user-and-vector",
+      "variant": "default",
+      "params": {},
+      "filename": "mask-user-and-vector-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "group-passthrough-o100",
+      "family": "group",
+      "feature": "passthrough",
+      "variant": "o100",
+      "params": {
+        "opacity": 100
+      },
+      "filename": "group-passthrough-o100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "group-passthrough-o43",
+      "family": "group",
+      "feature": "passthrough",
+      "variant": "o43",
+      "params": {
+        "opacity": 43
+      },
+      "filename": "group-passthrough-o43.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "group-isolated-o100",
+      "family": "group",
+      "feature": "isolated",
+      "variant": "o100",
+      "params": {
+        "opacity": 100
+      },
+      "filename": "group-isolated-o100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "group-isolated-o43",
+      "family": "group",
+      "feature": "isolated",
+      "variant": "o43",
+      "params": {
+        "opacity": 43
+      },
+      "filename": "group-isolated-o43.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "group-nested-o100",
+      "family": "group",
+      "feature": "nested",
+      "variant": "o100",
+      "params": {
+        "opacity": 100
+      },
+      "filename": "group-nested-o100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "group-nested-o43",
+      "family": "group",
+      "feature": "nested",
+      "variant": "o43",
+      "params": {
+        "opacity": 43
+      },
+      "filename": "group-nested-o43.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-clipping-default",
+      "family": "layer",
+      "feature": "clipping",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-clipping-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-hidden-default",
+      "family": "layer",
+      "feature": "hidden",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-hidden-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-lock-all-default",
+      "family": "layer",
+      "feature": "lock-all",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-lock-all-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-lock-position-default",
+      "family": "layer",
+      "feature": "lock-position",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-lock-position-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-lock-transparency-default",
+      "family": "layer",
+      "feature": "lock-transparency",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-lock-transparency-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-color-tag-default",
+      "family": "layer",
+      "feature": "color-tag",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-color-tag-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-blend-if-default",
+      "family": "layer",
+      "feature": "blend-if",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-blend-if-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-channels-default",
+      "family": "layer",
+      "feature": "channels",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-channels-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-knockout-shallow-default",
+      "family": "layer",
+      "feature": "knockout-shallow",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-knockout-shallow-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "layer-knockout-deep-default",
+      "family": "layer",
+      "feature": "knockout-deep",
+      "variant": "default",
+      "params": {},
+      "filename": "layer-knockout-deep-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "adjustment-brightness-setting0",
+      "family": "adjustment",
+      "feature": "brightness",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-brightness-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-brightness-setting1",
+      "family": "adjustment",
+      "feature": "brightness",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-brightness-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-brightness-setting2",
+      "family": "adjustment",
+      "feature": "brightness",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-brightness-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-levels-setting0",
+      "family": "adjustment",
+      "feature": "levels",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-levels-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-levels-setting1",
+      "family": "adjustment",
+      "feature": "levels",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-levels-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-levels-setting2",
+      "family": "adjustment",
+      "feature": "levels",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-levels-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-curves-setting0",
+      "family": "adjustment",
+      "feature": "curves",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-curves-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-curves-setting1",
+      "family": "adjustment",
+      "feature": "curves",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-curves-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-curves-setting2",
+      "family": "adjustment",
+      "feature": "curves",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-curves-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-exposure-setting0",
+      "family": "adjustment",
+      "feature": "exposure",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-exposure-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-exposure-setting1",
+      "family": "adjustment",
+      "feature": "exposure",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-exposure-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-exposure-setting2",
+      "family": "adjustment",
+      "feature": "exposure",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-exposure-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-vibrance-setting0",
+      "family": "adjustment",
+      "feature": "vibrance",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-vibrance-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-vibrance-setting1",
+      "family": "adjustment",
+      "feature": "vibrance",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-vibrance-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-vibrance-setting2",
+      "family": "adjustment",
+      "feature": "vibrance",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-vibrance-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-huesaturation-setting0",
+      "family": "adjustment",
+      "feature": "huesaturation",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-huesaturation-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-huesaturation-setting1",
+      "family": "adjustment",
+      "feature": "huesaturation",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-huesaturation-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-huesaturation-setting2",
+      "family": "adjustment",
+      "feature": "huesaturation",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-huesaturation-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorbalance-setting0",
+      "family": "adjustment",
+      "feature": "colorbalance",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-colorbalance-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorbalance-setting1",
+      "family": "adjustment",
+      "feature": "colorbalance",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-colorbalance-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorbalance-setting2",
+      "family": "adjustment",
+      "feature": "colorbalance",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-colorbalance-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-blackwhite-setting0",
+      "family": "adjustment",
+      "feature": "blackwhite",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-blackwhite-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-blackwhite-setting1",
+      "family": "adjustment",
+      "feature": "blackwhite",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-blackwhite-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-blackwhite-setting2",
+      "family": "adjustment",
+      "feature": "blackwhite",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-blackwhite-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-photofilter-setting0",
+      "family": "adjustment",
+      "feature": "photofilter",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-photofilter-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-photofilter-setting1",
+      "family": "adjustment",
+      "feature": "photofilter",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-photofilter-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-photofilter-setting2",
+      "family": "adjustment",
+      "feature": "photofilter",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-photofilter-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-channelmixer-setting0",
+      "family": "adjustment",
+      "feature": "channelmixer",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-channelmixer-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-channelmixer-setting1",
+      "family": "adjustment",
+      "feature": "channelmixer",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-channelmixer-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-channelmixer-setting2",
+      "family": "adjustment",
+      "feature": "channelmixer",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-channelmixer-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting0",
+      "family": "adjustment",
+      "feature": "selectivecolor",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-selectivecolor-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting1",
+      "family": "adjustment",
+      "feature": "selectivecolor",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-selectivecolor-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting2",
+      "family": "adjustment",
+      "feature": "selectivecolor",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-selectivecolor-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-gradientmap-setting0",
+      "family": "adjustment",
+      "feature": "gradientmap",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-gradientmap-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-gradientmap-setting1",
+      "family": "adjustment",
+      "feature": "gradientmap",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-gradientmap-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-gradientmap-setting2",
+      "family": "adjustment",
+      "feature": "gradientmap",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-gradientmap-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-invert-setting1",
+      "family": "adjustment",
+      "feature": "invert",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-invert-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-posterize-setting0",
+      "family": "adjustment",
+      "feature": "posterize",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-posterize-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-posterize-setting1",
+      "family": "adjustment",
+      "feature": "posterize",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-posterize-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-posterize-setting2",
+      "family": "adjustment",
+      "feature": "posterize",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-posterize-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-threshold-setting0",
+      "family": "adjustment",
+      "feature": "threshold",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-threshold-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-threshold-setting1",
+      "family": "adjustment",
+      "feature": "threshold",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-threshold-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-threshold-setting2",
+      "family": "adjustment",
+      "feature": "threshold",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-threshold-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting0",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "adjustment-colorlookup-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting1",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "adjustment-colorlookup-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "adjustment-colorlookup-setting2",
+      "family": "adjustment",
+      "feature": "colorlookup",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "adjustment-colorlookup-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-solid-setting0",
+      "family": "fill",
+      "feature": "solid",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "fill-solid-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-solid-setting1",
+      "family": "fill",
+      "feature": "solid",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "fill-solid-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-solid-setting2",
+      "family": "fill",
+      "feature": "solid",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "fill-solid-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-gradient-setting0",
+      "family": "fill",
+      "feature": "gradient",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "fill-gradient-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-gradient-setting1",
+      "family": "fill",
+      "feature": "gradient",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "fill-gradient-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-gradient-setting2",
+      "family": "fill",
+      "feature": "gradient",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "fill-gradient-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting0",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting0",
+      "params": {
+        "level": 0
+      },
+      "filename": "fill-pattern-setting0.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting1",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting1",
+      "params": {
+        "level": 1
+      },
+      "filename": "fill-pattern-setting1.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "fill-pattern-setting2",
+      "family": "fill",
+      "feature": "pattern",
+      "variant": "setting2",
+      "params": {
+        "level": 2
+      },
+      "filename": "fill-pattern-setting2.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-dropshadow-small",
+      "family": "style",
+      "feature": "dropShadow",
+      "variant": "small",
+      "params": {},
+      "filename": "style-dropshadow-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-dropshadow-large",
+      "family": "style",
+      "feature": "dropShadow",
+      "variant": "large",
+      "params": {},
+      "filename": "style-dropshadow-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-dropshadow-contour",
+      "family": "style",
+      "feature": "dropShadow",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-dropshadow-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-dropshadow-multiple",
+      "family": "style",
+      "feature": "dropShadow",
+      "variant": "multiple",
+      "params": {},
+      "filename": "style-dropshadow-multiple.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-innershadow-small",
+      "family": "style",
+      "feature": "innerShadow",
+      "variant": "small",
+      "params": {},
+      "filename": "style-innershadow-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-innershadow-large",
+      "family": "style",
+      "feature": "innerShadow",
+      "variant": "large",
+      "params": {},
+      "filename": "style-innershadow-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-innershadow-contour",
+      "family": "style",
+      "feature": "innerShadow",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-innershadow-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-innershadow-multiple",
+      "family": "style",
+      "feature": "innerShadow",
+      "variant": "multiple",
+      "params": {},
+      "filename": "style-innershadow-multiple.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-outerglow-small",
+      "family": "style",
+      "feature": "outerGlow",
+      "variant": "small",
+      "params": {},
+      "filename": "style-outerglow-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-outerglow-large",
+      "family": "style",
+      "feature": "outerGlow",
+      "variant": "large",
+      "params": {},
+      "filename": "style-outerglow-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-outerglow-contour",
+      "family": "style",
+      "feature": "outerGlow",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-outerglow-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-innerglow-small",
+      "family": "style",
+      "feature": "innerGlow",
+      "variant": "small",
+      "params": {},
+      "filename": "style-innerglow-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-innerglow-large",
+      "family": "style",
+      "feature": "innerGlow",
+      "variant": "large",
+      "params": {},
+      "filename": "style-innerglow-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-innerglow-contour",
+      "family": "style",
+      "feature": "innerGlow",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-innerglow-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-bevelemboss-small",
+      "family": "style",
+      "feature": "bevelEmboss",
+      "variant": "small",
+      "params": {},
+      "filename": "style-bevelemboss-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-bevelemboss-large",
+      "family": "style",
+      "feature": "bevelEmboss",
+      "variant": "large",
+      "params": {},
+      "filename": "style-bevelemboss-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-bevelemboss-contour",
+      "family": "style",
+      "feature": "bevelEmboss",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-bevelemboss-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-chromefx-small",
+      "family": "style",
+      "feature": "chromeFX",
+      "variant": "small",
+      "params": {},
+      "filename": "style-chromefx-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-chromefx-large",
+      "family": "style",
+      "feature": "chromeFX",
+      "variant": "large",
+      "params": {},
+      "filename": "style-chromefx-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-chromefx-contour",
+      "family": "style",
+      "feature": "chromeFX",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-chromefx-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-solidfill-small",
+      "family": "style",
+      "feature": "solidFill",
+      "variant": "small",
+      "params": {},
+      "filename": "style-solidfill-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-solidfill-large",
+      "family": "style",
+      "feature": "solidFill",
+      "variant": "large",
+      "params": {},
+      "filename": "style-solidfill-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-solidfill-contour",
+      "family": "style",
+      "feature": "solidFill",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-solidfill-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-solidfill-multiple",
+      "family": "style",
+      "feature": "solidFill",
+      "variant": "multiple",
+      "params": {},
+      "filename": "style-solidfill-multiple.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-gradientfill-small",
+      "family": "style",
+      "feature": "gradientFill",
+      "variant": "small",
+      "params": {},
+      "filename": "style-gradientfill-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-gradientfill-large",
+      "family": "style",
+      "feature": "gradientFill",
+      "variant": "large",
+      "params": {},
+      "filename": "style-gradientfill-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-gradientfill-contour",
+      "family": "style",
+      "feature": "gradientFill",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-gradientfill-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-gradientfill-multiple",
+      "family": "style",
+      "feature": "gradientFill",
+      "variant": "multiple",
+      "params": {},
+      "filename": "style-gradientfill-multiple.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-small",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "small",
+      "params": {},
+      "filename": "style-patternfill-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-large",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "large",
+      "params": {},
+      "filename": "style-patternfill-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-patternfill-contour",
+      "family": "style",
+      "feature": "patternFill",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-patternfill-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-framefx-small",
+      "family": "style",
+      "feature": "frameFX",
+      "variant": "small",
+      "params": {},
+      "filename": "style-framefx-small.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-framefx-large",
+      "family": "style",
+      "feature": "frameFX",
+      "variant": "large",
+      "params": {},
+      "filename": "style-framefx-large.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-framefx-contour",
+      "family": "style",
+      "feature": "frameFX",
+      "variant": "contour",
+      "params": {},
+      "filename": "style-framefx-contour.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "style-framefx-multiple",
+      "family": "style",
+      "feature": "frameFX",
+      "variant": "multiple",
+      "params": {},
+      "filename": "style-framefx-multiple.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-point-default",
+      "family": "text",
+      "feature": "point",
+      "variant": "default",
+      "params": {},
+      "filename": "text-point-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-paragraph-default",
+      "family": "text",
+      "feature": "paragraph",
+      "variant": "default",
+      "params": {},
+      "filename": "text-paragraph-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-unicode-default",
+      "family": "text",
+      "feature": "unicode",
+      "variant": "default",
+      "params": {},
+      "filename": "text-unicode-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-vertical-default",
+      "family": "text",
+      "feature": "vertical",
+      "variant": "default",
+      "params": {},
+      "filename": "text-vertical-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-runs-default",
+      "family": "text",
+      "feature": "runs",
+      "variant": "default",
+      "params": {},
+      "filename": "text-runs-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-paragraph-styles-default",
+      "family": "text",
+      "feature": "paragraph-styles",
+      "variant": "default",
+      "params": {},
+      "filename": "text-paragraph-styles-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-path-default",
+      "family": "text",
+      "feature": "path",
+      "variant": "default",
+      "params": {},
+      "filename": "text-path-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-area-default",
+      "family": "text",
+      "feature": "area",
+      "variant": "default",
+      "params": {},
+      "filename": "text-area-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arc--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARC--35",
+      "params": {
+        "warp": "ARC",
+        "bend": -35
+      },
+      "filename": "text-warp-arc--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arc-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARC-45",
+      "params": {
+        "warp": "ARC",
+        "bend": 45
+      },
+      "filename": "text-warp-arc-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arclower--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARCLOWER--35",
+      "params": {
+        "warp": "ARCLOWER",
+        "bend": -35
+      },
+      "filename": "text-warp-arclower--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arclower-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARCLOWER-45",
+      "params": {
+        "warp": "ARCLOWER",
+        "bend": 45
+      },
+      "filename": "text-warp-arclower-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arcupper--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARCUPPER--35",
+      "params": {
+        "warp": "ARCUPPER",
+        "bend": -35
+      },
+      "filename": "text-warp-arcupper--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arcupper-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARCUPPER-45",
+      "params": {
+        "warp": "ARCUPPER",
+        "bend": 45
+      },
+      "filename": "text-warp-arcupper-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arch--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARCH--35",
+      "params": {
+        "warp": "ARCH",
+        "bend": -35
+      },
+      "filename": "text-warp-arch--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-arch-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "ARCH-45",
+      "params": {
+        "warp": "ARCH",
+        "bend": 45
+      },
+      "filename": "text-warp-arch-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-bulge--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "BULGE--35",
+      "params": {
+        "warp": "BULGE",
+        "bend": -35
+      },
+      "filename": "text-warp-bulge--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-bulge-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "BULGE-45",
+      "params": {
+        "warp": "BULGE",
+        "bend": 45
+      },
+      "filename": "text-warp-bulge-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-shelllower--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "SHELLLOWER--35",
+      "params": {
+        "warp": "SHELLLOWER",
+        "bend": -35
+      },
+      "filename": "text-warp-shelllower--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-shelllower-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "SHELLLOWER-45",
+      "params": {
+        "warp": "SHELLLOWER",
+        "bend": 45
+      },
+      "filename": "text-warp-shelllower-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-shellupper--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "SHELLUPPER--35",
+      "params": {
+        "warp": "SHELLUPPER",
+        "bend": -35
+      },
+      "filename": "text-warp-shellupper--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-shellupper-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "SHELLUPPER-45",
+      "params": {
+        "warp": "SHELLUPPER",
+        "bend": 45
+      },
+      "filename": "text-warp-shellupper-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-flag--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "FLAG--35",
+      "params": {
+        "warp": "FLAG",
+        "bend": -35
+      },
+      "filename": "text-warp-flag--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-flag-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "FLAG-45",
+      "params": {
+        "warp": "FLAG",
+        "bend": 45
+      },
+      "filename": "text-warp-flag-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-wave--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "WAVE--35",
+      "params": {
+        "warp": "WAVE",
+        "bend": -35
+      },
+      "filename": "text-warp-wave--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-wave-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "WAVE-45",
+      "params": {
+        "warp": "WAVE",
+        "bend": 45
+      },
+      "filename": "text-warp-wave-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-fish--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "FISH--35",
+      "params": {
+        "warp": "FISH",
+        "bend": -35
+      },
+      "filename": "text-warp-fish--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-fish-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "FISH-45",
+      "params": {
+        "warp": "FISH",
+        "bend": 45
+      },
+      "filename": "text-warp-fish-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-rise--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "RISE--35",
+      "params": {
+        "warp": "RISE",
+        "bend": -35
+      },
+      "filename": "text-warp-rise--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-rise-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "RISE-45",
+      "params": {
+        "warp": "RISE",
+        "bend": 45
+      },
+      "filename": "text-warp-rise-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-fisheye--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "FISHEYE--35",
+      "params": {
+        "warp": "FISHEYE",
+        "bend": -35
+      },
+      "filename": "text-warp-fisheye--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-fisheye-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "FISHEYE-45",
+      "params": {
+        "warp": "FISHEYE",
+        "bend": 45
+      },
+      "filename": "text-warp-fisheye-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-inflate--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "INFLATE--35",
+      "params": {
+        "warp": "INFLATE",
+        "bend": -35
+      },
+      "filename": "text-warp-inflate--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-inflate-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "INFLATE-45",
+      "params": {
+        "warp": "INFLATE",
+        "bend": 45
+      },
+      "filename": "text-warp-inflate-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-squeeze--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "SQUEEZE--35",
+      "params": {
+        "warp": "SQUEEZE",
+        "bend": -35
+      },
+      "filename": "text-warp-squeeze--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-squeeze-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "SQUEEZE-45",
+      "params": {
+        "warp": "SQUEEZE",
+        "bend": 45
+      },
+      "filename": "text-warp-squeeze-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-twist--35",
+      "family": "text",
+      "feature": "warp",
+      "variant": "TWIST--35",
+      "params": {
+        "warp": "TWIST",
+        "bend": -35
+      },
+      "filename": "text-warp-twist--35.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "text-warp-twist-45",
+      "family": "text",
+      "feature": "warp",
+      "variant": "TWIST-45",
+      "params": {
+        "warp": "TWIST",
+        "bend": 45
+      },
+      "filename": "text-warp-twist-45.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rectangle-add",
+      "family": "shape",
+      "feature": "rectangle",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-rectangle-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rectangle-subtract",
+      "family": "shape",
+      "feature": "rectangle",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-rectangle-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rectangle-intersect",
+      "family": "shape",
+      "feature": "rectangle",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-rectangle-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rectangle-xor",
+      "family": "shape",
+      "feature": "rectangle",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-rectangle-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-add",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-ellipse-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-subtract",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-ellipse-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-intersect",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-ellipse-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-ellipse-xor",
+      "family": "shape",
+      "feature": "ellipse",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-ellipse-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-add",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-rounded-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-subtract",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-rounded-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-intersect",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-rounded-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-rounded-xor",
+      "family": "shape",
+      "feature": "rounded",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-rounded-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-polygon-add",
+      "family": "shape",
+      "feature": "polygon",
+      "variant": "add",
+      "params": {
+        "operation": "add"
+      },
+      "filename": "shape-polygon-add.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-polygon-subtract",
+      "family": "shape",
+      "feature": "polygon",
+      "variant": "subtract",
+      "params": {
+        "operation": "subtract"
+      },
+      "filename": "shape-polygon-subtract.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-polygon-intersect",
+      "family": "shape",
+      "feature": "polygon",
+      "variant": "intersect",
+      "params": {
+        "operation": "intersect"
+      },
+      "filename": "shape-polygon-intersect.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-polygon-xor",
+      "family": "shape",
+      "feature": "polygon",
+      "variant": "xor",
+      "params": {
+        "operation": "xor"
+      },
+      "filename": "shape-polygon-xor.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-stroke-solid-default",
+      "family": "shape",
+      "feature": "stroke-solid",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-stroke-solid-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-stroke-dashed-default",
+      "family": "shape",
+      "feature": "stroke-dashed",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-stroke-dashed-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-gradient-fill-default",
+      "family": "shape",
+      "feature": "gradient-fill",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-gradient-fill-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-pattern-fill-default",
+      "family": "shape",
+      "feature": "pattern-fill",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-pattern-fill-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-paths-panel-default",
+      "family": "shape",
+      "feature": "paths-panel",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-paths-panel-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "shape-clipping-path-default",
+      "family": "shape",
+      "feature": "clipping-path",
+      "variant": "default",
+      "params": {},
+      "filename": "shape-clipping-path-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-embedded-raster-default",
+      "family": "smart",
+      "feature": "embedded-raster",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-embedded-raster-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-embedded-psd-default",
+      "family": "smart",
+      "feature": "embedded-psd",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-embedded-psd-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-linked-default",
+      "family": "smart",
+      "feature": "linked",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-linked-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-transform-default",
+      "family": "smart",
+      "feature": "transform",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-transform-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-warp-default",
+      "family": "smart",
+      "feature": "warp",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-warp-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "smart-smart-filter-default",
+      "family": "smart",
+      "feature": "smart-filter",
+      "variant": "default",
+      "params": {},
+      "filename": "smart-smart-filter-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-rgb-default",
+      "family": "mode",
+      "feature": "rgb",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-rgb-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-grayscale-default",
+      "family": "mode",
+      "feature": "grayscale",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-grayscale-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-bitmap-default",
+      "family": "mode",
+      "feature": "bitmap",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-bitmap-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-indexed-default",
+      "family": "mode",
+      "feature": "indexed",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-indexed-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-duotone-default",
+      "family": "mode",
+      "feature": "duotone",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-duotone-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-lab-default",
+      "family": "mode",
+      "feature": "lab",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-lab-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-cmyk-default",
+      "family": "mode",
+      "feature": "cmyk",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-cmyk-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "mode-multichannel-default",
+      "family": "mode",
+      "feature": "multichannel",
+      "variant": "default",
+      "params": {},
+      "filename": "mode-multichannel-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "channel-alpha-default",
+      "family": "channel",
+      "feature": "alpha",
+      "variant": "default",
+      "params": {},
+      "filename": "channel-alpha-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "channel-alpha-multiple-default",
+      "family": "channel",
+      "feature": "alpha-multiple",
+      "variant": "default",
+      "params": {},
+      "filename": "channel-alpha-multiple-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "channel-spot-default",
+      "family": "channel",
+      "feature": "spot",
+      "variant": "default",
+      "params": {},
+      "filename": "channel-spot-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "channel-spot-multiple-default",
+      "family": "channel",
+      "feature": "spot-multiple",
+      "variant": "default",
+      "params": {},
+      "filename": "channel-spot-multiple-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-guides-default",
+      "family": "metadata",
+      "feature": "guides",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-guides-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-xmp-iptc-default",
+      "family": "metadata",
+      "feature": "xmp-iptc",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-xmp-iptc-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-icc-resolution-default",
+      "family": "metadata",
+      "feature": "icc-resolution",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-icc-resolution-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-layer-comps-default",
+      "family": "metadata",
+      "feature": "layer-comps",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-layer-comps-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-slices-default",
+      "family": "metadata",
+      "feature": "slices",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-slices-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-notes-default",
+      "family": "metadata",
+      "feature": "notes",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-notes-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-count-default",
+      "family": "metadata",
+      "feature": "count",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-count-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-print-default",
+      "family": "metadata",
+      "feature": "print",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-print-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-artboard-default",
+      "family": "metadata",
+      "feature": "artboard",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-artboard-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "metadata-timeline-default",
+      "family": "metadata",
+      "feature": "timeline",
+      "variant": "default",
+      "params": {},
+      "filename": "metadata-timeline-default.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "large-layered-24",
+      "family": "large",
+      "feature": "layered",
+      "variant": "24",
+      "params": {
+        "width": 6000,
+        "height": 4000,
+        "psb": false
+      },
+      "filename": "large-layered-24.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "large-layered-61",
+      "family": "large",
+      "feature": "layered",
+      "variant": "61",
+      "params": {
+        "width": 9504,
+        "height": 6336,
+        "psb": false
+      },
+      "filename": "large-layered-61.psd",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "large-layered-150",
+      "family": "large",
+      "feature": "layered",
+      "variant": "150",
+      "params": {
+        "width": 14204,
+        "height": 10652,
+        "psb": true
+      },
+      "filename": "large-layered-150.psb",
+      "fidelity": "perceptual"
+    },
+    {
+      "id": "large-layered-268",
+      "family": "large",
+      "feature": "layered",
+      "variant": "268",
+      "params": {
+        "width": 16384,
+        "height": 16384,
+        "psb": true
+      },
+      "filename": "large-layered-268.psb",
+      "fidelity": "perceptual"
+    }
+  ],
+  "planned_count": 323,
+  "selected_count": 323,
+  "coverage_complete": true,
+  "note": "Generated feature coverage is measured per distinct feature and parameter; failures remain failures.",
+  "generator_sha256": "d316ceb4ac479868b46c1f6f74f4b38902f27a1e7cb66d238b2194570e4c1f22"
+}

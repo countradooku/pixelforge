@@ -1,0 +1,6 @@
+{
+  "rust": "rustc 1.99.0 (b940084d7 2026-09-28) (Homebrew)",
+  "cargo": "cargo 1.99.0 (5f94df478 2026-08-27) (Homebrew)",
+  "macos": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0.1\nBuildVersion:\t\t26A434",
+  "hardware": "hw.model: Mac17,8\nhw.memsize: 51539607552\nhw.logicalcpu: 18"
+}

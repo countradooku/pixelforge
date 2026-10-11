@@ -1,0 +1,2317 @@
+{
+  "generate test scene": {
+    "before": [
+      124.7,
+      118.2,
+      118.0,
+      117.2,
+      117.3
+    ],
+    "after": [
+      118.9,
+      117.1,
+      117.1,
+      117.1,
+      117.3
+    ],
+    "before_median": 118.0,
+    "after_median": 117.1,
+    "change_percent": -0.7627118644067843
+  },
+  "brush 500 px soft: median per mouse event": {
+    "before": [
+      0.36,
+      0.27,
+      0.29,
+      0.27,
+      0.27
+    ],
+    "after": [
+      0.27,
+      0.28,
+      0.28,
+      0.29,
+      0.27
+    ],
+    "before_median": 0.27,
+    "after_median": 0.28,
+    "change_percent": 3.703703703703698
+  },
+  "brush 500 px soft: p95 per mouse event": {
+    "before": [
+      0.42,
+      0.35,
+      0.35,
+      0.34,
+      0.33
+    ],
+    "after": [
+      0.34,
+      0.34,
+      0.34,
+      0.36,
+      0.34
+    ],
+    "before_median": 0.35,
+    "after_median": 0.34,
+    "change_percent": -2.857142857142847
+  },
+  "brush 500 px, angle+roundness+texture+scatter: median per mouse event": {
+    "before": [
+      0.33,
+      0.29,
+      0.3,
+      0.29,
+      0.29
+    ],
+    "after": [
+      0.29,
+      0.29,
+      0.29,
+      0.29,
+      0.28
+    ],
+    "before_median": 0.29,
+    "after_median": 0.29,
+    "change_percent": 0.0
+  },
+  "brush 500 px, angle+roundness+texture+scatter: p95 per mouse event": {
+    "before": [
+      0.4,
+      0.34,
+      0.35,
+      0.35,
+      0.36
+    ],
+    "after": [
+      0.36,
+      0.37,
+      0.35,
+      0.37,
+      0.36
+    ],
+    "before_median": 0.35,
+    "after_median": 0.36,
+    "change_percent": 2.857142857142869
+  },
+  "pencil 500 px aliased: median per mouse event": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "pencil 500 px aliased: p95 per mouse event": {
+    "before": [
+      0.33,
+      0.3,
+      0.3,
+      0.31,
+      0.3
+    ],
+    "after": [
+      0.3,
+      0.31,
+      0.29,
+      0.29,
+      0.3
+    ],
+    "before_median": 0.3,
+    "after_median": 0.3,
+    "change_percent": 0.0
+  },
+  "brush 500 px, every dynamic on (sampled tip, dual, colour per tip): median per mouse event": {
+    "before": [
+      0.39,
+      0.35,
+      0.37,
+      0.36,
+      0.36
+    ],
+    "after": [
+      0.38,
+      0.37,
+      0.38,
+      0.36,
+      0.36
+    ],
+    "before_median": 0.36,
+    "after_median": 0.37,
+    "change_percent": 2.77777777777779
+  },
+  "brush 500 px, every dynamic on (sampled tip, dual, colour per tip): p95 per mouse event": {
+    "before": [
+      1.24,
+      1.15,
+      1.18,
+      1.18,
+      1.15
+    ],
+    "after": [
+      1.18,
+      1.16,
+      1.18,
+      1.16,
+      1.15
+    ],
+    "before_median": 1.18,
+    "after_median": 1.16,
+    "change_percent": -1.6949152542372947
+  },
+  "selection add (rect \u222a ellipse), 268 MP": {
+    "before": [
+      1.22,
+      0.89,
+      0.97,
+      0.68,
+      0.97
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Expand 50 px, 268 MP": {
+    "before": [
+      18.08,
+      18.07,
+      20.04,
+      19.08,
+      18.43
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Contract 50 px, 268 MP": {
+    "before": [
+      16.2,
+      16.25,
+      15.37,
+      16.82,
+      16.35
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Feather 30 px, 268 MP": {
+    "before": [
+      3.85,
+      4.07,
+      3.91,
+      3.87,
+      4.01
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Border 40 px, 268 MP": {
+    "before": [
+      33.53,
+      27.1,
+      26.85,
+      27.92,
+      28.23
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Smooth 10 px, 268 MP": {
+    "before": [
+      1.62,
+      1.59,
+      1.56,
+      1.63,
+      1.7
+    ]
+  },
+  "Quick Mask enter (selection \u2192 gray), 268 MP": {
+    "before": [
+      0.39,
+      0.37,
+      0.42,
+      0.35,
+      0.39
+    ]
+  },
+  "Quick Mask exit (gray \u2192 selection), 268 MP": {
+    "before": [
+      0.27,
+      0.28,
+      0.27,
+      0.19,
+      0.24
+    ]
+  },
+  "magic wand contiguous (sky), 268 MP": {
+    "before": [
+      11.71,
+      11.15,
+      10.75,
+      11.09,
+      11.01
+    ]
+  },
+  "magic wand Sample All Layers (2 layers), 268 MP": {
+    "before": [
+      14.5,
+      12.04,
+      11.64,
+      11.41,
+      11.6
+    ]
+  },
+  "magnetic lasso: median per mouse move": {
+    "before": [
+      0.43,
+      0.43,
+      0.41,
+      0.41,
+      0.42
+    ],
+    "after": [
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.43
+    ],
+    "before_median": 0.42,
+    "after_median": 0.42,
+    "change_percent": 0.0
+  },
+  "magnetic lasso: p95 per mouse move": {
+    "before": [
+      0.64,
+      0.63,
+      0.62,
+      0.63,
+      0.6
+    ],
+    "after": [
+      0.63,
+      0.64,
+      0.61,
+      0.62,
+      0.61
+    ],
+    "before_median": 0.63,
+    "after_median": 0.62,
+    "change_percent": -1.5873015873015928
+  },
+  "quick selection: coarse result per stroke update": {
+    "before": [
+      9.88,
+      9.88,
+      9.91,
+      9.97,
+      9.99
+    ],
+    "after": [
+      9.96,
+      10.01,
+      9.91,
+      9.94,
+      10.5
+    ],
+    "before_median": 9.91,
+    "after_median": 9.96,
+    "change_percent": 0.5045408678103103
+  },
+  "quick selection: full-res edge refinement": {
+    "before": [
+      5.69,
+      4.2,
+      3.89,
+      3.96,
+      3.99
+    ],
+    "after": [
+      4.03,
+      4.16,
+      4.28,
+      4.03,
+      3.76
+    ],
+    "before_median": 3.99,
+    "after_median": 4.03,
+    "change_percent": 1.0025062656641603
+  },
+  "object selection: first result (coarse GrabCut)": {
+    "before": [
+      11.45,
+      11.89,
+      12.57,
+      12.5,
+      11.94
+    ],
+    "after": [
+      11.65,
+      11.89,
+      11.26,
+      11.69,
+      11.78
+    ],
+    "before_median": 11.94,
+    "after_median": 11.69,
+    "change_percent": -2.0938023450586263
+  },
+  "object selection: refined (1 MP GrabCut + guided edge)": {
+    "before": [
+      124.39,
+      122.51,
+      125.66,
+      125.83,
+      124.17
+    ],
+    "after": [
+      120.71,
+      125.32,
+      124.08,
+      126.37,
+      121.16
+    ],
+    "before_median": 124.39,
+    "after_median": 124.08,
+    "change_percent": -0.2492161749336752
+  },
+  "Select Subject (GrabCut), 268 MP": {
+    "before": [
+      67.97,
+      67.19,
+      68.22,
+      67.09,
+      64.92
+    ]
+  },
+  "object finder precompute (7 objects, background)": {
+    "before": [
+      697.27,
+      699.85,
+      694.69,
+      701.24,
+      695.34
+    ],
+    "after": [
+      705.32,
+      697.09,
+      696.38,
+      700.76,
+      702.64
+    ],
+    "before_median": 697.27,
+    "after_median": 700.76,
+    "change_percent": 0.50052347010483
+  },
+  "object finder hover lookup (944/2000 on an object): p95": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "object finder click \u2192 selection (guided upsample)": {
+    "before": [
+      5.84,
+      5.74,
+      4.8,
+      4.68,
+      3.98
+    ],
+    "after": [
+      4.23,
+      4.61,
+      4.19,
+      4.4,
+      4.65
+    ],
+    "before_median": 4.8,
+    "after_median": 4.4,
+    "change_percent": -8.333333333333325
+  },
+  "display: 135 tiles, mask + clip + adjustment, level 0": {
+    "before": [
+      5.94,
+      5.8,
+      5.81,
+      6.16,
+      6.33
+    ],
+    "after": [
+      5.91,
+      5.85,
+      6.3,
+      5.57,
+      5.93
+    ],
+    "before_median": 5.94,
+    "after_median": 5.91,
+    "change_percent": -0.5050505050505083
+  },
+  "display: 135 tiles, mask + clip + adjustment, level 3": {
+    "before": [
+      0.62,
+      0.61,
+      0.6,
+      0.64,
+      0.69
+    ],
+    "after": [
+      0.66,
+      0.54,
+      0.69,
+      0.82,
+      0.69
+    ],
+    "before_median": 0.62,
+    "after_median": 0.69,
+    "change_percent": 11.290322580645151
+  },
+  "shape live resize (\u22482000\u20133200 px rounded rect + stroke)": {
+    "before": [
+      1.14,
+      1.15,
+      1.14,
+      1.15,
+      1.09
+    ],
+    "after": [
+      1.27,
+      1.29,
+      1.32,
+      1.32,
+      1.34
+    ],
+    "before_median": 1.14,
+    "after_median": 1.32,
+    "change_percent": 15.789473684210531
+  },
+  "clone stamp 500 px: per dab (30 dabs)": {
+    "before": [
+      0.31,
+      0.3,
+      0.31,
+      0.31,
+      0.3
+    ],
+    "after": [
+      0.3,
+      0.3,
+      0.32,
+      0.3,
+      0.29
+    ],
+    "before_median": 0.31,
+    "after_median": 0.3,
+    "change_percent": -3.2258064516129115
+  },
+  "clone stamp 500 px: p95 per mouse event": {
+    "before": [
+      0.33,
+      0.31,
+      0.33,
+      0.32,
+      0.32
+    ],
+    "after": [
+      0.33,
+      0.32,
+      0.35,
+      0.33,
+      0.31
+    ],
+    "before_median": 0.32,
+    "after_median": 0.33,
+    "change_percent": 3.125
+  },
+  "healing brush 100 px: per dab (147 dabs)": {
+    "before": [
+      0.84,
+      0.8,
+      0.78,
+      0.8,
+      0.79
+    ],
+    "after": [
+      0.78,
+      0.79,
+      0.8,
+      0.83,
+      0.81
+    ],
+    "before_median": 0.8,
+    "after_median": 0.8,
+    "change_percent": 0.0
+  },
+  "healing brush 100 px: p95 per mouse event": {
+    "before": [
+      1.91,
+      1.79,
+      1.7,
+      1.75,
+      1.79
+    ],
+    "after": [
+      1.7,
+      1.77,
+      1.76,
+      1.82,
+      1.72
+    ],
+    "before_median": 1.79,
+    "after_median": 1.76,
+    "change_percent": -1.6759776536312887
+  },
+  "healing brush 200 px: per dab (74 dabs)": {
+    "before": [
+      1.49,
+      1.48,
+      1.49,
+      1.47,
+      1.46
+    ],
+    "after": [
+      1.47,
+      1.46,
+      1.46,
+      1.52,
+      1.49
+    ],
+    "before_median": 1.48,
+    "after_median": 1.47,
+    "change_percent": -0.6756756756756799
+  },
+  "healing brush 200 px: p95 per mouse event": {
+    "before": [
+      1.67,
+      1.68,
+      1.68,
+      1.63,
+      1.66
+    ],
+    "after": [
+      1.62,
+      1.66,
+      1.6,
+      1.73,
+      1.68
+    ],
+    "before_median": 1.67,
+    "after_median": 1.66,
+    "change_percent": -0.5988023952095856
+  },
+  "healing brush 300 px: per dab (49 dabs)": {
+    "before": [
+      2.48,
+      2.46,
+      2.44,
+      2.45,
+      2.44
+    ],
+    "after": [
+      2.49,
+      2.45,
+      2.43,
+      2.49,
+      2.46
+    ],
+    "before_median": 2.45,
+    "after_median": 2.46,
+    "change_percent": 0.40816326530610514
+  },
+  "healing brush 300 px: p95 per mouse event": {
+    "before": [
+      2.71,
+      2.7,
+      2.72,
+      2.68,
+      2.65
+    ],
+    "after": [
+      2.67,
+      2.66,
+      2.65,
+      2.68,
+      2.7
+    ],
+    "before_median": 2.7,
+    "after_median": 2.67,
+    "change_percent": -1.1111111111111183
+  },
+  "healing brush 500 px: per dab (30 dabs)": {
+    "before": [
+      4.79,
+      4.7,
+      4.74,
+      4.69,
+      4.69
+    ],
+    "after": [
+      4.74,
+      4.73,
+      4.8,
+      4.87,
+      4.72
+    ],
+    "before_median": 4.7,
+    "after_median": 4.74,
+    "change_percent": 0.8510638297872353
+  },
+  "healing brush 500 px: p95 per mouse event": {
+    "before": [
+      4.95,
+      4.93,
+      4.9,
+      4.87,
+      4.92
+    ],
+    "after": [
+      4.93,
+      4.93,
+      4.99,
+      4.99,
+      4.94
+    ],
+    "before_median": 4.92,
+    "after_median": 4.94,
+    "change_percent": 0.40650406504065817
+  },
+  "healing brush 500 px, Quality: Exact: per dab (30 dabs)": {
+    "before": [
+      8.37,
+      8.36,
+      8.34,
+      8.31,
+      8.35
+    ],
+    "after": [
+      8.36,
+      8.49,
+      8.36,
+      8.36,
+      8.38
+    ],
+    "before_median": 8.35,
+    "after_median": 8.36,
+    "change_percent": 0.11976047904191933
+  },
+  "healing brush 500 px, Quality: Exact: p95 per mouse event": {
+    "before": [
+      9.25,
+      9.08,
+      9.14,
+      9.06,
+      9.21
+    ],
+    "after": [
+      9.14,
+      9.22,
+      9.17,
+      9.1,
+      9.25
+    ],
+    "before_median": 9.14,
+    "after_median": 9.17,
+    "change_percent": 0.3282275711159688
+  },
+  "spot healing: 300 px blemish (PatchMatch + multigrid)": {
+    "before": [
+      50.23,
+      50.28,
+      47.62,
+      47.64,
+      47.86
+    ],
+    "after": [
+      47.73,
+      47.36,
+      46.94,
+      46.56,
+      46.64
+    ],
+    "before_median": 47.86,
+    "after_median": 46.94,
+    "change_percent": -1.9222732971165946
+  },
+  "spot healing, Create Texture: 300 px (quilting + multigrid)": {
+    "before": [
+      36.1,
+      36.01,
+      37.1,
+      33.61,
+      33.72
+    ],
+    "after": [
+      36.11,
+      34.37,
+      33.0,
+      35.4,
+      35.66
+    ],
+    "before_median": 36.01,
+    "after_median": 35.4,
+    "change_percent": -1.6939738961399553
+  },
+  "Content-Aware Fill workspace: 300 px (Auto sampling)": {
+    "before": [
+      79.44,
+      77.55,
+      78.32,
+      79.78,
+      77.49
+    ],
+    "after": [
+      78.03,
+      79.36,
+      79.21,
+      80.05,
+      78.95
+    ],
+    "before_median": 78.32,
+    "after_median": 79.21,
+    "change_percent": 1.1363636363636465
+  },
+  "Content-Aware Fill workspace: 1 MP (Auto sampling)": {
+    "before": [
+      430.15,
+      440.55,
+      440.64,
+      423.25,
+      434.7
+    ],
+    "after": [
+      451.45,
+      429.21,
+      435.25,
+      436.4,
+      425.29
+    ],
+    "before_median": 434.7,
+    "after_median": 435.25,
+    "change_percent": 0.12652403956752156
+  },
+  "Content-Aware Fill workspace: 1 MP, rotation Medium + scale + mirror": {
+    "before": [
+      485.82,
+      475.56,
+      477.51,
+      470.89,
+      481.27
+    ],
+    "after": [
+      487.89,
+      488.03,
+      475.93,
+      482.72,
+      474.19
+    ],
+    "before_median": 477.51,
+    "after_median": 482.72,
+    "change_percent": 1.0910766266675198
+  },
+  "patch (content-aware), 1 MP region": {
+    "before": [
+      276.78,
+      273.19,
+      277.2,
+      266.73,
+      285.52
+    ],
+    "after": [
+      259.73,
+      268.74,
+      266.39,
+      255.76,
+      270.79
+    ],
+    "before_median": 276.78,
+    "after_median": 266.39,
+    "change_percent": -3.753883951152537
+  },
+  "patch (normal, source), 1 MP region": {
+    "before": [
+      19.59,
+      20.09,
+      21.4,
+      19.58,
+      19.55
+    ],
+    "after": [
+      18.56,
+      20.69,
+      19.82,
+      20.05,
+      19.28
+    ],
+    "before_median": 19.59,
+    "after_median": 19.82,
+    "change_percent": 1.1740684022460535
+  },
+  "content-aware move, 1 MP object": {
+    "before": [
+      322.02,
+      317.02,
+      331.1,
+      322.73,
+      324.11
+    ],
+    "after": [
+      316.75,
+      322.08,
+      316.76,
+      316.04,
+      310.29
+    ],
+    "before_median": 322.73,
+    "after_median": 316.75,
+    "change_percent": -1.8529420878133473
+  },
+  "red eye (60 px pupil: detect + fix)": {
+    "before": [
+      0.93,
+      0.67,
+      0.52,
+      0.5,
+      0.91
+    ],
+    "after": [
+      0.69,
+      0.75,
+      0.74,
+      0.7,
+      0.59
+    ],
+    "before_median": 0.67,
+    "after_median": 0.7,
+    "change_percent": 4.477611940298498
+  },
+  "history brush 500 px: median per mouse event": {
+    "before": [
+      0.3,
+      0.28,
+      0.29,
+      0.28,
+      0.27
+    ],
+    "after": [
+      0.27,
+      0.28,
+      0.28,
+      0.29,
+      0.27
+    ],
+    "before_median": 0.28,
+    "after_median": 0.28,
+    "change_percent": 0.0
+  },
+  "dodge 500 px: p95 per mouse event": {
+    "before": [
+      0.37,
+      0.36,
+      0.36,
+      0.36,
+      0.34
+    ],
+    "after": [
+      0.36,
+      0.35,
+      0.36,
+      0.36,
+      0.36
+    ],
+    "before_median": 0.36,
+    "after_median": 0.36,
+    "change_percent": 0.0
+  },
+  "burn 500 px: p95 per mouse event": {
+    "before": [
+      0.36,
+      0.38,
+      0.35,
+      0.36,
+      0.37
+    ],
+    "after": [
+      0.37,
+      0.35,
+      0.35,
+      0.35,
+      0.35
+    ],
+    "before_median": 0.36,
+    "after_median": 0.35,
+    "change_percent": -2.777777777777779
+  },
+  "sponge 500 px: p95 per mouse event": {
+    "before": [
+      0.46,
+      0.45,
+      0.45,
+      0.46,
+      0.45
+    ],
+    "after": [
+      0.45,
+      0.44,
+      0.46,
+      0.47,
+      0.44
+    ],
+    "before_median": 0.45,
+    "after_median": 0.45,
+    "change_percent": 0.0
+  },
+  "blur 500 px: p95 per mouse event": {
+    "before": [
+      0.39,
+      0.37,
+      0.38,
+      0.37,
+      0.39
+    ],
+    "after": [
+      0.38,
+      0.4,
+      0.39,
+      0.37,
+      0.38
+    ],
+    "before_median": 0.38,
+    "after_median": 0.38,
+    "change_percent": 0.0
+  },
+  "sharpen 500 px: p95 per mouse event": {
+    "before": [
+      0.42,
+      0.4,
+      0.39,
+      0.4,
+      0.4
+    ],
+    "after": [
+      0.41,
+      0.4,
+      0.39,
+      0.39,
+      0.4
+    ],
+    "before_median": 0.4,
+    "after_median": 0.4,
+    "change_percent": 0.0
+  },
+  "smudge 500 px: p95 per mouse event": {
+    "before": [
+      0.89,
+      0.88,
+      0.97,
+      0.94,
+      0.92
+    ],
+    "after": [
+      0.92,
+      0.92,
+      0.88,
+      0.91,
+      0.94
+    ],
+    "before_median": 0.92,
+    "after_median": 0.92,
+    "change_percent": 0.0
+  },
+  "mixer 500 px: p95 per mouse event": {
+    "before": [
+      0.91,
+      0.9,
+      0.98,
+      0.91,
+      0.89
+    ],
+    "after": [
+      0.96,
+      0.92,
+      0.91,
+      0.92,
+      0.92
+    ],
+    "before_median": 0.91,
+    "after_median": 0.92,
+    "change_percent": 1.098901098901095
+  },
+  "color replacement 500 px: p95 per mouse event": {
+    "before": [
+      0.73,
+      0.72,
+      0.72,
+      0.74,
+      0.71
+    ],
+    "after": [
+      0.71,
+      0.71,
+      0.72,
+      0.72,
+      0.7
+    ],
+    "before_median": 0.72,
+    "after_median": 0.71,
+    "change_percent": -1.388888888888895
+  },
+  "color replacement, Limits: Contiguous 500 px: p95 per mouse event": {
+    "before": [
+      1.24,
+      1.23,
+      1.21,
+      1.22,
+      1.22
+    ],
+    "after": [
+      1.24,
+      1.24,
+      1.28,
+      1.23,
+      1.2
+    ],
+    "before_median": 1.22,
+    "after_median": 1.24,
+    "change_percent": 1.6393442622950838
+  },
+  "color replacement, Limits: Find Edges 500 px: p95 per mouse event": {
+    "before": [
+      1.59,
+      1.55,
+      1.59,
+      1.58,
+      1.61
+    ],
+    "after": [
+      1.57,
+      1.62,
+      1.59,
+      1.62,
+      1.58
+    ],
+    "before_median": 1.59,
+    "after_median": 1.59,
+    "change_percent": 0.0
+  },
+  "background eraser 500 px: p95 per mouse event": {
+    "before": [
+      0.43,
+      0.4,
+      0.41,
+      0.41,
+      0.42
+    ],
+    "after": [
+      0.4,
+      0.43,
+      0.42,
+      0.43,
+      0.41
+    ],
+    "before_median": 0.41,
+    "after_median": 0.42,
+    "change_percent": 2.4390243902439046
+  },
+  "magic eraser (sky, sample all layers, AA), 268 MP": {
+    "before": [
+      12.49,
+      12.35,
+      12.36,
+      12.44,
+      12.12
+    ]
+  },
+  "paint bucket with pattern (sky), 268 MP": {
+    "before": [
+      14.18,
+      12.84,
+      12.88,
+      13.09,
+      13.17
+    ]
+  },
+  "gradient Linear (spectrum, dither), 268 MP": {
+    "before": [
+      12.18,
+      12.2,
+      11.79,
+      11.95,
+      12.18
+    ]
+  },
+  "gradient Radial (spectrum, dither), 268 MP": {
+    "before": [
+      11.06,
+      11.32,
+      10.88,
+      11.12,
+      11.0
+    ]
+  },
+  "gradient Angle (spectrum, dither), 268 MP": {
+    "before": [
+      14.41,
+      14.12,
+      14.19,
+      14.22,
+      14.21
+    ]
+  },
+  "gradient Reflected (spectrum, dither), 268 MP": {
+    "before": [
+      10.63,
+      10.97,
+      10.73,
+      11.31,
+      10.5
+    ]
+  },
+  "gradient Diamond (spectrum, dither), 268 MP": {
+    "before": [
+      10.89,
+      10.87,
+      10.94,
+      11.09,
+      11.21
+    ]
+  },
+  "live gradient preview: 135 display tiles": {
+    "before": [
+      2.02,
+      1.93,
+      2.0,
+      2.09,
+      1.98
+    ],
+    "after": [
+      1.89,
+      1.88,
+      1.95,
+      2.0,
+      1.94
+    ],
+    "before_median": 2.0,
+    "after_median": 1.94,
+    "change_percent": -3.0000000000000027
+  },
+  "shape resize (stroked ellipse to 9000 px): p95/frame": {
+    "before": [
+      2.56,
+      2.54,
+      2.48,
+      2.58,
+      2.6
+    ],
+    "after": [
+      2.63,
+      2.6,
+      2.53,
+      2.57,
+      2.56
+    ],
+    "before_median": 2.56,
+    "after_median": 2.57,
+    "change_percent": 0.390625
+  },
+  "shape resize (7-point star to 9000 px): p95/frame": {
+    "before": [
+      2.13,
+      2.02,
+      2.16,
+      2.05,
+      2.04
+    ],
+    "after": [
+      2.11,
+      2.08,
+      2.07,
+      2.18,
+      2.14
+    ],
+    "before_median": 2.05,
+    "after_median": 2.11,
+    "change_percent": 2.9268292682926855
+  },
+  "path op Combine on two 500-anchor paths (7268+7268 segs, area 13298678) median": {
+    "before": [
+      2.63,
+      2.65,
+      2.79,
+      2.63,
+      2.68
+    ],
+    "after": [
+      2.66,
+      2.67,
+      2.65,
+      2.74,
+      2.62
+    ],
+    "before_median": 2.65,
+    "after_median": 2.66,
+    "change_percent": 0.37735849056603765
+  },
+  "path op Subtract on two 500-anchor paths (7268+7268 segs, area 730705) median": {
+    "before": [
+      2.52,
+      2.59,
+      2.65,
+      2.57,
+      2.6
+    ],
+    "after": [
+      2.61,
+      2.51,
+      2.54,
+      2.54,
+      2.56
+    ],
+    "before_median": 2.59,
+    "after_median": 2.54,
+    "change_percent": -1.9305019305019266
+  },
+  "path op Intersect on two 500-anchor paths (7268+7268 segs, area 11837268) median": {
+    "before": [
+      2.54,
+      2.57,
+      2.61,
+      2.57,
+      2.52
+    ],
+    "after": [
+      2.6,
+      2.55,
+      2.54,
+      2.53,
+      2.49
+    ],
+    "before_median": 2.57,
+    "after_median": 2.54,
+    "change_percent": -1.1673151750972721
+  },
+  "path op Exclude on two 500-anchor paths (7268+7268 segs, area 1461410) median": {
+    "before": [
+      2.55,
+      2.65,
+      2.65,
+      2.62,
+      2.6
+    ],
+    "after": [
+      2.62,
+      2.64,
+      2.59,
+      2.6,
+      2.63
+    ],
+    "before_median": 2.62,
+    "after_median": 2.62,
+    "change_percent": 0.0
+  },
+  "live Subtract (2\u00d7500 anchors, gradient + dashed stroke), p95/frame": {
+    "before": [
+      8.82,
+      9.01,
+      8.95,
+      8.88,
+      8.98
+    ],
+    "after": [
+      8.82,
+      8.9,
+      8.75,
+      8.82,
+      8.9
+    ],
+    "before_median": 8.95,
+    "after_median": 8.82,
+    "change_percent": -1.4525139664804398
+  },
+  "Merge Shape Components (2\u00d7500 anchors)": {
+    "before": [
+      2.85,
+      2.73,
+      2.93,
+      2.67,
+      2.89
+    ],
+    "after": [
+      2.85,
+      2.8,
+      2.91,
+      2.83,
+      2.74
+    ],
+    "before_median": 2.85,
+    "after_median": 2.83,
+    "change_percent": -0.7017543859649145
+  },
+  "corner radius widget drag (rotated 4000 px rect): p95/event": {
+    "before": [
+      1.38,
+      1.39,
+      1.46,
+      1.44,
+      1.43
+    ],
+    "after": [
+      1.42,
+      1.48,
+      1.5,
+      1.53,
+      1.45
+    ],
+    "before_median": 1.43,
+    "after_median": 1.48,
+    "change_percent": 3.4965034965035002
+  },
+  "frame: move placed content (3000 px frame): p95/event": {
+    "before": [
+      11.44,
+      11.45,
+      12.23,
+      12.59,
+      13.49
+    ],
+    "after": [
+      10.92,
+      11.44,
+      10.8,
+      10.92,
+      12.25
+    ],
+    "before_median": 12.23,
+    "after_median": 10.92,
+    "change_percent": -10.711365494685198
+  },
+  "path \u2192 selection (ellipse 9800 \u00d7 6500), 268 MP": {
+    "before": [
+      0.72,
+      0.74,
+      0.64,
+      0.59,
+      0.66
+    ]
+  },
+  "stroke path (star, 9961 px long, 30 px brush)": {
+    "before": [
+      3.79,
+      3.88,
+      3.57,
+      3.67,
+      3.67
+    ],
+    "after": [
+      3.82,
+      3.86,
+      3.95,
+      4.01,
+      3.77
+    ],
+    "before_median": 3.67,
+    "after_median": 3.86,
+    "change_percent": 5.177111716621252
+  },
+  "freeform pen fit (2000 pts \u2192 32 cubics)": {
+    "before": [
+      0.19,
+      0.17,
+      0.2,
+      0.18,
+      0.18
+    ],
+    "after": [
+      0.2,
+      0.19,
+      0.21,
+      0.2,
+      0.19
+    ],
+    "before_median": 0.18,
+    "after_median": 0.2,
+    "change_percent": 11.111111111111116
+  },
+  "align 20 layers to a key object (268 MP canvas)": {
+    "before": [
+      2.2,
+      2.84,
+      3.92,
+      2.77,
+      3.25
+    ]
+  },
+  "distribute 20 layers (equal horizontal spacing)": {
+    "before": [
+      1.87,
+      1.44,
+      1.81,
+      2.14,
+      1.65
+    ],
+    "after": [
+      1.97,
+      1.97,
+      1.87,
+      2.15,
+      1.86
+    ],
+    "before_median": 1.81,
+    "after_median": 1.97,
+    "change_percent": 8.83977900552486
+  },
+  "Auto-Select hit test over 20 layers (p95)": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "artboard export render (1920 \u00d7 1080, one child)": {
+    "before": [
+      1.27,
+      1.01,
+      1.07,
+      1.0,
+      1.12
+    ],
+    "after": [
+      1.21,
+      1.14,
+      1.17,
+      1.07,
+      1.19
+    ],
+    "before_median": 1.07,
+    "after_median": 1.17,
+    "change_percent": 9.345794392523343
+  },
+  "artboards to PDF, 4 pages 1920 \u00d7 1080 (0.1 MB)": {
+    "before": [
+      20.3,
+      20.01,
+      20.31,
+      20.59,
+      21.74
+    ],
+    "after": [
+      21.04,
+      23.46,
+      21.95,
+      21.75,
+      20.72
+    ],
+    "before_median": 20.31,
+    "after_median": 21.75,
+    "change_percent": 7.090103397341219
+  },
+  "Save for Web PNG-8 128 dithered: 12 slices of the 3840 \u00d7 2560 photo (6.7 MB)": {
+    "before": [
+      195.29,
+      341.2,
+      350.07,
+      298.2,
+      361.35
+    ],
+    "after": [
+      350.36,
+      338.53,
+      337.19,
+      334.95,
+      349.83
+    ],
+    "before_median": 341.2,
+    "after_median": 338.53,
+    "change_percent": -0.7825322391559197
+  },
+  "Save for Web PNG-24: 12 slices of the 3840 \u00d7 2560 photo (16.7 MB)": {
+    "before": [
+      346.9,
+      286.12,
+      289.97,
+      348.12,
+      253.29
+    ],
+    "after": [
+      348.33,
+      260.62,
+      362.92,
+      306.07,
+      390.45
+    ],
+    "before_median": 289.97,
+    "after_median": 348.33,
+    "change_percent": 20.126219953788315
+  },
+  "Save for Web JPEG q60: 12 slices of the 3840 \u00d7 2560 photo (1.5 MB)": {
+    "before": [
+      29.0,
+      21.07,
+      23.3,
+      23.93,
+      21.41
+    ],
+    "after": [
+      25.3,
+      21.44,
+      31.15,
+      23.56,
+      21.41
+    ],
+    "before_median": 23.3,
+    "after_median": 23.56,
+    "change_percent": 1.1158798283261717
+  },
+  "Save for Web WebP lossless: 12 slices of the 3840 \u00d7 2560 photo (12.7 MB)": {
+    "before": [
+      14.84,
+      8.11,
+      16.85,
+      12.76,
+      17.34
+    ],
+    "after": [
+      12.34,
+      13.23,
+      17.9,
+      12.85,
+      12.5
+    ],
+    "before_median": 14.84,
+    "after_median": 12.85,
+    "change_percent": -13.409703504043124
+  },
+  "text: create, first run": {
+    "before": [
+      65.02,
+      22.57,
+      27.05,
+      21.66,
+      24.37
+    ],
+    "after": [
+      23.46,
+      24.03,
+      25.78,
+      21.54,
+      21.53
+    ],
+    "before_median": 24.37,
+    "after_median": 23.46,
+    "change_percent": -3.7340993024210123
+  },
+  "text: create a 2000-glyph layer with 51 runs (PS": {
+    "before": [
+      74.5,
+      74.5,
+      74.5,
+      74.5,
+      74.5
+    ],
+    "after": [
+      74.5,
+      74.5,
+      74.5,
+      74.5,
+      74.5
+    ],
+    "before_median": 74.5,
+    "after_median": 74.5,
+    "change_percent": 0.0
+  },
+  "text: keystroke, 2000-glyph paragraph with 51 runs (p95; PS": {
+    "before": [
+      59.9,
+      59.9,
+      59.9,
+      59.9,
+      59.9
+    ],
+    "after": [
+      59.9,
+      59.9,
+      59.9,
+      59.9,
+      59.9
+    ],
+    "before_median": 59.9,
+    "after_median": 59.9,
+    "change_percent": 0.0
+  },
+  "text: apply a style to a 200-char range (p95; PS": {
+    "before": [
+      54.4,
+      54.4,
+      54.4,
+      54.4,
+      54.4
+    ],
+    "after": [
+      54.4,
+      54.4,
+      54.4,
+      54.4,
+      54.4
+    ],
+    "before_median": 54.4,
+    "after_median": 54.4,
+    "change_percent": 0.0
+  },
+  "text: render the paragraph warped (Flag)": {
+    "before": [
+      25.3,
+      25.32,
+      26.42,
+      25.84,
+      24.12
+    ],
+    "after": [
+      26.55,
+      25.14,
+      24.39,
+      26.27,
+      25.27
+    ],
+    "before_median": 25.32,
+    "after_median": 25.27,
+    "change_percent": -0.1974723538704648
+  },
+  "eyedropper / color sampler 1\u00d71 average (median)": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "eyedropper / color sampler 11\u00d711 average (median)": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "eyedropper / color sampler 101\u00d7101 average (median)": {
+    "before": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "after": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "before_median": 0.01,
+    "after_median": 0.01,
+    "change_percent": 0.0
+  },
+  "move tool: layer content bounds (Some((8192, 8192)))": {
+    "before": [
+      0.25,
+      0.28,
+      0.19,
+      0.17,
+      0.19
+    ],
+    "after": [
+      0.25,
+      0.23,
+      0.18,
+      0.22,
+      0.23
+    ],
+    "before_median": 0.19,
+    "after_median": 0.23,
+    "change_percent": 21.052631578947366
+  },
+  "crop (tile-aligned), 268 MP \u2192 205 MP": {
+    "before": [
+      1.82,
+      1.95,
+      2.03,
+      1.82,
+      1.83
+    ]
+  },
+  "crop (unaligned), 268 MP \u2192 205 MP": {
+    "before": [
+      4.07,
+      3.8,
+      3.91,
+      3.98,
+      3.87
+    ]
+  },
+  "straighten 3.5\u00b0 (rotate + crop), 268 MP": {
+    "before": [
+      62.41,
+      62.74,
+      62.81,
+      62.66,
+      63.79
+    ]
+  },
+  "perspective crop \u2192 6794 \u00d7 6298": {
+    "before": [
+      45.93,
+      45.29,
+      45.36,
+      45.61,
+      46.08
+    ],
+    "after": [
+      44.53,
+      43.69,
+      44.32,
+      43.85,
+      43.67
+    ],
+    "before_median": 45.61,
+    "after_median": 43.85,
+    "change_percent": -3.8588028941021646
+  },
+  "free transform: scale layer 90%, 268 MP": {
+    "before": [
+      56.4,
+      56.56,
+      56.61,
+      56.52,
+      56.75
+    ]
+  },
+  "Vanishing Point: tear off a perpendicular plane": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "Vanishing Point brush dab, 200 px on the plane (median)": {
+    "before": [
+      0.29,
+      0.27,
+      0.29,
+      0.31,
+      0.28
+    ],
+    "after": [
+      0.31,
+      0.29,
+      0.3,
+      0.3,
+      0.29
+    ],
+    "before_median": 0.29,
+    "after_median": 0.3,
+    "change_percent": 3.4482758620689724
+  },
+  "Vanishing Point stamp dab, 200 px (median)": {
+    "before": [
+      0.72,
+      0.7,
+      0.74,
+      0.76,
+      0.74
+    ],
+    "after": [
+      1.73,
+      1.73,
+      1.77,
+      1.72,
+      1.76
+    ],
+    "before_median": 0.74,
+    "after_median": 1.73,
+    "change_percent": 133.78378378378378
+  },
+  "Vanishing Point marquee copy, 1000 \u00d7 1000 plane px": {
+    "before": [
+      12.31,
+      12.29,
+      12.72,
+      12.66,
+      13.06
+    ],
+    "after": [
+      45.47,
+      48.55,
+      45.88,
+      44.43,
+      46.51
+    ],
+    "before_median": 12.66,
+    "after_median": 45.88,
+    "change_percent": 262.40126382306477
+  },
+  "Vanishing Point marquee copy with Heal": {
+    "before": [
+      43.86,
+      44.2,
+      42.29,
+      45.63,
+      44.11
+    ],
+    "after": [
+      75.33,
+      78.08,
+      73.03,
+      73.9,
+      75.65
+    ],
+    "before_median": 44.11,
+    "after_median": 75.33,
+    "change_percent": 70.77760145091816
+  },
+  "Vanishing Point: place a 2000 \u00d7 2000 image on the plane": {
+    "before": [
+      10.18,
+      9.7,
+      10.14,
+      9.68,
+      10.27
+    ],
+    "after": [
+      31.6,
+      31.5,
+      31.87,
+      31.5,
+      33.17
+    ],
+    "before_median": 10.14,
+    "after_median": 31.6,
+    "change_percent": 211.6370808678501
+  },
+  "Rotate View frame, 4K display (160 GPU tiles, median 4 \u00b5s)": {
+    "before": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "rotated crop 8\u00b0 bilinear (mip), 3840 \u00d7 2560 \u2192 3200 \u00d7 2000": {
+    "before": [
+      7.49,
+      7.43,
+      7.49,
+      7.6,
+      7.74
+    ],
+    "after": [
+      7.72,
+      7.61,
+      7.42,
+      7.64,
+      7.48
+    ],
+    "before_median": 7.49,
+    "after_median": 7.61,
+    "change_percent": 1.602136181575431
+  },
+  "rotated crop 8\u00b0 bicubic, 3840 \u00d7 2560 \u2192 3200 \u00d7 2000": {
+    "before": [
+      10.98,
+      11.19,
+      11.14,
+      11.35,
+      11.17
+    ],
+    "after": [
+      11.17,
+      10.9,
+      10.76,
+      10.93,
+      10.76
+    ],
+    "before_median": 11.17,
+    "after_median": 10.9,
+    "change_percent": -2.4171888988361645
+  },
+  "rotated crop 8\u00b0 Lanczos-3, 3840 \u00d7 2560 \u2192 3200 \u00d7 2000": {
+    "before": [
+      35.41,
+      35.07,
+      35.17,
+      34.79,
+      35.79
+    ],
+    "after": [
+      35.64,
+      35.09,
+      35.01,
+      35.71,
+      35.23
+    ],
+    "before_median": 35.17,
+    "after_median": 35.23,
+    "change_percent": 0.1705999431333316
+  },
+  "rotated crop 8\u00b0, Delete Cropped Pixels off (keeps 3840 \u00d7 2560)": {
+    "before": [
+      18.62,
+      19.04,
+      19.31,
+      19.24,
+      19.31
+    ],
+    "after": [
+      19.05,
+      19.18,
+      18.19,
+      20.28,
+      18.97
+    ],
+    "before_median": 19.24,
+    "after_median": 19.05,
+    "change_percent": -0.9875259875259723
+  },
+  "crop 268 MP keeping hidden pixels (unaligned)": {
+    "before": [
+      5.01,
+      4.88,
+      4.88,
+      5.51,
+      4.92
+    ]
+  },
+  "content-aware crop fill: corners of an 8\u00b0 turn, 3840 \u00d7 2560": {
+    "before": [
+      1084.31,
+      1070.86,
+      1067.53,
+      957.91,
+      900.27
+    ],
+    "after": [
+      971.08,
+      975.95,
+      1023.03,
+      979.2,
+      975.46
+    ],
+    "before_median": 1067.53,
+    "after_median": 975.95,
+    "change_percent": -8.578681629556073
+  },
+  "straighten 3.5\u00b0 bicubic (rotate + crop), 268 MP": {
+    "before": [
+      89.48,
+      90.23,
+      89.72,
+      90.15,
+      89.59
+    ]
+  },
+  "selection add (rect \u222a ellipse)": {
+    "after": [
+      0.73,
+      0.78,
+      0.81,
+      0.8,
+      0.88
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Expand 50 px": {
+    "after": [
+      17.79,
+      17.6,
+      18.32,
+      19.6,
+      19.85
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Contract 50 px": {
+    "after": [
+      14.36,
+      14.69,
+      14.97,
+      14.51,
+      16.43
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Feather 30 px": {
+    "after": [
+      3.81,
+      3.74,
+      3.76,
+      3.74,
+      3.93
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Border 40 px": {
+    "after": [
+      27.65,
+      26.47,
+      27.58,
+      28.58,
+      29.2
+    ]
+  },
+  "Select \u25b8 Modify \u25b8 Smooth 10 px": {
+    "after": [
+      1.63,
+      1.55,
+      1.67,
+      1.85,
+      1.55
+    ]
+  },
+  "Quick Mask enter (selection \u2192 gray)": {
+    "after": [
+      0.4,
+      0.41,
+      0.4,
+      0.36,
+      0.32
+    ]
+  },
+  "Quick Mask exit (gray \u2192 selection)": {
+    "after": [
+      0.21,
+      0.2,
+      0.21,
+      0.28,
+      0.27
+    ]
+  },
+  "magic wand contiguous (sky)": {
+    "after": [
+      10.76,
+      10.87,
+      10.77,
+      10.64,
+      11.29
+    ]
+  },
+  "magic wand Sample All Layers (2 layers)": {
+    "after": [
+      10.96,
+      11.94,
+      11.75,
+      11.32,
+      11.57
+    ]
+  },
+  "Select Subject (GrabCut)": {
+    "after": [
+      65.49,
+      66.05,
+      67.67,
+      66.41,
+      66.17
+    ]
+  },
+  "magic eraser (sky, sample all layers, AA)": {
+    "after": [
+      12.2,
+      12.32,
+      11.77,
+      12.45,
+      12.24
+    ]
+  },
+  "paint bucket with pattern (sky)": {
+    "after": [
+      12.7,
+      13.47,
+      13.04,
+      13.11,
+      12.9
+    ]
+  },
+  "gradient Linear (spectrum, dither)": {
+    "after": [
+      10.33,
+      12.45,
+      12.01,
+      10.27,
+      12.05
+    ]
+  },
+  "gradient Radial (spectrum, dither)": {
+    "after": [
+      10.91,
+      10.72,
+      10.81,
+      10.72,
+      11.61
+    ]
+  },
+  "gradient Angle (spectrum, dither)": {
+    "after": [
+      13.91,
+      14.21,
+      14.31,
+      14.07,
+      14.48
+    ]
+  },
+  "gradient Reflected (spectrum, dither)": {
+    "after": [
+      10.86,
+      10.89,
+      10.49,
+      10.86,
+      10.95
+    ]
+  },
+  "gradient Diamond (spectrum, dither)": {
+    "after": [
+      10.66,
+      11.05,
+      11.07,
+      10.89,
+      11.07
+    ]
+  },
+  "path \u2192 selection (ellipse at 60% width \u00d7 40% height)": {
+    "after": [
+      0.68,
+      0.74,
+      0.68,
+      0.71,
+      0.79
+    ]
+  },
+  "align 20 layers to a key object (document canvas)": {
+    "after": [
+      2.13,
+      2.6,
+      2.82,
+      2.72,
+      2.88
+    ]
+  },
+  "crop (tile-aligned)": {
+    "after": [
+      1.82,
+      1.79,
+      1.83,
+      1.97,
+      1.9
+    ]
+  },
+  "crop (unaligned)": {
+    "after": [
+      3.8,
+      3.86,
+      4.13,
+      3.99,
+      3.96
+    ]
+  },
+  "straighten 3.5\u00b0 (rotate + crop)": {
+    "after": [
+      60.2,
+      60.15,
+      59.94,
+      60.68,
+      59.48
+    ]
+  },
+  "free transform: scale layer 90%": {
+    "after": [
+      54.23,
+      54.06,
+      53.89,
+      53.93,
+      53.72
+    ]
+  },
+  "Rotate View frame, 4K display (160 GPU tiles, median 3 \u00b5s)": {
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before": [
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "crop keeping hidden pixels (unaligned)": {
+    "after": [
+      4.78,
+      5.0,
+      5.06,
+      6.8,
+      5.17
+    ]
+  },
+  "straighten 3.5\u00b0 bicubic (rotate + crop)": {
+    "after": [
+      89.76,
+      89.11,
+      89.26,
+      90.49,
+      89.87
+    ]
+  }
+}

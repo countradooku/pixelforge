@@ -1,0 +1,4 @@
+Filter benchmark — 8192 × 8192 (67 MP), 18 threads, default parameters
+
+Filter Gallery Chalk & Charcoal                  739.5 ms         91 MP/s
+Filter Gallery Charcoal                          701.3 ms         96 MP/s

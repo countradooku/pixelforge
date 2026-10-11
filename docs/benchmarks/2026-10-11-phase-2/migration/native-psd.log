@@ -1,0 +1,9 @@
+{
+  "operation": "native-verify",
+  "count": 1,
+  "failed": 1,
+  "status": "failed",
+  "coverage_complete": false,
+  "fidelity_deferred": true,
+  "warning_gate_verified": false
+}

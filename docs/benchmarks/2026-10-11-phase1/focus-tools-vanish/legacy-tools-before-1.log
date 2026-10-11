@@ -1,0 +1,11 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            122.7 ms
+Vanishing Point: tear off a perpendicular plane                 0.00 ms   budget     1.0 ms   ok
+Vanishing Point brush dab, 200 px on the plane (median)         0.37 ms   budget     4.0 ms   ok
+Vanishing Point stamp dab, 200 px (median)                      0.96 ms   budget     6.0 ms   ok
+Vanishing Point marquee copy, 1000 × 1000 plane px             16.11 ms   budget   150.0 ms   ok
+Vanishing Point marquee copy with Heal                         53.28 ms   budget   400.0 ms   ok
+Vanishing Point: place a 2000 × 2000 image on the plane        11.79 ms   budget   300.0 ms   ok
+
+6 checks, 0 over budget

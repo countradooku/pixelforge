@@ -1,0 +1,37 @@
+[
+  {
+    "name": "build-final",
+    "exit_code": 0,
+    "seconds": 31.43
+  },
+  {
+    "name": "tests-off",
+    "exit_code": 0,
+    "seconds": 24.66
+  },
+  {
+    "name": "tests-default",
+    "exit_code": 0,
+    "seconds": 73.24
+  },
+  {
+    "name": "tests-force",
+    "exit_code": 0,
+    "seconds": 74.61
+  },
+  {
+    "name": "tier-runner",
+    "exit_code": 0,
+    "seconds": 840.61
+  },
+  {
+    "name": "object-comparison",
+    "exit_code": 0,
+    "seconds": 13.95
+  },
+  {
+    "name": "demo-runner",
+    "exit_code": 0,
+    "seconds": 25.39
+  }
+]

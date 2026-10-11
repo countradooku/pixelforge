@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "mode": "native LaunchServices",
+  "per_case_evidence": [
+    "standalone-blend-normal-o100-f100/watchdog.json"
+  ],
+  "restoration_confirmed": true
+}

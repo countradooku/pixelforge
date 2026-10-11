@@ -1,0 +1,8 @@
+{
+  "operation": "generate",
+  "count": 3,
+  "failed": 0,
+  "status": "passed",
+  "coverage_complete": false,
+  "fidelity_deferred": false
+}

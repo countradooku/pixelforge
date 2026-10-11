@@ -1,0 +1,12 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.0 MiB; depth 8 bits/channel
+Tool benchmark — 16384 × 16384 (268 MP), 18 threads
+
+generate test scene                                            504.0 ms
+display: 135 tiles, mask + clip + adjustment, level 0           6.46 ms   budget    26.0 ms   ok
+display: 135 tiles, mask + clip + adjustment, level 3           0.70 ms   budget    26.0 ms   ok
+shape live resize (≈2000–3200 px rounded rect + stroke)         1.21 ms   budget     8.0 ms   ok
+
+3 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 2771.4 MiB
+  memory after: RSS 2824.0 MiB; peak RSS 2824.0 MiB (process lifetime); page-ins 0 (includes file reads)

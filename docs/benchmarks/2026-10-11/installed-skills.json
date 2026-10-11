@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-11",
+  "skills": [
+    {
+      "name": "gpui-kit",
+      "source": "https://github.com/longbridge/gpui-kit/tree/1ccf011620da24d633f7cd6d3c11ca2e97798dcf/skills/gpui-kit",
+      "revision": "1ccf011620da24d633f7cd6d3c11ca2e97798dcf",
+      "file_count": 27,
+      "bytes": 312816,
+      "license": "Apache-2.0; documentation additionally offered under CC-BY-4.0",
+      "installed": "~/.codex/skills/gpui-kit",
+      "verification": "Every installed file matched its pinned upstream Git blob SHA-1."
+    },
+    {
+      "name": "gpui-kit-design-guides",
+      "source": "https://github.com/longbridge/gpui-kit/tree/1ccf011620da24d633f7cd6d3c11ca2e97798dcf/skills/gpui-kit-design-guides",
+      "revision": "1ccf011620da24d633f7cd6d3c11ca2e97798dcf",
+      "file_count": 2,
+      "bytes": 55160,
+      "license": "Apache-2.0; documentation additionally offered under CC-BY-4.0",
+      "installed": "~/.codex/skills/gpui-kit-design-guides",
+      "verification": "Every installed file matched its pinned upstream Git blob SHA-1."
+    },
+    {
+      "name": "rust-code-review",
+      "source": "https://github.com/apollographql/rust-best-practices/tree/eb485a5ddb68e0ded3d79549e994f63ec0a6f6c0/.codex/skills/rust-code-review",
+      "revision": "eb485a5ddb68e0ded3d79549e994f63ec0a6f6c0",
+      "file_count": 2,
+      "bytes": 4323,
+      "license": "Apache-2.0",
+      "installed": "~/.codex/skills/rust-code-review",
+      "verification": "Every installed file matched its pinned upstream Git blob SHA-1."
+    },
+    {
+      "name": "property-based-testing",
+      "source": "https://github.com/trailofbits/skills/tree/442fc9d6c89b1e937e6f7a477e7071ea75fcbea4/plugins/property-based-testing/skills/property-based-testing",
+      "revision": "442fc9d6c89b1e937e6f7a477e7071ea75fcbea4",
+      "file_count": 9,
+      "bytes": 39701,
+      "license": "CC-BY-SA-4.0",
+      "installed": "~/.codex/skills/property-based-testing",
+      "verification": "Every installed file matched its pinned upstream Git blob SHA-1."
+    },
+    {
+      "name": "cargo-fuzz",
+      "source": "https://github.com/trailofbits/skills/tree/442fc9d6c89b1e937e6f7a477e7071ea75fcbea4/plugins/testing-handbook-skills/skills/cargo-fuzz",
+      "revision": "442fc9d6c89b1e937e6f7a477e7071ea75fcbea4",
+      "file_count": 3,
+      "bytes": 15096,
+      "license": "CC-BY-SA-4.0",
+      "installed": "~/.codex/skills/cargo-fuzz",
+      "verification": "Every installed file matched its pinned upstream Git blob SHA-1."
+    }
+  ],
+  "existing_skills_preserved": [
+    "rust-best-practices",
+    "rust-async-patterns",
+    "rust-review"
+  ]
+}

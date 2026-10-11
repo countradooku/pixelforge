@@ -1,0 +1,14 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "macos": "27.0.1",
+  "hw.model": "Mac17,8",
+  "hw.memsize": "51539607552",
+  "hw.physicalcpu": "18",
+  "hw.logicalcpu": "18",
+  "machdep.cpu.brand_string": "Apple M5 Pro",
+  "source_directory": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge",
+  "network_downloads": "none",
+  "new_dependencies": "none",
+  "PROMPT_MCP.md_sha256": "7f9169fe59160d484e94566e9b87918a3571262e51e7a25170466f63c7f3e733"
+}

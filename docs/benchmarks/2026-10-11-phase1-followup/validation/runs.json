@@ -1,0 +1,76 @@
+[
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 7.38,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/tools-24.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 7.87,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/tools-61.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 9.45,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/tools-150.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 11.35,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/tools-268.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "gpu",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 68.6,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/gpu-24.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: Gallery: Note Paper @ 9504x6336",
+      "OVER: Gallery: Glowing Edges @ 9504x6336"
+    ],
+    "suite": "gpu",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 108.98,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/gpu-61.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: Gradient grad: Gradient { name: \"Chrome\", st @ 14204x10652",
+      "OVER: Gallery: Sponge @ 14204x10652",
+      "OVER: Gallery: Plaster @ 14204x10652"
+    ],
+    "suite": "gpu",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 246.98,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/gpu-150.log"
+  },
+  {
+    "budget_misses": [
+      "OVER: Gallery: Diffuse Glow @ 16384x16384",
+      "OVER: Gallery: Stamp @ 16384x16384"
+    ],
+    "suite": "gpu",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 379.91,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/validation/gpu-268.log"
+  }
+]

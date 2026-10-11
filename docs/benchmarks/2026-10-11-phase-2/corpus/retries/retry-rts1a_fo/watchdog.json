@@ -1,0 +1,1454 @@
+{
+  "status": "failed",
+  "restoration_confirmed": false,
+  "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 366, \"name\": \"Progress\", \"layer\": 8, \"bounds\": {\"X\": 628, \"Height\": 129, \"Y\": 466, \"Width\": 472}}]",
+  "seconds": 44.565,
+  "observations": [
+    {
+      "seconds": 0.128,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.701,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.268,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.841,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 2.411,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 2.978,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.544,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.115,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.69,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.265,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.839,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.416,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.99,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.559,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.132,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.704,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.273,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.844,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.417,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.989,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.564,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.134,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.707,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.281,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.852,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.425,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.007,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.584,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 16.154,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 16.738,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 17.317,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 17.907,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 18.492,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 19.078,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 19.661,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 1147,
+            "Height": 403,
+            "Y": 694,
+            "Width": 527
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 627,
+            "Height": 129,
+            "Y": 466,
+            "Width": 474
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 627,
+            "Height": 129,
+            "Y": 466,
+            "Width": 474
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 20.268,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 20.859,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 21.441,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 22.033,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 22.624,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 23.205,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 23.786,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 24.372,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 24.946,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 25.52,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 26.091,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 26.662,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 27.227,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 16,7% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 27.819,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 28.413,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 29.006,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 29.646,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 30.243,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 30.845,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 31.452,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 32.047,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 32.645,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 33.242,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 33.842,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 34.437,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 35.04,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 35.626,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 36.223,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 36.806,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 37.389,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 37.976,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 38.567,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 39.14,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 39.718,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export-layers @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 40.312,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 40.919,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 41.519,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 42.129,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 42.745,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 43.345,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 43.95,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 44.56,
+      "windows": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        },
+        {
+          "id": 369,
+          "name": "pf-export @ 12,5% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 8,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    }
+  ]
+}

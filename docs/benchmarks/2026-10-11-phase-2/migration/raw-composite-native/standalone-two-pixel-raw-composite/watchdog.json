@@ -1,0 +1,68 @@
+{
+  "status": "failed",
+  "restoration_confirmed": true,
+  "error": "Native Photoshop open displayed a dialog before inspection: [{\"id\": 1538, \"name\": \"Pixel Layer Bar\", \"layer\": 8, \"bounds\": {\"X\": 458, \"Height\": 32, \"Y\": 524, \"Width\": 509}}]",
+  "inspection_started": false,
+  "seconds": 0.861,
+  "observations": [
+    {
+      "seconds": 0.243,
+      "stage": "native-open-readiness",
+      "windows": [
+        {
+          "id": 369,
+          "name": "two-pixel-raw-composite.psd @ 100% (Upper alpha, RGB/8#)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.861,
+      "stage": "native-open-readiness",
+      "windows": [
+        {
+          "id": 1538,
+          "name": "Pixel Layer Bar",
+          "layer": 8,
+          "bounds": {
+            "X": 458,
+            "Height": 32,
+            "Y": 524,
+            "Width": 509
+          }
+        },
+        {
+          "id": 369,
+          "name": "two-pixel-raw-composite.psd @ 100% (Upper alpha, RGB/8#)",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1538,
+          "name": "Pixel Layer Bar",
+          "layer": 8,
+          "bounds": {
+            "X": 458,
+            "Height": 32,
+            "Y": 524,
+            "Width": 509
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "generate test scene": {
+    "before": [
+      274.1,
+      263.9,
+      260.3,
+      255.0,
+      257.8,
+      258.7,
+      257.9
+    ],
+    "after": [
+      274.8,
+      258.5,
+      271.4,
+      260.6,
+      253.6,
+      257.1,
+      256.2
+    ],
+    "before_median": 258.7,
+    "after_median": 258.5,
+    "change_percent": -0.07730962504831629
+  },
+  "object selection: first result (coarse GrabCut)": {
+    "before": [
+      15.23,
+      15.31,
+      15.42,
+      14.73,
+      14.26,
+      14.51,
+      14.48
+    ],
+    "after": [
+      15.66,
+      14.38,
+      16.89,
+      14.13,
+      14.23,
+      14.39,
+      14.9
+    ],
+    "before_median": 14.73,
+    "after_median": 14.39,
+    "change_percent": -2.308214528173791
+  },
+  "object selection: refined (1 MP GrabCut + guided edge)": {
+    "before": [
+      96.73,
+      100.77,
+      94.97,
+      93.73,
+      94.95,
+      93.83,
+      94.52
+    ],
+    "after": [
+      97.77,
+      95.58,
+      98.94,
+      94.13,
+      93.97,
+      96.67,
+      94.71
+    ],
+    "before_median": 94.95,
+    "after_median": 95.58,
+    "change_percent": 0.6635071090047351
+  },
+  "Select Subject (GrabCut)": {
+    "before": [
+      137.02,
+      138.94,
+      134.42,
+      131.95,
+      135.85,
+      135.11,
+      136.84
+    ],
+    "after": [
+      137.98,
+      134.47,
+      138.3,
+      131.59,
+      132.92,
+      132.02,
+      134.19
+    ],
+    "before_median": 135.85,
+    "after_median": 134.19,
+    "change_percent": -1.2219359587780643
+  },
+  "object finder precompute (objects, background)": {
+    "before": [
+      4898.39,
+      4484.26,
+      4587.51,
+      4482.22,
+      4475.7,
+      4452.84,
+      4438.7
+    ],
+    "after": [
+      1389.77,
+      1382.92,
+      1377.4,
+      1352.69,
+      1371.39,
+      1357.68,
+      1383.8
+    ],
+    "before_median": 4482.22,
+    "after_median": 1377.4,
+    "change_percent": -69.26969225071504
+  },
+  "object finder hover lookup (sampled objects): p95": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "object finder click \u2192 selection (guided upsample)": {
+    "before": [
+      5.39,
+      5.36,
+      5.76,
+      5.35,
+      5.27,
+      5.55,
+      5.41
+    ],
+    "after": [
+      5.76,
+      5.62,
+      6.21,
+      5.48,
+      5.88,
+      5.67,
+      5.66
+    ],
+    "before_median": 5.39,
+    "after_median": 5.67,
+    "change_percent": 5.1948051948051965
+  },
+  "OVER: object finder precompute (objects, background) (4898.39 ms >": {
+    "before": [
+      2000.0
+    ]
+  },
+  "OVER: object finder precompute (objects, background) (4484.26 ms >": {
+    "before": [
+      2000.0
+    ]
+  },
+  "OVER: object finder precompute (objects, background) (4587.51 ms >": {
+    "before": [
+      2000.0
+    ]
+  },
+  "OVER: object finder precompute (objects, background) (4482.22 ms >": {
+    "before": [
+      2000.0
+    ]
+  },
+  "OVER: object finder precompute (objects, background) (4475.70 ms >": {
+    "before": [
+      2000.0
+    ]
+  },
+  "OVER: object finder precompute (objects, background) (4452.84 ms >": {
+    "before": [
+      2000.0
+    ]
+  },
+  "OVER: object finder precompute (objects, background) (4438.70 ms >": {
+    "before": [
+      2000.0
+    ]
+  }
+}

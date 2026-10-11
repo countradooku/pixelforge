@@ -1,0 +1,22 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            129.4 ms
+shape resize (stroked ellipse to 9000 px): p95/frame            2.84 ms   budget     8.0 ms   ok
+shape resize (7-point star to 9000 px): p95/frame               2.50 ms   budget     8.0 ms   ok
+path op Combine on two 500-anchor paths (7268+7268 segs, area 13298678) median      3.86 ms   budget     8.0 ms   ok
+path op Subtract on two 500-anchor paths (7268+7268 segs, area 730705) median      3.36 ms   budget     8.0 ms   ok
+path op Intersect on two 500-anchor paths (7268+7268 segs, area 11837268) median      2.98 ms   budget     8.0 ms   ok
+path op Exclude on two 500-anchor paths (7268+7268 segs, area 1461410) median      2.97 ms   budget     8.0 ms   ok
+live Subtract (2×500 anchors, gradient + dashed stroke), p95/frame      8.76 ms   budget    16.0 ms   ok
+Merge Shape Components (2×500 anchors)                          2.79 ms   budget     8.0 ms   ok
+corner radius widget drag (rotated 4000 px rect): p95/event      1.44 ms   budget     8.0 ms   ok
+frame: move placed content (3000 px frame): p95/event           9.07 ms   budget    26.0 ms   ok
+path → selection (ellipse at 60% width × 40% height)            0.60 ms   budget   200.0 ms   ok
+stroke path (star, 9961 px long, 30 px brush)                   4.13 ms   budget   100.0 ms   ok
+freeform pen fit (2000 pts → 32 cubics)                         0.21 ms   budget    30.0 ms   ok
+
+13 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 513.2 MiB
+  memory after: RSS 730.7 MiB; peak RSS 730.7 MiB (process lifetime); page-ins 0 (includes file reads)

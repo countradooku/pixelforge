@@ -1,0 +1,171 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+warning: associated items `double`, `text`, and `as_f64` are never used
+   --> src/engine/psd/descriptor.rs:185:12
+    |
+184 | impl Value {
+    | ---------- associated items in this implementation
+185 |     pub fn double(value: f64) -> Self {
+    |            ^^^^^^
+...
+188 |     pub fn text(value: &str) -> Self {
+    |            ^^^^
+...
+191 |     pub fn as_f64(&self) -> Option<f64> {
+    |            ^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: methods `key`, `value`, and `value_mut` are never used
+  --> src/engine/psd/engine_data.rs:40:12
+   |
+36 | impl Entry {
+   | ---------- methods in this implementation
+...
+40 |     pub fn key(&self) -> &[u8] {
+   |            ^^^
+...
+43 |     pub fn value(&self) -> &Node {
+   |            ^^^^^
+...
+46 |     pub fn value_mut(&mut self) -> &mut Node {
+   |            ^^^^^^^^^
+
+warning: methods `get_index` and `get_index_mut` are never used
+   --> src/engine/psd/engine_data.rs:95:12
+    |
+ 60 | impl Node {
+    | --------- methods in this implementation
+...
+ 95 |     pub fn get_index(&self, index: usize) -> Option<&Node> {
+    |            ^^^^^^^^^
+...
+101 |     pub fn get_index_mut(&mut self, index: usize) -> Option<&mut Node> {
+    |            ^^^^^^^^^^^^^
+
+warning: method `source` is never used
+   --> src/engine/psd/engine_data.rs:180:12
+    |
+166 | impl EngineData {
+    | --------------- method in this implementation
+...
+180 |     pub fn source(&self) -> &[u8] {
+    |            ^^^^^^
+
+warning: function `font_from_postscript` is never used
+  --> src/engine/text.rs:73:15
+   |
+73 | pub(crate) fn font_from_postscript(name: &str) -> Option<(String, u16, bool)> {
+   |               ^^^^^^^^^^^^^^^^^^^^
+
+warning: function `postscript_from_font` is never used
+  --> src/engine/text.rs:80:15
+   |
+80 | pub(crate) fn postscript_from_font(family: &str, weight: u16, italic: bool) -> Option<String> {
+   |               ^^^^^^^^^^^^^^^^^^^^
+
+warning: field `limitations` is never read
+   --> src/engine/text.rs:437:16
+    |
+435 | pub(crate) struct ImportedText {
+    |                   ------------ field in this struct
+436 |     pub(crate) raster_bounds: RectI,
+437 |     pub(crate) limitations: Vec<String>,
+    |                ^^^^^^^^^^^
+    |
+    = note: `ImportedText` has derived impls for the traits `Debug` and `Clone`, but these are intentionally ignored during dead code analysis
+
+warning: method `imported_text_limitations` is never used
+   --> src/engine/text.rs:484:12
+    |
+458 | impl TextLayer {
+    | -------------- method in this implementation
+...
+484 |     pub fn imported_text_limitations(&self) -> &[String] {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `pixelforge` (bin "pixelforge" test) generated 8 warnings
+    Finished `release` profile [optimized] target(s) in 31.68s
+     Running unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)
+
+running 63 tests
+test engine::psd::compression::tests::all_methods_round_trip_boundary_runs_and_prediction_wrap ... ok
+test engine::psd::compression::tests::allocation_limit_precedes_decoding ... ok
+test engine::psd::compression::tests::bitmap_rows_use_ceil_byte_width ... ok
+test engine::psd::compression::tests::encoded_output_limit_applies_during_all_compressors ... ok
+test engine::psd::compression::tests::packbits_rejects_truncation_overrun_and_underrun ... ok
+test engine::psd::compression::tests::specification_packbits_vectors_decode_without_encoder ... ok
+test engine::psd::compression::tests::zip_rejects_truncation_appended_stream_and_expansion_beyond_dimensions ... ok
+test engine::psd::descriptor::tests::all_types_and_wire_distinctions_round_trip ... ok
+test engine::psd::descriptor::tests::bounded_suffix_and_prefix_consumption_are_preserved ... ok
+test engine::psd::descriptor::tests::editing_known_key_keeps_unknown_keys_payloads_and_order_exact ... ok
+test engine::psd::descriptor::tests::empty_string_identifier_cannot_emit_an_ambiguous_length ... ok
+test engine::psd::descriptor::tests::input_output_allocation_item_and_depth_limits_are_enforced ... ok
+test engine::psd::descriptor::tests::literal_integer_descriptor_matches_adobe_layout ... ok
+test engine::psd::descriptor::tests::malicious_lengths_fail_before_allocation ... ok
+test engine::psd::descriptor::tests::nested_unknown_type_preserves_parent_without_guessing_its_length ... ok
+test engine::psd::descriptor::tests::truncated_input_never_becomes_opaque_success ... ok
+test engine::psd::descriptor::tests::unknown_list_type_does_not_assume_a_payload_minimum ... ok
+test engine::psd::descriptor::tests::unknown_type_preserves_entire_bounded_parent ... ok
+test engine::psd::engine_data::tests::adding_key_keeps_unknown_value_lexemes ... ok
+test engine::psd::engine_data::tests::binary_strings_escape_parentheses_backslashes_and_all_byte_values ... ok
+test engine::psd::engine_data::tests::cannot_emit_nonfinite_real_or_operator_injection_atom ... ok
+test engine::psd::engine_data::tests::copied_document_remains_independently_editable ... ok
+test engine::psd::engine_data::tests::depth_count_input_and_allocation_limits_are_enforced ... ok
+test engine::psd::engine_data::tests::foreign_source_nodes_fail_instead_of_using_wrong_raw_bytes ... ok
+test engine::psd::engine_data::tests::implicit_root_and_duplicate_keys_are_lossless ... ok
+test engine::psd::engine_data::tests::invalid_utf16_is_preserved_but_not_silently_decoded ... ok
+test engine::psd::engine_data::tests::leaf_edit_preserves_unknown_sibling_bytes_and_whitespace ... ok
+test engine::psd::engine_data::tests::malformed_delimiters_escapes_and_incomplete_values_fail ... ok
+test engine::psd::engine_data::tests::real_type_and_negative_zero_survive_reencoding ... ok
+test engine::psd::engine_data::tests::untouched_tree_retains_every_lexical_byte ... ok
+test engine::psd::engine_data::tests::utf16_supplementary_characters_round_trip ... ok
+test engine::psd::inspect::tests::every_known_descriptor_envelope_is_checked ... ok
+test engine::psd::inspect::tests::inspection_preserves_duplicate_layer_blocks_and_resource_order ... ok
+test engine::psd::inspect::tests::invalid_engine_data_is_a_visible_validation_failure ... ok
+test engine::psd::inspect::tests::malformed_known_envelope_is_reported_without_mutating_raw_document ... ok
+test engine::psd::inspect::tests::text_envelope_checks_both_descriptors_and_engine_data ... ok
+test engine::psd::inspect::tests::unknown_type_and_future_version_remain_opaque ... ok
+test engine::psd::mapping::tests::all_blend_keys_roundtrip_and_unknown_is_rejected ... ok
+test engine::psd::mapping::tests::changed_private_state_can_clear_selection ... ok
+test engine::psd::mapping::tests::pixel_psd_and_psb_preserve_channels_and_private_selection ... FAILED
+test engine::psd::mapping::tests::preserved_references_block_unsafe_geometry_or_stack_changes ... ok
+test engine::psd::mapping::tests::sibling_pixel_edit_preserves_unknown_blocks_and_straight_channels ... ok
+test engine::psd::mapping::tests::unsupported_live_semantics_fail_without_creating_output ... ok
+test engine::psd::mapping::tests::user_mask_and_nested_groups_roundtrip_stable_ids ... ok
+test engine::psd::masks::tests::all_mask_parameters_and_noncanonical_double_bits_survive ... ok
+test engine::psd::masks::tests::blend_ranges_retain_split_sliders_without_silent_identity ... ok
+test engine::psd::masks::tests::group_divider_preserves_subtype_tail_and_checks_signature ... ok
+test engine::psd::masks::tests::mask_20byte_and_36byte_variants_preserve_padding_and_distinct_bounds ... ok
+test engine::psd::masks::tests::relative_mask_bounds_use_layer_origin_and_reject_overflow ... ok
+test engine::psd::masks::tests::truncated_parameter_and_real_mask_are_rejected ... ok
+test engine::psd::masks::tests::vector_knot_count_and_partial_record_are_checked ... ok
+test engine::psd::masks::tests::vector_mask_preserves_signed_knots_operations_and_unknown_fields ... ok
+test engine::psd::tests::color_modes_and_palette_survive_raw_round_trip ... ok
+test engine::psd::tests::every_truncated_prefix_fails_parse_or_composite_decode ... ok
+test engine::psd::tests::later_phase_depths_and_invalid_header_values_are_explicit_errors ... ok
+test engine::psd::tests::limits_reject_file_layer_and_block_counts ... ok
+test engine::psd::tests::malformed_additional_block_length_is_not_silently_preserved ... ok
+test engine::psd::tests::malformed_section_length_is_rejected_without_allocation ... ok
+test engine::psd::tests::psb_uses_eight_byte_lengths_only_for_specified_tag_keys ... ok
+test engine::psd::tests::psd_and_psb_preserve_all_structural_bytes_including_padding ... ok
+test engine::psd::tests::signed_layer_count_preserves_merged_transparency ... ok
+test engine::psd::tests::unknown_duplicate_keys_keep_order_and_opaque_tail ... ok
+test engine::psd::tests::unrelated_name_and_pixel_edit_keep_unknown_blocks_exact ... ok
+
+failures:
+
+---- engine::psd::mapping::tests::pixel_psd_and_psb_preserve_channels_and_private_selection stdout ----
+
+thread 'engine::psd::mapping::tests::pixel_psd_and_psb_preserve_channels_and_private_selection' (591456) panicked at src/engine/psd/mapping.rs:453:13:
+assertion `left == right` failed: Unedited straight channels must not be regenerated
+  left: PsdDocument { header: Header { version: Psd, channels: 4, height: 3, width: 5, depth: 8, color_mode: 3 }, color_mode_data: RawBytes { length: 0 }, resources: [ImageResource { signature: [56, 66, 73, 77], id: 4000, name: RawBytes { length: 2 }, data: RawBytes { length: 41 }, padding: RawBytes { length: 1 } }], layer_mask: LayerMaskInfo { present: true, layer_info_present: true, merged_alpha: true, layers: [LayerRecord { bounds: [0, 0, 3, 5], channels: [ChannelData { id: 0, encoded: RawBytes { length: 16 } }, ChannelData { id: 1, encoded: RawBytes { length: 17 } }, ChannelData { id: 2, encoded: RawBytes { length: 12 } }, ChannelData { id: -1, encoded: RawBytes { length: 12 } }], blend_mode: [110, 111, 114, 109], opacity: 255, clipping: 0, flags: 8, filler: 0, mask: RawBytes { length: 0 }, blending_ranges: RawBytes { length: 0 }, name: RawBytes { length: 12 }, additional_info: [AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 117, 110, 105], data: RawBytes { length: 26 }, padding: RawBytes { length: 0 } }, AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 121, 105, 100], data: RawBytes { length: 4 }, padding: RawBytes { length: 0 } }], extra_tail: RawBytes { length: 0 } }, LayerRecord { bounds: [0, 0, 3, 5], channels: [ChannelData { id: 0, encoded: RawBytes { length: 15 } }, ChannelData { id: 1, encoded: RawBytes { length: 15 } }, ChannelData { id: 2, encoded: RawBytes { length: 25 } }, ChannelData { id: -1, encoded: RawBytes { length: 15 } }], blend_mode: [110, 111, 114, 109], opacity: 192, clipping: 0, flags: 8, filler: 0, mask: RawBytes { length: 0 }, blending_ranges: RawBytes { length: 0 }, name: RawBytes { length: 8 }, additional_info: [AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 117, 110, 105], data: RawBytes { length: 18 }, padding: RawBytes { length: 0 } }, AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 121, 105, 100], data: RawBytes { length: 4 }, padding: RawBytes { length: 0 } }, AdditionalInfo { signature: [56, 66, 73, 77], key: [105, 79, 112, 97], data: RawBytes { length: 2 }, padding: RawBytes { length: 0 } }], extra_tail: RawBytes { length: 0 } }], layer_info_tail: RawBytes { length: 1 }, global_mask: Some(RawBytes { length: 0 }), additional_info: [], tail: RawBytes { length: 0 } }, image_data: RawBytes { length: 58 } }
+ right: PsdDocument { header: Header { version: Psd, channels: 4, height: 3, width: 5, depth: 8, color_mode: 3 }, color_mode_data: RawBytes { length: 0 }, resources: [ImageResource { signature: [56, 66, 73, 77], id: 4000, name: RawBytes { length: 2 }, data: RawBytes { length: 41 }, padding: RawBytes { length: 1 } }], layer_mask: LayerMaskInfo { present: true, layer_info_present: true, merged_alpha: true, layers: [LayerRecord { bounds: [0, 0, 3, 5], channels: [ChannelData { id: 0, encoded: RawBytes { length: 16 } }, ChannelData { id: 1, encoded: RawBytes { length: 17 } }, ChannelData { id: 2, encoded: RawBytes { length: 12 } }, ChannelData { id: -1, encoded: RawBytes { length: 12 } }], blend_mode: [110, 111, 114, 109], opacity: 255, clipping: 0, flags: 8, filler: 0, mask: RawBytes { length: 0 }, blending_ranges: RawBytes { length: 0 }, name: RawBytes { length: 12 }, additional_info: [AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 117, 110, 105], data: RawBytes { length: 26 }, padding: RawBytes { length: 0 } }, AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 121, 105, 100], data: RawBytes { length: 4 }, padding: RawBytes { length: 0 } }], extra_tail: RawBytes { length: 0 } }, LayerRecord { bounds: [0, 0, 3, 5], channels: [ChannelData { id: 0, encoded: RawBytes { length: 15 } }, ChannelData { id: 1, encoded: RawBytes { length: 15 } }, ChannelData { id: 2, encoded: RawBytes { length: 25 } }, ChannelData { id: -1, encoded: RawBytes { length: 15 } }], blend_mode: [110, 111, 114, 109], opacity: 192, clipping: 0, flags: 8, filler: 0, mask: RawBytes { length: 0 }, blending_ranges: RawBytes { length: 0 }, name: RawBytes { length: 8 }, additional_info: [AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 117, 110, 105], data: RawBytes { length: 18 }, padding: RawBytes { length: 0 } }, AdditionalInfo { signature: [56, 66, 73, 77], key: [108, 121, 105, 100], data: RawBytes { length: 4 }, padding: RawBytes { length: 0 } }, AdditionalInfo { signature: [56, 66, 73, 77], key: [105, 79, 112, 97], data: RawBytes { length: 2 }, padding: RawBytes { length: 0 } }], extra_tail: RawBytes { length: 0 } }], layer_info_tail: RawBytes { length: 0 }, global_mask: Some(RawBytes { length: 0 }), additional_info: [], tail: RawBytes { length: 0 } }, image_data: RawBytes { length: 58 } }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    engine::psd::mapping::tests::pixel_psd_and_psb_preserve_channels_and_private_selection
+
+test result: FAILED. 62 passed; 1 failed; 0 ignored; 0 measured; 408 filtered out; finished in 0.01s
+
+error: test failed, to rerun pass `--bin pixelforge`

@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {
+      "id": "negative-truncated",
+      "family": "negative-control",
+      "status": "expected-dialog-detected",
+      "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 1403, \"name\": \"Adobe Photoshop\", \"layer\": 8, \"bounds\": {\"X\": 734, \"Height\": 224, \"Y\": 233, \"Width\": 260}}]",
+      "watchdog_dialog_confirmed": true,
+      "rejection_confirmed": true,
+      "cleanup_required": "Only the task-owned malformed-file dialog remains; no automatic dismissal was performed"
+    }
+  ],
+  "restoration_confirmed": false,
+  "warning_gate_verified": false,
+  "open_dialog_mode": "native LaunchServices",
+  "fatal_error": null
+}

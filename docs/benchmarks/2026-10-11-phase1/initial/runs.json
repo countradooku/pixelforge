@@ -1,0 +1,100 @@
+[
+  {
+    "suite": "engine",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 0.84,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-24.log"
+  },
+  {
+    "suite": "engine",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 0.46,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-61.log"
+  },
+  {
+    "suite": "engine",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 0.96,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-150.log"
+  },
+  {
+    "suite": "engine",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 1.45,
+    "log": "docs/benchmarks/2026-10-11-phase1/engine-268.log"
+  },
+  {
+    "suite": "tools",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 11.02,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-24.log"
+  },
+  {
+    "suite": "tools",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 10.87,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-61.log"
+  },
+  {
+    "suite": "tools",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 17.6,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-150.log"
+  },
+  {
+    "suite": "tools",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 16.4,
+    "log": "docs/benchmarks/2026-10-11-phase1/tools-268.log"
+  },
+  {
+    "suite": "filters",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 8.41,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-24.log"
+  },
+  {
+    "suite": "filters",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 20.59,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-61.log"
+  },
+  {
+    "suite": "filters",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 51.84,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-150.log"
+  },
+  {
+    "suite": "filters",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 93.35,
+    "log": "docs/benchmarks/2026-10-11-phase1/filters-268.log"
+  },
+  {
+    "suite": "gpu",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 81.94,
+    "log": "docs/benchmarks/2026-10-11-phase1/gpu-24.log"
+  },
+  {
+    "suite": "gpu",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 136.21,
+    "log": "docs/benchmarks/2026-10-11-phase1/gpu-61.log"
+  }
+]

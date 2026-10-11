@@ -1,0 +1,27 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            124.5 ms
+clone stamp 500 px: per dab (30 dabs)                           0.37 ms   budget     8.0 ms   ok
+clone stamp 500 px: p95 per mouse event                         0.39 ms   budget     2.0 ms   ok
+healing brush 100 px: per dab (147 dabs)                        0.94 ms   budget     8.0 ms   ok
+healing brush 100 px: p95 per mouse event                       2.07 ms   budget    16.0 ms   ok
+healing brush 200 px: per dab (74 dabs)                         1.66 ms   budget     8.0 ms   ok
+healing brush 200 px: p95 per mouse event                       1.94 ms   budget    16.0 ms   ok
+healing brush 300 px: per dab (49 dabs)                         2.70 ms   budget     8.0 ms   ok
+healing brush 300 px: p95 per mouse event                       2.94 ms   budget    16.0 ms   ok
+healing brush 500 px: per dab (30 dabs)                         5.12 ms   budget     8.0 ms   ok
+healing brush 500 px: p95 per mouse event                       5.36 ms   budget    16.0 ms   ok
+healing brush 500 px, Quality: Exact: per dab (30 dabs)         8.98 ms   budget    16.0 ms   ok
+healing brush 500 px, Quality: Exact: p95 per mouse event       9.90 ms   budget    16.0 ms   ok
+spot healing: 300 px blemish (PatchMatch + multigrid)          55.25 ms   budget    60.0 ms   ok
+spot healing, Create Texture: 300 px (quilting + multigrid)     36.40 ms   budget    60.0 ms   ok
+Content-Aware Fill workspace: 300 px (Auto sampling)           85.13 ms   budget   150.0 ms   ok
+Content-Aware Fill workspace: 1 MP (Auto sampling)            479.78 ms   budget   600.0 ms   ok
+Content-Aware Fill workspace: 1 MP, rotation Medium + scale + mirror    534.20 ms   budget  2000.0 ms   ok
+patch (content-aware), 1 MP region                            290.63 ms   budget   400.0 ms   ok
+patch (normal, source), 1 MP region                            20.22 ms   budget   400.0 ms   ok
+content-aware move, 1 MP object                               336.10 ms   budget   400.0 ms   ok
+red eye (60 px pupil: detect + fix)                             0.56 ms   budget    30.0 ms   ok
+history brush 500 px: median per mouse event                    0.29 ms   budget     2.0 ms   ok
+
+22 checks, 0 over budget

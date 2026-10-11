@@ -1,0 +1,60 @@
+{
+  "status": "failed",
+  "restoration_confirmed": false,
+  "bridge_exit_code": 0,
+  "error": "Photoshop did not confirm restoration of preferences and active document",
+  "seconds": 1.821,
+  "observations": [
+    {
+      "seconds": 0.152,
+      "windows": [
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.734,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-blend-normal-o100-f100 @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.314,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-pixels-opaque-default @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    }
+  ]
+}

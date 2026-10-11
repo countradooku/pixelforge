@@ -1,0 +1,20 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+    Finished `release` profile [optimized] target(s) in 32.53s
+       32.56 real       262.34 user         9.33 sys
+          4609179648  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1544173  page reclaims
+                 650  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   3  signals received
+                 114  voluntary context switches
+              334919  involuntary context switches
+          3278842045  instructions retired
+          1072752134  cycles elapsed
+           135283504  peak memory footprint

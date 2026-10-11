@@ -1,0 +1,4 @@
+Running gpu 150 MP
+{"budget_misses": ["OVER: Threshold level: 128.0 @ 14204x10652", "OVER: Skin Smoothing r=8, smoothness: 40.0 @ 14204x10652", "OVER: Gallery: Cutout @ 14204x10652", "OVER: Gallery: Fresco @ 14204x10652", "OVER: Gallery: Plastic Wrap @ 14204x10652", "OVER: Gallery: Ink Outlines @ 14204x10652", "OVER: Gallery: Photocopy @ 14204x10652", "OVER: Gallery: Reticulation @ 14204x10652"], "suite": "gpu", "tier": "150", "exit_code": 0, "seconds": 279.68, "log": "docs/benchmarks/2026-10-11-phase1/gpu-150.log"}
+Running gpu 268 MP
+{"budget_misses": ["OVER: Skin Smoothing r=8, smoothness: 40.0 @ 16384x16384", "OVER: Gallery: Cutout @ 16384x16384", "OVER: Gallery: Fresco @ 16384x16384", "OVER: Gallery: Photocopy @ 16384x16384"], "suite": "gpu", "tier": "268", "exit_code": 0, "seconds": 433.92, "log": "docs/benchmarks/2026-10-11-phase1/gpu-268.log"}

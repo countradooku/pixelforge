@@ -1,0 +1,9 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.0 MiB; depth 8 bits/channel
+Memory benchmark — 6000 × 4000; RGBA8, 20 undo states
+procedural LZ4: 19.376 ms encode, 4.575 ms decode+verify, 16777216 → 10787852 bytes (64.3%)
+procedural deflate-1: 64.117 ms encode, 44.006 ms decode+verify, 16777216 → 8240450 bytes (49.1%)
+incompressible LZ4: 0.035 ms encode, 0.016 ms decode+verify, 262144 → 263173 bytes (100.4%)
+incompressible deflate-1: 0.678 ms encode, 0.493 ms decode+verify, 262144 → 262369 bytes (100.1%)
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 32.0 MiB
+  memory after: RSS 75.2 MiB; peak RSS 75.2 MiB (process lifetime); page-ins 0 (includes file reads)

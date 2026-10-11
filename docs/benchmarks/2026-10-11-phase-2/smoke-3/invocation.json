@@ -1,0 +1,43 @@
+{
+  "operation": "generate",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/smoke-3",
+  "cases": [
+    {
+      "id": "blend-normal-o100-f100",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-normal-o100-f100.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-opaque-default",
+      "family": "pixels",
+      "feature": "opaque",
+      "variant": "default",
+      "params": {
+        "psb": false
+      },
+      "filename": "pixels-opaque-default.psd",
+      "fidelity": "exact"
+    },
+    {
+      "id": "pixels-psb-default",
+      "family": "pixels",
+      "feature": "psb",
+      "variant": "default",
+      "params": {
+        "psb": true
+      },
+      "filename": "pixels-psb-default.psb",
+      "fidelity": "exact"
+    }
+  ],
+  "input": "",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/smoke-3/reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/smoke-3/abort-requested.txt"
+}

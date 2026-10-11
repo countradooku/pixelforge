@@ -1,0 +1,29 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "cargo",
+      "build",
+      "--release",
+      "--offline",
+      "--locked"
+    ],
+    "exit_code": 0,
+    "seconds": 36.24001908300124
+  },
+  {
+    "name": "benchmark-tests",
+    "command": [
+      "cargo",
+      "test",
+      "--release",
+      "--offline",
+      "--locked",
+      "bench_config::",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "seconds": 29.58035150000069
+  }
+]

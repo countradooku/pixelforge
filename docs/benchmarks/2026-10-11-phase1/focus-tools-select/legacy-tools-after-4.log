@@ -1,0 +1,17 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            145.7 ms
+selection add (rect ∪ ellipse)                                  1.58 ms   budget   150.0 ms   ok
+Select ▸ Modify ▸ Expand 50 px                                 23.56 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Contract 50 px                               19.65 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Feather 30 px                                 5.18 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Border 40 px                                 34.74 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Smooth 10 px                                  2.15 ms   budget  1000.0 ms   ok
+Quick Mask enter (selection → gray)                             0.72 ms   budget   150.0 ms   ok
+Quick Mask exit (gray → selection)                              0.27 ms   budget   300.0 ms   ok
+
+8 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 379.0 MiB
+  memory after: RSS 585.0 MiB; peak RSS 585.0 MiB (process lifetime); page-ins 0 (includes file reads)

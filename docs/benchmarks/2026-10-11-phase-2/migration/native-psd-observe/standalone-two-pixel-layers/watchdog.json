@@ -1,0 +1,96 @@
+{
+  "status": "failed",
+  "restoration_confirmed": true,
+  "bridge_exit_code": 0,
+  "error": "A transient Photoshop dialog was observed; warning-free gate failed",
+  "seconds": 1.912,
+  "observations": [
+    {
+      "seconds": 0.228,
+      "windows": [
+        {
+          "id": 1504,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 859,
+            "Height": 8,
+            "Y": 341,
+            "Width": 10
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1504,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 859,
+            "Height": 8,
+            "Y": 341,
+            "Width": 10
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 0.816,
+      "windows": [
+        {
+          "id": 1504,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1504,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 1.404,
+      "windows": [
+        {
+          "id": 1504,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1504,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ]
+    }
+  ]
+}

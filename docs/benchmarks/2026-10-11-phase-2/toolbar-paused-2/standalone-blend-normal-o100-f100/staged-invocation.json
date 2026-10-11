@@ -1,0 +1,23 @@
+{
+  "operation": "inspect_open",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-paused-2/standalone-blend-normal-o100-f100",
+  "cases": [
+    {
+      "id": "standalone-blend-normal-o100-f100",
+      "filename": "blend-normal-o100-f100.psd",
+      "family": "standalone-writer",
+      "feature": "native-open-and-resave",
+      "params": {
+        "psb": false
+      },
+      "fidelity": "exact"
+    }
+  ],
+  "input": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/roundtrip",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-paused-2-reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-paused-2/standalone-blend-normal-o100-f100/abort-requested.txt",
+  "expected_jsx_sha256": "9e834056d5983a06b0638e33214a19267eed1e4d3059cc9f9e8999e5a7aa93cc",
+  "pause_before_export_seconds": 30.0,
+  "native_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/roundtrip/blend-normal-o100-f100.psd",
+  "previous_document_id": null
+}

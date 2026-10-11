@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "restoration_confirmed": true,
+  "bridge_exit_code": 0,
+  "seconds": 0.661,
+  "observations": [
+    {
+      "seconds": 0.154,
+      "windows": [
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    }
+  ]
+}

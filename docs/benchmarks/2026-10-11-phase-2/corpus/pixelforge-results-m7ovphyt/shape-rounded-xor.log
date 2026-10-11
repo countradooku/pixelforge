@@ -1,0 +1,19 @@
+PSD editable mapping failed: Layer "Compound rounded xor" contains SoCo whose editable mapping is not implemented; the raw codec preserves it
+        0.01 real         0.00 user         0.00 sys
+            16547840  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1375  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                 157  involuntary context switches
+            80386717  instructions retired
+            33039193  cycles elapsed
+             7471800  peak memory footprint

@@ -1,0 +1,13 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            118.7 ms
+brush 500 px soft: median per mouse event                       0.28 ms   budget     2.0 ms   ok
+brush 500 px soft: p95 per mouse event                          0.36 ms   budget     2.0 ms   ok
+brush 500 px, angle+roundness+texture+scatter: median per mouse event      0.30 ms   budget     2.0 ms   ok
+brush 500 px, angle+roundness+texture+scatter: p95 per mouse event      0.37 ms   budget     2.0 ms   ok
+pencil 500 px aliased: median per mouse event                   0.00 ms   budget     2.0 ms   ok
+pencil 500 px aliased: p95 per mouse event                      0.32 ms   budget     2.0 ms   ok
+brush 500 px, every dynamic on (sampled tip, dual, colour per tip): median per mouse event      0.37 ms   budget     2.0 ms   ok
+brush 500 px, every dynamic on (sampled tip, dual, colour per tip): p95 per mouse event      1.18 ms   budget     2.0 ms   ok
+
+8 checks, 0 over budget

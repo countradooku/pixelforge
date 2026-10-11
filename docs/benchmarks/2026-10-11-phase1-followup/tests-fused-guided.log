@@ -1,0 +1,9 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+    Finished `release` profile [optimized] target(s) in 25.85s
+     Running unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)
+
+running 1 test
+test engine::segment::tests::fused_guided_filter_is_bit_exact_with_the_separate_passes ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 400 filtered out; finished in 0.01s
+

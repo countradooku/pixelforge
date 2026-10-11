@@ -1,0 +1,3 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+    Finished `release` profile [optimized] target(s) in 24.46s
+  Executable unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)

@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "error": "Photoshop did not confirm restoration of preferences and active document",
+  "restoration": "Check watchdog.json. A blocked bridge cannot confirm restoration; Photoshop was not killed and dialogs were not dismissed."
+}

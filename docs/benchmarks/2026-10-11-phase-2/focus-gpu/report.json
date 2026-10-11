@@ -1,0 +1,5056 @@
+{
+  "suite": "gpu",
+  "only": "compositing",
+  "repetitions": 15,
+  "PF_GPU": "force",
+  "status": "completed",
+  "binary_sha256": {
+    "before": "59db5eeadb9c09b6a13b91c53425075b5da9d5046463de369e6f5542f08ac041",
+    "after": "0b2eddf17c0c49e87a833e85ad213572b5fbdfefc0cf5f688fd66dc765637fad"
+  },
+  "runs": [
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 0,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/0",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-0.log",
+      "exit_code": 0,
+      "seconds": 4.024309415999596,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          57.7
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          138.7
+        ],
+        "compositing / GPU warm all tiles": [
+          6.2
+        ],
+        "compositing / GPU one-tile edit": [
+          9.6
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 243.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11857.0,
+          "peak_rss_mib": 11857.0,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 243.6 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11857.0 MiB; peak RSS 11857.0 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 0,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/0",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-0.log",
+      "exit_code": 0,
+      "seconds": 3.8718038750012056,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          68.2
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          138.0
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          8.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 229.8
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11896.7,
+          "peak_rss_mib": 11896.7,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 229.8 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11896.7 MiB; peak RSS 11896.7 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 1,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/1",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-1.log",
+      "exit_code": 0,
+      "seconds": 3.8252991669978655,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          68.6
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          144.1
+        ],
+        "compositing / GPU warm all tiles": [
+          6.7
+        ],
+        "compositing / GPU one-tile edit": [
+          9.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 256.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11881.5,
+          "peak_rss_mib": 11881.5,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 256.6 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11881.5 MiB; peak RSS 11881.5 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 1,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/1",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-1.log",
+      "exit_code": 0,
+      "seconds": 3.823537333999411,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          59.2
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          143.9
+        ],
+        "compositing / GPU warm all tiles": [
+          6.2
+        ],
+        "compositing / GPU one-tile edit": [
+          9.3
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 240.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11873.9,
+          "peak_rss_mib": 11873.9,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 240.6 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11873.9 MiB; peak RSS 11873.9 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 2,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/2",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-2.log",
+      "exit_code": 0,
+      "seconds": 3.87156058400069,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          66.7
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          135.1
+        ],
+        "compositing / GPU warm all tiles": [
+          7.2
+        ],
+        "compositing / GPU one-tile edit": [
+          9.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 249.2
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11878.3,
+          "peak_rss_mib": 11878.3,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 249.2 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11878.3 MiB; peak RSS 11878.3 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 2,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/2",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-2.log",
+      "exit_code": 0,
+      "seconds": 4.057313082998007,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          57.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          144.9
+        ],
+        "compositing / GPU warm all tiles": [
+          7.9
+        ],
+        "compositing / GPU one-tile edit": [
+          9.2
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 255.4
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11878.7,
+          "peak_rss_mib": 11878.7,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 255.4 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11878.7 MiB; peak RSS 11878.7 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 3,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/3",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-3.log",
+      "exit_code": 0,
+      "seconds": 3.9224336670013145,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          66.2
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          144.8
+        ],
+        "compositing / GPU warm all tiles": [
+          6.5
+        ],
+        "compositing / GPU one-tile edit": [
+          9.4
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 244.0
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11878.3,
+          "peak_rss_mib": 11878.3,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 244.0 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11878.3 MiB; peak RSS 11878.3 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 3,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/3",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-3.log",
+      "exit_code": 0,
+      "seconds": 3.870651875000476,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          65.0
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          133.9
+        ],
+        "compositing / GPU warm all tiles": [
+          5.9
+        ],
+        "compositing / GPU one-tile edit": [
+          10.5
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 237.4
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11878.3,
+          "peak_rss_mib": 11878.3,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 237.4 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11878.3 MiB; peak RSS 11878.3 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 4,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/4",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-4.log",
+      "exit_code": 0,
+      "seconds": 3.813717083998199,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          67.2
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          135.4
+        ],
+        "compositing / GPU warm all tiles": [
+          6.9
+        ],
+        "compositing / GPU one-tile edit": [
+          9.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 234.2
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11895.6,
+          "peak_rss_mib": 11895.6,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 234.2 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11895.6 MiB; peak RSS 11895.6 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 4,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/4",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-4.log",
+      "exit_code": 0,
+      "seconds": 3.821205958000064,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          65.4
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          137.8
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          9.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 230.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11876.2,
+          "peak_rss_mib": 11876.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 230.6 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11876.2 MiB; peak RSS 11876.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 5,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/5",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-5.log",
+      "exit_code": 0,
+      "seconds": 3.8384346249986265,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          66.7
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          136.8
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          9.6
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 232.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11874.9,
+          "peak_rss_mib": 11874.9,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 232.9 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11874.9 MiB; peak RSS 11874.9 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 5,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/5",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-5.log",
+      "exit_code": 0,
+      "seconds": 3.8747622499977297,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          62.2
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          139.7
+        ],
+        "compositing / GPU warm all tiles": [
+          6.4
+        ],
+        "compositing / GPU one-tile edit": [
+          9.2
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 247.7
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11878.2,
+          "peak_rss_mib": 11878.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 247.7 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11878.2 MiB; peak RSS 11878.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 6,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/6",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-6.log",
+      "exit_code": 0,
+      "seconds": 3.7644465419980406,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          65.0
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          133.5
+        ],
+        "compositing / GPU warm all tiles": [
+          6.3
+        ],
+        "compositing / GPU one-tile edit": [
+          10.0
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 234.7
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11902.7,
+          "peak_rss_mib": 11902.7,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 234.7 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11902.7 MiB; peak RSS 11902.7 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 6,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/6",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-6.log",
+      "exit_code": 0,
+      "seconds": 3.833594916999573,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          67.7
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          139.2
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          8.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 235.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11883.1,
+          "peak_rss_mib": 11883.1,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 235.9 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11883.1 MiB; peak RSS 11883.1 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 7,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/7",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-7.log",
+      "exit_code": 0,
+      "seconds": 3.8153996670007473,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          63.0
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          138.1
+        ],
+        "compositing / GPU warm all tiles": [
+          6.5
+        ],
+        "compositing / GPU one-tile edit": [
+          9.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 251.5
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11882.6,
+          "peak_rss_mib": 11882.6,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 251.5 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11882.6 MiB; peak RSS 11882.6 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 7,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/7",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-7.log",
+      "exit_code": 0,
+      "seconds": 3.8065888329983864,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          56.5
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          142.5
+        ],
+        "compositing / GPU warm all tiles": [
+          7.1
+        ],
+        "compositing / GPU one-tile edit": [
+          9.6
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 251.3
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11883.4,
+          "peak_rss_mib": 11883.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 251.3 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11883.4 MiB; peak RSS 11883.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 8,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/8",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-8.log",
+      "exit_code": 0,
+      "seconds": 3.8050729160022456,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          67.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          135.0
+        ],
+        "compositing / GPU warm all tiles": [
+          7.3
+        ],
+        "compositing / GPU one-tile edit": [
+          9.6
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 240.3
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11899.4,
+          "peak_rss_mib": 11899.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 240.3 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11899.4 MiB; peak RSS 11899.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 8,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/8",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-8.log",
+      "exit_code": 0,
+      "seconds": 3.8577090409999073,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          64.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          141.8
+        ],
+        "compositing / GPU warm all tiles": [
+          5.9
+        ],
+        "compositing / GPU one-tile edit": [
+          9.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 268.3
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11904.9,
+          "peak_rss_mib": 11904.9,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 268.3 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11904.9 MiB; peak RSS 11904.9 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 9,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/9",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-9.log",
+      "exit_code": 0,
+      "seconds": 3.8258612919998995,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          66.9
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          136.7
+        ],
+        "compositing / GPU warm all tiles": [
+          6.4
+        ],
+        "compositing / GPU one-tile edit": [
+          9.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 240.0
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11880.0,
+          "peak_rss_mib": 11880.0,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 240.0 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11880.0 MiB; peak RSS 11880.0 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 9,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/9",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-9.log",
+      "exit_code": 0,
+      "seconds": 3.8694974160025595,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          65.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          143.8
+        ],
+        "compositing / GPU warm all tiles": [
+          8.2
+        ],
+        "compositing / GPU one-tile edit": [
+          9.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 234.8
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11875.2,
+          "peak_rss_mib": 11875.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 234.8 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11875.2 MiB; peak RSS 11875.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 10,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/10",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-10.log",
+      "exit_code": 0,
+      "seconds": 3.8170970419996593,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          63.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          138.0
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          10.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 251.0
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11876.4,
+          "peak_rss_mib": 11876.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 251.0 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11876.4 MiB; peak RSS 11876.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 10,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/10",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-10.log",
+      "exit_code": 0,
+      "seconds": 3.8344507920010074,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          60.6
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          140.6
+        ],
+        "compositing / GPU warm all tiles": [
+          7.3
+        ],
+        "compositing / GPU one-tile edit": [
+          9.3
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 231.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11874.8,
+          "peak_rss_mib": 11874.8,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 231.6 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11874.8 MiB; peak RSS 11874.8 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 11,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/11",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-11.log",
+      "exit_code": 0,
+      "seconds": 3.8574657079989265,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          66.6
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          141.2
+        ],
+        "compositing / GPU warm all tiles": [
+          7.5
+        ],
+        "compositing / GPU one-tile edit": [
+          9.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 233.1
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11876.2,
+          "peak_rss_mib": 11876.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 233.1 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11876.2 MiB; peak RSS 11876.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 11,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/11",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-11.log",
+      "exit_code": 0,
+      "seconds": 3.8929786669978057,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          66.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          131.5
+        ],
+        "compositing / GPU warm all tiles": [
+          7.1
+        ],
+        "compositing / GPU one-tile edit": [
+          9.6
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 259.5
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11880.5,
+          "peak_rss_mib": 11880.5,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 259.5 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11880.5 MiB; peak RSS 11880.5 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 12,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/12",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-12.log",
+      "exit_code": 0,
+      "seconds": 5.288755834000767,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          78.4
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          161.6
+        ],
+        "compositing / GPU warm all tiles": [
+          8.9
+        ],
+        "compositing / GPU one-tile edit": [
+          14.8
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 253.4
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11878.1,
+          "peak_rss_mib": 11878.1,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 253.4 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11878.1 MiB; peak RSS 11878.1 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 12,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/12",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-12.log",
+      "exit_code": 0,
+      "seconds": 4.126796915999876,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          60.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          143.6
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          8.8
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 259.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11862.4,
+          "peak_rss_mib": 11862.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 259.9 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11862.4 MiB; peak RSS 11862.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 13,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/13",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-13.log",
+      "exit_code": 0,
+      "seconds": 3.852682750002714,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          66.3
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          135.9
+        ],
+        "compositing / GPU warm all tiles": [
+          7.6
+        ],
+        "compositing / GPU one-tile edit": [
+          10.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 240.1
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11877.0,
+          "peak_rss_mib": 11877.0,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 240.1 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11877.0 MiB; peak RSS 11877.0 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 13,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/13",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-13.log",
+      "exit_code": 0,
+      "seconds": 4.031247750001057,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          65.3
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          145.5
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          9.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 232.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11851.2,
+          "peak_rss_mib": 11851.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 232.9 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11851.2 MiB; peak RSS 11851.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "before",
+      "repeat": 14,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/before/14",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-before-14.log",
+      "exit_code": 0,
+      "seconds": 3.816993125001318,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          65.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          139.6
+        ],
+        "compositing / GPU warm all tiles": [
+          6.6
+        ],
+        "compositing / GPU one-tile edit": [
+          9.2
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 250.0
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11878.6,
+          "peak_rss_mib": 11878.6,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 250.0 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11878.6 MiB; peak RSS 11878.6 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "150",
+      "name": "after",
+      "repeat": 14,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "150",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/150/after/14",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-150-after-14.log",
+      "exit_code": 0,
+      "seconds": 3.8664527500004624,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          65.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          142.5
+        ],
+        "compositing / GPU warm all tiles": [
+          7.8
+        ],
+        "compositing / GPU one-tile edit": [
+          10.0
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 237.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1961.9,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1709.0,
+          "peak_tracked_mib": 12993.1
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 11877.4,
+          "peak_rss_mib": 11877.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 237.6 MiB; depth 8 bits/channel",
+        "  budget after: 1961.9 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1709.0 MB GPU; peak tracked 12993.1 MiB",
+        "  memory after: RSS 11877.4 MiB; peak RSS 11877.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 0,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/0",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-0.log",
+      "exit_code": 0,
+      "seconds": 9.169945499997993,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          52.5
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          335.8
+        ],
+        "compositing / GPU warm all tiles": [
+          7.5
+        ],
+        "compositing / GPU one-tile edit": [
+          12.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 237.8
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 5699.1,
+          "peak_rss_mib": 19565.0,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 237.8 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 5699.1 MiB; peak RSS 19565.0 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 0,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/0",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-0.log",
+      "exit_code": 0,
+      "seconds": 8.467490582999744,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          53.6
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          136.3
+        ],
+        "compositing / GPU warm all tiles": [
+          6.3
+        ],
+        "compositing / GPU one-tile edit": [
+          61.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 255.5
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 9507.6,
+          "peak_rss_mib": 20117.1,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 255.5 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 9507.6 MiB; peak RSS 20117.1 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 1,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/1",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-1.log",
+      "exit_code": 0,
+      "seconds": 6.567473999999493,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          53.6
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          147.9
+        ],
+        "compositing / GPU warm all tiles": [
+          7.5
+        ],
+        "compositing / GPU one-tile edit": [
+          16.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 243.2
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20072.0,
+          "peak_rss_mib": 20225.3,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 243.2 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20072.0 MiB; peak RSS 20225.3 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 1,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/1",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-1.log",
+      "exit_code": 0,
+      "seconds": 6.220041749998927,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          53.4
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          145.0
+        ],
+        "compositing / GPU warm all tiles": [
+          7.2
+        ],
+        "compositing / GPU one-tile edit": [
+          13.0
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 245.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20210.5,
+          "peak_rss_mib": 20210.5,
+          "pageins": 59
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 245.6 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20210.5 MiB; peak RSS 20210.5 MiB (process lifetime); page-ins 59 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 2,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/2",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-2.log",
+      "exit_code": 0,
+      "seconds": 8.143878499999119,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          52.5
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          132.4
+        ],
+        "compositing / GPU warm all tiles": [
+          8.6
+        ],
+        "compositing / GPU one-tile edit": [
+          48.5
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 244.7
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 9587.4,
+          "peak_rss_mib": 20004.1,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 244.7 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 9587.4 MiB; peak RSS 20004.1 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 2,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/2",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-2.log",
+      "exit_code": 0,
+      "seconds": 8.151839292000659,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          54.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          153.4
+        ],
+        "compositing / GPU warm all tiles": [
+          8.2
+        ],
+        "compositing / GPU one-tile edit": [
+          40.0
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 237.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 6953.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.6
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 9614.7,
+          "peak_rss_mib": 20061.4,
+          "pageins": 59
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 237.9 MiB; depth 8 bits/channel",
+        "  budget after: 6953.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.6 MiB",
+        "  memory after: RSS 9614.7 MiB; peak RSS 20061.4 MiB (process lifetime); page-ins 59 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 3,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/3",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-3.log",
+      "exit_code": 0,
+      "seconds": 6.264673542002129,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          53.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          137.6
+        ],
+        "compositing / GPU warm all tiles": [
+          7.2
+        ],
+        "compositing / GPU one-tile edit": [
+          12.8
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 232.5
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20211.9,
+          "peak_rss_mib": 20211.9,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 232.5 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20211.9 MiB; peak RSS 20211.9 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 3,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/3",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-3.log",
+      "exit_code": 0,
+      "seconds": 6.107493457999226,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          52.3
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          132.4
+        ],
+        "compositing / GPU warm all tiles": [
+          6.5
+        ],
+        "compositing / GPU one-tile edit": [
+          13.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 236.4
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20193.7,
+          "peak_rss_mib": 20193.7,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 236.4 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20193.7 MiB; peak RSS 20193.7 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 4,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/4",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-4.log",
+      "exit_code": 0,
+      "seconds": 6.349331042001722,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          55.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          135.5
+        ],
+        "compositing / GPU warm all tiles": [
+          6.2
+        ],
+        "compositing / GPU one-tile edit": [
+          18.8
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 255.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 19991.7,
+          "peak_rss_mib": 20216.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 255.9 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 19991.7 MiB; peak RSS 20216.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 4,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/4",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-4.log",
+      "exit_code": 0,
+      "seconds": 6.275088416001381,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          53.5
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          139.3
+        ],
+        "compositing / GPU warm all tiles": [
+          6.3
+        ],
+        "compositing / GPU one-tile edit": [
+          14.3
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 235.8
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20234.9,
+          "peak_rss_mib": 20234.9,
+          "pageins": 59
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 235.8 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20234.9 MiB; peak RSS 20234.9 MiB (process lifetime); page-ins 59 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 5,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/5",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-5.log",
+      "exit_code": 0,
+      "seconds": 32.7973940410011,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          40.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          398.1
+        ],
+        "compositing / GPU warm all tiles": [
+          7.7
+        ],
+        "compositing / GPU one-tile edit": [
+          13.2
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 234.8
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 18932.1,
+          "budget_mb": 34406.0,
+          "compressed_mb": 24.7,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21129.2
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 6670.0,
+          "peak_rss_mib": 14678.1,
+          "pageins": 331
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 234.8 MiB; depth 8 bits/channel",
+        "  budget after: 18932.1 / 34406 MB \u00b7 24.7 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21129.2 MiB",
+        "  memory after: RSS 6670.0 MiB; peak RSS 14678.1 MiB (process lifetime); page-ins 331 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 5,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/5",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-5.log",
+      "exit_code": 0,
+      "seconds": 13.117302167000162,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          92.5
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          157.0
+        ],
+        "compositing / GPU warm all tiles": [
+          7.5
+        ],
+        "compositing / GPU one-tile edit": [
+          31.3
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 247.8
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20200.2,
+          "peak_rss_mib": 20200.2,
+          "pageins": 62
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 247.8 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20200.2 MiB; peak RSS 20200.2 MiB (process lifetime); page-ins 62 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 6,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/6",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-6.log",
+      "exit_code": 0,
+      "seconds": 7.554975541999738,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          67.9
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          140.8
+        ],
+        "compositing / GPU warm all tiles": [
+          7.7
+        ],
+        "compositing / GPU one-tile edit": [
+          19.2
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 306.2
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20226.5,
+          "peak_rss_mib": 20226.5,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 306.2 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20226.5 MiB; peak RSS 20226.5 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 6,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/6",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-6.log",
+      "exit_code": 0,
+      "seconds": 8.523405832998833,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          56.4
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          138.4
+        ],
+        "compositing / GPU warm all tiles": [
+          7.9
+        ],
+        "compositing / GPU one-tile edit": [
+          21.8
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 242.5
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20215.3,
+          "peak_rss_mib": 20215.3,
+          "pageins": 13
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 242.5 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20215.3 MiB; peak RSS 20215.3 MiB (process lifetime); page-ins 13 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 7,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/7",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-7.log",
+      "exit_code": 0,
+      "seconds": 7.002249457997095,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          62.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          134.8
+        ],
+        "compositing / GPU warm all tiles": [
+          8.4
+        ],
+        "compositing / GPU one-tile edit": [
+          19.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 253.4
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20237.5,
+          "peak_rss_mib": 20237.5,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 253.4 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20237.5 MiB; peak RSS 20237.5 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 7,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/7",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-7.log",
+      "exit_code": 0,
+      "seconds": 7.547663958001067,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          64.7
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          113.6
+        ],
+        "compositing / GPU warm all tiles": [
+          8.3
+        ],
+        "compositing / GPU one-tile edit": [
+          22.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 237.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20217.6,
+          "peak_rss_mib": 20217.6,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 237.9 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20217.6 MiB; peak RSS 20217.6 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 8,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/8",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-8.log",
+      "exit_code": 0,
+      "seconds": 7.320907875000557,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          64.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          126.9
+        ],
+        "compositing / GPU warm all tiles": [
+          8.1
+        ],
+        "compositing / GPU one-tile edit": [
+          21.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 241.2
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20243.4,
+          "peak_rss_mib": 20243.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 241.2 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20243.4 MiB; peak RSS 20243.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 8,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/8",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-8.log",
+      "exit_code": 0,
+      "seconds": 8.771207083002082,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          72.4
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          122.8
+        ],
+        "compositing / GPU warm all tiles": [
+          9.8
+        ],
+        "compositing / GPU one-tile edit": [
+          20.2
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 261.3
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20218.8,
+          "peak_rss_mib": 20218.8,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 261.3 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20218.8 MiB; peak RSS 20218.8 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 9,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/9",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-9.log",
+      "exit_code": 0,
+      "seconds": 7.1814187499985565,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          55.3
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          113.6
+        ],
+        "compositing / GPU warm all tiles": [
+          6.0
+        ],
+        "compositing / GPU one-tile edit": [
+          14.1
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 235.3
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20214.2,
+          "peak_rss_mib": 20214.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 235.3 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20214.2 MiB; peak RSS 20214.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 9,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/9",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-9.log",
+      "exit_code": 0,
+      "seconds": 6.464180541999667,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          54.7
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          113.8
+        ],
+        "compositing / GPU warm all tiles": [
+          6.8
+        ],
+        "compositing / GPU one-tile edit": [
+          13.8
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 237.0
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20214.2,
+          "peak_rss_mib": 20214.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 237.0 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20214.2 MiB; peak RSS 20214.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 10,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/10",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-10.log",
+      "exit_code": 0,
+      "seconds": 6.905560541999876,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          64.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          118.2
+        ],
+        "compositing / GPU warm all tiles": [
+          7.4
+        ],
+        "compositing / GPU one-tile edit": [
+          18.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 260.9
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20209.1,
+          "peak_rss_mib": 20209.1,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 260.9 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20209.1 MiB; peak RSS 20209.1 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 10,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/10",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-10.log",
+      "exit_code": 0,
+      "seconds": 8.727650290999009,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          78.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          127.3
+        ],
+        "compositing / GPU warm all tiles": [
+          9.1
+        ],
+        "compositing / GPU one-tile edit": [
+          21.3
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 246.4
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20218.1,
+          "peak_rss_mib": 20218.1,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 246.4 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20218.1 MiB; peak RSS 20218.1 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 11,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/11",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-11.log",
+      "exit_code": 0,
+      "seconds": 7.046722999999474,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          56.3
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          131.5
+        ],
+        "compositing / GPU warm all tiles": [
+          7.7
+        ],
+        "compositing / GPU one-tile edit": [
+          13.9
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 297.2
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20241.0,
+          "peak_rss_mib": 20241.0,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 297.2 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20241.0 MiB; peak RSS 20241.0 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 11,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/11",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-11.log",
+      "exit_code": 0,
+      "seconds": 6.905246292000811,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          55.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          134.2
+        ],
+        "compositing / GPU warm all tiles": [
+          7.2
+        ],
+        "compositing / GPU one-tile edit": [
+          14.4
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 263.6
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20237.2,
+          "peak_rss_mib": 20237.2,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 263.6 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20237.2 MiB; peak RSS 20237.2 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 12,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/12",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-12.log",
+      "exit_code": 0,
+      "seconds": 6.276535875000263,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          54.8
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          130.5
+        ],
+        "compositing / GPU warm all tiles": [
+          7.7
+        ],
+        "compositing / GPU one-tile edit": [
+          15.4
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 234.3
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20215.0,
+          "peak_rss_mib": 20215.0,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 234.3 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20215.0 MiB; peak RSS 20215.0 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 12,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/12",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-12.log",
+      "exit_code": 0,
+      "seconds": 7.860608458002389,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          74.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          129.5
+        ],
+        "compositing / GPU warm all tiles": [
+          8.0
+        ],
+        "compositing / GPU one-tile edit": [
+          19.4
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 268.1
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20221.9,
+          "peak_rss_mib": 20221.9,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 268.1 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20221.9 MiB; peak RSS 20221.9 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 13,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/13",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-13.log",
+      "exit_code": 0,
+      "seconds": 7.973522749998665,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          60.6
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          134.3
+        ],
+        "compositing / GPU warm all tiles": [
+          8.2
+        ],
+        "compositing / GPU one-tile edit": [
+          17.6
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 229.1
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20210.1,
+          "peak_rss_mib": 20210.1,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 229.1 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20210.1 MiB; peak RSS 20210.1 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 13,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/13",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-13.log",
+      "exit_code": 0,
+      "seconds": 7.1749463329979335,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          53.1
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          140.2
+        ],
+        "compositing / GPU warm all tiles": [
+          6.2
+        ],
+        "compositing / GPU one-tile edit": [
+          13.8
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 243.3
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20210.5,
+          "peak_rss_mib": 20210.5,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 243.3 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20210.5 MiB; peak RSS 20210.5 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "before",
+      "repeat": 14,
+      "command": [
+        "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/before/14",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-before-14.log",
+      "exit_code": 0,
+      "seconds": 6.891377916999772,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          67.6
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          143.5
+        ],
+        "compositing / GPU warm all tiles": [
+          6.8
+        ],
+        "compositing / GPU one-tile edit": [
+          13.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 258.5
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20218.7,
+          "peak_rss_mib": 20218.7,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 258.5 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20218.7 MiB; peak RSS 20218.7 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "tier": "268",
+      "name": "after",
+      "repeat": 14,
+      "command": [
+        "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/target/release/pixelforge",
+        "--bench-gpu",
+        "--tier",
+        "268",
+        "compositing"
+      ],
+      "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/config/268/after/14",
+      "log": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu/gpu-268-after-14.log",
+      "exit_code": 0,
+      "seconds": 6.248031957999046,
+      "timings_ms": {
+        "compositing / CPU all tiles": [
+          54.0
+        ],
+        "compositing / GPU cold uploads all tiles": [
+          135.2
+        ],
+        "compositing / GPU warm all tiles": [
+          6.5
+        ],
+        "compositing / GPU one-tile edit": [
+          13.7
+        ]
+      },
+      "resources": [
+        {
+          "kind": "budget",
+          "phase": "before",
+          "used_mb": 118.5,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 118.5
+        },
+        {
+          "kind": "memory",
+          "phase": "before",
+          "rss_mib": 249.8
+        },
+        {
+          "kind": "budget",
+          "phase": "after",
+          "used_mb": 1960.4,
+          "budget_mb": 34406.0,
+          "compressed_mb": 0.0,
+          "scratch_mb": 0.0,
+          "gpu_mb": 1708.2,
+          "peak_tracked_mib": 21227.3
+        },
+        {
+          "kind": "memory",
+          "phase": "after",
+          "rss_mib": 20213.4,
+          "peak_rss_mib": 20213.4,
+          "pageins": 0
+        }
+      ],
+      "resource_lines": [
+        "  budget before: 118.5 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 118.5 MB GPU",
+        "  memory before: RSS 249.8 MiB; depth 8 bits/channel",
+        "  budget after: 1960.4 / 34406 MB \u00b7 0.0 MB compressed \u00b7 0.0 MB scratch \u00b7 1708.2 MB GPU; peak tracked 21227.3 MiB",
+        "  memory after: RSS 20213.4 MiB; peak RSS 20213.4 MiB (process lifetime); page-ins 0 (includes file reads)"
+      ],
+      "budget_misses": [],
+      "budget_summaries": [
+        {
+          "checks": null,
+          "over_budget": 0,
+          "line": "0 over budget"
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "tiers": {
+    "150": {
+      "compositing / CPU all tiles": {
+        "before": [
+          57.7,
+          59.2,
+          66.7,
+          65.0,
+          67.2,
+          62.2,
+          65.0,
+          56.5,
+          67.1,
+          65.1,
+          63.1,
+          66.8,
+          78.4,
+          65.3,
+          65.1
+        ],
+        "after": [
+          68.2,
+          68.6,
+          57.8,
+          66.2,
+          65.4,
+          66.7,
+          67.7,
+          63.0,
+          64.1,
+          66.9,
+          60.6,
+          66.6,
+          60.1,
+          66.3,
+          65.8
+        ],
+        "before_median_ms": 65.1,
+        "after_median_ms": 66.2,
+        "change_percent": 1.6897081413210557
+      },
+      "compositing / GPU cold uploads all tiles": {
+        "before": [
+          138.7,
+          143.9,
+          135.1,
+          133.9,
+          135.4,
+          139.7,
+          133.5,
+          142.5,
+          135.0,
+          143.8,
+          138.0,
+          131.5,
+          161.6,
+          145.5,
+          139.6
+        ],
+        "after": [
+          138.0,
+          144.1,
+          144.9,
+          144.8,
+          137.8,
+          136.8,
+          139.2,
+          138.1,
+          141.8,
+          136.7,
+          140.6,
+          141.2,
+          143.6,
+          135.9,
+          142.5
+        ],
+        "before_median_ms": 138.7,
+        "after_median_ms": 140.6,
+        "change_percent": 1.3698630136986356
+      },
+      "compositing / GPU warm all tiles": {
+        "before": [
+          6.2,
+          6.2,
+          7.2,
+          5.9,
+          6.9,
+          6.4,
+          6.3,
+          7.1,
+          7.3,
+          8.2,
+          6.0,
+          7.1,
+          8.9,
+          6.0,
+          6.6
+        ],
+        "after": [
+          6.0,
+          6.7,
+          7.9,
+          6.5,
+          6.0,
+          6.0,
+          6.0,
+          6.5,
+          5.9,
+          6.4,
+          7.3,
+          7.5,
+          6.0,
+          7.6,
+          7.8
+        ],
+        "before_median_ms": 6.6,
+        "after_median_ms": 6.5,
+        "change_percent": -1.5151515151515138
+      },
+      "compositing / GPU one-tile edit": {
+        "before": [
+          9.6,
+          9.3,
+          9.9,
+          10.5,
+          9.7,
+          9.2,
+          10.0,
+          9.6,
+          9.6,
+          9.1,
+          10.1,
+          9.6,
+          14.8,
+          9.1,
+          9.2
+        ],
+        "after": [
+          8.9,
+          9.7,
+          9.2,
+          9.4,
+          9.1,
+          9.6,
+          8.9,
+          9.9,
+          9.9,
+          9.7,
+          9.3,
+          9.7,
+          8.8,
+          10.1,
+          10.0
+        ],
+        "before_median_ms": 9.6,
+        "after_median_ms": 9.6,
+        "change_percent": 0.0
+      }
+    },
+    "268": {
+      "compositing / CPU all tiles": {
+        "before": [
+          52.5,
+          53.4,
+          52.5,
+          52.3,
+          55.8,
+          92.5,
+          67.9,
+          64.7,
+          64.8,
+          54.7,
+          64.1,
+          55.8,
+          54.8,
+          53.1,
+          67.6
+        ],
+        "after": [
+          53.6,
+          53.6,
+          54.1,
+          53.1,
+          53.5,
+          40.1,
+          56.4,
+          62.1,
+          72.4,
+          55.3,
+          78.8,
+          56.3,
+          74.1,
+          60.6,
+          54.0
+        ],
+        "before_median_ms": 55.8,
+        "after_median_ms": 55.3,
+        "change_percent": -0.8960573476702538
+      },
+      "compositing / GPU cold uploads all tiles": {
+        "before": [
+          335.8,
+          145.0,
+          132.4,
+          132.4,
+          135.5,
+          157.0,
+          140.8,
+          113.6,
+          126.9,
+          113.8,
+          118.2,
+          134.2,
+          130.5,
+          140.2,
+          143.5
+        ],
+        "after": [
+          136.3,
+          147.9,
+          153.4,
+          137.6,
+          139.3,
+          398.1,
+          138.4,
+          134.8,
+          122.8,
+          113.6,
+          127.3,
+          131.5,
+          129.5,
+          134.3,
+          135.2
+        ],
+        "before_median_ms": 134.2,
+        "after_median_ms": 135.2,
+        "change_percent": 0.7451564828613977
+      },
+      "compositing / GPU warm all tiles": {
+        "before": [
+          7.5,
+          7.2,
+          8.6,
+          6.5,
+          6.2,
+          7.5,
+          7.7,
+          8.3,
+          8.1,
+          6.8,
+          7.4,
+          7.2,
+          7.7,
+          6.2,
+          6.8
+        ],
+        "after": [
+          6.3,
+          7.5,
+          8.2,
+          7.2,
+          6.3,
+          7.7,
+          7.9,
+          8.4,
+          9.8,
+          6.0,
+          9.1,
+          7.7,
+          8.0,
+          8.2,
+          6.5
+        ],
+        "before_median_ms": 7.4,
+        "after_median_ms": 7.7,
+        "change_percent": 4.054054054054057
+      },
+      "compositing / GPU one-tile edit": {
+        "before": [
+          12.9,
+          13.0,
+          48.5,
+          13.1,
+          18.8,
+          31.3,
+          19.2,
+          22.1,
+          21.7,
+          13.8,
+          18.9,
+          14.4,
+          15.4,
+          13.8,
+          13.7
+        ],
+        "after": [
+          61.9,
+          16.7,
+          40.0,
+          12.8,
+          14.3,
+          13.2,
+          21.8,
+          19.9,
+          20.2,
+          14.1,
+          21.3,
+          13.9,
+          19.4,
+          17.6,
+          13.7
+        ],
+        "before_median_ms": 15.4,
+        "after_median_ms": 17.6,
+        "change_percent": 14.285714285714302
+      }
+    }
+  },
+  "failures": [],
+  "regressions_over_5_percent": [
+    {
+      "tier": "268",
+      "operation": "compositing / GPU one-tile edit",
+      "before": [
+        12.9,
+        13.0,
+        48.5,
+        13.1,
+        18.8,
+        31.3,
+        19.2,
+        22.1,
+        21.7,
+        13.8,
+        18.9,
+        14.4,
+        15.4,
+        13.8,
+        13.7
+      ],
+      "after": [
+        61.9,
+        16.7,
+        40.0,
+        12.8,
+        14.3,
+        13.2,
+        21.8,
+        19.9,
+        20.2,
+        14.1,
+        21.3,
+        13.9,
+        19.4,
+        17.6,
+        13.7
+      ],
+      "before_median_ms": 15.4,
+      "after_median_ms": 17.6,
+      "change_percent": 14.285714285714302
+    }
+  ],
+  "unquantified_comparisons": []
+}

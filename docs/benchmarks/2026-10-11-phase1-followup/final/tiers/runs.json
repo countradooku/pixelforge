@@ -1,0 +1,34 @@
+[
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "24",
+    "exit_code": 0,
+    "seconds": 6.84,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/final/tiers/tools-24.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "61",
+    "exit_code": 0,
+    "seconds": 8.51,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/final/tiers/tools-61.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "150",
+    "exit_code": 0,
+    "seconds": 11.27,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/final/tiers/tools-150.log"
+  },
+  {
+    "budget_misses": [],
+    "suite": "tools",
+    "tier": "268",
+    "exit_code": 0,
+    "seconds": 11.92,
+    "log": "docs/benchmarks/2026-10-11-phase1-followup/final/tiers/tools-268.log"
+  }
+]

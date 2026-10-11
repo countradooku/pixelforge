@@ -1,0 +1,54 @@
+[
+  {
+    "suite": "engine",
+    "command": [
+      "python3",
+      "tools/phase2_compare.py",
+      "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+      "--out",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/comparison-engine",
+      "--suite",
+      "engine",
+      "--reps",
+      "9"
+    ],
+    "exit_code": 0,
+    "seconds": 56.13013604099979
+  },
+  {
+    "suite": "tools",
+    "command": [
+      "python3",
+      "tools/phase2_compare.py",
+      "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+      "--out",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/comparison-tools",
+      "--suite",
+      "tools",
+      "--reps",
+      "9",
+      "--only",
+      "layers"
+    ],
+    "exit_code": 0,
+    "seconds": 33.60263095799746
+  },
+  {
+    "suite": "gpu",
+    "command": [
+      "python3",
+      "tools/phase2_compare.py",
+      "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+      "--out",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/comparison-gpu",
+      "--suite",
+      "gpu",
+      "--reps",
+      "9",
+      "--only",
+      "compositing"
+    ],
+    "exit_code": 0,
+    "seconds": 255.21763875000033
+  }
+]

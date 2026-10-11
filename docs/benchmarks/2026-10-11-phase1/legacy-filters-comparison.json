@@ -1,0 +1,2162 @@
+{
+  "Adjustments  Brightness/Contrast": {
+    "before": [
+      20.1,
+      23.0,
+      24.3
+    ],
+    "after": [
+      19.907,
+      23.027,
+      22.51
+    ],
+    "before_median": 23.0,
+    "after_median": 22.51,
+    "change_percent": -2.1304347826086922
+  },
+  "Adjustments  Levels": {
+    "before": [
+      5.3,
+      5.4,
+      6.2
+    ],
+    "after": [
+      5.34,
+      6.561,
+      6.43
+    ],
+    "before_median": 5.4,
+    "after_median": 6.43,
+    "change_percent": 19.074074074074066
+  },
+  "Adjustments  Curves": {
+    "before": [
+      4.5,
+      5.7,
+      5.2
+    ],
+    "after": [
+      4.875,
+      4.877,
+      5.632
+    ],
+    "before_median": 5.2,
+    "after_median": 4.877,
+    "change_percent": -6.211538461538469
+  },
+  "Adjustments  Exposure": {
+    "before": [
+      4.6,
+      5.2,
+      5.4
+    ],
+    "after": [
+      4.625,
+      5.547,
+      5.487
+    ],
+    "before_median": 5.2,
+    "after_median": 5.487,
+    "change_percent": 5.519230769230776
+  },
+  "Adjustments  Vibrance": {
+    "before": [
+      34.8,
+      41.5,
+      41.4
+    ],
+    "after": [
+      34.837,
+      41.007,
+      42.392
+    ],
+    "before_median": 41.4,
+    "after_median": 41.007,
+    "change_percent": -0.9492753623188466
+  },
+  "Adjustments  Hue/Saturation": {
+    "before": [
+      35.0,
+      40.2,
+      41.1
+    ],
+    "after": [
+      35.571,
+      38.406,
+      42.818
+    ],
+    "before_median": 40.2,
+    "after_median": 38.406,
+    "change_percent": -4.462686567164187
+  },
+  "Adjustments  Color Balance": {
+    "before": [
+      34.7,
+      40.1,
+      41.5
+    ],
+    "after": [
+      36.069,
+      38.539,
+      42.183
+    ],
+    "before_median": 40.1,
+    "after_median": 38.539,
+    "change_percent": -3.8927680798005015
+  },
+  "Adjustments  Black & White": {
+    "before": [
+      34.6,
+      40.0,
+      41.3
+    ],
+    "after": [
+      36.236,
+      38.838,
+      40.973
+    ],
+    "before_median": 40.0,
+    "after_median": 38.838,
+    "change_percent": -2.905000000000002
+  },
+  "Adjustments  Photo Filter": {
+    "before": [
+      34.4,
+      40.3,
+      41.6
+    ],
+    "after": [
+      35.734,
+      38.645,
+      41.063
+    ],
+    "before_median": 40.3,
+    "after_median": 38.645,
+    "change_percent": -4.106699751861031
+  },
+  "Adjustments  Gradient Map": {
+    "before": [
+      34.3,
+      40.2,
+      41.3
+    ],
+    "after": [
+      35.731,
+      37.003,
+      40.801
+    ],
+    "before_median": 40.2,
+    "after_median": 37.003,
+    "change_percent": -7.952736318407972
+  },
+  "Adjustments  Invert": {
+    "before": [
+      4.6,
+      5.1,
+      5.6
+    ],
+    "after": [
+      4.57,
+      4.69,
+      5.352
+    ],
+    "before_median": 5.1,
+    "after_median": 4.69,
+    "change_percent": -8.039215686274492
+  },
+  "Adjustments  Desaturate": {
+    "before": [
+      9.8,
+      11.5,
+      11.8
+    ],
+    "after": [
+      10.213,
+      10.675,
+      11.719
+    ],
+    "before_median": 11.5,
+    "after_median": 10.675,
+    "change_percent": -7.173913043478253
+  },
+  "Adjustments  Posterize": {
+    "before": [
+      4.5,
+      5.0,
+      5.1
+    ],
+    "after": [
+      4.448,
+      4.757,
+      5.252
+    ],
+    "before_median": 5.0,
+    "after_median": 4.757,
+    "change_percent": -4.860000000000008
+  },
+  "Adjustments  Threshold": {
+    "before": [
+      9.1,
+      10.5,
+      11.0
+    ],
+    "after": [
+      9.794,
+      10.028,
+      11.053
+    ],
+    "before_median": 10.5,
+    "after_median": 10.028,
+    "change_percent": -4.4952380952380855
+  },
+  "Adjustments  Equalize": {
+    "before": [
+      4.6,
+      5.0,
+      5.1
+    ],
+    "after": [
+      4.666,
+      4.89,
+      5.01
+    ],
+    "before_median": 5.0,
+    "after_median": 4.89,
+    "change_percent": -2.200000000000002
+  },
+  "Adjustments  Shadows/Highlights": {
+    "before": [
+      109.0,
+      122.6,
+      127.4
+    ],
+    "after": [
+      116.645,
+      120.57,
+      126.814
+    ],
+    "before_median": 122.6,
+    "after_median": 120.57,
+    "change_percent": -1.6557911908645973
+  },
+  "Auto         Auto Tone": {
+    "before": [
+      4.7,
+      5.1,
+      5.2
+    ],
+    "after": [
+      5.068,
+      5.09,
+      6.01
+    ],
+    "before_median": 5.1,
+    "after_median": 5.09,
+    "change_percent": -0.19607843137254832
+  },
+  "Auto         Auto Contrast": {
+    "before": [
+      4.7,
+      4.9,
+      5.1
+    ],
+    "after": [
+      4.692,
+      4.751,
+      5.424
+    ],
+    "before_median": 4.9,
+    "after_median": 4.751,
+    "change_percent": -3.0408163265306154
+  },
+  "Blur         Average": {
+    "before": [
+      4.8,
+      4.7,
+      4.8
+    ],
+    "after": [
+      4.572,
+      4.682,
+      4.87
+    ],
+    "before_median": 4.8,
+    "after_median": 4.682,
+    "change_percent": -2.458333333333318
+  },
+  "Blur         Blur": {
+    "before": [
+      8.6,
+      10.0,
+      10.2
+    ],
+    "after": [
+      8.761,
+      9.845,
+      10.629
+    ],
+    "before_median": 10.0,
+    "after_median": 9.845,
+    "change_percent": -1.5499999999999958
+  },
+  "Blur         Blur More": {
+    "before": [
+      11.3,
+      12.3,
+      12.9
+    ],
+    "after": [
+      11.079,
+      12.22,
+      13.054
+    ],
+    "before_median": 12.3,
+    "after_median": 12.22,
+    "change_percent": -0.6504065040650375
+  },
+  "Blur         Box Blur": {
+    "before": [
+      14.0,
+      16.3,
+      17.6
+    ],
+    "after": [
+      15.646,
+      17.519,
+      16.928
+    ],
+    "before_median": 16.3,
+    "after_median": 16.928,
+    "change_percent": 3.8527607361963145
+  },
+  "Blur         Gaussian Blur": {
+    "before": [
+      23.4,
+      26.5,
+      26.7
+    ],
+    "after": [
+      25.509,
+      27.474,
+      28.858
+    ],
+    "before_median": 26.5,
+    "after_median": 27.474,
+    "change_percent": 3.6754716981131974
+  },
+  "Blur         Lens Blur": {
+    "before": [
+      102.4,
+      112.6,
+      112.2
+    ],
+    "after": [
+      111.4,
+      110.035,
+      120.776
+    ],
+    "before_median": 112.2,
+    "after_median": 111.4,
+    "change_percent": -0.7130124777183555
+  },
+  "Blur         Motion Blur": {
+    "before": [
+      17.0,
+      20.5,
+      20.9
+    ],
+    "after": [
+      19.174,
+      19.117,
+      23.062
+    ],
+    "before_median": 20.5,
+    "after_median": 19.174,
+    "change_percent": -6.468292682926835
+  },
+  "Blur         Radial Blur": {
+    "before": [
+      1159.1,
+      1282.5,
+      1320.4
+    ],
+    "after": [
+      777.324,
+      765.102,
+      883.485
+    ],
+    "before_median": 1282.5,
+    "after_median": 777.324,
+    "change_percent": -39.38994152046784
+  },
+  "Blur         Smart Blur": {
+    "before": [
+      482.9,
+      545.0,
+      543.8
+    ],
+    "after": [
+      516.019,
+      531.594,
+      574.181
+    ],
+    "before_median": 543.8,
+    "after_median": 531.594,
+    "change_percent": -2.2445752114747863
+  },
+  "Blur         Surface Blur": {
+    "before": [
+      248.1,
+      287.3,
+      304.9
+    ],
+    "after": [
+      261.897,
+      282.059,
+      322.132
+    ],
+    "before_median": 287.3,
+    "after_median": 282.059,
+    "change_percent": -1.8242255482074476
+  },
+  "Distort      Pinch": {
+    "before": [
+      73.7,
+      83.5,
+      85.9
+    ],
+    "after": [
+      50.975,
+      51.552,
+      54.421
+    ],
+    "before_median": 83.5,
+    "after_median": 51.552,
+    "change_percent": -38.26107784431137
+  },
+  "Distort      Polar Coordinates": {
+    "before": [
+      75.3,
+      84.3,
+      86.8
+    ],
+    "after": [
+      62.905,
+      61.904,
+      66.06
+    ],
+    "before_median": 84.3,
+    "after_median": 62.905,
+    "change_percent": -25.379596678529058
+  },
+  "Distort      Ripple": {
+    "before": [
+      66.7,
+      75.6,
+      77.9
+    ],
+    "after": [
+      45.165,
+      43.667,
+      47.935
+    ],
+    "before_median": 75.6,
+    "after_median": 45.165,
+    "change_percent": -40.257936507936506
+  },
+  "Distort      Shear": {
+    "before": [
+      58.5,
+      64.2,
+      64.4
+    ],
+    "after": [
+      33.864,
+      33.451,
+      36.517
+    ],
+    "before_median": 64.2,
+    "after_median": 33.864,
+    "change_percent": -47.25233644859814
+  },
+  "Distort      Spherize": {
+    "before": [
+      72.0,
+      79.7,
+      81.8
+    ],
+    "after": [
+      48.536,
+      50.199,
+      53.729
+    ],
+    "before_median": 79.7,
+    "after_median": 50.199,
+    "change_percent": -37.0150564617315
+  },
+  "Distort      Twirl": {
+    "before": [
+      69.7,
+      78.9,
+      81.6
+    ],
+    "after": [
+      47.467,
+      49.362,
+      53.847
+    ],
+    "before_median": 78.9,
+    "after_median": 49.362,
+    "change_percent": -37.43726235741445
+  },
+  "Distort      Wave": {
+    "before": [
+      76.4,
+      82.3,
+      85.4
+    ],
+    "after": [
+      55.599,
+      54.433,
+      59.295
+    ],
+    "before_median": 82.3,
+    "after_median": 55.599,
+    "change_percent": -32.44349939246659
+  },
+  "Distort      ZigZag": {
+    "before": [
+      71.3,
+      79.6,
+      81.5
+    ],
+    "after": [
+      48.868,
+      49.879,
+      52.987
+    ],
+    "before_median": 79.6,
+    "after_median": 49.879,
+    "change_percent": -37.33793969849246
+  },
+  "Noise        Add Noise": {
+    "before": [
+      10.6,
+      12.0,
+      12.4
+    ],
+    "after": [
+      11.409,
+      11.944,
+      12.767
+    ],
+    "before_median": 12.0,
+    "after_median": 11.944,
+    "change_percent": -0.4666666666666597
+  },
+  "Noise        Despeckle": {
+    "before": [
+      22.1,
+      23.3,
+      24.8
+    ],
+    "after": [
+      20.534,
+      24.613,
+      25.392
+    ],
+    "before_median": 23.3,
+    "after_median": 24.613,
+    "change_percent": 5.635193133047212
+  },
+  "Noise        Dust & Scratches": {
+    "before": [
+      20.8,
+      24.5,
+      26.2
+    ],
+    "after": [
+      21.618,
+      24.783,
+      26.016
+    ],
+    "before_median": 24.5,
+    "after_median": 24.783,
+    "change_percent": 1.1551020408163248
+  },
+  "Noise        Median": {
+    "before": [
+      70.1,
+      72.3,
+      72.7
+    ],
+    "after": [
+      72.332,
+      71.908,
+      76.671
+    ],
+    "before_median": 72.3,
+    "after_median": 72.332,
+    "change_percent": 0.04426002766251269
+  },
+  "Noise        Reduce Noise": {
+    "before": [
+      228.9,
+      257.2,
+      253.2
+    ],
+    "after": [
+      225.173,
+      244.531,
+      269.042
+    ],
+    "before_median": 253.2,
+    "after_median": 244.531,
+    "change_percent": -3.423775671405993
+  },
+  "Pixelate     Color Halftone": {
+    "before": [
+      84.2,
+      95.9,
+      99.9
+    ],
+    "after": [
+      82.313,
+      94.336,
+      100.105
+    ],
+    "before_median": 95.9,
+    "after_median": 94.336,
+    "change_percent": -1.6308654848800952
+  },
+  "Pixelate     Crystallize": {
+    "before": [
+      111.6,
+      123.9,
+      129.5
+    ],
+    "after": [
+      110.375,
+      120.562,
+      128.672
+    ],
+    "before_median": 123.9,
+    "after_median": 120.562,
+    "change_percent": -2.694108151735275
+  },
+  "Pixelate     Facet": {
+    "before": [
+      33.6,
+      36.4,
+      37.5
+    ],
+    "after": [
+      32.844,
+      35.302,
+      36.943
+    ],
+    "before_median": 36.4,
+    "after_median": 35.302,
+    "change_percent": -3.0164835164835146
+  },
+  "Pixelate     Fragment": {
+    "before": [
+      16.5,
+      14.1,
+      14.7
+    ],
+    "after": [
+      13.498,
+      13.89,
+      14.567
+    ],
+    "before_median": 14.7,
+    "after_median": 13.89,
+    "change_percent": -5.510204081632642
+  },
+  "Pixelate     Mezzotint": {
+    "before": [
+      26.1,
+      21.4,
+      21.8
+    ],
+    "after": [
+      18.547,
+      20.262,
+      23.217
+    ],
+    "before_median": 21.8,
+    "after_median": 20.262,
+    "change_percent": -7.055045871559629
+  },
+  "Pixelate     Mosaic": {
+    "before": [
+      23.8,
+      29.1,
+      29.2
+    ],
+    "after": [
+      24.61,
+      28.324,
+      30.226
+    ],
+    "before_median": 29.1,
+    "after_median": 28.324,
+    "change_percent": -2.6666666666666616
+  },
+  "Pixelate     Pointillize": {
+    "before": [
+      115.5,
+      129.6,
+      133.9
+    ],
+    "after": [
+      120.576,
+      128.599,
+      135.089
+    ],
+    "before_median": 129.6,
+    "after_median": 128.599,
+    "change_percent": -0.772376543209885
+  },
+  "Render       Clouds": {
+    "before": [
+      103.9,
+      115.8,
+      120.3
+    ],
+    "after": [
+      108.005,
+      112.84,
+      120.155
+    ],
+    "before_median": 115.8,
+    "after_median": 112.84,
+    "change_percent": -2.5561312607944697
+  },
+  "Render       Difference Clouds": {
+    "before": [
+      106.4,
+      117.6,
+      119.5
+    ],
+    "after": [
+      112.764,
+      115.53,
+      123.021
+    ],
+    "before_median": 117.6,
+    "after_median": 115.53,
+    "change_percent": -1.7602040816326436
+  },
+  "Render       Fibers": {
+    "before": [
+      64.6,
+      70.8,
+      71.0
+    ],
+    "after": [
+      66.258,
+      68.601,
+      74.145
+    ],
+    "before_median": 70.8,
+    "after_median": 68.601,
+    "change_percent": -3.1059322033898273
+  },
+  "Render       Lens Flare": {
+    "before": [
+      32.1,
+      33.6,
+      36.3
+    ],
+    "after": [
+      32.812,
+      32.523,
+      34.655
+    ],
+    "before_median": 33.6,
+    "after_median": 32.812,
+    "change_percent": -2.3452380952381113
+  },
+  "Sharpen      Sharpen": {
+    "before": [
+      20.7,
+      22.7,
+      24.1
+    ],
+    "after": [
+      22.149,
+      22.086,
+      23.553
+    ],
+    "before_median": 22.7,
+    "after_median": 22.149,
+    "change_percent": -2.4273127753303925
+  },
+  "Sharpen      Sharpen Edges": {
+    "before": [
+      17.3,
+      19.4,
+      22.2
+    ],
+    "after": [
+      17.958,
+      19.875,
+      20.636
+    ],
+    "before_median": 19.4,
+    "after_median": 19.875,
+    "change_percent": 2.448453608247436
+  },
+  "Sharpen      Sharpen More": {
+    "before": [
+      22.0,
+      25.0,
+      25.0
+    ],
+    "after": [
+      22.476,
+      24.831,
+      24.369
+    ],
+    "before_median": 25.0,
+    "after_median": 24.369,
+    "change_percent": -2.524000000000004
+  },
+  "Sharpen      Smart Sharpen": {
+    "before": [
+      17.6,
+      19.2,
+      20.8
+    ],
+    "after": [
+      18.446,
+      19.02,
+      19.876
+    ],
+    "before_median": 19.2,
+    "after_median": 19.02,
+    "change_percent": -0.9375000000000022
+  },
+  "Sharpen      Unsharp Mask": {
+    "before": [
+      27.5,
+      28.7,
+      29.9
+    ],
+    "after": [
+      28.247,
+      28.392,
+      29.968
+    ],
+    "before_median": 28.7,
+    "after_median": 28.392,
+    "change_percent": -1.073170731707318
+  },
+  "Stylize      Diffuse": {
+    "before": [
+      11.0,
+      12.0,
+      12.6
+    ],
+    "after": [
+      11.321,
+      11.783,
+      12.274
+    ],
+    "before_median": 12.0,
+    "after_median": 11.783,
+    "change_percent": -1.808333333333334
+  },
+  "Stylize      Emboss": {
+    "before": [
+      19.2,
+      21.7,
+      22.5
+    ],
+    "after": [
+      19.79,
+      21.329,
+      22.605
+    ],
+    "before_median": 21.7,
+    "after_median": 21.329,
+    "change_percent": -1.709677419354838
+  },
+  "Stylize      Find Edges": {
+    "before": [
+      35.2,
+      40.3,
+      42.0
+    ],
+    "after": [
+      35.923,
+      39.297,
+      42.332
+    ],
+    "before_median": 40.3,
+    "after_median": 39.297,
+    "change_percent": -2.488833746898267
+  },
+  "Stylize      Oil Paint": {
+    "before": [
+      53.3,
+      56.6,
+      58.4
+    ],
+    "after": [
+      54.625,
+      56.646,
+      59.1
+    ],
+    "before_median": 56.6,
+    "after_median": 56.646,
+    "change_percent": 0.0812720848056614
+  },
+  "Stylize      Solarize": {
+    "before": [
+      4.9,
+      5.0,
+      5.3
+    ],
+    "after": [
+      4.956,
+      5.245,
+      5.62
+    ],
+    "before_median": 5.0,
+    "after_median": 5.245,
+    "change_percent": 4.899999999999993
+  },
+  "Stylize      Trace Contour": {
+    "before": [
+      18.4,
+      20.4,
+      21.8
+    ],
+    "after": [
+      19.001,
+      21.186,
+      21.722
+    ],
+    "before_median": 20.4,
+    "after_median": 21.186,
+    "change_percent": 3.8529411764705923
+  },
+  "Stylize      Wind": {
+    "before": [
+      28.0,
+      32.0,
+      32.1
+    ],
+    "after": [
+      29.436,
+      30.639,
+      32.875
+    ],
+    "before_median": 32.0,
+    "after_median": 30.639,
+    "change_percent": -4.2531250000000025
+  },
+  "Other        High Pass": {
+    "before": [
+      32.0,
+      33.7,
+      36.1
+    ],
+    "after": [
+      31.492,
+      33.816,
+      35.144
+    ],
+    "before_median": 33.7,
+    "after_median": 33.816,
+    "change_percent": 0.3442136498516213
+  },
+  "Other        HSB/HSL": {
+    "before": [
+      36.1,
+      41.4,
+      45.0
+    ],
+    "after": [
+      37.784,
+      40.444,
+      42.863
+    ],
+    "before_median": 41.4,
+    "after_median": 40.444,
+    "change_percent": -2.3091787439613376
+  },
+  "Other        Maximum": {
+    "before": [
+      7.1,
+      8.4,
+      8.7
+    ],
+    "after": [
+      7.617,
+      8.567,
+      8.679
+    ],
+    "before_median": 8.4,
+    "after_median": 8.567,
+    "change_percent": 1.9880952380952444
+  },
+  "Other        Minimum": {
+    "before": [
+      7.1,
+      8.2,
+      8.7
+    ],
+    "after": [
+      7.401,
+      8.113,
+      8.536
+    ],
+    "before_median": 8.2,
+    "after_median": 8.113,
+    "change_percent": -1.0609756097560985
+  },
+  "Other        Offset": {
+    "before": [
+      77.4,
+      82.1,
+      84.6
+    ],
+    "after": [
+      48.489,
+      48.174,
+      50.767
+    ],
+    "before_median": 82.1,
+    "after_median": 48.489,
+    "change_percent": -40.93909866017052
+  },
+  "Other        Custom": {
+    "before": [
+      32.1,
+      34.0,
+      35.1
+    ],
+    "after": [
+      34.182,
+      34.419,
+      36.444
+    ],
+    "before_median": 34.0,
+    "after_median": 34.419,
+    "change_percent": 1.232352941176451
+  },
+  "Adjustments  Channel Mixer": {
+    "before": [
+      35.7,
+      41.0,
+      42.9
+    ],
+    "after": [
+      37.041,
+      40.509,
+      44.08
+    ],
+    "before_median": 41.0,
+    "after_median": 40.509,
+    "change_percent": -1.1975609756097572
+  },
+  "Adjustments  Selective Color": {
+    "before": [
+      35.2,
+      41.1,
+      42.4
+    ],
+    "after": [
+      35.87,
+      40.011,
+      42.575
+    ],
+    "before_median": 41.1,
+    "after_median": 40.011,
+    "change_percent": -2.649635036496345
+  },
+  "Adjustments  Replace Color": {
+    "before": [
+      35.4,
+      41.2,
+      41.3
+    ],
+    "after": [
+      35.899,
+      39.814,
+      42.926
+    ],
+    "before_median": 41.2,
+    "after_median": 39.814,
+    "change_percent": -3.3640776699029207
+  },
+  "Adjustments  Match Color": {
+    "before": [
+      35.3,
+      40.4,
+      41.1
+    ],
+    "after": [
+      36.021,
+      39.495,
+      43.184
+    ],
+    "before_median": 40.4,
+    "after_median": 39.495,
+    "change_percent": -2.2400990099009976
+  },
+  "Render       Lighting Effects": {
+    "before": [
+      41.5,
+      45.7,
+      46.3
+    ],
+    "after": [
+      43.684,
+      44.43,
+      48.365
+    ],
+    "before_median": 45.7,
+    "after_median": 44.43,
+    "change_percent": -2.7789934354485846
+  },
+  "Distort      Displace": {
+    "before": [
+      206.7,
+      225.0,
+      225.8
+    ],
+    "after": [
+      213.207,
+      220.49,
+      234.535
+    ],
+    "before_median": 225.0,
+    "after_median": 220.49,
+    "change_percent": -2.004444444444442
+  },
+  "Blur         Shape Blur": {
+    "before": [
+      95.2,
+      110.2,
+      106.1
+    ],
+    "after": [
+      97.927,
+      99.926,
+      106.862
+    ],
+    "before_median": 106.1,
+    "after_median": 99.926,
+    "change_percent": -5.819038642789809
+  },
+  "Blur Gallery Tilt-Shift": {
+    "before": [
+      145.2,
+      156.4,
+      161.7
+    ],
+    "after": [
+      152.187,
+      155.269,
+      167.952
+    ],
+    "before_median": 156.4,
+    "after_median": 155.269,
+    "change_percent": -0.7231457800511487
+  },
+  "Blur Gallery Iris Blur": {
+    "before": [
+      165.2,
+      188.7,
+      195.4
+    ],
+    "after": [
+      169.998,
+      183.007,
+      196.893
+    ],
+    "before_median": 188.7,
+    "after_median": 183.007,
+    "change_percent": -3.0169581346051855
+  },
+  "Stylize      Extrude": {
+    "before": [
+      43.8,
+      55.8,
+      57.7
+    ],
+    "after": [
+      44.395,
+      52.698,
+      57.196
+    ],
+    "before_median": 55.8,
+    "after_median": 52.698,
+    "change_percent": -5.5591397849462325
+  },
+  "Stylize      Tiles": {
+    "before": [
+      117.4,
+      139.1,
+      144.1
+    ],
+    "after": [
+      124.181,
+      133.38,
+      144.818
+    ],
+    "before_median": 139.1,
+    "after_median": 133.38,
+    "change_percent": -4.112149532710285
+  },
+  "Video        De-Interlace": {
+    "before": [
+      5.2,
+      5.8,
+      5.7
+    ],
+    "after": [
+      5.423,
+      5.61,
+      5.777
+    ],
+    "before_median": 5.7,
+    "after_median": 5.61,
+    "change_percent": -1.5789473684210464
+  },
+  "Video        NTSC Colors": {
+    "before": [
+      35.2,
+      43.3,
+      43.3
+    ],
+    "after": [
+      35.414,
+      40.635,
+      43.848
+    ],
+    "before_median": 43.3,
+    "after_median": 40.635,
+    "change_percent": -6.15473441108545
+  },
+  "Filter       Camera Raw Filter": {
+    "before": [
+      224.2,
+      255.4,
+      262.0
+    ],
+    "after": [
+      224.419,
+      245.118,
+      263.974
+    ],
+    "before_median": 255.4,
+    "after_median": 245.118,
+    "change_percent": -4.025841816758035
+  },
+  "Filter       Lens Correction": {
+    "before": [
+      231.1,
+      240.9,
+      246.6
+    ],
+    "after": [
+      163.863,
+      165.777,
+      169.68
+    ],
+    "before_median": 240.9,
+    "after_median": 165.777,
+    "change_percent": -31.1843088418431
+  },
+  "Blur Gallery Field Blur": {
+    "before": [
+      219.6,
+      235.3,
+      238.3
+    ],
+    "after": [
+      227.413,
+      231.035,
+      244.13
+    ],
+    "before_median": 235.3,
+    "after_median": 231.035,
+    "change_percent": -1.8125796855078646
+  },
+  "Blur Gallery Spin Blur": {
+    "before": [
+      390.2,
+      428.2,
+      462.6
+    ],
+    "after": [
+      246.064,
+      251.263,
+      278.175
+    ],
+    "before_median": 428.2,
+    "after_median": 251.263,
+    "change_percent": -41.3211116300794
+  },
+  "Blur Gallery Path Blur": {
+    "before": [
+      843.5,
+      910.3,
+      954.1
+    ],
+    "after": [
+      528.1,
+      540.4,
+      591.74
+    ],
+    "before_median": 910.3,
+    "after_median": 540.4,
+    "change_percent": -40.6349555091728
+  },
+  "Neural Filters Skin Smoothing": {
+    "before": [
+      268.1,
+      314.3,
+      302.2
+    ],
+    "after": [
+      275.685,
+      307.325,
+      316.738
+    ],
+    "before_median": 302.2,
+    "after_median": 307.325,
+    "change_percent": 1.6958967571145012
+  },
+  "Neural Filters JPEG Artifacts Removal": {
+    "before": [
+      467.8,
+      592.8,
+      555.1
+    ],
+    "after": [
+      478.738,
+      514.683,
+      566.549
+    ],
+    "before_median": 555.1,
+    "after_median": 514.683,
+    "change_percent": -7.281030444964875
+  },
+  "Neural Filters Photo Restoration": {
+    "before": [
+      521.2,
+      619.4,
+      619.3
+    ],
+    "after": [
+      521.703,
+      575.891,
+      617.83
+    ],
+    "before_median": 619.3,
+    "after_median": 575.891,
+    "change_percent": -7.009365412562573
+  },
+  "Neural Filters Super Zoom": {
+    "before": [
+      17.1,
+      22.0,
+      22.0
+    ],
+    "after": [
+      17.948,
+      21.023,
+      23.134
+    ],
+    "before_median": 22.0,
+    "after_median": 21.023,
+    "change_percent": -4.440909090909095
+  },
+  "Transform    Free Transform": {
+    "before": [
+      63.4,
+      73.4,
+      73.8
+    ],
+    "after": [
+      38.508,
+      40.981,
+      43.662
+    ],
+    "before_median": 73.4,
+    "after_median": 40.981,
+    "change_percent": -44.16757493188012
+  },
+  "Filter       Vanishing Point": {
+    "before": [
+      64.4,
+      73.0,
+      74.9
+    ],
+    "after": [
+      40.557,
+      40.986,
+      43.866
+    ],
+    "before_median": 73.0,
+    "after_median": 40.986,
+    "change_percent": -43.85479452054795
+  },
+  "Filter       Adaptive Wide Angle": {
+    "before": [
+      78.0,
+      93.1,
+      95.5
+    ],
+    "after": [
+      55.198,
+      59.992,
+      66.143
+    ],
+    "before_median": 93.1,
+    "after_median": 59.992,
+    "change_percent": -35.56176154672394
+  },
+  "Neural Filters Harmonization": {
+    "before": [
+      36.5,
+      45.5,
+      46.0
+    ],
+    "after": [
+      37.015,
+      44.245,
+      49.517
+    ],
+    "before_median": 45.5,
+    "after_median": 44.245,
+    "change_percent": -2.758241758241764
+  },
+  "Transform    Warp": {
+    "before": [
+      1052.2,
+      1141.0,
+      1153.6
+    ],
+    "after": [
+      1104.673,
+      1164.429,
+      1243.737
+    ],
+    "before_median": 1141.0,
+    "after_median": 1164.429,
+    "change_percent": 2.053374233128835
+  },
+  "Filter Gallery Colored Pencil": {
+    "before": [
+      89.4,
+      85.8,
+      89.2
+    ],
+    "after": [
+      87.85,
+      79.38,
+      86.867
+    ],
+    "before_median": 89.2,
+    "after_median": 86.867,
+    "change_percent": -2.6154708520179315
+  },
+  "Filter Gallery Cutout": {
+    "before": [
+      500.2,
+      546.2,
+      560.4
+    ],
+    "after": [
+      521.362,
+      517.196,
+      751.847
+    ],
+    "before_median": 546.2,
+    "after_median": 521.362,
+    "change_percent": -4.547418528011726
+  },
+  "Filter Gallery Dry Brush": {
+    "before": [
+      82.2,
+      88.2,
+      93.3
+    ],
+    "after": [
+      83.564,
+      85.96,
+      134.261
+    ],
+    "before_median": 88.2,
+    "after_median": 85.96,
+    "change_percent": -2.539682539682553
+  },
+  "Filter Gallery Film Grain": {
+    "before": [
+      33.3,
+      34.9,
+      37.3
+    ],
+    "after": [
+      27.48,
+      27.95,
+      43.324
+    ],
+    "before_median": 34.9,
+    "after_median": 27.95,
+    "change_percent": -19.914040114613172
+  },
+  "Filter Gallery Fresco": {
+    "before": [
+      134.1,
+      142.9,
+      145.4
+    ],
+    "after": [
+      134.644,
+      133.891,
+      230.125
+    ],
+    "before_median": 142.9,
+    "after_median": 134.644,
+    "change_percent": -5.777466759972006
+  },
+  "Filter Gallery Neon Glow": {
+    "before": [
+      60.4,
+      68.3,
+      70.7
+    ],
+    "after": [
+      58.01,
+      64.059,
+      150.227
+    ],
+    "before_median": 68.3,
+    "after_median": 64.059,
+    "change_percent": -6.20937042459736
+  },
+  "Filter Gallery Paint Daubs": {
+    "before": [
+      451.6,
+      531.0,
+      550.0
+    ],
+    "after": [
+      448.698,
+      501.627,
+      774.462
+    ],
+    "before_median": 531.0,
+    "after_median": 501.627,
+    "change_percent": -5.531638418079099
+  },
+  "Filter Gallery Palette Knife": {
+    "before": [
+      408.4,
+      466.1,
+      494.1
+    ],
+    "after": [
+      428.441,
+      466.152,
+      751.006
+    ],
+    "before_median": 466.1,
+    "after_median": 466.152,
+    "change_percent": 0.011156404205103776
+  },
+  "Filter Gallery Plastic Wrap": {
+    "before": [
+      156.7,
+      182.5,
+      186.8
+    ],
+    "after": [
+      148.334,
+      161.035,
+      250.652
+    ],
+    "before_median": 182.5,
+    "after_median": 161.035,
+    "change_percent": -11.761643835616443
+  },
+  "Filter Gallery Poster Edges": {
+    "before": [
+      70.0,
+      86.5,
+      88.7
+    ],
+    "after": [
+      65.794,
+      72.537,
+      109.822
+    ],
+    "before_median": 86.5,
+    "after_median": 72.537,
+    "change_percent": -16.142196531791896
+  },
+  "Filter Gallery Rough Pastels": {
+    "before": [
+      241.1,
+      283.4,
+      296.7
+    ],
+    "after": [
+      228.625,
+      255.946,
+      335.561
+    ],
+    "before_median": 283.4,
+    "after_median": 255.946,
+    "change_percent": -9.68736767819336
+  },
+  "Filter Gallery Smudge Stick": {
+    "before": [
+      59.4,
+      68.5,
+      73.0
+    ],
+    "after": [
+      51.987,
+      56.935,
+      81.241
+    ],
+    "before_median": 68.5,
+    "after_median": 56.935,
+    "change_percent": -16.88321167883211
+  },
+  "Filter Gallery Sponge": {
+    "before": [
+      255.4,
+      302.7,
+      310.2
+    ],
+    "after": [
+      262.449,
+      291.685,
+      378.639
+    ],
+    "before_median": 302.7,
+    "after_median": 291.685,
+    "change_percent": -3.6389164188965983
+  },
+  "Filter Gallery Underpainting": {
+    "before": [
+      252.8,
+      296.8,
+      299.8
+    ],
+    "after": [
+      263.773,
+      281.195,
+      385.064
+    ],
+    "before_median": 296.8,
+    "after_median": 281.195,
+    "change_percent": -5.2577493261455555
+  },
+  "Filter Gallery Watercolor": {
+    "before": [
+      446.5,
+      525.9,
+      542.8
+    ],
+    "after": [
+      467.552,
+      499.264,
+      682.091
+    ],
+    "before_median": 525.9,
+    "after_median": 499.264,
+    "change_percent": -5.064841224567407
+  },
+  "Filter Gallery Accented Edges": {
+    "before": [
+      192.4,
+      213.4,
+      224.6
+    ],
+    "after": [
+      196.01,
+      204.529,
+      277.554
+    ],
+    "before_median": 213.4,
+    "after_median": 204.529,
+    "change_percent": -4.156982193064673
+  },
+  "Filter Gallery Angled Strokes": {
+    "before": [
+      540.9,
+      648.9,
+      661.3
+    ],
+    "after": [
+      566.302,
+      624.463,
+      822.197
+    ],
+    "before_median": 648.9,
+    "after_median": 624.463,
+    "change_percent": -3.7659115426105783
+  },
+  "Filter Gallery Crosshatch": {
+    "before": [
+      628.4,
+      719.3,
+      731.9
+    ],
+    "after": [
+      650.051,
+      701.199,
+      874.705
+    ],
+    "before_median": 719.3,
+    "after_median": 701.199,
+    "change_percent": -2.5164743500625586
+  },
+  "Filter Gallery Dark Strokes": {
+    "before": [
+      423.1,
+      475.3,
+      497.8
+    ],
+    "after": [
+      435.879,
+      456.987,
+      609.981
+    ],
+    "before_median": 475.3,
+    "after_median": 456.987,
+    "change_percent": -3.852934988428358
+  },
+  "Filter Gallery Ink Outlines": {
+    "before": [
+      184.1,
+      197.7,
+      202.2
+    ],
+    "after": [
+      182.386,
+      192.907,
+      275.943
+    ],
+    "before_median": 197.7,
+    "after_median": 192.907,
+    "change_percent": -2.424380374304491
+  },
+  "Filter Gallery Spatter": {
+    "before": [
+      119.4,
+      138.5,
+      137.4
+    ],
+    "after": [
+      124.712,
+      129.64,
+      179.662
+    ],
+    "before_median": 137.4,
+    "after_median": 129.64,
+    "change_percent": -5.647743813682693
+  },
+  "Filter Gallery Sprayed Strokes": {
+    "before": [
+      94.7,
+      109.6,
+      109.7
+    ],
+    "after": [
+      99.243,
+      104.866,
+      147.574
+    ],
+    "before_median": 109.6,
+    "after_median": 104.866,
+    "change_percent": -4.319343065693426
+  },
+  "Filter Gallery Sumi-e": {
+    "before": [
+      254.0,
+      305.6,
+      299.4
+    ],
+    "after": [
+      266.043,
+      279.952,
+      353.179
+    ],
+    "before_median": 299.4,
+    "after_median": 279.952,
+    "change_percent": -6.495657982631919
+  },
+  "Filter Gallery Diffuse Glow": {
+    "before": [
+      94.7,
+      114.5,
+      99.5
+    ],
+    "after": [
+      89.606,
+      94.122,
+      127.973
+    ],
+    "before_median": 99.5,
+    "after_median": 94.122,
+    "change_percent": -5.405025125628137
+  },
+  "Filter Gallery Glass": {
+    "before": [
+      148.5,
+      167.8,
+      169.1
+    ],
+    "after": [
+      148.982,
+      163.29,
+      194.832
+    ],
+    "before_median": 167.8,
+    "after_median": 163.29,
+    "change_percent": -2.687723480333737
+  },
+  "Filter Gallery Ocean Ripple": {
+    "before": [
+      206.1,
+      210.8,
+      215.4
+    ],
+    "after": [
+      208.246,
+      209.496,
+      258.605
+    ],
+    "before_median": 210.8,
+    "after_median": 209.496,
+    "change_percent": -0.6185958254269486
+  },
+  "Filter Gallery Bas Relief": {
+    "before": [
+      111.5,
+      113.8,
+      116.3
+    ],
+    "after": [
+      95.74,
+      104.163,
+      131.295
+    ],
+    "before_median": 113.8,
+    "after_median": 104.163,
+    "change_percent": -8.468365553602808
+  },
+  "Filter Gallery Chalk & Charcoal": {
+    "before": [
+      621.9,
+      715.2,
+      725.0
+    ],
+    "after": [
+      618.817,
+      656.603,
+      797.852
+    ],
+    "before_median": 715.2,
+    "after_median": 656.603,
+    "change_percent": -8.193092841163319
+  },
+  "Filter Gallery Charcoal": {
+    "before": [
+      552.4,
+      625.6,
+      637.8
+    ],
+    "after": [
+      624.495,
+      714.757,
+      739.692
+    ],
+    "before_median": 625.6,
+    "after_median": 714.757,
+    "change_percent": 14.251438618925816
+  },
+  "Filter Gallery Chrome": {
+    "before": [
+      523.7,
+      593.3,
+      595.4
+    ],
+    "after": [
+      548.932,
+      571.263,
+      654.743
+    ],
+    "before_median": 593.3,
+    "after_median": 571.263,
+    "change_percent": -3.7143097926849666
+  },
+  "Filter Gallery Cont\u00e9 Crayon": {
+    "before": [
+      98.2,
+      111.9,
+      112.8
+    ],
+    "after": [
+      99.804,
+      108.038,
+      124.574
+    ],
+    "before_median": 111.9,
+    "after_median": 108.038,
+    "change_percent": -3.4512957998212745
+  },
+  "Filter Gallery Graphic Pen": {
+    "before": [
+      110.7,
+      131.7,
+      132.2
+    ],
+    "after": [
+      114.555,
+      122.648,
+      147.581
+    ],
+    "before_median": 131.7,
+    "after_median": 122.648,
+    "change_percent": -6.873196659073644
+  },
+  "Filter Gallery Halftone Pattern": {
+    "before": [
+      52.5,
+      58.0,
+      58.5
+    ],
+    "after": [
+      52.962,
+      54.685,
+      69.315
+    ],
+    "before_median": 58.0,
+    "after_median": 54.685,
+    "change_percent": -5.715517241379309
+  },
+  "Filter Gallery Note Paper": {
+    "before": [
+      53.6,
+      59.1,
+      59.3
+    ],
+    "after": [
+      53.358,
+      56.377,
+      72.554
+    ],
+    "before_median": 59.1,
+    "after_median": 56.377,
+    "change_percent": -4.607445008460232
+  },
+  "Filter Gallery Photocopy": {
+    "before": [
+      61.7,
+      69.2,
+      72.0
+    ],
+    "after": [
+      59.297,
+      63.016,
+      77.126
+    ],
+    "before_median": 69.2,
+    "after_median": 63.016,
+    "change_percent": -8.936416184971108
+  },
+  "Filter Gallery Plaster": {
+    "before": [
+      200.1,
+      231.4,
+      231.7
+    ],
+    "after": [
+      179.095,
+      190.652,
+      225.969
+    ],
+    "before_median": 231.4,
+    "after_median": 190.652,
+    "change_percent": -17.60933448573899
+  },
+  "Filter Gallery Reticulation": {
+    "before": [
+      95.2,
+      110.4,
+      110.5
+    ],
+    "after": [
+      86.524,
+      93.142,
+      116.278
+    ],
+    "before_median": 110.4,
+    "after_median": 93.142,
+    "change_percent": -15.632246376811597
+  },
+  "Filter Gallery Stamp": {
+    "before": [
+      62.4,
+      72.7,
+      76.6
+    ],
+    "after": [
+      65.745,
+      70.567,
+      93.184
+    ],
+    "before_median": 72.7,
+    "after_median": 70.567,
+    "change_percent": -2.933975240715281
+  },
+  "Filter Gallery Torn Edges": {
+    "before": [
+      68.2,
+      79.6,
+      82.3
+    ],
+    "after": [
+      65.296,
+      73.11,
+      91.836
+    ],
+    "before_median": 79.6,
+    "after_median": 73.11,
+    "change_percent": -8.153266331658282
+  },
+  "Filter Gallery Water Paper": {
+    "before": [
+      185.7,
+      218.1,
+      221.7
+    ],
+    "after": [
+      194.794,
+      212.029,
+      267.719
+    ],
+    "before_median": 218.1,
+    "after_median": 212.029,
+    "change_percent": -2.7835855112333774
+  },
+  "Filter Gallery Glowing Edges": {
+    "before": [
+      234.5,
+      260.9,
+      261.6
+    ],
+    "after": [
+      236.678,
+      251.485,
+      386.896
+    ],
+    "before_median": 260.9,
+    "after_median": 251.485,
+    "change_percent": -3.608662322729006
+  },
+  "Filter Gallery Craquelure": {
+    "before": [
+      404.0,
+      483.8,
+      486.8
+    ],
+    "after": [
+      437.773,
+      472.124,
+      637.329
+    ],
+    "before_median": 483.8,
+    "after_median": 472.124,
+    "change_percent": -2.4133939644481184
+  },
+  "Filter Gallery Grain": {
+    "before": [
+      34.7,
+      38.1,
+      39.1
+    ],
+    "after": [
+      35.24,
+      38.693,
+      53.393
+    ],
+    "before_median": 38.1,
+    "after_median": 38.693,
+    "change_percent": 1.5564304461942235
+  },
+  "Filter Gallery Mosaic Tiles": {
+    "before": [
+      200.1,
+      222.3,
+      228.2
+    ],
+    "after": [
+      205.161,
+      213.71,
+      301.266
+    ],
+    "before_median": 222.3,
+    "after_median": 213.71,
+    "change_percent": -3.8641475483580767
+  },
+  "Filter Gallery Patchwork": {
+    "before": [
+      77.4,
+      90.2,
+      90.3
+    ],
+    "after": [
+      85.815,
+      89.08,
+      127.848
+    ],
+    "before_median": 90.2,
+    "after_median": 89.08,
+    "change_percent": -1.2416851441241716
+  },
+  "Filter Gallery Stained Glass": {
+    "before": [
+      230.3,
+      262.1,
+      262.3
+    ],
+    "after": [
+      242.078,
+      253.092,
+      331.799
+    ],
+    "before_median": 262.1,
+    "after_median": 253.092,
+    "change_percent": -3.4368561617703186
+  },
+  "Filter Gallery Texturizer": {
+    "before": [
+      144.5,
+      164.2,
+      166.3
+    ],
+    "after": [
+      155.959,
+      164.574,
+      204.838
+    ],
+    "before_median": 164.2,
+    "after_median": 164.574,
+    "change_percent": 0.22777101096225216
+  }
+}

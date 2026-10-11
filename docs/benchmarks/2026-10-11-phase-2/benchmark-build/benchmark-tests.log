@@ -1,0 +1,12 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+    Finished `release` profile [optimized] target(s) in 29.10s
+     Running unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)
+
+running 4 tests
+test bench_config::tests::all_suites_accept_exact_rectangular_tiers_and_filters ... ok
+test bench_config::tests::all_tiers_run_in_increasing_order_and_report_actual_pixel_counts ... ok
+test bench_config::tests::invalid_or_unsupported_workloads_never_fall_back_to_a_huge_default ... ok
+test bench_config::tests::legacy_defaults_and_explicit_square_sizes_are_preserved ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 511 filtered out; finished in 0.00s
+

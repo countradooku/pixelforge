@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "note": "Historical generation outputs are retained unchanged. These SHA-specific findings prevent silently ignored parameters and duplicate variants from counting as feature coverage. A fresh corrected retry uses a new source fingerprint. Invalid overlay/stroke contour combinations remain failed in the original manifest; the future catalog uses supported blend variants.",
+  "failures": [
+    {
+      "id": "adjustment-channelmixer-setting0",
+      "reason": "Photoshop stored zero channel-mixer coefficients; requested coefficients/constants were ignored",
+      "evidence_kind": "stored-descriptor-parameter-mismatch",
+      "comparison": "adjustment-channelmixer-setting0 and setting1 have identical tree JSON and decoded composite pixels",
+      "filename": "adjustment-channelmixer-setting0.psd",
+      "source_sha256": "51f88b169820ca39dc778b06d8617929776a6da7dc5e503a8e33a636eaa1fa17",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/adjustment-channelmixer-setting0"
+    },
+    {
+      "id": "adjustment-channelmixer-setting1",
+      "reason": "Photoshop stored zero channel-mixer coefficients; requested coefficients/constants were ignored",
+      "evidence_kind": "stored-descriptor-parameter-mismatch",
+      "comparison": "adjustment-channelmixer-setting0 and setting1 have identical tree JSON and decoded composite pixels",
+      "filename": "adjustment-channelmixer-setting1.psd",
+      "source_sha256": "d863e77774a33541c26c7b9cd78fa56f6cbb944d157a959e645eed854055f515",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/adjustment-channelmixer-setting1"
+    },
+    {
+      "id": "adjustment-channelmixer-setting2",
+      "reason": "Photoshop stored zero channel-mixer coefficients; requested coefficients/constants were ignored",
+      "evidence_kind": "stored-descriptor-parameter-mismatch",
+      "comparison": "adjustment-channelmixer-setting0 and setting1 have identical tree JSON and decoded composite pixels",
+      "filename": "adjustment-channelmixer-setting2.psd",
+      "source_sha256": "09759e45562b6bb69e71af4cc83cfde6db6d3d9b309c745592b11d6b2fc14c07",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/adjustment-channelmixer-setting2"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting0",
+      "reason": "Photoshop stored no Selective Color correction values; requested corrections were ignored",
+      "evidence_kind": "stored-descriptor-parameter-mismatch",
+      "comparison": "adjustment-selectivecolor-setting0 and setting1 have identical tree JSON and decoded composite pixels",
+      "filename": "adjustment-selectivecolor-setting0.psd",
+      "source_sha256": "fd75291466fabdd0ae499e37471d738bab22a6b27a000e0901a1bce6c03f8069",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/adjustment-selectivecolor-setting0"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting1",
+      "reason": "Photoshop stored no Selective Color correction values; requested corrections were ignored",
+      "evidence_kind": "stored-descriptor-parameter-mismatch",
+      "comparison": "adjustment-selectivecolor-setting0 and setting1 have identical tree JSON and decoded composite pixels",
+      "filename": "adjustment-selectivecolor-setting1.psd",
+      "source_sha256": "daa20efc57177912e363b81d17cbd9b1924405b15c0c4a07fdbe8c5cdda33399",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/adjustment-selectivecolor-setting1"
+    },
+    {
+      "id": "adjustment-selectivecolor-setting2",
+      "reason": "Photoshop stored no Selective Color correction values; requested corrections were ignored",
+      "evidence_kind": "stored-descriptor-parameter-mismatch",
+      "comparison": "adjustment-selectivecolor-setting0 and setting1 have identical tree JSON and decoded composite pixels",
+      "filename": "adjustment-selectivecolor-setting2.psd",
+      "source_sha256": "e44f1310e9ecc0decba6d640afd72aaed5d6c279bd5630f81fffe1d4a69bb7e3",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/adjustment-selectivecolor-setting2"
+    },
+    {
+      "id": "style-chromefx-contour",
+      "reason": "Requested contour was ignored; metadata and decoded pixels duplicate the small variant",
+      "evidence_kind": "identical-semantic-tree-and-decoded-pixels",
+      "duplicates": "style-chromefx-small",
+      "filename": "style-chromefx-contour.psd",
+      "source_sha256": "e4e77bf0a8dd5fc907b389e2b095aabeec25d15f59d787cf8b01bc30d8938f12",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/style-chromefx-contour"
+    },
+    {
+      "id": "style-solidfill-contour",
+      "reason": "Requested contour was ignored; metadata and decoded pixels duplicate the small variant",
+      "evidence_kind": "identical-semantic-tree-and-decoded-pixels",
+      "duplicates": "style-solidfill-small",
+      "filename": "style-solidfill-contour.psd",
+      "source_sha256": "1f2c8bab146c28ed1048fda4989a72bd100d2a93927db6e6dc1c9bdba5b03e98",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/style-solidfill-contour"
+    },
+    {
+      "id": "style-gradientfill-contour",
+      "reason": "Requested contour was ignored; metadata and decoded pixels duplicate the small variant",
+      "evidence_kind": "identical-semantic-tree-and-decoded-pixels",
+      "duplicates": "style-gradientfill-small",
+      "filename": "style-gradientfill-contour.psd",
+      "source_sha256": "2fd33f38f9f6416bc262f21224da70ac99a6478deaeae1e62687bbc111c0d5a4",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/style-gradientfill-contour"
+    },
+    {
+      "id": "style-framefx-contour",
+      "reason": "Requested contour was ignored; metadata and decoded pixels duplicate the small variant",
+      "evidence_kind": "identical-semantic-tree-and-decoded-pixels",
+      "duplicates": "style-framefx-small",
+      "filename": "style-framefx-contour.psd",
+      "source_sha256": "f7c4d791459046392e43ac5529131acdd8daf7fb637b9a1735e451fffe95fd74",
+      "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/reference/style-framefx-contour"
+    }
+  ]
+}

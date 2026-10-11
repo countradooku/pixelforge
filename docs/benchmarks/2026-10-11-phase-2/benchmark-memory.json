@@ -1,0 +1,218 @@
+[
+  {
+    "suite": "engine",
+    "tier": "24",
+    "binary": "before",
+    "max_process_peak_rss_mib": 814.9,
+    "max_tracked_mib": 369.5,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "engine",
+    "tier": "24",
+    "binary": "after",
+    "max_process_peak_rss_mib": 839.9,
+    "max_tracked_mib": 369.5,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "engine",
+    "tier": "61",
+    "binary": "before",
+    "max_process_peak_rss_mib": 1463.4,
+    "max_tracked_mib": 891.0,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "engine",
+    "tier": "61",
+    "binary": "after",
+    "max_process_peak_rss_mib": 1472.6,
+    "max_tracked_mib": 891.0,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "engine",
+    "tier": "150",
+    "binary": "before",
+    "max_process_peak_rss_mib": 3061.2,
+    "max_tracked_mib": 2101.2,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "engine",
+    "tier": "150",
+    "binary": "after",
+    "max_process_peak_rss_mib": 3040.6,
+    "max_tracked_mib": 2101.2,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "engine",
+    "tier": "268",
+    "binary": "before",
+    "max_process_peak_rss_mib": 5030.2,
+    "max_tracked_mib": 3588.8,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "engine",
+    "tier": "268",
+    "binary": "after",
+    "max_process_peak_rss_mib": 5096.5,
+    "max_tracked_mib": 3588.8,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "24",
+    "binary": "before",
+    "max_process_peak_rss_mib": 329.8,
+    "max_tracked_mib": 279.9,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "24",
+    "binary": "after",
+    "max_process_peak_rss_mib": 329.0,
+    "max_tracked_mib": 279.9,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "61",
+    "binary": "before",
+    "max_process_peak_rss_mib": 734.5,
+    "max_tracked_mib": 689.3,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "61",
+    "binary": "after",
+    "max_process_peak_rss_mib": 734.2,
+    "max_tracked_mib": 689.3,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "150",
+    "binary": "before",
+    "max_process_peak_rss_mib": 1669.6,
+    "max_tracked_mib": 1620.2,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "150",
+    "binary": "after",
+    "max_process_peak_rss_mib": 1671.6,
+    "max_tracked_mib": 1620.2,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "268",
+    "binary": "before",
+    "max_process_peak_rss_mib": 2825.4,
+    "max_tracked_mib": 2771.4,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "tools",
+    "tier": "268",
+    "binary": "after",
+    "max_process_peak_rss_mib": 2827.0,
+    "max_tracked_mib": 2771.4,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "24",
+    "binary": "before",
+    "max_process_peak_rss_mib": 2323.7,
+    "max_tracked_mib": 3555.6,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "24",
+    "binary": "after",
+    "max_process_peak_rss_mib": 2318.5,
+    "max_tracked_mib": 3555.6,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "61",
+    "binary": "before",
+    "max_process_peak_rss_mib": 5170.1,
+    "max_tracked_mib": 6362.7,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "61",
+    "binary": "after",
+    "max_process_peak_rss_mib": 5170.2,
+    "max_tracked_mib": 6362.7,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "150",
+    "binary": "before",
+    "max_process_peak_rss_mib": 11891.7,
+    "max_tracked_mib": 12993.1,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "150",
+    "binary": "after",
+    "max_process_peak_rss_mib": 11885.8,
+    "max_tracked_mib": 12993.1,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "268",
+    "binary": "before",
+    "max_process_peak_rss_mib": 20235.9,
+    "max_tracked_mib": 21227.3,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  },
+  {
+    "suite": "gpu",
+    "tier": "268",
+    "binary": "after",
+    "max_process_peak_rss_mib": 20233.5,
+    "max_tracked_mib": 21227.3,
+    "budget_misses": 0,
+    "note": "RSS is process-wide; tracked includes reported memory-budget accounting; neither is Photoshop memory."
+  }
+]

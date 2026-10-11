@@ -1,0 +1,20 @@
+{
+  "operation": "native-verify",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-observation",
+  "cases": [
+    {
+      "id": "standalone-large-layered-24",
+      "filename": "large-layered-24.psd",
+      "family": "standalone-writer",
+      "feature": "native-open-and-resave",
+      "params": {
+        "psb": false
+      },
+      "fidelity": "exact"
+    }
+  ],
+  "input": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/roundtrip",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-observation-reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-observation/abort-requested.txt",
+  "expected_jsx_sha256": "6215f5de24f7fcf4437521ea2251bf5945e2b4295197b9ed0767fb551a1cb6b1"
+}

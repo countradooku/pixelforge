@@ -1,0 +1,22 @@
+    Checking spirv v0.4.0+sdk-1.4.341.0
+    Checking naga v29.0.4
+    Checking wgpu-naga-bridge v29.0.4
+    Checking wgpu-hal v29.0.4
+    Checking wgpu-core-deps-apple v29.0.4
+    Checking wgpu-core v29.0.4
+    Checking wgpu v29.0.4
+    Checking pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+error[E0614]: type `blend::BlendMode` cannot be dereferenced
+   --> src/engine/psd/mapping.rs:527:73
+    |
+527 |         for mode in BlendMode::ALL {assert_eq!(blend_from_key(blend_key(*mode)).unwrap(),*mode);}
+    |                                                                         ^^^^^ can't be dereferenced
+
+error[E0614]: type `blend::BlendMode` cannot be dereferenced
+   --> src/engine/psd/mapping.rs:527:90
+    |
+527 |         for mode in BlendMode::ALL {assert_eq!(blend_from_key(blend_key(*mode)).unwrap(),*mode);}
+    |                                                                                          ^^^^^ can't be dereferenced
+
+For more information about this error, try `rustc --explain E0614`.
+error: could not compile `pixelforge` (bin "pixelforge" test) due to 2 previous errors

@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "id": "standalone-two-pixel-raw-composite",
+      "family": "standalone-writer",
+      "status": "failed",
+      "error": "Native Photoshop open displayed a dialog before inspection: [{\"id\": 1538, \"name\": \"Pixel Layer Bar\", \"layer\": 8, \"bounds\": {\"X\": 458, \"Height\": 32, \"Y\": 524, \"Width\": 509}}]",
+      "watchdog_dialog_confirmed": true,
+      "watchdog_passed": false,
+      "warning_gate_verified": false,
+      "restoration_confirmed": true
+    }
+  ],
+  "restoration_confirmed": true,
+  "warning_gate_verified": false,
+  "open_dialog_mode": "native LaunchServices",
+  "fatal_error": null
+}

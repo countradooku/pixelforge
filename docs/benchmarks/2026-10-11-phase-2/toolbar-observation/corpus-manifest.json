@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "operation": "native-verify",
+  "cases": [
+    {
+      "id": "standalone-large-layered-24",
+      "filename": "large-layered-24.psd",
+      "family": "standalone-writer",
+      "feature": "native-open-and-resave",
+      "params": {
+        "psb": false
+      },
+      "fidelity": "exact"
+    }
+  ],
+  "planned_count": 1,
+  "selected_count": 1,
+  "coverage_complete": false,
+  "standalone_validation": true,
+  "note": "Generated feature coverage is measured per distinct feature and parameter; failures remain failures.",
+  "generator_sha256": "6215f5de24f7fcf4437521ea2251bf5945e2b4295197b9ed0767fb551a1cb6b1"
+}

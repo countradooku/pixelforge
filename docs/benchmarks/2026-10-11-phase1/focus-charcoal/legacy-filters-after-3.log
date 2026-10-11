@@ -1,0 +1,8 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Filter benchmark — 8192 × 8192 (67 MP), 18 threads, default parameters
+
+Filter Gallery Chalk & Charcoal                  684.921 ms         98 MP/s
+Filter Gallery Charcoal                          621.080 ms        108 MP/s
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 597.2 MiB
+  memory after: RSS 1026.7 MiB; peak RSS 1026.7 MiB (process lifetime); page-ins 0 (includes file reads)

@@ -1,0 +1,3463 @@
+{
+  "status": "failed",
+  "restoration_confirmed": false,
+  "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 366, \"name\": \"Progress\", \"layer\": 0, \"bounds\": {\"X\": 628, \"Height\": 129, \"Y\": 466, \"Width\": 472}}]",
+  "seconds": 378.231,
+  "observations": [
+    {
+      "seconds": 0.133,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.701,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.275,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.852,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 2.43,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.011,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.587,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.172,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.745,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.328,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.902,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.475,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.044,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.629,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.202,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.778,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.35,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.928,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.512,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.092,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.678,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.269,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.847,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.434,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.019,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.6,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.187,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.762,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 16.342,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 16.918,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 17.497,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 18.071,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 18.653,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 19.226,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 19.809,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 20.386,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 20.969,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 21.542,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 22.122,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 22.701,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 23.277,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 23.854,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 24.425,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 25.001,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 25.571,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 26.149,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 26.715,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 27.286,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 27.861,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 28.434,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 29.018,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 29.599,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 30.172,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 30.747,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 31.338,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 31.923,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 32.505,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 33.082,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 33.659,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 34.234,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 34.806,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 35.379,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 35.955,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 36.523,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 37.105,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 37.681,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 38.25,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 38.834,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 39.412,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 39.994,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 40.57,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 41.145,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 41.719,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 42.305,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 42.878,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 43.46,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 44.037,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 44.617,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 45.2,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 45.776,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 46.346,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 46.918,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 47.492,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 48.066,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 48.64,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 49.208,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 49.779,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 50.358,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 50.933,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 51.503,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 52.075,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 52.651,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 53.226,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 53.803,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 54.376,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 54.945,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 55.526,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 56.097,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 56.668,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 57.241,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 57.815,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 58.388,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 58.962,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 59.541,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 60.119,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 60.693,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 61.261,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 61.84,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 62.424,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 62.995,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 63.573,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 64.142,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 64.714,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 65.291,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 65.873,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 66.449,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 67.024,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 67.603,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 68.18,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 68.76,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 69.34,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 69.917,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 70.488,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 71.073,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 71.645,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 72.221,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 72.794,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 73.367,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 73.946,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 74.525,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 75.099,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 75.676,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 76.261,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 76.833,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 77.409,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 77.987,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 78.558,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 79.136,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 79.712,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 80.285,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 80.86,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 81.437,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 82.011,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 82.596,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 83.181,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 83.757,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 84.345,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 84.919,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 85.507,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 86.083,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 86.669,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 87.251,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 87.834,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 88.422,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 88.997,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 89.567,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 90.144,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 90.719,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 91.294,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 91.872,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 92.447,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 93.021,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 93.6,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 94.174,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 94.755,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 95.327,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 95.904,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 96.484,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 97.058,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 97.635,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 98.209,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 98.788,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 99.359,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 99.934,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 100.507,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 101.086,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 101.662,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 102.236,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 102.813,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 103.388,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 103.967,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 104.539,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 105.113,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 105.69,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 106.263,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 106.838,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 107.415,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 107.989,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 108.565,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 109.142,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 109.73,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 110.314,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 110.882,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 111.463,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 112.033,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 112.613,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 113.177,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 113.749,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 114.322,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 114.898,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 115.472,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 116.042,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 116.62,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 117.197,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 117.773,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 118.347,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 118.924,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 119.504,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 120.08,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 120.656,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 121.232,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 121.816,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 122.397,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 122.975,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 123.549,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 124.129,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 124.711,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 125.285,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 125.862,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 126.433,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 127.005,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 127.574,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 128.141,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 128.723,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 129.295,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 129.868,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 130.445,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 131.028,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 131.612,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 132.194,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 132.776,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 133.341,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 133.925,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 134.498,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 135.078,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 135.655,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 136.229,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 136.803,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 137.379,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 137.949,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 138.523,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 139.095,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 139.666,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 140.247,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 140.823,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 141.388,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 141.966,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 142.538,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 143.11,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 143.682,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 144.254,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 144.829,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 145.401,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 145.969,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 146.539,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 147.111,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 147.698,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 148.274,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 148.862,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 149.443,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 150.022,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 150.601,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 151.183,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 151.769,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 152.343,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 152.926,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 153.5,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 154.079,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 154.66,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 155.234,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 155.81,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 156.385,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 156.956,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 157.532,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 158.112,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 158.685,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 159.259,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 159.833,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 160.41,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 160.983,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 161.556,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 162.131,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 162.712,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 163.294,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 163.874,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 164.462,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 165.041,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 165.614,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 166.186,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 166.761,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 167.337,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 167.915,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 168.488,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 169.061,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 169.633,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 170.206,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 170.779,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 171.349,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 171.922,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 172.497,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 173.07,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 173.644,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 174.219,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 174.796,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 175.368,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 175.943,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 176.517,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 177.1,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 177.678,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 178.249,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 178.824,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 179.404,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 179.977,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 180.552,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 181.128,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 181.695,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 182.264,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 182.841,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 183.416,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 183.989,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 184.561,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 185.147,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 185.719,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 186.296,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 186.872,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 187.446,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 188.021,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 188.594,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 189.17,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 189.757,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 190.331,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 190.912,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 191.491,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 192.064,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 192.648,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 193.224,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 193.798,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 194.374,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 194.953,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 195.538,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 196.112,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 196.684,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 197.262,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 197.841,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 198.418,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 198.994,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 199.572,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 200.155,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 200.738,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 201.315,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 201.88,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 202.458,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 203.04,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 203.614,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 204.19,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 204.762,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 205.339,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 205.916,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 206.488,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 207.066,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 207.642,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 208.221,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 208.799,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 209.372,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 209.948,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 210.519,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 211.092,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 211.664,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 212.238,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 212.816,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 213.396,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 213.971,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 214.547,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 215.125,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 215.699,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 216.286,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 216.87,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 217.44,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 218.017,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 218.6,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 219.173,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 219.741,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 220.322,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 220.895,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 221.473,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 222.045,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 222.62,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 223.201,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 223.777,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 224.351,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 224.919,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 225.498,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 226.074,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 226.644,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 227.216,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 227.795,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 228.38,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 228.954,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 229.531,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 230.108,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 230.683,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 231.256,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 231.832,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 232.404,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 232.982,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 233.559,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 234.132,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 234.702,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 235.279,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 235.853,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 236.43,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 237.006,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 237.579,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 238.156,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 238.73,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 239.304,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 239.878,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 240.452,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 241.028,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 241.605,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 242.177,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 242.754,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 243.337,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 243.914,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 244.485,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 245.058,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 245.633,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 246.207,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 246.785,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 247.358,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 247.93,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 248.509,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 249.084,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 249.663,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 250.24,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 250.82,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 251.402,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 251.977,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 252.549,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 253.133,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 253.706,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 254.282,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 254.86,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 255.432,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 256.005,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 256.581,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 257.155,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 257.732,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 258.307,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 258.885,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 259.464,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 260.045,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 260.623,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 261.199,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 261.784,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 262.358,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 262.935,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 263.516,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 264.09,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 264.656,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 265.231,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 265.806,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 266.377,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 266.954,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 267.53,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 268.108,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 268.684,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 269.282,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 269.852,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 270.425,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 270.999,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 271.572,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 272.148,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 272.721,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 273.3,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 273.874,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 274.452,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 275.028,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 275.605,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 276.178,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 276.753,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 277.326,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 277.904,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 278.475,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 279.052,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 279.629,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 280.206,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 280.777,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 281.352,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 281.922,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 282.496,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 283.067,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 283.644,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 284.211,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 284.78,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 285.347,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 285.919,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 286.497,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 287.066,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 287.635,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 288.208,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 288.782,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 289.358,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 289.931,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 290.506,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 291.083,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 291.666,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 292.239,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 292.812,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 293.389,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 293.96,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 294.539,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 295.112,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 295.689,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 296.272,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 296.855,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 297.43,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 298.005,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 298.587,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 299.169,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 299.744,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 300.317,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 300.895,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 301.478,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 302.061,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 302.638,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 303.216,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 303.79,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 304.362,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 304.936,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 305.512,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 306.087,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 306.67,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 307.244,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 307.819,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 308.395,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 308.967,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 309.539,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 310.123,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 310.702,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 311.28,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 311.853,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 312.439,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 313.015,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 313.588,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 314.175,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 314.749,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 315.332,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 315.907,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 316.482,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 317.052,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 317.622,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 318.198,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 318.774,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 319.357,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 319.931,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 320.514,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 321.092,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 321.671,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 322.249,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 322.824,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 323.408,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 323.978,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 324.557,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 325.141,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 325.711,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 326.286,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 326.858,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 327.434,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 328.013,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 328.59,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 329.171,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 329.747,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 330.327,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 330.905,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 331.487,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 332.063,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 332.642,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 333.219,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 333.796,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 334.372,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 334.955,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 335.536,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 336.111,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 336.682,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 337.261,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 337.838,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 338.41,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 338.985,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 339.56,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 340.136,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 340.716,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 341.294,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 341.868,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 342.444,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 343.014,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 343.585,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 344.156,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 344.73,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 345.301,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 345.88,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 346.453,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 347.028,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 347.603,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 348.175,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 348.75,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 349.324,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 349.895,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 350.477,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 351.048,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 351.617,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 352.192,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 352.766,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 353.341,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 353.934,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 354.515,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 355.106,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 355.694,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 356.282,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 356.856,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 357.434,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 358.028,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 358.622,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 359.199,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 359.792,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 360.382,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 360.965,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 361.538,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 362.141,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 362.735,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 363.315,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 363.907,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 364.5,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 365.083,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 365.667,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 366.266,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 366.862,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 367.438,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 368.036,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 368.656,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 369.263,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 369.861,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 370.458,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 371.065,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 371.672,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 372.254,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 372.828,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 373.432,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 374.029,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 374.634,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 375.241,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 375.838,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 25% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 353,
+            "Height": 735,
+            "Y": 362,
+            "Width": 1339
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 376.449,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 25% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 377.051,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 25% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 377.638,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 25% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 378.227,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 25% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        },
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 366,
+          "name": "Progress",
+          "layer": 0,
+          "bounds": {
+            "X": 628,
+            "Height": 129,
+            "Y": 466,
+            "Width": 472
+          }
+        }
+      ]
+    }
+  ]
+}

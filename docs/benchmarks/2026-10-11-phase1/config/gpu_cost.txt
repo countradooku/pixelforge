@@ -1,0 +1,7 @@
+key=Apple M5 Pro|Metal|0000:0000||pixelforge 0.1.0
+fixed_ms=0.345125
+transfer_ns_b=0.02128881216049194
+gpu_scale=1
+cpu_scale=1
+gpu_probe_ms=1.734583
+cpu_probe_ms=2.7135000000000002

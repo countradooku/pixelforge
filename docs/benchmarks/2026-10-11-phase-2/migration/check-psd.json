@@ -1,0 +1,20 @@
+{
+  "structural_equal":true,
+  "exact_file":true,
+  "mapped_structural_equal":true,
+  "roundtrip_kind":"document-model",
+  "mapping_supported":true,
+  "mapping_error":"",
+  "descriptor_valid":true,
+  "inspections":[{"location":"layer[0].additional[0]","key":"luni","status":"opaque","descriptors":0,"engine_data":0,"message":"additional-information payload retained without interpretation"},{"location":"layer[0].additional[1]","key":"lyid","status":"opaque","descriptors":0,"engine_data":0,"message":"additional-information payload retained without interpretation"},{"location":"layer[1].additional[0]","key":"luni","status":"opaque","descriptors":0,"engine_data":0,"message":"additional-information payload retained without interpretation"},{"location":"layer[1].additional[1]","key":"lyid","status":"opaque","descriptors":0,"engine_data":0,"message":"additional-information payload retained without interpretation"},{"location":"resource[0]","key":"4000","status":"opaque","descriptors":0,"engine_data":0,"message":"image resource payload retained without interpretation"}],
+  "mode":"RGB",
+  "depth":8,
+  "layers":2,
+  "decoded_channels":8,
+  "decoded_composite_bytes":16384,
+  "read_ms":0.084083,
+  "decode_ms":0.058665999999999996,
+  "write_ms":3.8414170000000003,
+  "render_ms":0.393625,
+  "layer_block_keys":["luni","lyid","luni","lyid"]
+}

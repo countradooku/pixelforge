@@ -1,0 +1,77 @@
+Work in /Users/radudiaconu/Desktop/Code/Rust/pixelforge. Implement ONLY Phase 2 of PROMPT_PSD.md and finish its verification; do not begin the next phase.
+
+First read PROMPT_PSD.md in full, README.md, the applicable local instructions and Rust/GPUI skills, docs/benchmarks/2026-10-11-phase1/REPORT.md, and docs/benchmarks/2026-10-11-phase1-followup/REPORT.md. Inspect the current source and the most recent phase reports: earlier phases must be verified from evidence, not assumed complete. Identify prerequisite gaps and resolve the ones necessary for this phase. Keep the original brief's compatibility and performance acceptance bars; don't redefine completion as a minimal implementation.
+
+The workspace currently has no Git repository. Preserve existing work and make a dated source backup and a copy of the working release executable before changing this phase. Reuse the 256-square COW tiles, unified MemoryBudget, compressed cold storage, scratch disk, history, worker jobs, and CPU/GPU fallback architecture. Keep unrelated PROMPT_MCP.md unchanged. Read the installed Rust skills and both GPUI coding/design guides before relevant implementation or UI changes.
+
+Ask before any new crate or download, including promoting a transitive dependency: state name, source, version, size and licence. Existing approved direct dependencies may be reused. Implement the PSD/PSB and descriptor codecs in this repository. Verify niche format details against current official specifications; locally generated Photoshop documents are the interoperability reference.
+
+Do the work, rather than only making a plan. Continue through implementation and the required checks. Run heavy builds, tests and benchmarks serially. Use isolated test configuration directories. Never silently reduce depth, flatten editable content, discard unknown blocks, weaken tests, or relax latency budgets to obtain a pass. Keep 8-bit output and performance intact: compare against the preserved baseline with repeated measurements and investigate regressions over 5%.
+
+Photoshop is installed and is the reference. Use JSX automation with an independent CoreGraphics dialog watchdog for every run, restoring user preferences and closing only test documents. Read the existing tools/photoshop_phase1.py and .jsx for the working watchdog approach. Camera Raw can intercept TIFF opens and block the scripting bridge; use suitable fixtures and fail visibly on dialogs. Do not dismiss user documents, kill Photoshop, or treat a timed-out script as successful.
+
+Phase boundary: implement the complete 8-bit PSD/PSB scope below. Do not begin the 16-bit engine, HDR or raw phases. Do not switch native saving, autosave or recovery away from .pforge until every currently stored feature has a safe PSD representation. Keep the migration reader and add --convert-pforge. Unknown data must survive edits to unrelated layers byte-exactly, including unknown descriptor values inside otherwise interpreted blocks. Check malformed lengths, allocation limits, compression failures and truncated input. Generate the feature corpus locally; an empty corpus or a few flat PSD files is not the requested compatibility proof.
+
+Acceptance: integer pixel/mask/blend/opacity/clipping/group composites bit-exact at 8-bit; adjustment/fill/style/shape/text SSIM >= 0.995 and mean DeltaE00 <= 0.5, with text line breaks measured separately. Every written file must open in Photoshop without warning dialogs. Document the private resource for PixelForge-only information and Photoshop's expected behaviour on re-save.
+
+## Phase 2: PSD / PSB, 8-bit, complete
+
+1. **Codec layer** (`engine/psd/`):
+   - Header, colour mode data, image resources, layer and mask info and image data.
+   - PackBits and ZIP (with and without prediction), PSB 8-byte lengths.
+   - The full descriptor reader and writer, with key order and unknown keys preserved.
+   - A raw "block tree" model that holds every byte that isn't interpreted.
+2. **Mapping to the document model**, both ways:
+   - Pixel layers, masks (user and vector), blend modes (all 27 of Photoshop's, including the
+     ones PixelForge doesn't have yet — add them: Linear Burn, Darker Color, Lighter Color, Vivid
+     / Linear / Pin Light, Hard Mix, Subtract, Divide, Dissolve…), opacity, fill, clipping,
+     groups (pass-through, isolated, knockout), blend-if ranges, channel restrictions, locks,
+     colour tags, visibility.
+   - Adjustment and fill layers: every type Photoshop has. Add the missing adjustments to the
+     engine rather than rasterising them.
+   - Layer styles: every effect and parameter in `lfx2`, multiple instances per effect, global
+     light, "scale effects", contours, gradients and patterns. Match Photoshop's rendering (the
+     Photoshop export is the reference).
+   - Text (`TySh` plus `EngineData`): parse and write `EngineData`; map style runs, paragraph
+     styles, warp, text on a path and area text to `engine/text.rs`. Text stays live both ways.
+     When PixelForge's layout differs, the stored Photoshop rendering is shown until the user
+     edits the layer.
+   - Shapes and paths: live shapes (`vogk`), vector masks, fill and stroke (`vscg`/`vstk`),
+     path components and operations, paths panel, clipping path.
+   - Smart objects: embedded and linked (PSD, PSB, raster, raw), transform and warp, smart
+     filters (interpret the ones PixelForge has; preserve the others byte-exact and keep their
+     stored output), "Edit Contents" opening the embedded document.
+   - Artboards, slices, guides, grids, layer comps, annotations and notes, the count tool, XMP,
+     EXIF, IPTC, ICC profiles (convert or assign on open like Photoshop), resolution, print
+     settings, timeline (preserve), and 3D / video layers (preserve, show stored pixels,
+     read-only).
+3. **Colour modes:**
+   - RGB is editable.
+   - Grayscale, Bitmap, Indexed, Duotone, Lab, CMYK and Multichannel open and preserve; editing
+     converts the way Photoshop's Image ▸ Mode does, with a prompt.
+   - Extra channels (spot colours, alpha channels) are kept, listed in a Channels panel, and
+     written back.
+4. **Test corpus:**
+   - A `tools/photoshop_psd.jsx` that makes, in Photoshop, one PSD per feature and parameter
+     family (hundreds of small files), plus several large realistic documents. It also exports
+     each file's flattened composite and each layer's pixels.
+   - A `--psd-corpus <dir>` command that runs every round-trip check below and writes a report.
+   - Never commit Adobe sample files without a licence; generate everything locally.
+5. **Checks, per corpus file:**
+   - (a) PixelForge's composite against Photoshop's export.
+   - (b) PS → PF → PS: open PixelForge's saved file in Photoshop by script, export, and compare.
+     Read Photoshop's layer tree back by script (names, kinds, blend modes, opacities, styles,
+     text contents, smart objects) and compare it to the original.
+   - (c) Structural diff of all blocks: interpreted ones equal after re-encoding, preserved ones
+     byte-exact.
+   - (d) No Photoshop warning dialogs. Watch the window list and fail the check if a dialog
+     appears.
+6. **Switch-over:** Save / Open / Recent use PSD and PSB, `.pforge` is migration-only,
+   autosave and crash recovery write PSD, and the README's format notes are rewritten.
+
+Verification and handoff:
+- Require a warning-free release build and cargo test --release passing in default, PF_GPU=off and PF_GPU=force modes. Report ignored tests and pre-existing lint failures separately.
+- Add meaningful correctness/error-path tests for every new codec block, mapping and depth path. Preserve the integer CPU reference and depth-specific GPU equality requirements in PROMPT_PSD.md.
+- Run the applicable corpus, Photoshop round trips, structural preservation checks, fidelity comparisons and serial tiered benchmarks. Record real results, raw logs, configurations and source/binary fingerprints. Do not claim an unsupported operation passed or confuse ordinary file page-ins with swap activity.
+- Run applicable PF_DEMO=tools scenarios; capture and inspect the app with document mode/depth and file format visible. For file support, include Photoshop reopening results. Fix visual problems. A screenshot alone does not prove HDR precision.
+- Update README.md and write docs/benchmarks/<date>-phase-2/REPORT.md. Report exactly what was built, corpus results by feature family, fidelity, CPU/GPU/Photoshop timings, peak memory, screenshots inspected, remaining acceptance failures and externally blocked items. Do not call the phase complete while required work remains. Stop after this phase and leave a concise handoff.

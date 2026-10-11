@@ -1,0 +1,467 @@
+{
+  "status": "passed",
+  "restoration_confirmed": true,
+  "bridge_exit_code": 0,
+  "seconds": 15.971,
+  "observations": [
+    {
+      "seconds": 0.234,
+      "windows": [
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.814,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.41,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 2.0,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 2.576,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.173,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 3.768,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.348,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 4.919,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 5.498,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.09,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 6.678,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.251,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export-layers @ 33,3% (Large edit layer 2, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 7.848,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 8.436,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.012,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 9.586,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.18,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 10.779,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.372,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 11.945,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 100% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 12.538,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.134,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 13.708,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.282,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 14.881,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 15.465,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-export @ 33,3% (Large edit layer 3, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    }
+  ]
+}

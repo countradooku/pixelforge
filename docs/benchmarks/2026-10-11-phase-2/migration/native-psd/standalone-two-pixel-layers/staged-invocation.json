@@ -1,0 +1,23 @@
+{
+  "operation": "inspect_open",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd/standalone-two-pixel-layers",
+  "cases": [
+    {
+      "id": "standalone-two-pixel-layers",
+      "filename": "two-pixel-layers.psd",
+      "family": "standalone-writer",
+      "feature": "native-open-and-resave",
+      "params": {
+        "psb": false
+      },
+      "fidelity": "exact"
+    }
+  ],
+  "input": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd-reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd/standalone-two-pixel-layers/abort-requested.txt",
+  "expected_jsx_sha256": "9e834056d5983a06b0638e33214a19267eed1e4d3059cc9f9e8999e5a7aa93cc",
+  "resave_output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/resave-psd",
+  "native_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/two-pixel-layers.psd",
+  "previous_document_id": null
+}

@@ -1,0 +1,19 @@
+PSD descriptor inspection failed; see inspection rows
+        0.46 real         2.21 user         0.52 sys
+          2286682112  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              139946  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                9158  involuntary context switches
+         48600279005  instructions retired
+         11629049961  cycles elapsed
+          2278181360  peak memory footprint

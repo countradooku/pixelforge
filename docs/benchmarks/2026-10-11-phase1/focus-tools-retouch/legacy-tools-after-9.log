@@ -1,0 +1,31 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            131.3 ms
+clone stamp 500 px: per dab (30 dabs)                           0.41 ms   budget     8.0 ms   ok
+clone stamp 500 px: p95 per mouse event                         0.44 ms   budget     2.0 ms   ok
+healing brush 100 px: per dab (147 dabs)                        1.10 ms   budget     8.0 ms   ok
+healing brush 100 px: p95 per mouse event                       2.41 ms   budget    16.0 ms   ok
+healing brush 200 px: per dab (74 dabs)                         1.81 ms   budget     8.0 ms   ok
+healing brush 200 px: p95 per mouse event                       2.12 ms   budget    16.0 ms   ok
+healing brush 300 px: per dab (49 dabs)                         2.71 ms   budget     8.0 ms   ok
+healing brush 300 px: p95 per mouse event                       2.97 ms   budget    16.0 ms   ok
+healing brush 500 px: per dab (30 dabs)                         4.82 ms   budget     8.0 ms   ok
+healing brush 500 px: p95 per mouse event                       5.01 ms   budget    16.0 ms   ok
+healing brush 500 px, Quality: Exact: per dab (30 dabs)         8.88 ms   budget    16.0 ms   ok
+healing brush 500 px, Quality: Exact: p95 per mouse event       9.71 ms   budget    16.0 ms   ok
+spot healing: 300 px blemish (PatchMatch + multigrid)          53.49 ms   budget    60.0 ms   ok
+spot healing, Create Texture: 300 px (quilting + multigrid)     38.88 ms   budget    60.0 ms   ok
+Content-Aware Fill workspace: 300 px (Auto sampling)           84.53 ms   budget   150.0 ms   ok
+Content-Aware Fill workspace: 1 MP (Auto sampling)            495.07 ms   budget   600.0 ms   ok
+Content-Aware Fill workspace: 1 MP, rotation Medium + scale + mirror    573.83 ms   budget  2000.0 ms   ok
+patch (content-aware), 1 MP region                            339.20 ms   budget   400.0 ms   ok
+patch (normal, source), 1 MP region                            28.55 ms   budget   400.0 ms   ok
+content-aware move, 1 MP object                               394.58 ms   budget   400.0 ms   ok
+red eye (60 px pupil: detect + fix)                             0.97 ms   budget    30.0 ms   ok
+history brush 500 px: median per mouse event                    0.34 ms   budget     2.0 ms   ok
+
+22 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 788.6 MiB
+  memory after: RSS 1537.8 MiB; peak RSS 1537.8 MiB (process lifetime); page-ins 0 (includes file reads)

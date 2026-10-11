@@ -1,0 +1,51 @@
+{'tier': '150', 'filter': 'Gradient', 'repeat': 0, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-gradient-0.log'}
+{'tier': '150', 'filter': 'Gradient', 'repeat': 1, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-gradient-1.log'}
+{'tier': '150', 'filter': 'Gradient', 'repeat': 2, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-gradient-2.log'}
+{'tier': '150', 'filter': 'Gradient', 'repeat': 3, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-gradient-3.log'}
+{'tier': '150', 'filter': 'Gradient', 'repeat': 4, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-gradient-4.log'}
+{'tier': '150', 'filter': 'Gradient', 'repeat': 5, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-gradient-5.log'}
+{'tier': '150', 'filter': 'Gradient', 'repeat': 6, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-gradient-6.log'}
+{'tier': '150', 'filter': 'Plaster', 'repeat': 0, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-plaster-0.log'}
+{'tier': '150', 'filter': 'Plaster', 'repeat': 1, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-plaster-1.log'}
+{'tier': '150', 'filter': 'Plaster', 'repeat': 2, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-plaster-2.log'}
+{'tier': '150', 'filter': 'Plaster', 'repeat': 3, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-plaster-3.log'}
+{'tier': '150', 'filter': 'Plaster', 'repeat': 4, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-plaster-4.log'}
+{'tier': '150', 'filter': 'Plaster', 'repeat': 5, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-plaster-5.log'}
+{'tier': '150', 'filter': 'Plaster', 'repeat': 6, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-plaster-6.log'}
+{'tier': '150', 'filter': 'Sponge', 'repeat': 0, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-sponge-0.log'}
+{'tier': '150', 'filter': 'Sponge', 'repeat': 1, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-sponge-1.log'}
+{'tier': '150', 'filter': 'Sponge', 'repeat': 2, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-sponge-2.log'}
+{'tier': '150', 'filter': 'Sponge', 'repeat': 3, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-sponge-3.log'}
+{'tier': '150', 'filter': 'Sponge', 'repeat': 4, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-sponge-4.log'}
+{'tier': '150', 'filter': 'Sponge', 'repeat': 5, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-sponge-5.log'}
+{'tier': '150', 'filter': 'Sponge', 'repeat': 6, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/150-sponge-6.log'}
+{'tier': '268', 'filter': 'Diffuse Glow', 'repeat': 0, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-diffuse-glow-0.log'}
+{'tier': '268', 'filter': 'Diffuse Glow', 'repeat': 1, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-diffuse-glow-1.log'}
+{'tier': '268', 'filter': 'Diffuse Glow', 'repeat': 2, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-diffuse-glow-2.log'}
+{'tier': '268', 'filter': 'Diffuse Glow', 'repeat': 3, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-diffuse-glow-3.log'}
+{'tier': '268', 'filter': 'Diffuse Glow', 'repeat': 4, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-diffuse-glow-4.log'}
+{'tier': '268', 'filter': 'Diffuse Glow', 'repeat': 5, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-diffuse-glow-5.log'}
+{'tier': '268', 'filter': 'Diffuse Glow', 'repeat': 6, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-diffuse-glow-6.log'}
+{'tier': '268', 'filter': 'Stamp', 'repeat': 0, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-stamp-0.log'}
+{'tier': '268', 'filter': 'Stamp', 'repeat': 1, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-stamp-1.log'}
+{'tier': '268', 'filter': 'Stamp', 'repeat': 2, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-stamp-2.log'}
+{'tier': '268', 'filter': 'Stamp', 'repeat': 3, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-stamp-3.log'}
+{'tier': '268', 'filter': 'Stamp', 'repeat': 4, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-stamp-4.log'}
+{'tier': '268', 'filter': 'Stamp', 'repeat': 5, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-stamp-5.log'}
+{'tier': '268', 'filter': 'Stamp', 'repeat': 6, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/268-stamp-6.log'}
+{'tier': '61', 'filter': 'Glowing Edges', 'repeat': 0, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-glowing-edges-0.log'}
+{'tier': '61', 'filter': 'Glowing Edges', 'repeat': 1, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-glowing-edges-1.log'}
+{'tier': '61', 'filter': 'Glowing Edges', 'repeat': 2, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-glowing-edges-2.log'}
+{'tier': '61', 'filter': 'Glowing Edges', 'repeat': 3, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-glowing-edges-3.log'}
+{'tier': '61', 'filter': 'Glowing Edges', 'repeat': 4, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-glowing-edges-4.log'}
+{'tier': '61', 'filter': 'Glowing Edges', 'repeat': 5, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-glowing-edges-5.log'}
+{'tier': '61', 'filter': 'Glowing Edges', 'repeat': 6, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-glowing-edges-6.log'}
+{'tier': '61', 'filter': 'Note Paper', 'repeat': 0, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-note-paper-0.log'}
+{'tier': '61', 'filter': 'Note Paper', 'repeat': 1, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-note-paper-1.log'}
+{'tier': '61', 'filter': 'Note Paper', 'repeat': 2, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-note-paper-2.log'}
+{'tier': '61', 'filter': 'Note Paper', 'repeat': 3, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-note-paper-3.log'}
+{'tier': '61', 'filter': 'Note Paper', 'repeat': 4, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-note-paper-4.log'}
+{'tier': '61', 'filter': 'Note Paper', 'repeat': 5, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-note-paper-5.log'}
+{'tier': '61', 'filter': 'Note Paper', 'repeat': 6, 'log': 'docs/benchmarks/2026-10-11-phase1-followup/repeat-calibration/61-note-paper-6.log'}
+build-final-2 0
+tests-off-2 101

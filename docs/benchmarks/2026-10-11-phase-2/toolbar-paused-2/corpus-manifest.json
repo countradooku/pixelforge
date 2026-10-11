@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "operation": "native-verify",
+  "cases": [
+    {
+      "id": "standalone-blend-normal-o100-f100",
+      "filename": "blend-normal-o100-f100.psd",
+      "family": "standalone-writer",
+      "feature": "native-open-and-resave",
+      "params": {
+        "psb": false
+      },
+      "fidelity": "exact"
+    }
+  ],
+  "planned_count": 1,
+  "selected_count": 1,
+  "coverage_complete": false,
+  "standalone_validation": true,
+  "note": "Generated feature coverage is measured per distinct feature and parameter; failures remain failures.",
+  "generator_sha256": "9e834056d5983a06b0638e33214a19267eed1e4d3059cc9f9e8999e5a7aa93cc"
+}

@@ -1,0 +1,194 @@
+GPU benchmark — Apple M5 Pro · Metal integrated · 37.4 GB unified
+  backend Metal · driver — · features: f16 true · subgroups true (4–64) · timestamps true · immediates true · mappable primary true · pipeline cache false
+  limits: max buffer 28753 MB · max storage binding 4095 MB · workgroup storage 32 KB · 1024 invocations · budget 18569 MB
+  18 CPU threads
+  cost model: fixed 0.43 ms · transfer 0.029 ns/B · GPU probe 1.73 ms (x1.00) · CPU probe 2.92 ms (x1.00)
+  budget before: 118.5 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 118.5 MB GPU
+  memory before: RSS 227.0 MiB; depth 8 bits/channel
+
+6000 × 4000 (24.0 MP)
+kernel                                          CPU ms    GPU ms  resident    kernel  auto  budget
+Layer Style shadow+stroke+bevel                   43.3      44.7      30.8      24.0
+Levels black: 12, white: 230, gamma: 1.3           2.0       4.6       1.0       0.0  CPU   ok
+Curves pts: [0, 80, 128, 180, 255.0]               1.8       4.4       1.0       0.0  CPU   ok
+Hue/Saturation name: "Hue/Saturation", lut:       13.8       5.3       1.6       0.0  GPU   ok
+Threshold level: 128.0                             3.8       4.9       1.0       0.0  CPU   ok
+Desaturate                                         4.6       4.6       1.2       0.0  CPU   ok
+Add Noise amount: 25, mono: false                  4.5       5.1       1.5       0.0  CPU   ok
+Gaussian Blur r=2.0                                7.0      14.3       8.9       7.3  CPU   ok
+Gaussian Blur r=20.0                              16.1      13.8       9.3       7.4  CPU   OVER
+Gaussian Blur r=120.0                             29.8      25.1      20.8      18.7  CPU   OVER
+Box Blur r=10.0                                    6.4       8.4       3.7       2.2  CPU   ok
+Blur                                               3.8       7.5       3.8       2.2  CPU   ok
+Unsharp Mask amount: 100, r=1.5, t0.0              9.4      11.9       7.6       6.1  CPU   ok
+Smart Sharpen amount: 100, r=1.5, noise: 5,        8.3      11.5       7.6       6.1  CPU   ok
+High Pass r=10.0                                  11.9      11.9       8.1       6.4  GPU   ok
+Lens Blur r=15, bloom: 30, b0, c0, rotation:      36.8      26.8      22.8      22.2  GPU   ok
+Lens Blur r=60, bloom: 30, b6, c20, rotation     424.8      55.9      50.2       8.5  GPU   ok
+Lens Blur r=30, bloom: 30, b5, c0, rotation:     424.3      26.5      21.5       9.5  GPU   ok
+Shape Blur r=15, shape: 3                         41.9      21.9      17.3       7.0  GPU   ok
+Shape Blur r=100, shape: 4                       659.7      99.9     103.9     103.5  GPU   ok
+Smart Sharpen amount: 200, r=3, noise: 3, Le     121.3      19.5      15.4      17.7  GPU   ok
+Smart Sharpen amount: 200, r=8, noise: 3, Mo     122.7      10.8       6.0       4.4  GPU   ok
+Motion Blur angle: 0, distance: 40.0               7.9       5.7       1.5       0.0  GPU   ok
+Motion Blur angle: 30, distance: 40.0             41.2      10.2       6.0       3.5  GPU   ok
+Motion Blur angle: 12, distance: 500.0           119.8      11.6       6.7       4.2  GPU   ok
+Shadows/Highlights shadows: 35, highlights:       50.1      14.5       9.6       7.7  GPU   ok
+Skin Smoothing r=8, smoothness: 40.0             121.1     240.6     237.5     230.7  CPU   ok
+Twirl name: "Twirl", warp: Twirl { angle: 20      25.3       3.8       1.7       0.0  GPU   ok
+Polar Coordinates name: "Polar Coordinates",      29.5       4.0       1.7       0.0  GPU   ok
+Wave name: "Wave", warp: Wave { wavelength:       29.0       4.3       1.8       0.0  GPU   ok
+Camera Raw Filter (heavy: clarity/dehaze/NR)     186.8      22.1      18.1      19.7  GPU   ok
+JPEG Artifacts Removal strength: 60.0            205.2      30.4      26.3      25.9  GPU   ok
+Field Blur pins: [[1500, 1200, 30.0], [3000,     113.9      37.9      34.3      32.0  GPU   ok
+Iris Blur cx: 3000, cy: 2000, r=1400, blur:       75.5      33.4      30.0      27.4  GPU   ok
+Iris Blur +fx cx: 3000, cy: 2000, r=1400, bl     180.9      35.7      32.2      27.7  GPU   ok
+Tilt-Shift cy: 2000, band: 320, transition:       67.7      33.0      29.7      27.5  GPU   ok
+Spin Blur cx: 3000, cy: 2000, rx: 1500, ry:      182.0       8.5       6.4       0.0  GPU   ok
+Spin Blur +fx cx: 3000, cy: 2000, rx: 1500,      219.0       8.9       6.9       0.0  GPU   ok
+Path Blur x0: 900.00006, y0: 2800, x1: 5100,     430.7      20.7      18.6       0.0  GPU   ok
+Radial Blur amount: 10, zoom: false, cx: 300     557.7      31.5      28.3      27.9  GPU   ok
+Radial Blur amount: 30, zoom: true, cx: 3000     550.9      30.7      27.9       0.0  GPU   ok
+Median r=3.0                                      58.6      23.3      19.6      18.5  GPU   ok
+Median r=20.0                                     82.4      48.2      44.7      43.6  GPU   ok
+Dust & Scratches r=4, t10.0                       57.1      25.6      21.9      21.0  GPU   ok
+Despeckle                                          8.6       5.7       2.3       0.0  GPU   ok
+Surface Blur r=5, t15.0                          110.5      38.4      34.4      33.3  GPU   ok
+Surface Blur r=20, t15.0                         123.8      68.1      65.0      63.5  GPU   ok
+Smart Blur r=5, t25.0                            189.3      42.1      38.5       0.0  GPU   ok
+Reduce Noise strength: 5.0                       112.0      34.0      30.4      28.9  GPU   ok
+Maximum r=3.0                                      4.0       7.2       3.5       0.0  CPU   ok
+Maximum r=30.0                                    73.8      10.4       6.9       1.9  GPU   ok
+Find Edges                                        16.2       4.8       1.2       0.0  GPU   ok
+Emboss angle: 135, height: 3, amount: 100.0        8.7       4.1       1.1       0.0  GPU   ok
+Trace Contour level: 128.0                         8.8       4.1       1.1       0.0  GPU   ok
+Diffuse r=2.0                                      4.8       4.4       1.0       0.0  CPU   ok
+Wind length: 60, from_left: true                  13.3       6.1       1.6       0.0  GPU   ok
+Oil Paint r=4, oil: Oil { stylization: 0, cl      22.9      12.0       8.1       6.2  GPU   ok
+Oil Paint r=4, oil: Oil { stylization: 4, cl     236.7      41.3      37.1      50.7  GPU   ok
+Facet                                             14.3      11.8       8.2       6.2  GPU   ok
+Mosaic cell: 10.0                                 10.5       4.8       1.5       0.7  GPU   ok
+Crystallize cell: 10.0                            42.3       9.3       6.2       4.6  GPU   ok
+Pointillize cell: 10, bg: [255, 255, 255]         47.4      10.2       6.4       4.7  GPU   ok
+Color Halftone r=8.0                              33.7       5.7       2.8       0.0  GPU   ok
+Fragment                                           5.4       4.5       1.6       0.0  GPU   ok
+Mezzotint                                          7.8       4.5       1.3       0.0  GPU   ok
+Extrude size: 30, 30, pyramids: false             18.8       5.8       2.1       1.0  GPU   ok
+Tiles size: 128, offset: 10, fill: 429496729      33.3       7.7       4.0       0.0  GPU   ok
+Custom k: [0, -1, 0, -1, 5, -1, 0, -1, 0.0],      12.4       6.4       3.3       0.0  GPU   ok
+De-Interlace odd: true, interpolate: true          2.3       4.0       1.1       0.0  CPU   ok
+Lighting Effects kind: 1, x: 1800.0001, y: 1      16.3       9.1       5.5       3.8  GPU   ok
+Clouds c0: [0, 0, 0], c1: [255, 255, 255], s      39.5       7.5       3.1       0.0  GPU   ok
+Difference Clouds c0: [0, 0, 0], c1: [255, 2      42.3      11.5       3.5       0.0  GPU   ok
+Fibers c0: [0, 0, 0], c1: [255, 255, 255], v      26.6       5.3       3.0       0.0  GPU   ok
+Lens Flare x: 1800.0001, y: 1200, brightness      13.3       5.4       2.1       0.0  GPU   ok
+Gradient grad: Gradient { name: "Chrome", st       4.9       6.4       3.3       0.0  GPU   OVER
+Gradient grad: Gradient { name: "Chrome", st       6.2       4.3       1.7       0.0  GPU   ok
+Displace hs: 20, vs: 20, map: Layer               19.9       9.2       5.9       2.3  GPU   ok
+Displace hs: 20, vs: 20, map: Clouds              80.9       8.9       5.1       0.0  GPU   ok
+Lens Correction distortion: 40, ca_rc: 30, c     118.2       6.1       4.0       0.0  GPU   ok
+Warp name: "Warp", warp: Mesh { m: [-2828.42     483.6      70.9      69.5      68.2  GPU   ok
+Gallery: Colored Pencil                           31.2      27.2      22.8      22.1  GPU   ok
+Gallery: Cutout                                  206.7     317.6     243.8     262.4  CPU   ok
+Gallery: Dry Brush                                31.1      45.8      42.4      39.9  CPU   ok
+Gallery: Film Grain                                9.7      12.2       8.5       5.1  GPU   OVER
+Gallery: Fresco                                   46.5      53.6      50.2      50.5  CPU   ok
+Gallery: Neon Glow                                20.9      23.1      19.6      16.8  GPU   ok
+Gallery: Paint Daubs                             153.3     147.5     143.3     151.9  GPU   ok
+Gallery: Palette Knife                           154.4     313.8     309.8     307.3  CPU   ok
+Gallery: Plastic Wrap                             51.4      44.2      40.8      35.6  GPU   ok
+Gallery: Poster Edges                             24.1      33.9      30.1      24.6  CPU   ok
+Gallery: Rough Pastels                            82.1      72.4      69.4      68.7  GPU   ok
+Gallery: Smudge Stick                             18.3      18.9      15.5      10.6  GPU   ok
+Gallery: Sponge                                   90.6      60.0      56.7      62.5  GPU   ok
+Gallery: Underpainting                            88.0      60.8      57.2      52.3  GPU   ok
+Gallery: Watercolor                              160.3     197.5     171.8     175.3  GPU   OVER
+Gallery: Accented Edges                           60.1      44.7      41.3      36.2  GPU   ok
+Gallery: Angled Strokes                          211.5      75.2      71.7      89.9  GPU   ok
+Gallery: Crosshatch                              267.9     123.1     111.6     130.6  GPU   ok
+Gallery: Dark Strokes                            156.9      96.4      93.5     116.5  GPU   ok
+Gallery: Ink Outlines                             63.5      63.0      59.1      75.8  GPU   ok
+Gallery: Spatter                                  43.5      22.4      19.3      20.3  GPU   ok
+Gallery: Sprayed Strokes                          41.5      23.2      18.9      20.7  GPU   ok
+Gallery: Sumi-e                                  109.5      35.1      31.8      31.6  GPU   ok
+Gallery: Diffuse Glow                             35.2      22.8      19.7      15.9  GPU   ok
+Gallery: Glass                                    68.8      21.8      18.0      18.5  GPU   ok
+Gallery: Ocean Ripple                             88.1      25.1      21.3      22.9  GPU   ok
+Gallery: Bas Relief                               45.3      15.9      12.2       9.9  GPU   ok
+Gallery: Chalk & Charcoal                        281.5      32.2      28.0      40.7  GPU   ok
+Gallery: Charcoal                                260.3      70.9      66.7      73.8  GPU   ok
+Gallery: Chrome                                  189.1      67.5      64.4      61.2  GPU   ok
+Gallery: Conté Crayon                             35.5      10.7       6.9       4.7  GPU   ok
+Gallery: Graphic Pen                              47.2      14.6      12.5      15.0  GPU   ok
+Gallery: Halftone Pattern                         20.5      17.5      14.5      12.3  GPU   ok
+Gallery: Note Paper                               21.1      17.4      14.5      16.9  GPU   ok
+Gallery: Photocopy                                22.0      24.8      21.4      18.7  GPU   OVER
+Gallery: Plaster                                  65.8      49.1      44.9      42.2  GPU   ok
+Gallery: Reticulation                             34.3      33.1      29.6      27.0  GPU   ok
+Gallery: Stamp                                    24.0      24.2      20.7      20.6  GPU   ok
+Gallery: Torn Edges                               25.2      22.3      19.0      16.5  GPU   ok
+Gallery: Water Paper                              75.2      70.6      66.0      78.2  GPU   ok
+Gallery: Glowing Edges                            86.2      46.7      44.0      48.7  GPU   ok
+Gallery: Craquelure                              181.0      37.7      31.6      39.8  GPU   ok
+Gallery: Grain                                    13.4      12.2       8.6       5.0  GPU   ok
+Gallery: Mosaic Tiles                             88.7      20.1      16.4      16.2  GPU   ok
+Gallery: Patchwork                                37.2      14.9      11.4       6.8  GPU   ok
+Gallery: Stained Glass                           101.7      19.8      16.1       5.0  GPU   ok
+Gallery: Texturizer                               65.6      18.9      15.8      17.9  GPU   ok
+Select and Mask (r16 smart, decon)               506.8     202.9         —     174.1  GPU   ok
+Liquify stroke r=500 (8 moves, 24 dabs)           33.1       8.9       5.0       0.9  GPU   ok
+Liquify resample (77 tiles, 5.0 MP)                4.9       0.8       0.5         —  GPU   ok
+Perspective Warp 2 planes (+0 ms mesh)            35.0      10.7       9.0         —  GPU   ok
+
+compositing 13 layers, 60 display tiles at level 0 (document 6000 x 4000)
+CPU, all tiles                                    29.1 ms
+GPU cold (uploads), all tiles                     92.2 ms
+GPU warm, all tiles                                5.9 ms
+GPU after one-tile edit (1 tile)                   3.0 ms
+
+histogram statistics (level 2 of the layer)
+CPU                                               0.32 ms
+GPU incl. upload                                  3.23 ms
+GPU resident                                      0.30 ms
+
+retouching, 6000 × 4000 (24.0 MP)
+healing blend 100 px                               1.1       0.8         —         —  CPU   ok
+healing blend 300 px                               2.6       2.2         —         —  GPU   ok
+healing blend 500 px                               4.9       4.7         —         —  GPU   ok
+healing blend 500 px, Exact                        8.7      10.9         —         —  CPU   ok
+PatchMatch only, 1 MP hole in 4 MP region        245.3     150.2         —         —  GPU   ok
+spot healing 300 px (PatchMatch + blend)          26.6      26.2         —         —  GPU   ok
+spot healing 500 px (PatchMatch + blend)          59.3      58.2         —         —  GPU   ok
+CAF 1 MP hole (Auto sampling)                    192.9     188.1         —         —  GPU   ok
+CAF 1 MP hole, rot+scale+mirror                  214.0     222.5         —         —  GPU   ok
+mip pyramid (build_mips)                           1.3       3.5       2.4         —  CPU   ok
+  update_mips, every tile dirty                    1.2         —         —         —  CPU   ok
+
+resampling, 6000 × 4000 output (24.0 MP)
+operation                                       CPU ms    GPU ms  resident  auto  budget
+Image Size Bilinear → 60 %                         3.8       3.3       1.7  GPU   ok   (ns/px: CPU 0.439, GPU 0.386)
+Image Size Bicubic Sharper (reduction) → 60 %      10.4       5.1       3.5  GPU   ok   (ns/px: CPU 1.205, GPU 0.589)
+Image Size Lanczos-3 → 60 %                       14.2       6.0       4.5  GPU   ok   (ns/px: CPU 1.646, GPU 0.696)
+Image Size Nearest Neighbor (hard edges) → 60 %       1.2       2.5       1.4  CPU   ok   (ns/px: CPU 0.137, GPU 0.294)
+Image Size Bilinear 2×                             7.0       3.9       3.7  GPU   ok   (ns/px: CPU 0.294, GPU 0.164)
+Image Size Bicubic (smooth gradients) 2×          11.7       5.4       5.0  GPU   ok   (ns/px: CPU 0.489, GPU 0.226)
+Image Size Bicubic Smoother (enlargement) 2×      11.4       6.0       4.9  GPU   ok   (ns/px: CPU 0.474, GPU 0.252)
+Image Size Lanczos-3 2×                           16.1       7.1       6.3  GPU   ok   (ns/px: CPU 0.671, GPU 0.296)
+Image Size Preserve Details (enlargement) 2×      44.3      12.5      11.4  GPU   ok   (ns/px: CPU 1.846, GPU 0.521)
+Image Size Preserve Details 2.0 2×                70.2      14.9      13.1  GPU   ok   (ns/px: CPU 2.927, GPU 0.623)
+Super Zoom upscale 2×                             30.0       8.1       7.8  GPU   ok   (ns/px: CPU 1.249, GPU 0.339)
+Rotate 12° Bilinear                               17.8       6.0       4.4  GPU   ok   (ns/px: CPU 0.740, GPU 0.250)
+Rotate 12° Bicubic                                40.3       9.6       8.5  GPU   ok   (ns/px: CPU 1.679, GPU 0.401)
+Rotate 12° Lanczos                               141.7      23.1      21.9  GPU   ok   (ns/px: CPU 5.904, GPU 0.962)
+Perspective (mip bilinear)                        23.5       4.9       3.1  GPU   ok   (ns/px: CPU 0.981, GPU 0.202)
+Rotate 12° (mip bilinear, masks)                  25.6       5.1       3.4  GPU   ok   (ns/px: CPU 1.065, GPU 0.215)
+  budget after: 6025.5 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 5771.3 MB GPU; peak tracked 10088.3 MiB
+  memory after: RSS 3751.6 MiB; peak RSS 3762.1 MiB (process lifetime); page-ins 0 (includes file reads)
+
+6 over budget
+  OVER: Gaussian Blur r=20.0 @ 6000x4000
+  OVER: Gaussian Blur r=120.0 @ 6000x4000
+  OVER: Gradient grad: Gradient { name: "Chrome", st @ 6000x4000
+  OVER: Gallery: Film Grain @ 6000x4000
+  OVER: Gallery: Watercolor @ 6000x4000
+  OVER: Gallery: Photocopy @ 6000x4000

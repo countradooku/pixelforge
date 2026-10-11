@@ -1,0 +1,7 @@
+{
+  "jsx_sha256": "6215f5de24f7fcf4437521ea2251bf5945e2b4295197b9ed0767fb551a1cb6b1",
+  "jsx_copy": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-observation/snapshot/staged-script.jsx",
+  "python_sha256": "22b845c0ae89f964faff2951ccfd6ba305ba23283d775e25683399d2dd35e87c",
+  "invocation_copy": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/toolbar-observation/snapshot/staged-invocation.json",
+  "watchdog": "Independent CoreGraphics query through a separate osascript process"
+}

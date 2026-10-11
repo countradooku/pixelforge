@@ -1,0 +1,92 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "cargo",
+      "build",
+      "--release",
+      "--offline",
+      "--locked"
+    ],
+    "exit_code": 0,
+    "seconds": 32.5719783750028,
+    "PF_GPU": "default",
+    "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/verification-final/config-build",
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  },
+  {
+    "name": "tests-default",
+    "command": [
+      "cargo",
+      "test",
+      "--release",
+      "--offline",
+      "--locked",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "seconds": 160.65988995799853,
+    "PF_GPU": "default",
+    "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/verification-final/config-tests-default",
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  },
+  {
+    "name": "tests-off",
+    "command": [
+      "cargo",
+      "test",
+      "--release",
+      "--offline",
+      "--locked",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "seconds": 8.520021625001391,
+    "PF_GPU": "off",
+    "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/verification-final/config-tests-off",
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  },
+  {
+    "name": "tests-force",
+    "command": [
+      "cargo",
+      "test",
+      "--release",
+      "--offline",
+      "--locked",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "seconds": 138.9478567920014,
+    "PF_GPU": "force",
+    "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/verification-final/config-tests-force",
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  },
+  {
+    "name": "authored-text",
+    "command": [
+      "cargo",
+      "test",
+      "--release",
+      "--offline",
+      "--locked",
+      "authored_photoshop_text_files_decode_preserve_and_refuse_stale_global_cache",
+      "--",
+      "--ignored",
+      "--nocapture"
+    ],
+    "exit_code": 0,
+    "seconds": 0.599135042000853,
+    "PF_GPU": "default",
+    "config": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/verification-final/config-authored-text",
+    "document_before": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807",
+    "document_after": "06e009615dc1589e409b4f5dd93b1d138e3c26e0d3212379d7448b75b4c99807"
+  }
+]

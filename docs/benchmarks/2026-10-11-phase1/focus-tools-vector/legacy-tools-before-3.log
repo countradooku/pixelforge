@@ -1,0 +1,18 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            119.0 ms
+shape resize (stroked ellipse to 9000 px): p95/frame            2.80 ms   budget     8.0 ms   ok
+shape resize (7-point star to 9000 px): p95/frame               2.22 ms   budget     8.0 ms   ok
+path op Combine on two 500-anchor paths (7268+7268 segs, area 13298678) median      3.20 ms   budget     8.0 ms   ok
+path op Subtract on two 500-anchor paths (7268+7268 segs, area 730705) median      2.97 ms   budget     8.0 ms   ok
+path op Intersect on two 500-anchor paths (7268+7268 segs, area 11837268) median      2.72 ms   budget     8.0 ms   ok
+path op Exclude on two 500-anchor paths (7268+7268 segs, area 1461410) median      2.62 ms   budget     8.0 ms   ok
+live Subtract (2×500 anchors, gradient + dashed stroke), p95/frame      8.88 ms   budget    16.0 ms   ok
+Merge Shape Components (2×500 anchors)                          2.70 ms   budget     8.0 ms   ok
+corner radius widget drag (rotated 4000 px rect): p95/event      1.41 ms   budget     8.0 ms   ok
+frame: move placed content (3000 px frame): p95/event          11.96 ms   budget    26.0 ms   ok
+path → selection (ellipse 9800 × 6500), 268 MP                  0.77 ms   budget   200.0 ms   ok
+stroke path (star, 9961 px long, 30 px brush)                   3.97 ms   budget   100.0 ms   ok
+freeform pen fit (2000 pts → 32 cubics)                         0.21 ms   budget    30.0 ms   ok
+
+13 checks, 0 over budget

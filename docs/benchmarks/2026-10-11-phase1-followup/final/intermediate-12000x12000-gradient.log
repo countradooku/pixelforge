@@ -1,0 +1,20 @@
+GPU benchmark — Apple M5 Pro · Metal integrated · 37.4 GB unified
+  backend Metal · driver — · features: f16 true · subgroups true (4–64) · timestamps true · immediates true · mappable primary true · pipeline cache false
+  limits: max buffer 28753 MB · max storage binding 4095 MB · workgroup storage 32 KB · 1024 invocations · budget 18569 MB
+  18 CPU threads
+  cost model: fixed 0.28 ms · transfer 0.023 ns/B · GPU probe 1.63 ms (x1.00) · CPU probe 2.59 ms (x1.00)
+  budget before: 118.5 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 118.5 MB GPU
+  memory before: RSS 228.5 MiB; depth 8 bits/channel
+
+12000 × 12000 (144.0 MP)
+kernel                                          CPU ms    GPU ms  resident    kernel  auto  budget
+Gradient Linear (Chrome)                          22.6      23.1       5.9       0.0  CPU   ok
+Gradient Angle (Chrome)                           30.9      23.6       7.3       0.0  GPU   ok
+
+resampling, 12000 × 12000 output (144.0 MP)
+operation                                       CPU ms    GPU ms  resident  auto  budget
+Image Size Bicubic (smooth gradients) 2×          61.7      30.1      28.4  GPU   ok   (ns/px: CPU 0.428, GPU 0.209)
+  budget after: 2076.5 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 2076.5 MB GPU; peak tracked 3566.0 MiB
+  memory after: RSS 3306.8 MiB; peak RSS 3307.4 MiB (process lifetime); page-ins 0 (includes file reads)
+
+0 over budget

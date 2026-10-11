@@ -1,0 +1,45 @@
+[
+  {
+    "name": "convert-psd",
+    "command": [
+      "./target/release/pixelforge",
+      "--convert-pforge",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/two-pixel-layers.pforge",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/two-pixel-layers.psd"
+    ],
+    "exit_code": 0,
+    "seconds": 0.020003292000183137
+  },
+  {
+    "name": "check-psd",
+    "command": [
+      "./target/release/pixelforge",
+      "--psd-check",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/two-pixel-layers.psd",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/checked.psd",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/check-psd.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.01200958399931551
+  },
+  {
+    "name": "native-psd",
+    "command": [
+      "python3",
+      "tools/photoshop_psd.py",
+      "native-verify",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus",
+      "--input-file",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/two-pixel-layers.psd",
+      "--output",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd",
+      "--reference-output",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/native-psd-reference",
+      "--resave-output",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/resave-psd",
+      "--defer-fidelity"
+    ],
+    "exit_code": 1,
+    "seconds": 3.897340957999404
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "status": "failed",
+  "restoration_confirmed": false,
+  "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 1490, \"name\": \"Adobe Photoshop\", \"layer\": 8, \"bounds\": {\"X\": 734, \"Height\": 224, \"Y\": 233, \"Width\": 260}}]",
+  "seconds": 3.195,
+  "observations": [
+    {
+      "seconds": 0.224,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.815,
+      "windows": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 1.412,
+      "windows": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 2.013,
+      "windows": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 2.602,
+      "windows": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 3.193,
+      "windows": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1490,
+          "name": "Adobe Photoshop",
+          "layer": 8,
+          "bounds": {
+            "X": 734,
+            "Height": 224,
+            "Y": 233,
+            "Width": 260
+          }
+        }
+      ]
+    }
+  ]
+}

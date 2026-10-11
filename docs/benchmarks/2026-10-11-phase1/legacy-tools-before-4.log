@@ -1,0 +1,128 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            127.3 ms
+brush 500 px soft: median per mouse event                       0.32 ms   budget     2.0 ms   ok
+brush 500 px soft: p95 per mouse event                          0.40 ms   budget     2.0 ms   ok
+brush 500 px, angle+roundness+texture+scatter: median per mouse event      0.32 ms   budget     2.0 ms   ok
+brush 500 px, angle+roundness+texture+scatter: p95 per mouse event      0.40 ms   budget     2.0 ms   ok
+pencil 500 px aliased: median per mouse event                   0.00 ms   budget     2.0 ms   ok
+pencil 500 px aliased: p95 per mouse event                      0.34 ms   budget     2.0 ms   ok
+brush 500 px, every dynamic on (sampled tip, dual, colour per tip): median per mouse event      0.39 ms   budget     2.0 ms   ok
+brush 500 px, every dynamic on (sampled tip, dual, colour per tip): p95 per mouse event      1.28 ms   budget     2.0 ms   ok
+selection add (rect ∪ ellipse), 268 MP                          0.92 ms   budget   150.0 ms   ok
+Select ▸ Modify ▸ Expand 50 px, 268 MP                         20.06 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Contract 50 px, 268 MP                       17.67 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Feather 30 px, 268 MP                         4.05 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Border 40 px, 268 MP                         30.16 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Smooth 10 px, 268 MP                          1.74 ms   budget  1000.0 ms   ok
+Quick Mask enter (selection → gray), 268 MP                     0.33 ms   budget   150.0 ms   ok
+Quick Mask exit (gray → selection), 268 MP                      0.38 ms   budget   300.0 ms   ok
+magic wand contiguous (sky), 268 MP                            12.26 ms   budget  1000.0 ms   ok
+magic wand Sample All Layers (2 layers), 268 MP                12.87 ms   budget  1500.0 ms   ok
+magnetic lasso: median per mouse move                           0.46 ms   budget     4.0 ms   ok
+magnetic lasso: p95 per mouse move                              0.64 ms   budget     4.0 ms   ok
+quick selection: coarse result per stroke update               10.16 ms   budget   150.0 ms   ok
+quick selection: full-res edge refinement                       4.14 ms   budget  1000.0 ms   ok
+object selection: first result (coarse GrabCut)                12.57 ms   budget   150.0 ms   ok
+object selection: refined (1 MP GrabCut + guided edge)        137.10 ms   budget  1000.0 ms   ok
+Select Subject (GrabCut), 268 MP                               77.74 ms   budget   800.0 ms   ok
+object finder precompute (7 objects, background)              736.12 ms   budget  2000.0 ms   ok
+object finder hover lookup (944/2000 on an object): p95         0.00 ms   budget    16.0 ms   ok
+object finder click → selection (guided upsample)               4.27 ms   budget  1000.0 ms   ok
+display: 135 tiles, mask + clip + adjustment, level 0           6.38 ms   budget    26.0 ms   ok
+display: 135 tiles, mask + clip + adjustment, level 3           0.61 ms   budget    26.0 ms   ok
+shape live resize (≈2000–3200 px rounded rect + stroke)         1.29 ms   budget     8.0 ms   ok
+clone stamp 500 px: per dab (30 dabs)                           0.33 ms   budget     8.0 ms   ok
+clone stamp 500 px: p95 per mouse event                         0.37 ms   budget     2.0 ms   ok
+healing brush 100 px: per dab (147 dabs)                        0.93 ms   budget     8.0 ms   ok
+healing brush 100 px: p95 per mouse event                       2.10 ms   budget    16.0 ms   ok
+healing brush 200 px: per dab (74 dabs)                         1.65 ms   budget     8.0 ms   ok
+healing brush 200 px: p95 per mouse event                       1.89 ms   budget    16.0 ms   ok
+healing brush 300 px: per dab (49 dabs)                         2.72 ms   budget     8.0 ms   ok
+healing brush 300 px: p95 per mouse event                       2.97 ms   budget    16.0 ms   ok
+healing brush 500 px: per dab (30 dabs)                         5.14 ms   budget     8.0 ms   ok
+healing brush 500 px: p95 per mouse event                       5.32 ms   budget    16.0 ms   ok
+healing brush 500 px, Quality: Exact: per dab (30 dabs)         8.88 ms   budget    16.0 ms   ok
+healing brush 500 px, Quality: Exact: p95 per mouse event       9.85 ms   budget    16.0 ms   ok
+spot healing: 300 px blemish (PatchMatch + multigrid)          53.65 ms   budget    60.0 ms   ok
+spot healing, Create Texture: 300 px (quilting + multigrid)     38.53 ms   budget    60.0 ms   ok
+Content-Aware Fill workspace: 300 px (Auto sampling)           87.86 ms   budget   150.0 ms   ok
+Content-Aware Fill workspace: 1 MP (Auto sampling)            466.35 ms   budget   600.0 ms   ok
+Content-Aware Fill workspace: 1 MP, rotation Medium + scale + mirror    548.94 ms   budget  2000.0 ms   ok
+patch (content-aware), 1 MP region                            287.74 ms   budget   400.0 ms   ok
+patch (normal, source), 1 MP region                            21.02 ms   budget   400.0 ms   ok
+content-aware move, 1 MP object                               333.92 ms   budget   400.0 ms   ok
+red eye (60 px pupil: detect + fix)                             0.68 ms   budget    30.0 ms   ok
+history brush 500 px: median per mouse event                    0.29 ms   budget     2.0 ms   ok
+dodge 500 px: p95 per mouse event                               0.37 ms   budget     2.0 ms   ok
+burn 500 px: p95 per mouse event                                0.40 ms   budget     2.0 ms   ok
+sponge 500 px: p95 per mouse event                              0.51 ms   budget     2.0 ms   ok
+blur 500 px: p95 per mouse event                                0.40 ms   budget     2.0 ms   ok
+sharpen 500 px: p95 per mouse event                             0.41 ms   budget     2.0 ms   ok
+smudge 500 px: p95 per mouse event                              0.93 ms   budget     2.0 ms   ok
+mixer 500 px: p95 per mouse event                               0.94 ms   budget     2.0 ms   ok
+color replacement 500 px: p95 per mouse event                   0.94 ms   budget     2.0 ms   ok
+color replacement, Limits: Contiguous 500 px: p95 per mouse event      1.33 ms   budget     2.0 ms   ok
+color replacement, Limits: Find Edges 500 px: p95 per mouse event      1.71 ms   budget     2.0 ms   ok
+background eraser 500 px: p95 per mouse event                   0.44 ms   budget     2.0 ms   ok
+magic eraser (sky, sample all layers, AA), 268 MP              13.01 ms   budget  1000.0 ms   ok
+paint bucket with pattern (sky), 268 MP                        14.17 ms   budget  1000.0 ms   ok
+gradient Linear (spectrum, dither), 268 MP                     12.57 ms   budget   400.0 ms   ok
+gradient Radial (spectrum, dither), 268 MP                     12.06 ms   budget   400.0 ms   ok
+gradient Angle (spectrum, dither), 268 MP                      16.07 ms   budget   400.0 ms   ok
+gradient Reflected (spectrum, dither), 268 MP                  10.85 ms   budget   400.0 ms   ok
+gradient Diamond (spectrum, dither), 268 MP                    11.40 ms   budget   400.0 ms   ok
+live gradient preview: 135 display tiles                        2.31 ms   budget    26.0 ms   ok
+shape resize (stroked ellipse to 9000 px): p95/frame            2.64 ms   budget     8.0 ms   ok
+shape resize (7-point star to 9000 px): p95/frame               2.05 ms   budget     8.0 ms   ok
+path op Combine on two 500-anchor paths (7268+7268 segs, area 13298678) median      2.87 ms   budget     8.0 ms   ok
+path op Subtract on two 500-anchor paths (7268+7268 segs, area 730705) median      2.77 ms   budget     8.0 ms   ok
+path op Intersect on two 500-anchor paths (7268+7268 segs, area 11837268) median      2.78 ms   budget     8.0 ms   ok
+path op Exclude on two 500-anchor paths (7268+7268 segs, area 1461410) median      2.84 ms   budget     8.0 ms   ok
+live Subtract (2×500 anchors, gradient + dashed stroke), p95/frame     10.50 ms   budget    16.0 ms   ok
+Merge Shape Components (2×500 anchors)                          2.99 ms   budget     8.0 ms   ok
+corner radius widget drag (rotated 4000 px rect): p95/event      1.57 ms   budget     8.0 ms   ok
+frame: move placed content (3000 px frame): p95/event          12.48 ms   budget    26.0 ms   ok
+path → selection (ellipse 9800 × 6500), 268 MP                  0.69 ms   budget   200.0 ms   ok
+stroke path (star, 9961 px long, 30 px brush)                   4.16 ms   budget   100.0 ms   ok
+freeform pen fit (2000 pts → 32 cubics)                         0.23 ms   budget    30.0 ms   ok
+align 20 layers to a key object (268 MP canvas)                 3.28 ms   budget    50.0 ms   ok
+distribute 20 layers (equal horizontal spacing)                 2.24 ms   budget    50.0 ms   ok
+Auto-Select hit test over 20 layers (p95)                       0.00 ms   budget     1.0 ms   ok
+artboard export render (1920 × 1080, one child)                 0.97 ms   budget    50.0 ms   ok
+artboards to PDF, 4 pages 1920 × 1080 (0.1 MB)                 22.16 ms   budget   150.0 ms   ok
+Save for Web PNG-8 128 dithered: 12 slices of the 3840 × 2560 photo (6.7 MB)    487.70 ms   budget  1000.0 ms   ok
+Save for Web PNG-24: 12 slices of the 3840 × 2560 photo (16.7 MB)    470.98 ms   budget  1000.0 ms   ok
+Save for Web JPEG q60: 12 slices of the 3840 × 2560 photo (1.5 MB)     22.41 ms   budget  1000.0 ms   ok
+Save for Web WebP lossless: 12 slices of the 3840 × 2560 photo (12.7 MB)     16.74 ms   budget  1000.0 ms   ok
+text: create, first run                                      28.15 ms (font database load included)
+paragraph                                                       1992 glyphs, 51 runs
+text: create a 2000-glyph layer with 51 runs (PS 74.5 ms)       2.01 ms   budget    75.0 ms   ok
+text: keystroke, 2000-glyph paragraph with 51 runs (p95; PS 59.9 ms)      1.35 ms   budget     4.0 ms   ok
+text: apply a style to a 200-char range (p95; PS 54.4 ms)       1.84 ms   budget     8.0 ms   ok
+text: render the paragraph warped (Flag)                       26.03 ms   budget   150.0 ms   ok
+eyedropper / color sampler 1×1 average (median)                 0.00 ms   budget     4.0 ms   ok
+eyedropper / color sampler 11×11 average (median)               0.00 ms   budget     4.0 ms   ok
+eyedropper / color sampler 101×101 average (median)             0.01 ms   budget     4.0 ms   ok
+move tool: layer content bounds (Some((8192, 8192)))            0.20 ms   budget    30.0 ms   ok
+crop (tile-aligned), 268 MP → 205 MP                            1.88 ms   budget   400.0 ms   ok
+crop (unaligned), 268 MP → 205 MP                               3.97 ms   budget  1000.0 ms   ok
+straighten 3.5° (rotate + crop), 268 MP                        66.87 ms   budget  2000.0 ms   ok
+perspective crop → 6794 × 6298                                 49.53 ms   budget  3000.0 ms   ok
+free transform: scale layer 90%, 268 MP                        62.12 ms   budget  2000.0 ms   ok
+Vanishing Point: tear off a perpendicular plane                 0.00 ms   budget     1.0 ms   ok
+Vanishing Point brush dab, 200 px on the plane (median)         0.31 ms   budget     4.0 ms   ok
+Vanishing Point stamp dab, 200 px (median)                      0.80 ms   budget     6.0 ms   ok
+Vanishing Point marquee copy, 1000 × 1000 plane px             13.69 ms   budget   150.0 ms   ok
+Vanishing Point marquee copy with Heal                         42.02 ms   budget   400.0 ms   ok
+Vanishing Point: place a 2000 × 2000 image on the plane        11.03 ms   budget   300.0 ms   ok
+Rotate View frame, 4K display (160 GPU tiles, median 4 µs)      0.00 ms   budget     2.0 ms   ok
+rotated crop 8° bilinear (mip), 3840 × 2560 → 3200 × 2000       8.19 ms   budget   400.0 ms   ok
+rotated crop 8° bicubic, 3840 × 2560 → 3200 × 2000             11.74 ms   budget   400.0 ms   ok
+rotated crop 8° Lanczos-3, 3840 × 2560 → 3200 × 2000           38.53 ms   budget   400.0 ms   ok
+rotated crop 8°, Delete Cropped Pixels off (keeps 3840 × 2560)     20.71 ms   budget   800.0 ms   ok
+crop 268 MP keeping hidden pixels (unaligned)                   5.26 ms   budget  1500.0 ms   ok
+content-aware crop fill: corners of an 8° turn, 3840 × 2560   1124.21 ms   budget  6000.0 ms   ok
+straighten 3.5° bicubic (rotate + crop), 268 MP                97.49 ms   budget  4000.0 ms   ok
+
+121 checks, 0 over budget

@@ -1,0 +1,7 @@
+{
+  "jsx_sha256": "9e834056d5983a06b0638e33214a19267eed1e4d3059cc9f9e8999e5a7aa93cc",
+  "jsx_copy": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/raw-composite-native/snapshot/staged-script.jsx",
+  "python_sha256": "4957277c2961dcacdff0e5b1b27c220d875423b375256819399562d678244090",
+  "invocation_copy": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/raw-composite-native/snapshot/staged-invocation.json",
+  "watchdog": "Independent CoreGraphics query through a separate osascript process"
+}

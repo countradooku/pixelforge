@@ -1,0 +1,15 @@
+  memory before: RSS 11.4 MiB; depth 8 bits/channel
+Tool benchmark — 9504 × 6336 (60 MP), 18 threads
+
+generate test scene                                            105.1 ms
+brush 500 px soft: median per mouse event                       0.25 ms   budget     2.0 ms   ok
+brush 500 px soft: p95 per mouse event                          0.33 ms   budget     2.0 ms   ok
+brush 500 px, angle+roundness+texture+scatter: median per mouse event      0.27 ms   budget     2.0 ms   ok
+brush 500 px, angle+roundness+texture+scatter: p95 per mouse event      0.36 ms   budget     2.0 ms   ok
+pencil 500 px aliased: median per mouse event                   0.00 ms   budget     2.0 ms   ok
+pencil 500 px aliased: p95 per mouse event                      0.31 ms   budget     2.0 ms   ok
+brush 500 px, every dynamic on (sampled tip, dual, colour per tip): median per mouse event      0.35 ms   budget     2.0 ms   ok
+brush 500 px, every dynamic on (sampled tip, dual, colour per tip): p95 per mouse event      1.03 ms   budget     2.0 ms   ok
+
+8 checks, 0 over budget
+  memory after: RSS 511.5 MiB; peak RSS 511.5 MiB (process lifetime); page-ins 0 (includes file reads)

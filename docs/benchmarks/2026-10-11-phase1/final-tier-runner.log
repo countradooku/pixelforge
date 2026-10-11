@@ -1,0 +1,24 @@
+Running engine 24 MP
+{"budget_misses": [], "suite": "engine", "tier": "24", "exit_code": 0, "seconds": 0.9, "log": "docs/benchmarks/2026-10-11-phase1/engine-24.log"}
+Running engine 61 MP
+{"budget_misses": [], "suite": "engine", "tier": "61", "exit_code": 0, "seconds": 0.49, "log": "docs/benchmarks/2026-10-11-phase1/engine-61.log"}
+Running engine 150 MP
+{"budget_misses": [], "suite": "engine", "tier": "150", "exit_code": 0, "seconds": 0.94, "log": "docs/benchmarks/2026-10-11-phase1/engine-150.log"}
+Running engine 268 MP
+{"budget_misses": [], "suite": "engine", "tier": "268", "exit_code": 0, "seconds": 1.59, "log": "docs/benchmarks/2026-10-11-phase1/engine-268.log"}
+Running tools 24 MP
+{"budget_misses": ["OVER: object finder precompute (6 objects, background) (2345.63 ms > 2000.0 ms)"], "suite": "tools", "tier": "24", "exit_code": 0, "seconds": 9.37, "log": "docs/benchmarks/2026-10-11-phase1/tools-24.log"}
+Running tools 61 MP
+{"budget_misses": [], "suite": "tools", "tier": "61", "exit_code": 0, "seconds": 8.86, "log": "docs/benchmarks/2026-10-11-phase1/tools-61.log"}
+Running tools 150 MP
+{"budget_misses": ["OVER: object finder precompute (5 objects, background) (4792.28 ms > 2000.0 ms)"], "suite": "tools", "tier": "150", "exit_code": 0, "seconds": 14.77, "log": "docs/benchmarks/2026-10-11-phase1/tools-150.log"}
+Running tools 268 MP
+{"budget_misses": [], "suite": "tools", "tier": "268", "exit_code": 0, "seconds": 12.55, "log": "docs/benchmarks/2026-10-11-phase1/tools-268.log"}
+Running filters 24 MP
+{"budget_misses": [], "suite": "filters", "tier": "24", "exit_code": 0, "seconds": 8.16, "log": "docs/benchmarks/2026-10-11-phase1/filters-24.log"}
+Running filters 61 MP
+{"budget_misses": [], "suite": "filters", "tier": "61", "exit_code": 0, "seconds": 22.65, "log": "docs/benchmarks/2026-10-11-phase1/filters-61.log"}
+Running filters 150 MP
+{"budget_misses": [], "suite": "filters", "tier": "150", "exit_code": 0, "seconds": 56.06, "log": "docs/benchmarks/2026-10-11-phase1/filters-150.log"}
+Running filters 268 MP
+{"budget_misses": [], "suite": "filters", "tier": "268", "exit_code": 0, "seconds": 97.36, "log": "docs/benchmarks/2026-10-11-phase1/filters-268.log"}

@@ -1,0 +1,29 @@
+  budget before: 0.0 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.0 MiB; depth 8 bits/channel
+Memory benchmark — 14204 × 10652; RGBA8, 20 undo states
+revision 00: 2558.327 ms; 506.2 / 512 MB · 0.0 MB compressed · 640.7 MB scratch · 0.0 MB GPU
+revision 01: 2408.642 ms; 511.0 / 512 MB · 0.0 MB compressed · 1084.3 MB scratch · 0.0 MB GPU
+revision 02: 2265.123 ms; 504.8 / 512 MB · 0.0 MB compressed · 1492.2 MB scratch · 0.0 MB GPU
+revision 03: 2047.339 ms; 482.8 / 512 MB · 0.0 MB compressed · 1872.8 MB scratch · 0.0 MB GPU
+revision 04: 2032.672 ms; 465.0 / 512 MB · 0.0 MB compressed · 2224.8 MB scratch · 0.0 MB GPU
+revision 05: 1808.482 ms; 503.0 / 512 MB · 0.0 MB compressed · 2525.9 MB scratch · 0.0 MB GPU
+revision 06: 1758.689 ms; 477.8 / 512 MB · 0.0 MB compressed · 2828.7 MB scratch · 0.0 MB GPU
+revision 07: 1536.618 ms; 487.3 / 512 MB · 0.0 MB compressed · 3094.2 MB scratch · 0.0 MB GPU
+revision 08: 1552.463 ms; 488.0 / 512 MB · 0.0 MB compressed · 3343.4 MB scratch · 0.0 MB GPU
+revision 09: 1257.929 ms; 480.3 / 512 MB · 0.0 MB compressed · 3577.2 MB scratch · 0.0 MB GPU
+revision 10: 1259.949 ms; 506.0 / 512 MB · 0.0 MB compressed · 3782.3 MB scratch · 0.0 MB GPU
+revision 11: 1873.375 ms; 468.0 / 512 MB · 0.0 MB compressed · 3988.2 MB scratch · 0.0 MB GPU
+revision 12: 1050.662 ms; 491.5 / 512 MB · 0.0 MB compressed · 4164.3 MB scratch · 0.0 MB GPU
+revision 13: 1070.368 ms; 497.8 / 512 MB · 0.0 MB compressed · 4329.0 MB scratch · 0.0 MB GPU
+revision 14: 995.880 ms; 482.5 / 512 MB · 0.0 MB compressed · 4487.0 MB scratch · 0.0 MB GPU
+revision 15: 907.959 ms; 506.8 / 512 MB · 0.0 MB compressed · 4624.5 MB scratch · 0.0 MB GPU
+revision 16: 877.195 ms; 465.3 / 512 MB · 0.0 MB compressed · 4764.5 MB scratch · 0.0 MB GPU
+revision 17: 836.730 ms; 504.3 / 512 MB · 0.0 MB compressed · 4884.3 MB scratch · 0.0 MB GPU
+revision 18: 804.952 ms; 494.5 / 512 MB · 0.0 MB compressed · 5004.0 MB scratch · 0.0 MB GPU
+revision 19: 780.633 ms; 482.3 / 512 MB · 0.0 MB compressed · 5120.8 MB scratch · 0.0 MB GPU
+pressure brush including mips: median 0.000 ms; p95 0.352 ms; max 0.402 ms
+pressure display: 0.983 ms for 135 RGBA8 tiles
+undo all-tile fingerprints: 20/20; median 0.808 ms; p95 0.966 ms
+32-bit document stress: unavailable until the float engine exists; no 8-bit conversion substituted
+  budget after: 0.0 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 516.6 MiB
+  memory after: RSS 925.5 MiB; peak RSS 925.5 MiB (process lifetime); page-ins 0 (includes file reads)

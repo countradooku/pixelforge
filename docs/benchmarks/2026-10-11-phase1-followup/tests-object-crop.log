@@ -1,0 +1,13 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+    Finished `release` profile [optimized] target(s) in 25.25s
+     Running unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)
+
+running 5 tests
+test engine::objects::tests::fh_separates_flat_regions ... ok
+test engine::objects::tests::finder_handles_a_flat_image_without_a_usable_prior ... ok
+test engine::objects::tests::finder_keeps_subjects_that_touch_the_frame ... ok
+test engine::objects::tests::finder_finds_objects_on_a_backdrop ... ok
+test engine::objects::tests::finder_separates_a_shaded_object_from_textured_ground ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 395 filtered out; finished in 1.97s
+

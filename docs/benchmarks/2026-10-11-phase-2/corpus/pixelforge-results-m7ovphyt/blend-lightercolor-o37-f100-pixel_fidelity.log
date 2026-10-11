@@ -1,0 +1,19 @@
+Composite fidelity failed: SSIM=0.998719, mean DeltaE00=1.539032, max error=65
+        0.01 real         0.00 user         0.02 sys
+            16531456  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1395  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                1224  involuntary context switches
+           151838166  instructions retired
+           124320767  cycles elapsed
+             7307912  peak memory footprint

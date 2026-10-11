@@ -1,0 +1,18 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            146.4 ms
+eyedropper / color sampler 1×1 average (median)                 0.00 ms   budget     4.0 ms   ok
+eyedropper / color sampler 11×11 average (median)               0.00 ms   budget     4.0 ms   ok
+eyedropper / color sampler 101×101 average (median)             0.01 ms   budget     4.0 ms   ok
+move tool: layer content bounds (Some((8192, 8192)))            0.35 ms   budget    30.0 ms   ok
+crop (tile-aligned)                                             3.18 ms   budget   400.0 ms   ok
+crop (unaligned)                                                6.32 ms   budget  1000.0 ms   ok
+straighten 3.5° (rotate + crop)                                53.22 ms   budget  2000.0 ms   ok
+perspective crop → 6794 × 6298                                 40.19 ms   budget  3000.0 ms   ok
+free transform: scale layer 90%                                48.53 ms   budget  2000.0 ms   ok
+
+9 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 666.2 MiB
+  memory after: RSS 957.1 MiB; peak RSS 957.1 MiB (process lifetime); page-ins 0 (includes file reads)

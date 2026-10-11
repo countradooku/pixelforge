@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "restoration_confirmed": true,
+  "bridge_exit_code": 0,
+  "seconds": 0.646,
+  "observations": [
+    {
+      "seconds": 0.144,
+      "windows": [],
+      "dialogs": []
+    }
+  ]
+}

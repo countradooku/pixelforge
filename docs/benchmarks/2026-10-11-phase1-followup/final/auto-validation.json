@@ -1,0 +1,466 @@
+{
+  "150 MP / Gradient Linear (Chrome)": {
+    "cpu_median_ms": 24.5,
+    "gpu_median_ms": 29.7,
+    "auto_median_ms": 24.5,
+    "budget_ms": 27.450000000000003,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 32.3,
+        "gpu_ms": 30.5,
+        "auto": "CPU",
+        "auto_ms": 32.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 25.3,
+        "gpu_ms": 29.7,
+        "auto": "CPU",
+        "auto_ms": 25.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 23.4,
+        "gpu_ms": 27.9,
+        "auto": "CPU",
+        "auto_ms": 23.4,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 24.5,
+        "gpu_ms": 26.7,
+        "auto": "CPU",
+        "auto_ms": 24.5,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 23.2,
+        "gpu_ms": 29.8,
+        "auto": "CPU",
+        "auto_ms": 23.2,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 24.0,
+        "gpu_ms": 26.3,
+        "auto": "CPU",
+        "auto_ms": 24.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 25.6,
+        "gpu_ms": 30.2,
+        "auto": "CPU",
+        "auto_ms": 25.6,
+        "status": "ok"
+      }
+    ]
+  },
+  "150 MP / Gradient Angle (Chrome)": {
+    "cpu_median_ms": 31.4,
+    "gpu_median_ms": 26.1,
+    "auto_median_ms": 26.1,
+    "budget_ms": 29.210000000000004,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 35.2,
+        "gpu_ms": 27.0,
+        "auto": "GPU",
+        "auto_ms": 27.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 36.7,
+        "gpu_ms": 27.7,
+        "auto": "GPU",
+        "auto_ms": 27.7,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 31.4,
+        "gpu_ms": 26.1,
+        "auto": "GPU",
+        "auto_ms": 26.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 30.8,
+        "gpu_ms": 25.8,
+        "auto": "GPU",
+        "auto_ms": 25.8,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 30.8,
+        "gpu_ms": 25.1,
+        "auto": "GPU",
+        "auto_ms": 25.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 31.1,
+        "gpu_ms": 25.9,
+        "auto": "GPU",
+        "auto_ms": 25.9,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 40.9,
+        "gpu_ms": 29.2,
+        "auto": "GPU",
+        "auto_ms": 29.2,
+        "status": "ok"
+      }
+    ]
+  },
+  "150 MP / Gallery: Plaster": {
+    "cpu_median_ms": 376.6,
+    "gpu_median_ms": 302.9,
+    "auto_median_ms": 302.9,
+    "budget_ms": 333.69,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 399.3,
+        "gpu_ms": 364.3,
+        "auto": "GPU",
+        "auto_ms": 364.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 359.0,
+        "gpu_ms": 299.8,
+        "auto": "GPU",
+        "auto_ms": 299.8,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 376.6,
+        "gpu_ms": 300.0,
+        "auto": "GPU",
+        "auto_ms": 300.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 387.0,
+        "gpu_ms": 300.2,
+        "auto": "GPU",
+        "auto_ms": 300.2,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 372.2,
+        "gpu_ms": 311.2,
+        "auto": "GPU",
+        "auto_ms": 311.2,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 348.5,
+        "gpu_ms": 317.4,
+        "auto": "GPU",
+        "auto_ms": 317.4,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 378.2,
+        "gpu_ms": 302.9,
+        "auto": "GPU",
+        "auto_ms": 302.9,
+        "status": "ok"
+      }
+    ]
+  },
+  "150 MP / Gallery: Sponge": {
+    "cpu_median_ms": 527.8,
+    "gpu_median_ms": 433.7,
+    "auto_median_ms": 433.7,
+    "budget_ms": 477.57000000000005,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 539.0,
+        "gpu_ms": 441.2,
+        "auto": "GPU",
+        "auto_ms": 441.2,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 522.0,
+        "gpu_ms": 434.0,
+        "auto": "GPU",
+        "auto_ms": 434.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 527.8,
+        "gpu_ms": 432.9,
+        "auto": "GPU",
+        "auto_ms": 432.9,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 531.4,
+        "gpu_ms": 433.7,
+        "auto": "GPU",
+        "auto_ms": 433.7,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 518.7,
+        "gpu_ms": 431.0,
+        "auto": "GPU",
+        "auto_ms": 431.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 508.6,
+        "gpu_ms": 430.7,
+        "auto": "GPU",
+        "auto_ms": 430.7,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 548.9,
+        "gpu_ms": 437.1,
+        "auto": "GPU",
+        "auto_ms": 437.1,
+        "status": "ok"
+      }
+    ]
+  },
+  "268 MP / Gallery: Diffuse Glow": {
+    "cpu_median_ms": 329.4,
+    "gpu_median_ms": 281.5,
+    "auto_median_ms": 281.5,
+    "budget_ms": 310.15000000000003,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 328.9,
+        "gpu_ms": 284.3,
+        "auto": "GPU",
+        "auto_ms": 284.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 333.4,
+        "gpu_ms": 279.1,
+        "auto": "GPU",
+        "auto_ms": 279.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 349.1,
+        "gpu_ms": 281.5,
+        "auto": "GPU",
+        "auto_ms": 281.5,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 326.2,
+        "gpu_ms": 280.5,
+        "auto": "GPU",
+        "auto_ms": 280.5,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 329.4,
+        "gpu_ms": 279.1,
+        "auto": "GPU",
+        "auto_ms": 279.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 321.4,
+        "gpu_ms": 298.1,
+        "auto": "GPU",
+        "auto_ms": 298.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 330.0,
+        "gpu_ms": 286.6,
+        "auto": "GPU",
+        "auto_ms": 286.6,
+        "status": "ok"
+      }
+    ]
+  },
+  "268 MP / Gallery: Stamp": {
+    "cpu_median_ms": 230.2,
+    "gpu_median_ms": 243.9,
+    "auto_median_ms": 230.2,
+    "budget_ms": 253.72,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 226.0,
+        "gpu_ms": 241.5,
+        "auto": "CPU",
+        "auto_ms": 226.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 225.0,
+        "gpu_ms": 281.9,
+        "auto": "CPU",
+        "auto_ms": 225.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 236.1,
+        "gpu_ms": 243.8,
+        "auto": "CPU",
+        "auto_ms": 236.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 230.2,
+        "gpu_ms": 242.6,
+        "auto": "CPU",
+        "auto_ms": 230.2,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 226.4,
+        "gpu_ms": 251.0,
+        "auto": "CPU",
+        "auto_ms": 226.4,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 248.8,
+        "gpu_ms": 243.9,
+        "auto": "CPU",
+        "auto_ms": 248.8,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 241.6,
+        "gpu_ms": 251.8,
+        "auto": "CPU",
+        "auto_ms": 241.6,
+        "status": "ok"
+      }
+    ]
+  },
+  "61 MP / Gallery: Glowing Edges": {
+    "cpu_median_ms": 194.2,
+    "gpu_median_ms": 151.4,
+    "auto_median_ms": 151.4,
+    "budget_ms": 167.04000000000002,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 200.0,
+        "gpu_ms": 156.3,
+        "auto": "GPU",
+        "auto_ms": 156.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 194.2,
+        "gpu_ms": 151.4,
+        "auto": "GPU",
+        "auto_ms": 151.4,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 200.2,
+        "gpu_ms": 150.8,
+        "auto": "GPU",
+        "auto_ms": 150.8,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 195.4,
+        "gpu_ms": 156.5,
+        "auto": "GPU",
+        "auto_ms": 156.5,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 192.3,
+        "gpu_ms": 148.0,
+        "auto": "GPU",
+        "auto_ms": 148.0,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 189.9,
+        "gpu_ms": 148.5,
+        "auto": "GPU",
+        "auto_ms": 148.5,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 193.8,
+        "gpu_ms": 192.4,
+        "auto": "GPU",
+        "auto_ms": 192.4,
+        "status": "ok"
+      }
+    ]
+  },
+  "61 MP / Gallery: Note Paper": {
+    "cpu_median_ms": 44.7,
+    "gpu_median_ms": 41.6,
+    "auto_median_ms": 44.7,
+    "budget_ms": 46.260000000000005,
+    "pass": true,
+    "samples": [
+      {
+        "cpu_ms": 44.3,
+        "gpu_ms": 41.6,
+        "auto": "CPU",
+        "auto_ms": 44.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 45.1,
+        "gpu_ms": 41.5,
+        "auto": "CPU",
+        "auto_ms": 45.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 44.7,
+        "gpu_ms": 44.1,
+        "auto": "CPU",
+        "auto_ms": 44.7,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 47.1,
+        "gpu_ms": 44.2,
+        "auto": "CPU",
+        "auto_ms": 47.1,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 44.3,
+        "gpu_ms": 42.3,
+        "auto": "CPU",
+        "auto_ms": 44.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 44.3,
+        "gpu_ms": 41.1,
+        "auto": "CPU",
+        "auto_ms": 44.3,
+        "status": "ok"
+      },
+      {
+        "cpu_ms": 44.7,
+        "gpu_ms": 41.4,
+        "auto": "CPU",
+        "auto_ms": 44.7,
+        "status": "ok"
+      }
+    ]
+  }
+}

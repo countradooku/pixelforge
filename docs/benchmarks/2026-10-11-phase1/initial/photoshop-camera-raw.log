@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/tools/photoshop_phase1.py", line 36, in <module>
+    if persistent: raise RuntimeError('Photoshop dialog detected; scripting bridge terminated: '+json.dumps(persistent))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Photoshop dialog detected; scripting bridge terminated: [{"id": 375, "name": "Camera Raw 18.7", "layer": 0, "bounds": {"X": 129, "Height": 1021, "Y": 33, "Width": 1469}}]

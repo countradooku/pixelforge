@@ -1,0 +1,150 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.0 MiB; depth 8 bits/channel
+Filter benchmark — 8192 × 8192 (67 MP), 18 threads, default parameters
+
+Adjustments  Brightness/Contrast                  23.027 ms       2914 MP/s
+Adjustments  Levels                                6.561 ms      10228 MP/s
+Adjustments  Curves                                4.877 ms      13762 MP/s
+Adjustments  Exposure                              5.547 ms      12099 MP/s
+Adjustments  Vibrance                             41.007 ms       1637 MP/s
+Adjustments  Hue/Saturation                       38.406 ms       1747 MP/s
+Adjustments  Color Balance                        38.539 ms       1741 MP/s
+Adjustments  Black & White                        38.838 ms       1728 MP/s
+Adjustments  Photo Filter                         38.645 ms       1737 MP/s
+Adjustments  Gradient Map                         37.003 ms       1814 MP/s
+Adjustments  Invert                                4.690 ms      14310 MP/s
+Adjustments  Desaturate                           10.675 ms       6287 MP/s
+Adjustments  Posterize                             4.757 ms      14106 MP/s
+Adjustments  Threshold                            10.028 ms       6692 MP/s
+Adjustments  Equalize                              4.890 ms      13723 MP/s
+Adjustments  Shadows/Highlights                  120.570 ms        557 MP/s
+Auto         Auto Tone                             5.090 ms      13185 MP/s
+Auto         Auto Contrast                         4.751 ms      14125 MP/s
+Blur         Average                               4.682 ms      14333 MP/s
+Blur         Blur                                  9.845 ms       6816 MP/s
+Blur         Blur More                            12.220 ms       5492 MP/s
+Blur         Box Blur                             17.519 ms       3831 MP/s
+Blur         Gaussian Blur                        27.474 ms       2443 MP/s
+Blur         Lens Blur                           110.035 ms        610 MP/s
+Blur         Motion Blur                          19.117 ms       3510 MP/s
+Blur         Radial Blur                         765.102 ms         88 MP/s
+Blur         Smart Blur                          531.594 ms        126 MP/s
+Blur         Surface Blur                        282.059 ms        238 MP/s
+Distort      Pinch                                51.552 ms       1302 MP/s
+Distort      Polar Coordinates                    61.904 ms       1084 MP/s
+Distort      Ripple                               43.667 ms       1537 MP/s
+Distort      Shear                                33.451 ms       2006 MP/s
+Distort      Spherize                             50.199 ms       1337 MP/s
+Distort      Twirl                                49.362 ms       1360 MP/s
+Distort      Wave                                 54.433 ms       1233 MP/s
+Distort      ZigZag                               49.879 ms       1345 MP/s
+Noise        Add Noise                            11.944 ms       5618 MP/s
+Noise        Despeckle                            24.613 ms       2727 MP/s
+Noise        Dust & Scratches                     24.783 ms       2708 MP/s
+Noise        Median                               71.908 ms        933 MP/s
+Noise        Reduce Noise                        244.531 ms        274 MP/s
+Pixelate     Color Halftone                       94.336 ms        711 MP/s
+Pixelate     Crystallize                         120.562 ms        557 MP/s
+Pixelate     Facet                                35.302 ms       1901 MP/s
+Pixelate     Fragment                             13.890 ms       4832 MP/s
+Pixelate     Mezzotint                            20.262 ms       3312 MP/s
+Pixelate     Mosaic                               28.324 ms       2369 MP/s
+Pixelate     Pointillize                         128.599 ms        522 MP/s
+Render       Clouds                              112.840 ms        595 MP/s
+Render       Difference Clouds                   115.530 ms        581 MP/s
+Render       Fibers                               68.601 ms        978 MP/s
+Render       Lens Flare                           32.523 ms       2063 MP/s
+Sharpen      Sharpen                              22.086 ms       3039 MP/s
+Sharpen      Sharpen Edges                        19.875 ms       3376 MP/s
+Sharpen      Sharpen More                         24.831 ms       2703 MP/s
+Sharpen      Smart Sharpen                        19.020 ms       3528 MP/s
+Sharpen      Unsharp Mask                         28.392 ms       2364 MP/s
+Stylize      Diffuse                              11.783 ms       5696 MP/s
+Stylize      Emboss                               21.329 ms       3146 MP/s
+Stylize      Find Edges                           39.297 ms       1708 MP/s
+Stylize      Oil Paint                            56.646 ms       1185 MP/s
+Stylize      Solarize                              5.245 ms      12796 MP/s
+Stylize      Trace Contour                        21.186 ms       3168 MP/s
+Stylize      Wind                                 30.639 ms       2190 MP/s
+Other        High Pass                            33.816 ms       1985 MP/s
+Other        HSB/HSL                              40.444 ms       1659 MP/s
+Other        Maximum                               8.567 ms       7834 MP/s
+Other        Minimum                               8.113 ms       8272 MP/s
+Other        Offset                               48.174 ms       1393 MP/s
+Other        Custom                               34.419 ms       1950 MP/s
+Adjustments  Channel Mixer                        40.509 ms       1657 MP/s
+Adjustments  Selective Color                      40.011 ms       1677 MP/s
+Adjustments  Replace Color                        39.814 ms       1686 MP/s
+Adjustments  Match Color                          39.495 ms       1699 MP/s
+Render       Lighting Effects                     44.430 ms       1510 MP/s
+Distort      Displace                            220.490 ms        304 MP/s
+Blur         Shape Blur                           99.926 ms        672 MP/s
+Blur Gallery Tilt-Shift                          155.269 ms        432 MP/s
+Blur Gallery Iris Blur                           183.007 ms        367 MP/s
+Stylize      Extrude                              52.698 ms       1273 MP/s
+Stylize      Tiles                               133.380 ms        503 MP/s
+Video        De-Interlace                          5.610 ms      11962 MP/s
+Video        NTSC Colors                          40.635 ms       1651 MP/s
+Filter       Camera Raw Filter                   245.118 ms        274 MP/s
+Filter       Lens Correction                     165.777 ms        405 MP/s
+Blur Gallery Field Blur                          231.035 ms        290 MP/s
+Blur Gallery Spin Blur                           251.263 ms        267 MP/s
+Blur Gallery Path Blur                           540.400 ms        124 MP/s
+Neural Filters Skin Smoothing                    307.325 ms        218 MP/s
+Neural Filters JPEG Artifacts Removal            514.683 ms        130 MP/s
+Neural Filters Photo Restoration                 575.891 ms        117 MP/s
+Neural Filters Super Zoom                         21.023 ms       3192 MP/s
+Transform    Free Transform                       40.981 ms       1638 MP/s
+Filter       Vanishing Point                      40.986 ms       1637 MP/s
+Filter       Adaptive Wide Angle                  59.992 ms       1119 MP/s
+Neural Filters Harmonization                      44.245 ms       1517 MP/s
+Transform    Warp                               1164.429 ms         58 MP/s
+Filter Gallery Colored Pencil                     79.380 ms        845 MP/s
+Filter Gallery Cutout                            517.196 ms        130 MP/s
+Filter Gallery Dry Brush                          85.960 ms        781 MP/s
+Filter Gallery Film Grain                         27.950 ms       2401 MP/s
+Filter Gallery Fresco                            133.891 ms        501 MP/s
+Filter Gallery Neon Glow                          64.059 ms       1048 MP/s
+Filter Gallery Paint Daubs                       501.627 ms        134 MP/s
+Filter Gallery Palette Knife                     466.152 ms        144 MP/s
+Filter Gallery Plastic Wrap                      161.035 ms        417 MP/s
+Filter Gallery Poster Edges                       72.537 ms        925 MP/s
+Filter Gallery Rough Pastels                     255.946 ms        262 MP/s
+Filter Gallery Smudge Stick                       56.935 ms       1179 MP/s
+Filter Gallery Sponge                            291.685 ms        230 MP/s
+Filter Gallery Underpainting                     281.195 ms        239 MP/s
+Filter Gallery Watercolor                        499.264 ms        134 MP/s
+Filter Gallery Accented Edges                    204.529 ms        328 MP/s
+Filter Gallery Angled Strokes                    624.463 ms        107 MP/s
+Filter Gallery Crosshatch                        701.199 ms         96 MP/s
+Filter Gallery Dark Strokes                      456.987 ms        147 MP/s
+Filter Gallery Ink Outlines                      192.907 ms        348 MP/s
+Filter Gallery Spatter                           129.640 ms        518 MP/s
+Filter Gallery Sprayed Strokes                   104.866 ms        640 MP/s
+Filter Gallery Sumi-e                            279.952 ms        240 MP/s
+Filter Gallery Diffuse Glow                       94.122 ms        713 MP/s
+Filter Gallery Glass                             163.290 ms        411 MP/s
+Filter Gallery Ocean Ripple                      209.496 ms        320 MP/s
+Filter Gallery Bas Relief                        104.163 ms        644 MP/s
+Filter Gallery Chalk & Charcoal                  656.603 ms        102 MP/s
+Filter Gallery Charcoal                          714.757 ms         94 MP/s
+Filter Gallery Chrome                            571.263 ms        117 MP/s
+Filter Gallery Conté Crayon                      108.038 ms        621 MP/s
+Filter Gallery Graphic Pen                       122.648 ms        547 MP/s
+Filter Gallery Halftone Pattern                   54.685 ms       1227 MP/s
+Filter Gallery Note Paper                         56.377 ms       1190 MP/s
+Filter Gallery Photocopy                          63.016 ms       1065 MP/s
+Filter Gallery Plaster                           190.652 ms        352 MP/s
+Filter Gallery Reticulation                       93.142 ms        720 MP/s
+Filter Gallery Stamp                              70.567 ms        951 MP/s
+Filter Gallery Torn Edges                         73.110 ms        918 MP/s
+Filter Gallery Water Paper                       212.029 ms        317 MP/s
+Filter Gallery Glowing Edges                     251.485 ms        267 MP/s
+Filter Gallery Craquelure                        472.124 ms        142 MP/s
+Filter Gallery Grain                              38.693 ms       1734 MP/s
+Filter Gallery Mosaic Tiles                      213.710 ms        314 MP/s
+Filter Gallery Patchwork                          89.080 ms        753 MP/s
+Filter Gallery Stained Glass                     253.092 ms        265 MP/s
+Filter Gallery Texturizer                        164.574 ms        408 MP/s
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 682.5 MiB
+  memory after: RSS 1611.8 MiB; peak RSS 1611.8 MiB (process lifetime); page-ins 0 (includes file reads)

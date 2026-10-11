@@ -1,0 +1,18 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            122.8 ms
+align 20 layers to a key object (document canvas)               6.68 ms   budget    50.0 ms   ok
+distribute 20 layers (equal horizontal spacing)                 4.47 ms   budget    50.0 ms   ok
+Auto-Select hit test over 20 layers (p95)                       0.00 ms   budget     1.0 ms   ok
+artboard export render (1920 × 1080, one child)                 1.66 ms   budget    50.0 ms   ok
+artboards to PDF, 4 pages 1920 × 1080 (0.1 MB)                 29.15 ms   budget   150.0 ms   ok
+Save for Web PNG-8 128 dithered: 12 slices of the 3840 × 2560 photo (6.7 MB)    368.34 ms   budget  1000.0 ms   ok
+Save for Web PNG-24: 12 slices of the 3840 × 2560 photo (16.7 MB)    256.25 ms   budget  1000.0 ms   ok
+Save for Web JPEG q60: 12 slices of the 3840 × 2560 photo (1.5 MB)     19.90 ms   budget  1000.0 ms   ok
+Save for Web WebP lossless: 12 slices of the 3840 × 2560 photo (12.7 MB)      6.93 ms   budget  1000.0 ms   ok
+
+9 checks, 0 over budget
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 577.0 MiB
+  memory after: RSS 1152.0 MiB; peak RSS 1152.0 MiB (process lifetime); page-ins 0 (includes file reads)

@@ -1,0 +1,21 @@
+Running compare-engine
+compare-engine exit 0
+Running compare-tools
+compare-tools exit 0
+Running focus-levels
+focus-levels exit 0
+Running focus-exposure
+focus-exposure exit 0
+Running focus-despeckle
+focus-despeckle exit 0
+Running focus-charcoal
+focus-charcoal exit 0
+Running memory-runner
+memory-runner exit 0
+Running tests-default
+tests-default exit 0
+Running tests-force
+tests-force exit 0
+Running final-tier-runner
+final-tier-runner exit 0
+Final checks finished

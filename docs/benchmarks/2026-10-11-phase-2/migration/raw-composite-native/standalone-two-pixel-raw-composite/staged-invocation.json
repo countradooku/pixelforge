@@ -1,0 +1,22 @@
+{
+  "operation": "inspect_open",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/raw-composite-native/standalone-two-pixel-raw-composite",
+  "cases": [
+    {
+      "id": "standalone-two-pixel-raw-composite",
+      "filename": "two-pixel-raw-composite.psd",
+      "family": "standalone-writer",
+      "feature": "native-open-and-resave",
+      "params": {
+        "psb": false
+      },
+      "fidelity": "exact"
+    }
+  ],
+  "input": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/raw-composite-native-reference",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/raw-composite-native/standalone-two-pixel-raw-composite/abort-requested.txt",
+  "expected_jsx_sha256": "9e834056d5983a06b0638e33214a19267eed1e4d3059cc9f9e8999e5a7aa93cc",
+  "native_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/migration/two-pixel-raw-composite.psd",
+  "previous_document_id": null
+}

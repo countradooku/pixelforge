@@ -1,0 +1,158 @@
+{
+  "status": "failed",
+  "restoration_confirmed": false,
+  "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 1179, \"name\": \"New\", \"layer\": 8, \"bounds\": {\"X\": 591, \"Height\": 389, \"Y\": 337, \"Width\": 546}}]",
+  "seconds": 3.101,
+  "observations": [
+    {
+      "seconds": 0.133,
+      "windows": [],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.724,
+      "windows": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 1.316,
+      "windows": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 1.909,
+      "windows": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 2.506,
+      "windows": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 3.099,
+      "windows": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1179,
+          "name": "New",
+          "layer": 8,
+          "bounds": {
+            "X": 591,
+            "Height": 389,
+            "Y": 337,
+            "Width": 546
+          }
+        }
+      ]
+    }
+  ]
+}

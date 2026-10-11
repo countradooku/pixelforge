@@ -1,0 +1,132 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+warning: variants `Raw` and `PackBits` are never constructed
+  --> src/engine/psd/compression.rs:35:5
+   |
+34 | pub(crate) enum Method {
+   |                 ------ variants in this enum
+35 |     Raw = 0,
+   |     ^^^
+36 |     PackBits = 1,
+   |     ^^^^^^^^
+   |
+   = note: `Method` has derived impls for the traits `Debug` and `Clone`, but these are intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: associated function `new` is never used
+  --> src/engine/psd/descriptor.rs:64:12
+   |
+63 | impl Class {
+   | ---------- associated function in this implementation
+64 |     pub fn new(name: &str, id: Id) -> Self {
+   |            ^^^
+
+warning: associated function `new` is never used
+  --> src/engine/psd/descriptor.rs:80:12
+   |
+79 | impl Entry {
+   | ---------- associated function in this implementation
+80 |     pub fn new(key: Id, value: Value) -> Self {
+   |            ^^^
+
+warning: associated items `new`, `get`, `get_mut`, and `set` are never used
+   --> src/engine/psd/descriptor.rs:94:12
+    |
+ 93 | impl Descriptor {
+    | --------------- associated items in this implementation
+ 94 |     pub fn new(class: Class) -> Self {
+    |            ^^^
+...
+101 |     pub fn get(&self, key: &[u8]) -> Option<&Value> {
+    |            ^^^
+...
+108 |     pub fn get_mut(&mut self, key: &[u8]) -> Option<&mut Value> {
+    |            ^^^^^^^
+...
+116 |     pub fn set(&mut self, key: Id, value: Value) {
+    |            ^^^
+
+warning: associated items `double`, `text`, and `as_f64` are never used
+   --> src/engine/psd/descriptor.rs:185:12
+    |
+184 | impl Value {
+    | ---------- associated items in this implementation
+185 |     pub fn double(value: f64) -> Self {
+    |            ^^^^^^
+...
+188 |     pub fn text(value: &str) -> Self {
+    |            ^^^^
+...
+191 |     pub fn as_f64(&self) -> Option<f64> {
+    |            ^^^^^^
+
+warning: associated items `new`, `key`, `value`, and `value_mut` are never used
+  --> src/engine/psd/engine_data.rs:37:12
+   |
+36 | impl Entry {
+   | ---------- associated items in this implementation
+37 |     pub fn new(key: Vec<u8>, value: Node) -> Self {
+   |            ^^^
+...
+40 |     pub fn key(&self) -> &[u8] {
+   |            ^^^
+...
+43 |     pub fn value(&self) -> &Node {
+   |            ^^^^^
+...
+46 |     pub fn value_mut(&mut self) -> &mut Node {
+   |            ^^^^^^^^^
+
+warning: multiple associated items are never used
+   --> src/engine/psd/engine_data.rs:61:12
+    |
+ 60 | impl Node {
+    | --------- associated items in this implementation
+ 61 |     pub fn new(value: Value) -> Self {
+    |            ^^^
+...
+ 70 |     pub fn value(&self) -> &Value {
+    |            ^^^^^
+...
+ 73 |     pub fn replace(&mut self, value: Value) {
+    |            ^^^^^^^
+...
+ 77 |     pub fn get(&self, key: &[u8]) -> Option<&Node> {
+    |            ^^^
+...
+ 86 |     pub fn get_mut(&mut self, key: &[u8]) -> Option<&mut Node> {
+    |            ^^^^^^^
+...
+ 95 |     pub fn get_index(&self, index: usize) -> Option<&Node> {
+    |            ^^^^^^^^^
+...
+101 |     pub fn get_index_mut(&mut self, index: usize) -> Option<&mut Node> {
+    |            ^^^^^^^^^^^^^
+...
+108 |     pub fn set(&mut self, key: &[u8], value: Value) -> Result<()> {
+    |            ^^^
+...
+123 |     pub fn text(value: &str) -> Self {
+    |            ^^^^
+...
+131 |     pub fn as_text(&self) -> Result<String> {
+    |            ^^^^^^^
+
+warning: associated items `new`, `root`, `root_mut`, and `source` are never used
+   --> src/engine/psd/engine_data.rs:167:12
+    |
+166 | impl EngineData {
+    | --------------- associated items in this implementation
+167 |     pub fn new(root: Node) -> Self {
+    |            ^^^
+...
+174 |     pub fn root(&self) -> &Node {
+    |            ^^^^
+...
+177 |     pub fn root_mut(&mut self) -> &mut Node {
+    |            ^^^^^^^^
+...
+180 |     pub fn source(&self) -> &[u8] {
+    |            ^^^^^^
+
+warning: `pixelforge` (bin "pixelforge") generated 8 warnings
+    Finished `release` profile [optimized] target(s) in 32.63s

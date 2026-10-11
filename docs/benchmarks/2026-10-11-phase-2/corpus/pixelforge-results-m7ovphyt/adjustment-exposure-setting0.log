@@ -1,0 +1,19 @@
+PSD editable mapping failed: Layer "Editable exposure" contains expA whose editable mapping is not implemented; the raw codec preserves it
+        0.01 real         0.00 user         0.00 sys
+            16498688  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1376  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                 206  involuntary context switches
+            79805202  instructions retired
+            34764242  cycles elapsed
+             7406240  peak memory footprint

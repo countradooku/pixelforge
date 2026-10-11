@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "operation": "native-control",
+  "cases": [
+    {
+      "id": "negative-corrupt",
+      "filename": "negative-corrupt.psd",
+      "family": "negative-control",
+      "feature": "corrupt",
+      "params": {},
+      "fidelity": "exact"
+    }
+  ],
+  "planned_count": 1,
+  "selected_count": 1,
+  "coverage_complete": true,
+  "standalone_validation": false,
+  "note": "Generated feature coverage is measured per distinct feature and parameter; failures remain failures.",
+  "generator_sha256": "911b20afc849cdf42315a18ba3bd3feb9edf53c8e2595191912c6226c8dc1bcf"
+}

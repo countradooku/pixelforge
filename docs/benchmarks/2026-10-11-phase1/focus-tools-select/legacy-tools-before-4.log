@@ -1,0 +1,13 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            149.2 ms
+selection add (rect ∪ ellipse), 268 MP                          2.16 ms   budget   150.0 ms   ok
+Select ▸ Modify ▸ Expand 50 px, 268 MP                         24.15 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Contract 50 px, 268 MP                       20.64 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Feather 30 px, 268 MP                         5.26 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Border 40 px, 268 MP                         34.60 ms   budget  1000.0 ms   ok
+Select ▸ Modify ▸ Smooth 10 px, 268 MP                          2.12 ms   budget  1000.0 ms   ok
+Quick Mask enter (selection → gray), 268 MP                     0.59 ms   budget   150.0 ms   ok
+Quick Mask exit (gray → selection), 268 MP                      0.20 ms   budget   300.0 ms   ok
+
+8 checks, 0 over budget

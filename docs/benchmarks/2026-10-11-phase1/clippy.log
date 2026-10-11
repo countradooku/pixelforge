@@ -1,0 +1,2424 @@
+    Checking block v0.1.6 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge/vendor/block)
+    Checking metal v0.33.0
+    Checking core-graphics2 v0.5.2
+    Checking cocoa-foundation v0.2.1
+    Checking cocoa v0.26.1
+    Checking core-video v0.5.2
+    Checking gpui-pre v0.3.8 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge/vendor/gpui-pre)
+    Checking gpui-pre-apple v0.3.8 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge/vendor/gpui-pre-apple)
+    Checking gpui-base v0.7.1
+    Checking gpui-kit-assets v0.7.1
+    Checking gpui-pre-macos v0.3.8
+    Checking gpui-pre-platform v0.3.8
+    Checking gpui-component v0.7.1
+    Checking gpui-kit v0.7.1
+    Checking pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+warning: empty line after doc comment
+  --> src/engine/gpu/resident.rs:97:1
+   |
+97 | / /// Levels `0..=max_level` of `grid` (mips built on the GPU as needed).
+98 | |
+   | |_^
+99 |   pub fn levels(g: &Arc<Gpu>, grid: &TileGrid, max_level: u32) -> GResult<Vec<Arc<Image>>> {
+   |   ------------- the comment documents this function
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#empty_line_after_doc_comments
+   = note: `#[warn(clippy::empty_line_after_doc_comments)]` on by default
+   = help: if the empty line is unintentional, remove it
+
+warning: unnecessary `>= y + 1` or `x - 1 >=`
+   --> src/engine/poisson.rs:472:27
+    |
+472 |                 let far = x >= band + 1 && x + band + 1 < w && y >= band + 1 && y + band + 1 < h
+    |                           ^^^^^^^^^^^^^ help: change it to: `x > band`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#int_plus_one
+    = note: `#[warn(clippy::int_plus_one)]` on by default
+
+warning: unnecessary `>= y + 1` or `x - 1 >=`
+   --> src/engine/poisson.rs:472:64
+    |
+472 |                 let far = x >= band + 1 && x + band + 1 < w && y >= band + 1 && y + band + 1 < h
+    |                                                                ^^^^^^^^^^^^^ help: change it to: `y > band`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#int_plus_one
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:106:45
+    |
+106 |                 display_tile(&input, level, (i % 15) as i32, (i / 15) as i32, &mut buf, s);
+    |                                             ^^^^^^^^^^^^^^^ help: try: `((i % 15))`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+    = note: `#[warn(clippy::unnecessary_cast)]` on by default
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:106:62
+    |
+106 |                 display_tile(&input, level, (i % 15) as i32, (i / 15) as i32, &mut buf, s);
+    |                                                              ^^^^^^^^^^^^^^^ help: try: `((i / 15))`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:116:37
+    |
+116 |             display_tile(&input, 2, (i % 15) as i32, (i / 15) as i32, &mut buf, s);
+    |                                     ^^^^^^^^^^^^^^^ help: try: `((i % 15))`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:116:54
+    |
+116 |             display_tile(&input, 2, (i % 15) as i32, (i / 15) as i32, &mut buf, s);
+    |                                                      ^^^^^^^^^^^^^^^ help: try: `((i / 15))`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:351:49
+    |
+351 |                     display_tile(&input, level, (i % 15) as i32 + 8, (i / 15) as i32 + 8, &mut buf, sc);
+    |                                                 ^^^^^^^^^^^^^^^ help: try: `(i % 15)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:351:70
+    |
+351 |                     display_tile(&input, level, (i % 15) as i32 + 8, (i / 15) as i32 + 8, &mut buf, sc);
+    |                                                                      ^^^^^^^^^^^^^^^ help: try: `(i / 15)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:521:41
+    |
+521 |                 display_tile(&input, 6, (i % 15) as i32, (i / 15) as i32, &mut buf, sc);
+    |                                         ^^^^^^^^^^^^^^^ help: try: `((i % 15))`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench.rs:521:58
+    |
+521 |                 display_tile(&input, 6, (i % 15) as i32, (i / 15) as i32, &mut buf, sc);
+    |                                                          ^^^^^^^^^^^^^^^ help: try: `((i / 15))`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+error: approximate value of `f{32, 64}::consts::TAU` found
+   --> src/bench.rs:642:41
+    |
+642 |             let t = i as f32 / 2000.0 * 6.28;
+    |                                         ^^^^
+    |
+    = help: consider using the constant directly
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#approx_constant
+    = note: `#[deny(clippy::approx_constant)]` on by default
+
+warning: literal with an empty format string
+   --> src/bench_gpu.rs:259:122
+    |
+259 |         println!("{:<44} {:>9} {:>9} {:>9} {:>9}  {:<5} {}", "kernel", "CPU ms", "GPU ms", "resident", "kernel", "auto", "budget");
+    |                                                                                                                          ^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#print_literal
+    = note: `#[warn(clippy::print_literal)]` on by default
+help: try
+    |
+259 -         println!("{:<44} {:>9} {:>9} {:>9} {:>9}  {:<5} {}", "kernel", "CPU ms", "GPU ms", "resident", "kernel", "auto", "budget");
+259 +         println!("{:<44} {:>9} {:>9} {:>9} {:>9}  {:<5} budget", "kernel", "CPU ms", "GPU ms", "resident", "kernel", "auto");
+    |
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench_gpu.rs:588:37
+    |
+588 |         let src = img.tiles[img.idx(tx as i32, ty as i32)].as_ref();
+    |                                     ^^^^^^^^^ help: try: `tx`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> src/bench_gpu.rs:588:48
+    |
+588 |         let src = img.tiles[img.idx(tx as i32, ty as i32)].as_ref();
+    |                                                ^^^^^^^^^ help: try: `ty`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_cast
+
+warning: literal with an empty format string
+   --> src/bench_gpu.rs:763:131
+    |
+763 | ...mip pyramid (build_mips)", cpu, gpu_up, best_res, "—", "CPU", "ok");
+    |                                                                  ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#print_literal
+help: try
+    |
+763 -         println!("{:<44} {:>9.1} {:>9.1} {:>9.1} {:>9}  {:<5} {}", "mip pyramid (build_mips)", cpu, gpu_up, best_res, "—", "CPU", "ok");
+763 +         println!("{:<44} {:>9.1} {:>9.1} {:>9.1} {:>9}  {:<5} ok", "mip pyramid (build_mips)", cpu, gpu_up, best_res, "—", "CPU");
+    |
+
+warning: literal with an empty format string
+   --> src/bench_gpu.rs:764:126
+    |
+764 |         println!("{:<44} {:>9.1} {:>9} {:>9} {:>9}  {:<5} {}", "  update_mips, every tile dirty", upd, "—", "—", "—", "CPU", "ok");
+    |                                                                                                                              ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#print_literal
+help: try
+    |
+764 -         println!("{:<44} {:>9.1} {:>9} {:>9} {:>9}  {:<5} {}", "  update_mips, every tile dirty", upd, "—", "—", "—", "CPU", "ok");
+764 +         println!("{:<44} {:>9.1} {:>9} {:>9} {:>9}  {:<5} ok", "  update_mips, every tile dirty", upd, "—", "—", "—", "CPU");
+    |
+
+warning: literal with an empty format string
+   --> src/bench_gpu.rs:856:105
+    |
+856 |     println!("{:<44} {:>9} {:>9} {:>9}  {:<5} {}", "operation", "CPU ms", "GPU ms", "resident", "auto", "budget");
+    |                                                                                                         ^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#print_literal
+help: try
+    |
+856 -     println!("{:<44} {:>9} {:>9} {:>9}  {:<5} {}", "operation", "CPU ms", "GPU ms", "resident", "auto", "budget");
+856 +     println!("{:<44} {:>9} {:>9} {:>9}  {:<5} budget", "operation", "CPU ms", "GPU ms", "resident", "auto");
+    |
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/bench_gpu.rs:867:19
+    |
+867 |     let mut rows: Vec<(String, String, u64, Box<dyn Fn() -> TileGrid + '_>, Op<'_>)> = Vec::new();
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+    = note: `#[warn(clippy::type_complexity)]` on by default
+
+warning: using `chunks_exact` with a constant chunk size
+   --> src/compare.rs:202:32
+    |
+202 |     let u16s: Vec<u16> = bytes.chunks_exact(2).map(|b| u16::from_le_bytes([b[0], b[1]])).collect();
+    |                                ^^^^^^^^^^^^^^^ help: consider using `as_chunks` instead: `as_chunks::<2>().0.iter()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#chunks_exact_to_as_chunks
+    = note: `#[warn(clippy::chunks_exact_to_as_chunks)]` on by default
+
+warning: this `if` statement can be collapsed
+   --> src/engine/crop.rs:128:9
+    |
+128 | /         if src.contains_rect(&fr) {
+129 | |             if let Some(u) = g.region_uniform(fr) {
+130 | |                 return u;
+131 | |             }
+132 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+    = note: `#[warn(clippy::collapsible_if)]` on by default
+help: collapse nested if block
+    |
+128 ~         if src.contains_rect(&fr)
+129 ~             && let Some(u) = g.region_uniform(fr) {
+130 |                 return u;
+131 ~             }
+    |
+
+error: approximate value of `f{32, 64}::consts::GOLDEN_RATIO` found
+   --> src/engine/crop.rs:493:18
+    |
+493 | const PHI: f32 = 1.618_034;
+    |                  ^^^^^^^^^
+    |
+    = help: consider using the constant directly
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#approx_constant
+
+warning: this `if` statement can be collapsed
+    --> src/engine/brush.rs:998:13
+     |
+ 998 | /             if st.is_some() {
+ 999 | |                 if let Some(t) = &grid.tiles[i] {
+1000 | |                     if t.read().iter().all(|&p| p == 0) {
+1001 | |                         grid.tiles[i] = None;
+...    |
+1004 | |             }
+     | |_____________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+ 998 ~             if st.is_some()
+ 999 ~                 && let Some(t) = &grid.tiles[i] {
+1000 |                     if t.read().iter().all(|&p| p == 0) {
+1001 |                         grid.tiles[i] = None;
+1002 |                     }
+1003 ~                 }
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/engine/brush.rs:999:17
+     |
+ 999 | /                 if let Some(t) = &grid.tiles[i] {
+1000 | |                     if t.read().iter().all(|&p| p == 0) {
+1001 | |                         grid.tiles[i] = None;
+1002 | |                     }
+1003 | |                 }
+     | |_________________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+ 999 ~                 if let Some(t) = &grid.tiles[i]
+1000 ~                     && t.read().iter().all(|&p| p == 0) {
+1001 |                         grid.tiles[i] = None;
+1002 ~                     }
+     |
+
+warning: clamp-like pattern without using clamp function
+    --> src/engine/brush.rs:1020:61
+     |
+1020 |             ctl => (1.0 - ctl.factor(pr, self.tilt, idx)) * c.fg_bg_jitter.max(1e-3).min(1.0) / c.fg_bg_jitter.max(1e-3),
+     |                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace with clamp: `c.fg_bg_jitter.clamp(1e-3, 1.0)`
+     |
+     = note: clamp will panic if max < min, min.is_nan(), or max.is_nan()
+     = note: clamp returns NaN if the input is NaN
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_clamp
+     = note: `#[warn(clippy::manual_clamp)]` on by default
+
+warning: this `if` statement can be collapsed
+    --> src/engine/brush.rs:1382:17
+     |
+1382 | /                 if !d.dual {
+1383 | |                     if let Some(c) = &mut st.cap {
+1384 | |                         c[i] = c[i].max(op);
+1385 | |                     }
+1386 | |                 }
+     | |_________________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1382 ~                 if !d.dual
+1383 ~                     && let Some(c) = &mut st.cap {
+1384 |                         c[i] = c[i].max(op);
+1385 ~                     }
+     |
+
+warning: this function has too many arguments (8/7)
+  --> src/engine/composite.rs:73:1
+   |
+73 | / pub fn compose_region(
+74 | |     input: &ComposeInput,
+75 | |     level: u32,
+76 | |     x0: i32,
+...  |
+81 | |     s: &mut Scratch,
+82 | | ) {
+   | |_^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+   = note: `#[warn(clippy::too_many_arguments)]` on by default
+
+warning: this `if` statement can be collapsed
+   --> src/engine/composite.rs:159:13
+    |
+159 | /             if let Some(sel) = &p.selection {
+160 | |                 if let Some(mask) = sel.region_coverage(level, rx, ry, w, h) {
+161 | |                     s.orig.resize(n, 0);
+162 | |                     grid.read_region(rx, ry, w, h, &mut s.orig);
+...   |
+167 | |             }
+    | |_____________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+159 ~             if let Some(sel) = &p.selection
+160 ~                 && let Some(mask) = sel.region_coverage(level, rx, ry, w, h) {
+161 |                     s.orig.resize(n, 0);
+...
+165 |                     }
+166 ~                 }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/engine/composite.rs:254:5
+    |
+254 | /     if let Some(c) = cov {
+255 | |         if !c.is_empty() {
+256 | |             s.give_mask(c);
+257 | |         }
+258 | |     }
+    | |_____^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+254 ~     if let Some(c) = cov
+255 ~         && !c.is_empty() {
+256 |             s.give_mask(c);
+257 ~         }
+    |
+
+warning: using `chunks_exact_mut` with a constant chunk size
+   --> src/engine/composite.rs:533:35
+    |
+533 |                 for (x, d) in dst.chunks_exact_mut(4).enumerate() {
+    |                                   ^^^^^^^^^^^^^^^^^^^ help: consider using `as_chunks_mut` instead: `as_chunks_mut::<4>().0.iter_mut()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#chunks_exact_to_as_chunks
+
+warning: manual checked division
+   --> src/engine/filters/blur.rs:769:66
+    |
+769 |                 *ac += if got == n { row[x1] - row[x0] } else if got > 0 { (row[x1] - row[x0]) * n / got } else { 0 };
+    |                                                                  ^^^^^^^   ----------------------------- division performed here
+    |                                                                  |
+    |                                                                  check performed here
+    |
+    = help: consider using `checked_div`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_checked_ops
+    = note: `#[warn(clippy::manual_checked_ops)]` on by default
+
+error: large size difference between variants
+  --> src/engine/filters/distort.rs:13:1
+   |
+13 | / pub enum Warp {
+14 | |     Twirl { angle: f32, cx: f32, cy: f32, radius: f32 },
+15 | |     Pinch { amount: f32, cx: f32, cy: f32, radius: f32 },
+16 | |     Spherize { amount: f32, cx: f32, cy: f32, radius: f32 },
+...  |
+24 | |     Homography { m: [f32; 9] },
+   | |     -------------------------- the second-largest variant contains at least 36 bytes
+...  |
+31 | |     Mesh { m: [f32; 32], nodes: [f32; 50], x0: f32, y0: f32, w: f32, h: f32 },
+   | |     ------------------------------------------------------------------------- the largest variant contains at least 344 bytes
+32 | | }
+   | |_^ the entire enum is at least 348 bytes
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#large_enum_variant
+   = note: `-D clippy::large-enum-variant` implied by `-D clippy::perf`
+   = help: to override `-D clippy::perf` add `#[allow(clippy::large_enum_variant)]`
+help: consider boxing the large fields or introducing indirection in some other way to reduce the total size of the enum
+   |
+31 -     Mesh { m: [f32; 32], nodes: [f32; 50], x0: f32, y0: f32, w: f32, h: f32 },
+31 +     Mesh { m: [f32; 32], nodes: Box<[f32; 50]>, x0: f32, y0: f32, w: f32, h: f32 },
+   |
+
+warning: this function has too many arguments (8/7)
+   --> src/engine/filters/distort.rs:292:1
+    |
+292 | pub fn render_warp(warp: &Warp, grid: &TileGrid, level: u32, x0: i32, y0: i32, w: usize, h: usize, out: &mut [u32]) {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+
+warning: manual checked division
+   --> src/engine/filters/extra.rs:357:34
+    |
+357 |                     acc[x] += if got > 0 { (row[x1] - row[x0]) * n / got } else { 0 };
+    |                                  ^^^^^^^   ----------------------------- division performed here
+    |                                  |
+    |                                  check performed here
+    |
+    = help: consider using `checked_div`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_checked_ops
+
+warning: this function has too many arguments (8/7)
+   --> src/engine/filters/extra.rs:636:1
+    |
+636 | pub fn extrude(buf: &mut [u32], w: usize, h: usize, level: u32, origin: (i32, i32), size: f32, depth: f32, pyramids: bool) {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+
+warning: the loop variable `j` is used to index `k`
+   --> src/engine/filters/extra.rs:717:22
+    |
+717 |             for j in 0..9 {
+    |                      ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+    = note: `#[warn(clippy::needless_range_loop)]` on by default
+help: consider using an iterator and enumerate()
+    |
+717 -             for j in 0..9 {
+717 +             for (j, <item>) in k.iter().enumerate() {
+    |
+
+warning: the loop variable `k` is used to index `bw`
+   --> src/engine/filters/extra.rs:894:22
+    |
+894 |             for k in 0..8 {
+    |                      ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+894 -             for k in 0..8 {
+894 +             for (k, <item>) in bw.iter().enumerate() {
+    |
+
+warning: the loop variable `x` is used to index `t`
+   --> src/engine/filters/gallery.rs:433:22
+    |
+433 |             for x in 0..w {
+    |                      ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+433 -             for x in 0..w {
+433 +             for (x, <item>) in t.iter_mut().enumerate().take(w) {
+    |
+
+error: approximate value of `f{32, 64}::consts::FRAC_1_PI` found
+   --> src/engine/filters/gallery/artistic1.rs:290:79
+    |
+290 | const FRESCO_TONE: [f32; 17] = [0.0, 0.03, 0.046, 0.056, 0.078, 0.142, 0.241, 0.318, 0.484, 0.64, 0.721, 0.804, 0.901, 0.963, 0.988...
+    |                                                                               ^^^^^
+    |
+    = help: consider using the constant directly
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#approx_constant
+
+warning: the loop variable `x` is used to index `t`
+  --> src/engine/filters/gallery/artistic2.rs:85:22
+   |
+85 |             for x in 0..w {
+   |                      ^^^^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+   |
+85 -             for x in 0..w {
+85 +             for (x, <item>) in t.iter_mut().enumerate().take(w) {
+   |
+
+warning: the loop variable `i` is used to index `f`
+   --> src/engine/filters/gallery/brush.rs:415:14
+    |
+415 |     for i in 0..img.w * img.h {
+    |              ^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+415 -     for i in 0..img.w * img.h {
+415 +     for (i, <item>) in f.iter().enumerate().take(img.w * img.h) {
+    |
+
+warning: the loop variable `x` is used to index `t`
+   --> src/engine/filters/gallery/sketch2.rs:291:22
+    |
+291 |             for x in 0..w {
+    |                      ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+291 -             for x in 0..w {
+291 +             for (x, <item>) in t.iter_mut().enumerate().take(w) {
+    |
+
+warning: the loop variable `k` is used to index `pts`
+   --> src/engine/filters/gallery/texture.rs:275:18
+    |
+275 |         for k in 0..9 {
+    |                  ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+275 -         for k in 0..9 {
+275 +         for (k, <item>) in pts.iter_mut().enumerate() {
+    |
+
+warning: the loop variable `i` is used to index `bins`
+   --> src/engine/filters/rank.rs:275:26
+    |
+275 |                 for i in 0..16 {
+    |                          ^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+275 -                 for i in 0..16 {
+275 +                 for (i, <item>) in bins.iter().enumerate() {
+    |
+
+warning: manual checked division
+   --> src/engine/filters/rank.rs:282:16
+    |
+282 |             if n > 0 { ((sv + n / 2) / n) as u8 } else { c }
+    |                ^^^^^   ------------------ division performed here
+    |                |
+    |                check performed here
+    |
+    = help: consider using `checked_div`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_checked_ops
+
+warning: the loop variable `x` is used to index `crow`
+   --> src/engine/filters/rank.rs:380:26
+    |
+380 |                 for x in 0..ow {
+    |                          ^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+380 -                 for x in 0..ow {
+380 +                 for (x, <item>) in crow.iter().enumerate().take(ow) {
+    |
+
+warning: the loop variable `k` is used to index `c`
+    --> src/engine/filters/mod.rs:1086:34
+     |
+1086 |                         for k in 0..3 {
+     |                                  ^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+     |
+1086 -                         for k in 0..3 {
+1086 +                         for (k, <item>) in c.iter_mut().enumerate().take(3) {
+     |
+
+warning: the loop variable `v` is used to index `all`
+    --> src/engine/filters/mod.rs:1144:18
+     |
+1144 |         for v in 0..256 {
+     |                  ^^^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+     |
+1144 -         for v in 0..256 {
+1144 +         for (v, <item>) in all.iter_mut().enumerate() {
+     |
+
+warning: the loop variable `v` is used to index `all`
+    --> src/engine/filters/mod.rs:1170:18
+     |
+1170 |         for v in 0..256 {
+     |                  ^^^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+     |
+1170 -         for v in 0..256 {
+1170 +         for (v, <item>) in all.iter_mut().enumerate() {
+     |
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/engine/gpu/compose.rs:182:109
+    |
+182 | ...64) -> GResult<(wgpu::CommandEncoder, Vec<Arc<Buf>>, usize, Vec<Buf>, Option<wgpu::Buffer>, Vec<super::kernels::Temps>)> {
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: this match could be written as a `let` statement
+   --> src/engine/gpu/compose.rs:744:5
+    |
+744 | /     match run_display(g, input, level, tiles_xy, view, Out::Bytes)? {
+745 | |         (b, _) => Ok(b),
+746 | |     }
+    | |_____^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#match_single_binding
+    = note: `#[warn(clippy::match_single_binding)]` on by default
+help: consider using a `let` statement
+    |
+744 ~     let (b, _) = run_display(g, input, level, tiles_xy, view, Out::Bytes)?;
+745 +     Ok(b)
+    |
+
+warning: this match could be written as a `let` statement
+   --> src/engine/gpu/compose.rs:751:5
+    |
+751 | /     match run_display(g, input, level, tiles_xy, view, Out::Textures)? {
+752 | |         (_, t) => Ok(t),
+753 | |     }
+    | |_____^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#match_single_binding
+help: consider using a `let` statement
+    |
+751 ~     let (_, t) = run_display(g, input, level, tiles_xy, view, Out::Textures)?;
+752 +     Ok(t)
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/engine/gpu/cost.rs:186:9
+    |
+186 | /         if px > LARGE_PX {
+187 | |             if let Some(r) = self.rates(&large_key(filter, level)).filter(|r| r.gpu_ns_px.is_finite() && r.cpu_ns_px.is_finite()) {
+188 | |                 return Some((self.fixed_ms + pxf * r.gpu_ns_px / 1e6, pxf * r.cpu_ns_px / 1e6));
+189 | |             }
+190 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+186 ~         if px > LARGE_PX
+187 ~             && let Some(r) = self.rates(&large_key(filter, level)).filter(|r| r.gpu_ns_px.is_finite() && r.cpu_ns_px.is_finite()) {
+188 |                 return Some((self.fixed_ms + pxf * r.gpu_ns_px / 1e6, pxf * r.cpu_ns_px / 1e6));
+189 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+  --> src/engine/gpu/kernels/blur.rs:76:5
+   |
+76 | /     if target == Target::Commit && level == 0 {
+77 | |         if let Some(sb) = f.strip_blur() {
+78 | |             let pad: usize = sb.boxes.iter().map(|b| b / 2).sum();
+79 | |             if pad > 160 {
+...  |
+93 | |     }
+   | |_____^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+   |
+76 ~     if target == Target::Commit && level == 0
+77 ~         && let Some(sb) = f.strip_blur() {
+78 |             let pad: usize = sb.boxes.iter().map(|b| b / 2).sum();
+...
+91 |             }
+92 ~         }
+   |
+
+warning: this function has too many arguments (9/7)
+   --> src/engine/gpu/kernels/lensblur.rs:300:1
+    |
+300 | fn sharpen_params(io: &Io, r: u32, k: i32, th: i32, fades: u32, boff: u32, bpitch: u32, ntaps: u32, raw_edge: u32) -> Vec<u32> {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+  --> src/engine/gpu/kernels/displace.rs:49:13
+   |
+49 | static MAP: Mutex<Option<(usize, usize, Arc<DispMap>, Arc<wgpu::Buffer>)>> = Mutex::new(None);
+   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+error: approximate value of `f{32, 64}::consts::FRAC_1_PI` found
+   --> src/engine/gpu/kernels/gallery/art.rs:136:79
+    |
+136 | const FRESCO_TONE: [f32; 17] = [0.0, 0.03, 0.046, 0.056, 0.078, 0.142, 0.241, 0.318, 0.484, 0.64, 0.721, 0.804, 0.901, 0.963, 0.988...
+    |                                                                               ^^^^^
+    |
+    = help: consider using the constant directly
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#approx_constant
+
+warning: redundant closure
+  --> src/engine/gpu/kernels/point.rs:50:26
+   |
+50 |     g.shared("unpremul", || crate::engine::px::unpremul_table())
+   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace the closure with the function itself: `crate::engine::px::unpremul_table`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#redundant_closure
+   = note: `#[warn(clippy::redundant_closure)]` on by default
+
+warning: this function has too many arguments (8/7)
+   --> src/engine/gpu/kernels/refine.rs:134:1
+    |
+134 | fn encode(g: &Arc<Gpu>, enc: &mut wgpu::CommandEncoder, mut timer: Option<&mut Timer>, b: &Bufs, w: u32, h: u32, pad: u32, p: &Params) -> GResult<()> {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+
+warning: this function has too many arguments (9/7)
+   --> src/engine/gpu/kernels/stylize.rs:367:1
+    |
+367 | fn cells_params(io: &Io, nx: u32, ny: u32, c0: (i32, i32), cell: f32, mode: u32, blk: u32, bg: u32, f: &[f32]) -> Vec<u32> {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+
+warning: the loop variable `c` is used to index `sum`
+   --> src/engine/gpu/poisson.rs:242:30
+    |
+242 |                     for c in 0..3 {
+    |                              ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+242 -                     for c in 0..3 {
+242 +                     for (c, <item>) in sum.iter_mut().enumerate() {
+    |
+
+warning: you seem to be trying to use `match` for an equality check. Consider using `if`
+   --> src/engine/gpu/mod.rs:618:5
+    |
+618 | /     match &r.1 {
+619 | |         PathTaken::Gpu => cost::observe_gpu(&g, filter, px, ms),
+620 | |         _ => {}
+621 | |     }
+    | |_____^ help: try: `if r.1 == PathTaken::Gpu { cost::observe_gpu(&g, filter, px, ms) }`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#single_match
+    = note: `#[warn(clippy::single_match)]` on by default
+
+error: mutable borrow from immutable input(s)
+   --> src/engine/grid.rs:373:42
+    |
+373 |     pub unsafe fn at(&self, i: usize) -> &mut T {
+    |                                          ^^^^^^
+    |
+note: immutable borrow here
+   --> src/engine/grid.rs:373:22
+    |
+373 |     pub unsafe fn at(&self, i: usize) -> &mut T {
+    |                      ^^^^^
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#mut_from_ref
+    = note: `#[deny(clippy::mut_from_ref)]` on by default
+
+warning: using `chunks_exact` with a constant chunk size
+  --> src/engine/io.rs:35:31
+   |
+35 |             for (x, p) in row.chunks_exact(4).enumerate() {
+   |                               ^^^^^^^^^^^^^^^ help: consider using `as_chunks` instead: `as_chunks::<4>().0.iter()`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#chunks_exact_to_as_chunks
+
+warning: this `if` statement can be collapsed
+   --> src/engine/io.rs:625:5
+    |
+625 | /     if let Some(k) = rd(4).map(|v| u32::from_le_bytes(v.try_into().unwrap()) as usize) {
+626 | |         if let Some(modes) = rd(k) {
+627 | |             a.sampler_modes = modes.iter().map(|&i| super::color::ColorMode::ALL.get(i as usize).copied().unwrap_or_default()).co...
+628 | |         }
+629 | |     }
+    | |_____^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+625 ~     if let Some(k) = rd(4).map(|v| u32::from_le_bytes(v.try_into().unwrap()) as usize)
+626 ~         && let Some(modes) = rd(k) {
+627 |             a.sampler_modes = modes.iter().map(|&i| super::color::ColorMode::ALL.get(i as usize).copied().unwrap_or_default()).collect();
+628 ~         }
+    |
+
+warning: you seem to use `.enumerate()` and immediately discard the index
+    --> src/engine/io.rs:1406:9
+     |
+1406 |         .enumerate()
+     |         ^^^^^^^^^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unused_enumerate_index
+     = note: `#[warn(clippy::unused_enumerate_index)]` on by default
+help: remove the `.enumerate()` call
+     |
+1406 ~         
+1407 ~         .map(|nl| {
+     |
+
+warning: the variable `next` is used as a loop counter
+    --> src/engine/io.rs:1428:5
+     |
+1428 |     for ab in std::mem::take(&mut ann.artboards) {
+     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: consider using: `for (next, ab) in (layers.iter().map(|l| l.id).max().unwrap_or(0) + 1..).zip(std::mem::take(&mut ann.artboards).into_iter())`
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#explicit_counter_loop
+     = note: `#[warn(clippy::explicit_counter_loop)]` on by default
+
+warning: the loop variable `v` is used to index `cos`
+  --> src/engine/jpeg.rs:54:14
+   |
+54 |     for v in 0..8 {
+   |              ^^^^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+   |
+54 -     for v in 0..8 {
+54 +     for (v, <item>) in cos.iter().enumerate().take(8) {
+   |
+
+warning: the loop variable `s` is used to index `lens`
+   --> src/engine/jpeg.rs:180:18
+    |
+180 |         for s in 0..256 {
+    |                  ^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+180 -         for s in 0..256 {
+180 +         for (s, <item>) in lens.iter().enumerate() {
+    |
+
+error: large size difference between variants
+  --> src/engine/layers.rs:21:1
+   |
+21 | / pub enum LayerKind {
+22 | |     Pixel,
+23 | |     /// A folder. Pass-through groups composite their children straight into
+24 | |     /// the backdrop; isolated ones composite them first and blend the result.
+...  |
+27 | |     Adjustment(Filter),
+   | |     ------------------ the largest variant contains at least 368 bytes
+28 | |     /// A placed image with a transform (source pixels stay untouched).
+29 | |     Smart(Arc<SmartObject>),
+   | |     ----------------------- the second-largest variant contains at least 8 bytes
+...  |
+37 | |     Artboard(Arc<super::artboard::ArtboardLayer>),
+38 | | }
+   | |_^ the entire enum is at least 368 bytes
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#large_enum_variant
+help: consider boxing the large fields or introducing indirection in some other way to reduce the total size of the enum
+   |
+27 -     Adjustment(Filter),
+27 +     Adjustment(Box<Filter>),
+   |
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/engine/liquify.rs:679:56
+    |
+679 |     pub fn resample_gpu(&mut self, tiles: &[usize]) -> Result<Vec<(usize, Box<[u32]>)>, gpu::exec::GpuError> {
+    |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: this `if` statement can be collapsed
+   --> src/engine/masks.rs:107:9
+    |
+107 | /         if let (Shape::Mask(m), false) = (&sel.shape, sel.inverted) {
+108 | |             if (m.w, m.h) == (w, h) {
+109 | |                 return (**m).clone();
+110 | |             }
+111 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+107 ~         if let (Shape::Mask(m), false) = (&sel.shape, sel.inverted)
+108 ~             && (m.w, m.h) == (w, h) {
+109 |                 return (**m).clone();
+110 ~             }
+    |
+
+warning: methods with the following characteristics: (`to_*` and `self` type is not `Copy`) usually take `self` by reference
+   --> src/engine/masks.rs:125:25
+    |
+125 |     pub fn to_selection(self) -> Option<Selection> {
+    |                         ^^^^
+    |
+    = help: consider choosing a less ambiguous name
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#wrong_self_convention
+    = note: `#[warn(clippy::wrong_self_convention)]` on by default
+
+warning: expression can be simplified using `Option::unwrap_or()`
+   --> src/engine/measure.rs:398:32
+    |
+398 |         out.extend_from_slice(&r.count.map_or(u32::MAX, |c| c).to_le_bytes());
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#map_or_identity
+    = note: `#[warn(clippy::map_or_identity)]` on by default
+help: consider using `unwrap_or`
+    |
+398 -         out.extend_from_slice(&r.count.map_or(u32::MAX, |c| c).to_le_bytes());
+398 +         out.extend_from_slice(&r.count.unwrap_or(u32::MAX).to_le_bytes());
+    |
+
+warning: this `if` statement can be collapsed
+  --> src/engine/mips.rs:42:5
+   |
+42 | /     if let Some(Some(first)) = kids.first().map(|k| k.cloned()) {
+43 | |         if let Some(c) = first.uniform {
+44 | |             if kids.iter().all(|k| k.is_some_and(|t| t.uniform == Some(c))) {
+45 | |                 return Some(first);
+...  |
+48 | |     }
+   | |_____^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+   |
+42 ~     if let Some(Some(first)) = kids.first().map(|k| k.cloned())
+43 ~         && let Some(c) = first.uniform {
+44 |             if kids.iter().all(|k| k.is_some_and(|t| t.uniform == Some(c))) {
+45 |                 return Some(first);
+46 |             }
+47 ~         }
+   |
+
+warning: this `if` statement can be collapsed
+  --> src/engine/mips.rs:43:9
+   |
+43 | /         if let Some(c) = first.uniform {
+44 | |             if kids.iter().all(|k| k.is_some_and(|t| t.uniform == Some(c))) {
+45 | |                 return Some(first);
+46 | |             }
+47 | |         }
+   | |_________^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+   |
+43 ~         if let Some(c) = first.uniform
+44 ~             && kids.iter().all(|k| k.is_some_and(|t| t.uniform == Some(c))) {
+45 |                 return Some(first);
+46 ~             }
+   |
+
+warning: this `if` statement can be collapsed
+   --> src/engine/memory.rs:430:9
+    |
+430 | /         if pressure && self.owner.used.load(Relaxed) > target {
+431 | |             if let Contents::Packed(b) = &*state {
+432 | |                 match self.owner.scratch().and_then(|s| s.write(b)) {
+433 | |                     Ok(record) => self.replace(&mut state, Contents::Disk(record)),
+...   |
+437 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+430 ~         if pressure && self.owner.used.load(Relaxed) > target
+431 ~             && let Contents::Packed(b) = &*state {
+432 |                 match self.owner.scratch().and_then(|s| s.write(b)) {
+...
+435 |                 }
+436 ~             }
+    |
+
+warning: the loop variable `c` is only used to index `sum`
+   --> src/engine/objects.rs:416:18
+    |
+416 |         for c in 0..3 {
+    |                  ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator
+    |
+416 -         for c in 0..3 {
+416 +         for <item> in sum.iter_mut().take(3) {
+    |
+
+warning: using `chunks_exact_mut` with a constant chunk size
+   --> src/engine/objects.rs:614:28
+    |
+614 |         for (o, &v) in out.chunks_exact_mut(4).zip(&self.labels) {
+    |                            ^^^^^^^^^^^^^^^^^^^ help: consider using `as_chunks_mut` instead: `as_chunks_mut::<4>().0.iter_mut()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#chunks_exact_to_as_chunks
+
+warning: this `if` statement can be collapsed
+  --> src/engine/ops.rs:71:9
+   |
+71 | /         if let (Some(t), TileCoverage::Full) = (slot.as_ref(), cov) {
+72 | |             if let Some(u) = t.uniform {
+73 | |                 let v = px::lerp(u, c, a);
+74 | |                 *slot = Some(Arc::new(Tile::solid(v)));
+...  |
+77 | |         }
+   | |_________^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+   |
+71 ~         if let (Some(t), TileCoverage::Full) = (slot.as_ref(), cov)
+72 ~             && let Some(u) = t.uniform {
+73 |                 let v = px::lerp(u, c, a);
+74 |                 *slot = Some(Arc::new(Tile::solid(v)));
+75 |                 return;
+76 ~             }
+   |
+
+warning: doc list item without indentation
+   --> src/engine/ops.rs:325:5
+    |
+325 | /// Side, in tiles, of the blocks [`apply_filter_cpu`] renders a filter with
+    |     ^
+    |
+    = help: if this is supposed to be its own paragraph, add a blank line
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#doc_lazy_continuation
+    = note: `#[warn(clippy::doc_lazy_continuation)]` on by default
+help: indent this line
+    |
+325 | ///   Side, in tiles, of the blocks [`apply_filter_cpu`] renders a filter with
+    |     ++
+
+warning: doc list item without indentation
+   --> src/engine/ops.rs:326:5
+    |
+326 | /// apron `pad` in (blocks start at the region's first tile row / column).
+    |     ^
+    |
+    = help: if this is supposed to be its own paragraph, add a blank line
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#doc_lazy_continuation
+help: indent this line
+    |
+326 | ///   apron `pad` in (blocks start at the region's first tile row / column).
+    |     ++
+
+warning: this `if` statement can be collapsed
+   --> src/engine/ops.rs:553:9
+    |
+553 | /         if let Some(shared) = g.region_uniform(RectI::new(u0, v0, u1, v1).intersect(&g.bounds())) {
+554 | |             if shared.is_none() {
+555 | |                 return None;
+556 | |             }
+557 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+553 ~         if let Some(shared) = g.region_uniform(RectI::new(u0, v0, u1, v1).intersect(&g.bounds()))
+554 ~             && shared.is_none() {
+555 |                 return None;
+556 ~             }
+    |
+
+warning: this block may be rewritten with the `?` operator
+   --> src/engine/ops.rs:554:13
+    |
+554 | /             if shared.is_none() {
+555 | |                 return None;
+556 | |             }
+    | |_____________^ help: replace it with: `shared.as_ref()?;`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#question_mark
+    = note: `#[warn(clippy::question_mark)]` on by default
+
+warning: this `if` statement can be collapsed
+   --> src/engine/ops.rs:910:21
+    |
+910 | /                     if let Some(f) = &tiles[ti].filled {
+911 | |                         if f[((local >> 8) as usize) * TS + (local & 255) as usize] != 0 {
+912 | |                             continue;
+913 | |                         }
+914 | |                     }
+    | |_____________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+910 ~                     if let Some(f) = &tiles[ti].filled
+911 ~                         && f[((local >> 8) as usize) * TS + (local & 255) as usize] != 0 {
+912 |                             continue;
+913 ~                         }
+    |
+
+warning: the loop variable `j` is used to index `wy`
+    --> src/engine/ops.rs:1173:26
+     |
+1173 |                 for j in 0..4 {
+     |                          ^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+     |
+1173 -                 for j in 0..4 {
+1173 +                 for (j, <item>) in wy.iter().enumerate() {
+     |
+
+warning: the loop variable `c` is used to index `acc`
+   --> src/engine/patchmatch.rs:665:34
+    |
+665 |                         for c in 0..3 {
+    |                                  ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+665 -                         for c in 0..3 {
+665 +                         for (c, <item>) in acc.iter_mut().enumerate() {
+    |
+
+warning: manual checked division
+   --> src/engine/patchmatch.rs:674:16
+    |
+674 |             if n > 0 {
+    |                ^^^^^ check performed here
+675 |                 img[i] = [(acc[0] / n) as u8, (acc[1] / n) as u8, (acc[2] / n) as u8, 255];
+    |                           ------------        ------------        ------------ ... and here
+    |                           |                   |
+    |                           |                   ... and here
+    |                           division performed here
+    |
+    = help: consider using `checked_div`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_checked_ops
+
+warning: manual checked division
+   --> src/engine/patchmatch.rs:709:20
+    |
+709 |                 if n > 0 {
+    |                    ^^^^^ check performed here
+710 |                     next.push((i, [(acc[0] / n) as u8, (acc[1] / n) as u8, (acc[2] / n) as u8, 255]));
+    |                                    ------------        ------------        ------------ ... and here
+    |                                    |                   |
+    |                                    |                   ... and here
+    |                                    division performed here
+    |
+    = help: consider using `checked_div`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_checked_ops
+
+warning: the loop variable `v` is used to index `map`
+   --> src/engine/perspwarp.rs:203:18
+    |
+203 |         for v in 0..self.layout.len() {
+    |                  ^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+203 -         for v in 0..self.layout.len() {
+203 +         for (v, <item>) in map.iter_mut().enumerate().take(self.layout.len()) {
+    |
+
+warning: the loop variable `x` is used to index `rr`
+   --> src/engine/poisson.rs:167:26
+    |
+167 |                 for x in x0 as usize..x1 as usize {
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+167 -                 for x in x0 as usize..x1 as usize {
+167 +                 for (x, <item>) in rr.iter_mut().enumerate().take(x1 as usize).skip(x0 as usize) {
+    |
+
+warning: the loop variable `x` is used to index `row`
+   --> src/engine/poisson.rs:303:26
+    |
+303 |                 for x in x0 as usize..x1 as usize {
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+303 -                 for x in x0 as usize..x1 as usize {
+303 +                 for (x, <item>) in row.iter_mut().enumerate().take(x1 as usize).skip(x0 as usize) {
+    |
+
+error: using `contains()` instead of `iter().any()` is more efficient
+   --> src/engine/poisson.rs:460:27
+    |
+460 |         (y0..y1).any(|yy| mask[yy * w + x0..yy * w + x1].iter().any(|&m| m == 0))
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: try: `mask[yy * w + x0..yy * w + x1].contains(&0)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_contains
+    = note: `-D clippy::manual-contains` implied by `-D clippy::perf`
+    = help: to override `-D clippy::perf` add `#[allow(clippy::manual_contains)]`
+
+warning: the loop variable `x` is used to index `o`
+   --> src/engine/refine.rs:190:18
+    |
+190 |         for x in 0..w {
+    |                  ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+    |
+190 -         for x in 0..w {
+190 +         for (x, <item>) in o.iter_mut().enumerate().take(w) {
+    |
+
+warning: using `chunks_exact` with a constant chunk size
+   --> src/engine/selection.rs:256:49
+    |
+256 |                 let spans: Vec<(f32, f32)> = xs.chunks_exact(2).map(|c| (c[0], c[1])).collect();
+    |                                                 ^^^^^^^^^^^^^^^ help: consider using `as_chunks` instead: `as_chunks::<2>().0.iter()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#chunks_exact_to_as_chunks
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/engine/shape.rs:442:96
+    |
+442 | ...cols: u32, rows: u32, region: RectI) -> (Vec<(usize, MaskTile)>, Vec<(usize, MaskTile)>) {
+    |                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: this function has too many arguments (8/7)
+  --> src/engine/slices.rs:82:1
+   |
+82 | pub fn save_for_web(layers: &[Layer], w: u32, h: u32, user: &[Slice], fmt: WebFormat, matte: [u8; 3], dir: &Path, base: &str) -> Result<Vec<PathBuf>, String> {
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+
+warning: manually reimplementing `div_ceil`
+   --> src/engine/styles.rs:845:26
+    |
+845 |     [b / 3, (b + 1) / 3, (b + 2) / 3].into_iter().filter(|&r| r > 0).collect()
+    |                          ^^^^^^^^^^^ help: consider using `.div_ceil()`: `b.div_ceil(3)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_div_ceil
+    = note: `#[warn(clippy::manual_div_ceil)]` on by default
+
+warning: the loop variable `q` is used to index `f`
+    --> src/engine/styles.rs:1193:14
+     |
+1193 |     for q in 0..f.len() {
+     |              ^^^^^^^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+     |
+1193 -     for q in 0..f.len() {
+1193 +     for (q, <item>) in f.iter().enumerate() {
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/engine/styles.rs:1442:9
+     |
+1442 | /         if let (Some(bj), Some((hi, sh))) = (&p.bevel, &p.bevel_fx) {
+1443 | |             if bj.interior {
+1444 | |                 n = blend_one(n, premul(hi.color, l[L_HI_IN as usize] as u32), hi.op8, hi.mode);
+1445 | |                 n = blend_one(n, premul(sh.color, l[L_SH_IN as usize] as u32), sh.op8, sh.mode);
+1446 | |             }
+1447 | |         }
+     | |_________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1442 ~         if let (Some(bj), Some((hi, sh))) = (&p.bevel, &p.bevel_fx)
+1443 ~             && bj.interior {
+1444 |                 n = blend_one(n, premul(hi.color, l[L_HI_IN as usize] as u32), hi.op8, hi.mode);
+1445 |                 n = blend_one(n, premul(sh.color, l[L_SH_IN as usize] as u32), sh.op8, sh.mode);
+1446 ~             }
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/engine/styles.rs:1462:9
+     |
+1462 | /         if let (Some(bj), Some((hi, sh))) = (&p.bevel, &p.bevel_fx) {
+1463 | |             if bj.exterior {
+1464 | |                 o = blend_one(o, premul(hi.color, l[L_HI_OUT as usize] as u32), hi.op8, hi.mode);
+1465 | |                 o = blend_one(o, premul(sh.color, l[L_SH_OUT as usize] as u32), sh.op8, sh.mode);
+1466 | |             }
+1467 | |         }
+     | |_________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1462 ~         if let (Some(bj), Some((hi, sh))) = (&p.bevel, &p.bevel_fx)
+1463 ~             && bj.exterior {
+1464 |                 o = blend_one(o, premul(hi.color, l[L_HI_OUT as usize] as u32), hi.op8, hi.mode);
+1465 |                 o = blend_one(o, premul(sh.color, l[L_SH_OUT as usize] as u32), sh.op8, sh.mode);
+1466 ~             }
+     |
+
+warning: using `chunks_exact` with a constant chunk size
+    --> src/engine/text.rs:1036:12
+     |
+1036 |         xs.chunks_exact(2).map(|c| (c[0], c[1])).collect::<Vec<_>>()
+     |            ^^^^^^^^^^^^^^^ help: consider using `as_chunks` instead: `as_chunks::<2>().0.iter()`
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#chunks_exact_to_as_chunks
+
+warning: the loop variable `k` is only used to index `gl`
+    --> src/engine/text.rs:1480:34
+     |
+1480 |                         for k in i..j {
+     |                                  ^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator
+     |
+1480 -                         for k in i..j {
+1480 +                         for <item> in gl.iter().take(j).skip(i) {
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/engine/text.rs:2287:13
+     |
+2287 | /             if w.is_none() && g.rot == 0.0 {
+2288 | |                 if let Some(last) = out.last_mut() {
+2289 | |                     if last[3].dist(c[0]) < 0.01 && last[2].dist(c[1]) < 0.01 {
+2290 | |                         last[3] = c[3];
+...    |
+2295 | |             }
+     | |_____________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+2287 ~             if w.is_none() && g.rot == 0.0
+2288 ~                 && let Some(last) = out.last_mut() {
+2289 |                     if last[3].dist(c[0]) < 0.01 && last[2].dist(c[1]) < 0.01 {
+ ...
+2293 |                     }
+2294 ~                 }
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/engine/text.rs:2288:17
+     |
+2288 | /                 if let Some(last) = out.last_mut() {
+2289 | |                     if last[3].dist(c[0]) < 0.01 && last[2].dist(c[1]) < 0.01 {
+2290 | |                         last[3] = c[3];
+2291 | |                         last[2] = c[2];
+...    |
+2294 | |                 }
+     | |_________________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+2288 ~                 if let Some(last) = out.last_mut()
+2289 ~                     && last[3].dist(c[0]) < 0.01 && last[2].dist(c[1]) < 0.01 {
+2290 |                         last[3] = c[3];
+2291 |                         last[2] = c[2];
+2292 |                         continue;
+2293 ~                     }
+     |
+
+warning: methods with the following characteristics: (`to_*` and `self` type is `Copy`) usually take `self` by value
+   --> src/engine/vanish.rs:158:19
+    |
+158 |     pub fn to_img(&self, s: f32, t: f32) -> Pt {
+    |                   ^^^^^
+    |
+    = help: consider choosing a less ambiguous name
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#wrong_self_convention
+
+warning: methods with the following characteristics: (`to_*` and `self` type is `Copy`) usually take `self` by value
+   --> src/engine/vanish.rs:162:21
+    |
+162 |     pub fn to_plane(&self, p: Pt) -> Pt {
+    |                     ^^^^^
+    |
+    = help: consider choosing a less ambiguous name
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#wrong_self_convention
+
+warning: manual implementation of `.is_multiple_of()`
+   --> src/engine/vanish.rs:217:21
+    |
+217 |         let ve = if edge % 2 == 0 { vu } else { vv };
+    |                     ^^^^^^^^^^^^^ help: replace with: `edge.is_multiple_of(2)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_is_multiple_of
+    = note: `#[warn(clippy::manual_is_multiple_of)]` on by default
+
+warning: this function has too many arguments (8/7)
+   --> src/engine/vanish.rs:333:1
+    |
+333 | pub fn dab(g: &TileGrid, base: &TileGrid, frame: &Frame, s: f32, t: f32, r: f32, hardness: f32, what: DabSource) -> (TileGrid, RectI) {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#too_many_arguments
+
+warning: manual implementation of `.is_multiple_of()`
+    --> src/engine/vector.rs:1061:22
+     |
+1061 |         let mut on = k0 % 2 == 0;
+     |                      ^^^^^^^^^^^ help: replace with: `k0.is_multiple_of(2)`
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_is_multiple_of
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/engine/warp.rs:189:40
+    |
+189 | fn arc_rows(a: f32, w: f32, h: f32) -> ([(f32, f32); 4], [(f32, f32); 4]) {
+    |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: the loop variable `i` is only used to index `m`
+   --> src/engine/warp.rs:426:22
+    |
+426 |             for i in 0..4 {
+    |                      ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator
+    |
+426 -             for i in 0..4 {
+426 +             for <item> in &mut m {
+    |
+
+warning: the loop variable `i` is only used to index `m`
+   --> src/engine/warp.rs:433:22
+    |
+433 |             for i in 0..4 {
+    |                      ^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator
+    |
+433 -             for i in 0..4 {
+433 +             for <item> in &mut m {
+    |
+
+warning: manual implementation of `.is_multiple_of()`
+  --> src/gtmask.rs:42:30
+   |
+42 |         if nums.len() < 6 || nums.len() % 2 != 0 {
+   |                              ^^^^^^^^^^^^^^^^^^^ help: replace with: `!nums.len().is_multiple_of(2)`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_is_multiple_of
+
+warning: using `chunks_exact_mut` with a constant chunk size
+   --> src/ui/dock.rs:102:24
+    |
+102 |     for (o, &p) in out.chunks_exact_mut(4).zip(&px) {
+    |                        ^^^^^^^^^^^^^^^^^^^ help: consider using `as_chunks_mut` instead: `as_chunks_mut::<4>().0.iter_mut()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#chunks_exact_to_as_chunks
+
+warning: this `if` statement can be collapsed
+   --> src/ui/dock.rs:215:13
+    |
+215 | /             if let Ok(Ok(Some(paths))) = rx.await {
+216 | |                 if let Some(p) = paths.into_iter().next() {
+217 | |                     let _ = this.update(cx, |ed, cx| {
+218 | |                         ed.import_abr(&p);
+...   |
+222 | |             }
+    | |_____________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+215 ~             if let Ok(Ok(Some(paths))) = rx.await
+216 ~                 && let Some(p) = paths.into_iter().next() {
+217 |                     let _ = this.update(cx, |ed, cx| {
+...
+220 |                     });
+221 ~                 }
+    |
+
+warning: manual implementation of an assign operation
+   --> src/ui/dock.rs:311:9
+    |
+311 |         self.vp.pan = self.vp.pan + d;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace it with: `self.vp.pan += d`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#assign_op_pattern
+    = note: `#[warn(clippy::assign_op_pattern)]` on by default
+
+warning: this `if` statement can be collapsed
+   --> src/ui/dock.rs:353:17
+    |
+353 | /                 if let Some((f, i)) = self.dockst.sel {
+354 | |                     if let Some(p) = self.dockst.presets.folders.get_mut(f).and_then(|x| x.presets.get_mut(i)) {
+355 | |                         p.name = v.clone();
+356 | |                     }
+357 | |                 }
+    | |_________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+353 ~                 if let Some((f, i)) = self.dockst.sel
+354 ~                     && let Some(p) = self.dockst.presets.folders.get_mut(f).and_then(|x| x.presets.get_mut(i)) {
+355 |                         p.name = v.clone();
+356 ~                     }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/dock.rs:385:21
+    |
+385 | /                     if let Some((f, i)) = e.dockst.sel {
+386 | |                         if let Some(p) = e.dockst.presets.folders.get(f).and_then(|x| x.presets.get(i)) {
+387 | |                             let name = p.name.clone();
+388 | |                             e.dockst.rename = Some((cx.new(|cx| InputState::new(window, cx).default_value(name.clone())), name));
+389 | |                         }
+390 | |                     }
+    | |_____________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+385 ~                     if let Some((f, i)) = e.dockst.sel
+386 ~                         && let Some(p) = e.dockst.presets.folders.get(f).and_then(|x| x.presets.get(i)) {
+387 |                             let name = p.name.clone();
+388 |                             e.dockst.rename = Some((cx.new(|cx| InputState::new(window, cx).default_value(name.clone())), name));
+389 ~                         }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/dock.rs:394:21
+    |
+394 | /                     if let Some((f, i)) = e.dockst.sel {
+395 | |                         if i < e.dockst.presets.folders[f].presets.len() {
+396 | |                             e.dockst.sel = Some(e.dockst.presets.move_preset(f, i, -1));
+397 | |                             e.save_presets();
+398 | |                         }
+399 | |                     }
+    | |_____________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+394 ~                     if let Some((f, i)) = e.dockst.sel
+395 ~                         && i < e.dockst.presets.folders[f].presets.len() {
+396 |                             e.dockst.sel = Some(e.dockst.presets.move_preset(f, i, -1));
+397 |                             e.save_presets();
+398 ~                         }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/dock.rs:403:21
+    |
+403 | /                     if let Some((f, i)) = e.dockst.sel {
+404 | |                         if i < e.dockst.presets.folders[f].presets.len() {
+405 | |                             e.dockst.sel = Some(e.dockst.presets.move_preset(f, i, 1));
+406 | |                             e.save_presets();
+407 | |                         }
+408 | |                     }
+    | |_____________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+403 ~                     if let Some((f, i)) = e.dockst.sel
+404 ~                         && i < e.dockst.presets.folders[f].presets.len() {
+405 |                             e.dockst.sel = Some(e.dockst.presets.move_preset(f, i, 1));
+406 |                             e.save_presets();
+407 ~                         }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/dock.rs:809:13
+    |
+809 | /             if sel {
+810 | |                 if let Some((_, input, _)) = &self.nopts.note_input {
+811 | |                     col = col.child(Input::new(input).small()).child(
+812 | |                         div()
+...   |
+833 | |             }
+    | |_____________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+809 ~             if sel
+810 ~                 && let Some((_, input, _)) = &self.nopts.note_input {
+811 |                     col = col.child(Input::new(input).small()).child(
+...
+831 |                     );
+832 ~                 }
+    |
+
+warning: manual implementation of an assign operation
+   --> src/ui/docs.rs:413:17
+    |
+413 |                 s.vp.pan = s.vp.pan + d;
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^ help: replace it with: `s.vp.pan += d`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#assign_op_pattern
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/ui/editor.rs:201:24
+    |
+201 |     pub clone_preview: Option<((i32, i32, usize, i32), Arc<RenderImage>)>,
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/ui/editor.rs:204:24
+    |
+204 |     pub outline_cache: std::cell::RefCell<Option<((usize, bool), Vec<Vec<[f32; 2]>>)>>,
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: this `if` statement can be collapsed
+   --> src/ui/editor.rs:741:9
+    |
+741 | /         if (self.tool.is_brush() || self.caf.is_some()) && !self.space_hand {
+742 | |             if let (Some(m), Some(_)) = (self.mouse, self.mouse_img) {
+743 | |                 if self.canvas.contains(&m) {
+744 | |                     let size = self.caf.as_ref().map_or(self.brush_ref().size, |c| c.brush);
+...   |
+753 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+741 ~         if (self.tool.is_brush() || self.caf.is_some()) && !self.space_hand
+742 ~             && let (Some(m), Some(_)) = (self.mouse, self.mouse_img) {
+743 |                 if self.canvas.contains(&m) {
+...
+751 |                 }
+752 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/editor.rs:742:13
+    |
+742 | /             if let (Some(m), Some(_)) = (self.mouse, self.mouse_img) {
+743 | |                 if self.canvas.contains(&m) {
+744 | |                     let size = self.caf.as_ref().map_or(self.brush_ref().size, |c| c.brush);
+745 | |                     let r = (size * 0.5 * s).max(1.5);
+...   |
+752 | |             }
+    | |_____________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+742 ~             if let (Some(m), Some(_)) = (self.mouse, self.mouse_img)
+743 ~                 && self.canvas.contains(&m) {
+744 |                     let size = self.caf.as_ref().map_or(self.brush_ref().size, |c| c.brush);
+...
+750 |                     out.push(Overlay::Quad { bounds: b, bg: clear, border: gpui_kit::hsla(0., 0., 1., 0.9), border_w: 1.0, radius: r });
+751 ~                 }
+    |
+
+warning: this `if` statement can be collapsed
+    --> src/ui/editor.rs:1179:29
+     |
+1179 | / ...                   if single {
+1180 | | ...                       if let Some(sel) = &mut ed.doc.selection {
+1181 | | ...                           sel.translate(off.0 as f32, off.1 as f32);
+1182 | | ...                       }
+1183 | | ...                   }
+     | |_______________________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1179 ~                             if single
+1180 ~                                 && let Some(sel) = &mut ed.doc.selection {
+1181 |                                     sel.translate(off.0 as f32, off.1 as f32);
+1182 ~                                 }
+     |
+
+warning: manual implementation of an assign operation
+    --> src/ui/editor.rs:1214:13
+     |
+1214 |             self.vp.pan = self.vp.pan + self.vp.unrotate_delta(point(px(d.x), px(d.y)));
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace it with: `self.vp.pan += self.vp.unrotate_delta(point(px(d.x), px(d.y)))`
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#assign_op_pattern
+
+warning: this `if` statement can be collapsed
+    --> src/ui/editor.rs:1548:13
+     |
+1548 | /             if let Ok(Ok(Some(paths))) = rx.await {
+1549 | |                 if let Some(p) = paths.into_iter().next() {
+1550 | |                     let _ = this.update(cx, |ed, cx| ed.open_path(p, cx));
+1551 | |                 }
+1552 | |             }
+     | |_____________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1548 ~             if let Ok(Ok(Some(paths))) = rx.await
+1549 ~                 && let Some(p) = paths.into_iter().next() {
+1550 |                     let _ = this.update(cx, |ed, cx| ed.open_path(p, cx));
+1551 ~                 }
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/ui/editor.rs:1558:9
+     |
+1558 | /         if !save_as {
+1559 | |             if let Some(p) = self.doc.path.clone().filter(|p| p.extension().is_some_and(|e| e == "pforge")) {
+1560 | |                 self.save_to(p, cx);
+1561 | |                 return;
+1562 | |             }
+1563 | |         }
+     | |_________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1558 ~         if !save_as
+1559 ~             && let Some(p) = self.doc.path.clone().filter(|p| p.extension().is_some_and(|e| e == "pforge")) {
+1560 |                 self.save_to(p, cx);
+1561 |                 return;
+1562 ~             }
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/ui/editor.rs:2174:13
+     |
+2174 | /             if let Ok(Ok(Some(paths))) = rx.await {
+2175 | |                 if let Some(path) = paths.into_iter().next() {
+2176 | |                     let _ = this.update(cx, |ed, cx| { ed.dockst.prefs.scratch_dir = path; ed.save_memory_prefs(); cx.notify(); });
+2177 | |                 }
+2178 | |             }
+     | |_____________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+2174 ~             if let Ok(Ok(Some(paths))) = rx.await
+2175 ~                 && let Some(path) = paths.into_iter().next() {
+2176 |                     let _ = this.update(cx, |ed, cx| { ed.dockst.prefs.scratch_dir = path; ed.save_memory_prefs(); cx.notify(); });
+2177 ~                 }
+     |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/render.rs:118:21
+    |
+118 | /                     if any {
+119 | |                         if let Ok(path) = pb.build() {
+120 | |                             window.paint_path(path, color);
+121 | |                         }
+122 | |                     }
+    | |_____________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+118 ~                     if any
+119 ~                         && let Ok(path) = pb.build() {
+120 |                             window.paint_path(path, color);
+121 ~                         }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/render.rs:138:21
+    |
+138 | /                     if any {
+139 | |                         if let Ok(path) = pb.build() {
+140 | |                             window.paint_path(path, color);
+141 | |                         }
+142 | |                     }
+    | |_____________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+138 ~                     if any
+139 ~                         && let Ok(path) = pb.build() {
+140 |                             window.paint_path(path, color);
+141 ~                         }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/render.rs:583:9
+    |
+583 | /         if let Some(d) = &self.dialog {
+584 | |             if matches!(d.kind, DialogKind::Filter(_)) {
+585 | |                 area = area.child(div().absolute().top(px(14.)).right(px(14.)).child(self.render_dialog(cx)));
+586 | |             }
+587 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+583 ~         if let Some(d) = &self.dialog
+584 ~             && matches!(d.kind, DialogKind::Filter(_)) {
+585 |                 area = area.child(div().absolute().top(px(14.)).right(px(14.)).child(self.render_dialog(cx)));
+586 ~             }
+    |
+
+warning: this `impl` can be derived
+  --> src/ui/type_tools.rs:77:1
+   |
+77 | / impl Default for TypeOptions {
+78 | |     fn default() -> Self {
+79 | |         TypeOptions { style: TextStyle::default(), warp: Warp::default(), panel: TypePanel::default(), family_select: None, last_r...
+80 | |     }
+81 | | }
+   | |_^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#derivable_impls
+   = note: `#[warn(clippy::derivable_impls)]` on by default
+help: replace the manual implementation with a derive attribute
+   |
+67 + #[derive(Default)]
+68 | pub struct TypeOptions {
+   |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/type_tools.rs:153:9
+    |
+153 | /         if let Some((li, t)) = self.edited_text().or_else(|| self.active_text()) {
+154 | |             if t.contains_point(ix, iy, 6.0 / self.vp.zoom) {
+155 | |                 let at = t.hit(ix, iy);
+156 | |                 let id = self.doc.layers[li].id;
+...   |
+177 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+153 ~         if let Some((li, t)) = self.edited_text().or_else(|| self.active_text())
+154 ~             && t.contains_point(ix, iy, 6.0 / self.vp.zoom) {
+155 |                 let at = t.hit(ix, iy);
+...
+175 |                 return true;
+176 ~             }
+    |
+
+warning: called `unwrap` on `self.text_edit` after checking its variant with `is_some`
+   --> src/ui/type_tools.rs:678:26
+    |
+677 |         if self.text_edit.is_some() {
+    |         --------------------------- help: try: `if let Some(<item>) = &self.text_edit`
+678 |             let (a, b) = self.text_edit.as_ref().unwrap().range();
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#unnecessary_unwrap
+    = note: `#[warn(clippy::unnecessary_unwrap)]` on by default
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/ui/vector_tools.rs:513:32
+    |
+513 |     fn shape_handles(&self) -> Option<(u64, (f32, f32, f32, f32), Affine)> {
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/ui/vector_tools.rs:531:32
+    |
+531 |     fn shape_widgets(&self) -> Option<(u64, Vec<P>, Vec<(u8, P)>, Affine)> {
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: this `if` statement can be collapsed
+   --> src/ui/vector_tools.rs:583:17
+    |
+583 | /                 if let Some(a) = path.subs.get_mut(sub).and_then(|s| s.anchors.get_mut(idx)) {
+584 | |                     if a.p.dist(q) > 0.5 {
+585 | |                         a.h_out = q;
+586 | |                         a.h_in = a.p - (q - a.p);
+...   |
+589 | |                 }
+    | |_________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+583 ~                 if let Some(a) = path.subs.get_mut(sub).and_then(|s| s.anchors.get_mut(idx))
+584 ~                     && a.p.dist(q) > 0.5 {
+585 |                         a.h_out = q;
+586 |                         a.h_in = a.p - (q - a.p);
+587 |                         a.smooth = true;
+588 ~                     }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/vector_tools.rs:713:9
+    |
+713 | /         if let VDrag::Freeform(pts) = vd {
+714 | |             if pts.len() > 2 {
+715 | |                 self.doc.push_undo("Freeform Pen");
+716 | |                 let tol = (2.0 / self.vp.logical_scale(self.sf)).max(0.5);
+...   |
+726 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+713 ~         if let VDrag::Freeform(pts) = vd
+714 ~             && pts.len() > 2 {
+715 |                 self.doc.push_undo("Freeform Pen");
+...
+724 |                 }
+725 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/vector_tools.rs:863:9
+    |
+863 | / ...   if let (Tool::Pen, Some(si), Some(m)) = (self.tool, self.pen_sub, self.mouse_img) {
+864 | | ...       if let Some(a) = self.doc.active_path.and_then(|pi| self.doc.paths.get(pi)).and_then(|p| p.path.subs.get(si)).and_then(...
+865 | | ...           let c = [a.p, a.h_out, p(m.0, m.1), p(m.0, m.1)];
+866 | | ...           let pts: Vec<_> = (0..=24).map(|k| {
+...   |
+872 | | ...   }
+    | |_______^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+863 ~         if let (Tool::Pen, Some(si), Some(m)) = (self.tool, self.pen_sub, self.mouse_img)
+864 ~             && let Some(a) = self.doc.active_path.and_then(|pi| self.doc.paths.get(pi)).and_then(|p| p.path.subs.get(si)).and_then(|s| s.anchors.last()) {
+865 |                 let c = [a.p, a.h_out, p(m.0, m.1), p(m.0, m.1)];
+...
+870 |                 out.push(Overlay::Path { polys: vec![(pts, false)], dashed: true, color: blue, width: 1.0 });
+871 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/vector_tools.rs:915:13
+    |
+915 | /             if fr.content.is_none() {
+916 | |                 if let Some((x0, y0, x1, y1)) = fr.shape.geom.rect() {
+917 | |                     let m = fr.shape.matrix();
+918 | |                     let c = [p(x0, y0), p(x1, y1), p(x1, y0), p(x0, y1)].map(|q| {
+...   |
+924 | |             }
+    | |_____________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+915 ~             if fr.content.is_none()
+916 ~                 && let Some((x0, y0, x1, y1)) = fr.shape.geom.rect() {
+917 |                     let m = fr.shape.matrix();
+...
+922 |                     out.push(Overlay::Path { polys: vec![(vec![c[0], c[1]], false), (vec![c[2], c[3]], false)], dashed: false, color: gray, width: 1.0 });
+923 ~                 }
+    |
+
+warning: useless use of `format!`
+   --> src/ui/web_ui.rs:125:20
+    |
+125 |         let name = format!("{}", self.doc.layers[li].name.replace(' ', "_"));
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: consider using `.to_string()`: `self.doc.layers[li].name.replace(' ', "_").to_string()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#useless_format
+    = note: `#[warn(clippy::useless_format)]` on by default
+
+warning: methods with the following characteristics: (`to_*` and `self` type is `Copy`) usually take `self` by value
+  --> src/ui/viewport.rs:82:21
+   |
+82 |     pub fn to_image(&self, p: Point<Pixels>, canvas: Bounds<Pixels>, sf: f32) -> (f32, f32) {
+   |                     ^^^^^
+   |
+   = help: consider choosing a less ambiguous name
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#wrong_self_convention
+
+warning: methods with the following characteristics: (`to_*` and `self` type is `Copy`) usually take `self` by value
+  --> src/ui/viewport.rs:91:22
+   |
+91 |     pub fn to_screen(&self, x: f32, y: f32, canvas: Bounds<Pixels>, sf: f32) -> Point<Pixels> {
+   |                      ^^^^^
+   |
+   = help: consider choosing a less ambiguous name
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#wrong_self_convention
+
+warning: using `clone` on type `Option<AtlasTile>` which implements the `Copy` trait
+   --> src/ui/viewport.rs:189:34
+    |
+189 |                 if let Some(t) = a.clone() {
+    |                                  ^^^^^^^^^ help: try dereferencing it: `*a`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#clone_on_copy
+    = note: `#[warn(clippy::clone_on_copy)]` on by default
+
+warning: this `if` has identical blocks
+   --> src/ui/viewport.rs:505:48
+    |
+505 |                 let (px_, py_) = if level >= 0 { (tx >> j, ty >> j) } else { (tx >> j, ty >> j) };
+    |                                                ^^^^^^^^^^^^^^^^^^^^^^
+    |
+note: same as this
+   --> src/ui/viewport.rs:505:76
+    |
+505 |                 let (px_, py_) = if level >= 0 { (tx >> j, ty >> j) } else { (tx >> j, ty >> j) };
+    |                                                                            ^^^^^^^^^^^^^^^^^^^^^^
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#if_same_then_else
+    = note: `#[warn(clippy::if_same_then_else)]` on by default
+
+warning: this `if` statement can be collapsed
+   --> src/ui/vp.rs:499:9
+    |
+499 | /         if let (VpTool::Brush | VpTool::Stamp, Some(m)) = (st.tool, self.mouse_img) {
+500 | |             if let Some(i) = st.scene.plane_at(m) {
+501 | |                 let f: Frame = st.scene.frame(i);
+502 | |                 let (s, t) = f.to_plane(m);
+...   |
+509 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+499 ~         if let (VpTool::Brush | VpTool::Stamp, Some(m)) = (st.tool, self.mouse_img)
+500 ~             && let Some(i) = st.scene.plane_at(m) {
+501 |                 let f: Frame = st.scene.frame(i);
+...
+507 |                 out.push(Overlay::Path { polys: vec![(ring, true)], dashed: false, color: white, width: 1.0 });
+508 ~             }
+    |
+
+warning: manual implementation of an assign operation
+   --> src/ui/demo.rs:125:17
+    |
+125 |                 ed.vp.pan = ed.vp.pan + (c - target);
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace it with: `ed.vp.pan += (c - target)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#assign_op_pattern
+
+warning: manual implementation of an assign operation
+   --> src/ui/demo.rs:652:21
+    |
+652 |                     ed.vp.pan = ed.vp.pan + (c - target);
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace it with: `ed.vp.pan += (c - target)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#assign_op_pattern
+
+warning: manual implementation of `.is_multiple_of()`
+   --> src/ui/demo_gaps.rs:180:36
+    |
+180 |                         let band = (gy / 90) % 2 == 0 || (gy % 90) > 12;
+    |                                    ^^^^^^^^^^^^^^^^^^ help: replace with: `(gy / 90).is_multiple_of(2)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_is_multiple_of
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/ui/demo_gaps.rs:313:24
+    |
+313 |             let lines: [(&str, &str, f32, fn(&mut crate::engine::text::OtFeatures)); 5] = [
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: the loop variable `c` is used to index `q`
+    --> src/ui/demo_gaps.rs:1185:26
+     |
+1185 |                 for c in 0..4 {
+     |                          ^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#needless_range_loop
+help: consider using an iterator and enumerate()
+     |
+1185 -                 for c in 0..4 {
+1185 +                 for (c, <item>) in q.iter().enumerate().take(4) {
+     |
+
+warning: this `if` statement can be collapsed
+  --> src/ui/layers_ui.rs:80:9
+   |
+80 | /         if let Some((k, img)) = self.mask_thumbs.get(&l.id) {
+81 | |             if *k == key.1 {
+82 | |                 return Some(img.clone());
+83 | |             }
+84 | |         }
+   | |_________^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+   |
+80 ~         if let Some((k, img)) = self.mask_thumbs.get(&l.id)
+81 ~             && *k == key.1 {
+82 |                 return Some(img.clone());
+83 ~             }
+   |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/layers_ui.rs:611:17
+    |
+611 | /                 if let Some(next) = self.doc.selected.pop() {
+612 | |                     if let Some(ni) = self.doc.layers.iter().position(|l| l.id == next) {
+613 | |                         self.select_layer(ni, window, cx);
+614 | |                     }
+615 | |                 }
+    | |_________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+611 ~                 if let Some(next) = self.doc.selected.pop()
+612 ~                     && let Some(ni) = self.doc.layers.iter().position(|l| l.id == next) {
+613 |                         self.select_layer(ni, window, cx);
+614 ~                     }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/layers_ui.rs:619:17
+    |
+619 | /                 if let Some(a) = active_id {
+620 | |                     if !self.doc.selected.contains(&a) {
+621 | |                         self.doc.selected.push(a);
+622 | |                     }
+623 | |                 }
+    | |_________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+619 ~                 if let Some(a) = active_id
+620 ~                     && !self.doc.selected.contains(&a) {
+621 |                         self.doc.selected.push(a);
+622 ~                     }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/nav_tools.rs:281:9
+    |
+281 | /         if let Some((id, v, r)) = self.nopts.content {
+282 | |             if id == l.id && v == l.version {
+283 | |                 return r;
+284 | |             }
+285 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+281 ~         if let Some((id, v, r)) = self.nopts.content
+282 ~             && id == l.id && v == l.version {
+283 |                 return r;
+284 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/nav_tools.rs:472:9
+    |
+472 | /         if self.opts.show_transform {
+473 | |             if let Some(r) = self.content_rect() {
+474 | |                 let fr = of_rect(r);
+475 | |                 if let Some(h) = handles(fr).iter().position(|&hp| self.near(hp, (ix, iy), 7.0)) {
+...   |
+481 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+472 ~         if self.opts.show_transform
+473 ~             && let Some(r) = self.content_rect() {
+474 |                 let fr = of_rect(r);
+...
+479 |                 }
+480 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/nav_tools.rs:504:9
+    |
+504 | /         if let Some(sel) = &self.doc.selection {
+505 | |             if matches!(self.doc.layers[li].kind, LayerKind::Pixel) && sel.at(ix.floor() as i32, iy.floor() as i32) > 0 {
+506 | |                 let sel = sel.clone();
+507 | |                 let g = &self.doc.layers[li].grid;
+...   |
+520 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+504 ~         if let Some(sel) = &self.doc.selection
+505 ~             && matches!(self.doc.layers[li].kind, LayerKind::Pixel) && sel.at(ix.floor() as i32, iy.floor() as i32) > 0 {
+506 |                 let sel = sel.clone();
+...
+518 |                 return true;
+519 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/nav_tools.rs:778:17
+    |
+778 | /                 if let Some((a, b)) = self.nopts.ruler {
+779 | |                     if self.near(a, b, 2.0) {
+780 | |                         self.nopts.ruler = None;
+781 | |                     }
+782 | |                 }
+    | |_________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+778 ~                 if let Some((a, b)) = self.nopts.ruler
+779 ~                     && self.near(a, b, 2.0) {
+780 |                         self.nopts.ruler = None;
+781 ~                     }
+    |
+
+warning: manual implementation of an assign operation
+   --> src/ui/nav_tools.rs:829:9
+    |
+829 |         self.vp.pan = self.vp.pan + self.vp.unrotate_delta(c.center() - target);
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: replace it with: `self.vp.pan += self.vp.unrotate_delta(c.center() - target)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#assign_op_pattern
+
+warning: this `if` statement can be collapsed
+   --> src/ui/nav_tools.rs:861:9
+    |
+861 | /         if let Some((j, input, last)) = &mut self.nopts.note_input {
+862 | |             if *j == i {
+863 | |                 input.update(cx, |s, cx| s.set_value(text.to_string(), window, cx));
+864 | |                 *last = text.into();
+865 | |             }
+866 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+861 ~         if let Some((j, input, last)) = &mut self.nopts.note_input
+862 ~             && *j == i {
+863 |                 input.update(cx, |s, cx| s.set_value(text.to_string(), window, cx));
+864 |                 *last = text.into();
+865 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/nav_tools.rs:888:9
+    |
+888 | /         if let Some(l) = self.doc.layers.iter_mut().find(|l| l.id == id) {
+889 | |             if let LayerKind::Artboard(a) = &mut l.kind {
+890 | |                 std::sync::Arc::make_mut(a).rect = rect;
+891 | |             }
+892 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+888 ~         if let Some(l) = self.doc.layers.iter_mut().find(|l| l.id == id)
+889 ~             && let LayerKind::Artboard(a) = &mut l.kind {
+890 |                 std::sync::Arc::make_mut(a).rect = rect;
+891 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+    --> src/ui/nav_tools.rs:1438:13
+     |
+1438 | /             if let (Tool::SliceSelect, Some(i)) = (self.tool, self.nopts.slice_sel) {
+1439 | |                 if let Some(s) = self.doc.ann.slices.get(i) {
+1440 | |                     for (x, y) in handles(of_rect(s.rect)) {
+1441 | |                         out.push(quad(sc(self, x, y), 4.0, white, orange, 0.0));
+...    |
+1444 | |             }
+     | |_____________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1438 ~             if let (Tool::SliceSelect, Some(i)) = (self.tool, self.nopts.slice_sel)
+1439 ~                 && let Some(s) = self.doc.ann.slices.get(i) {
+1440 |                     for (x, y) in handles(of_rect(s.rect)) {
+1441 |                         out.push(quad(sc(self, x, y), 4.0, white, orange, 0.0));
+1442 |                     }
+1443 ~                 }
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/ui/nav_tools.rs:1446:9
+     |
+1446 | /         if let Some(NavDrag::NewRect { start, cur }) = &self.ndrag {
+1447 | |             if matches!(self.tool, Tool::Slice | Tool::Artboard) {
+1448 | |                 let r = norm((start.0, start.1, cur.0, cur.1));
+1449 | |                 let cs: Vec<_> = [(r.0, r.1), (r.2, r.1), (r.2, r.3), (r.0, r.3)].iter().map(|&(x, y)| sc(self, x, y)).collect();
+...    |
+1452 | |         }
+     | |_________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1446 ~         if let Some(NavDrag::NewRect { start, cur }) = &self.ndrag
+1447 ~             && matches!(self.tool, Tool::Slice | Tool::Artboard) {
+1448 |                 let r = norm((start.0, start.1, cur.0, cur.1));
+1449 |                 let cs: Vec<_> = [(r.0, r.1), (r.2, r.1), (r.2, r.3), (r.0, r.3)].iter().map(|&(x, y)| sc(self, x, y)).collect();
+1450 |                 out.push(Overlay::Path { polys: vec![(cs, true)], dashed: true, color: white, width: 1.0 });
+1451 ~             }
+     |
+
+warning: this `if` statement can be collapsed
+    --> src/ui/nav_tools.rs:1777:5
+     |
+1777 | /     if let Some(i) = sel.filter(|&i| i < rs.len()) {
+1778 | |         if let Some(h) = handles(of_rect(rs[i])).iter().position(|&(x, y)| (x - q.0).hypot(y - q.1) <= tol) {
+1779 | |             return Some((i, h as u8));
+1780 | |         }
+1781 | |     }
+     | |_____^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+     |
+1777 ~     if let Some(i) = sel.filter(|&i| i < rs.len())
+1778 ~         && let Some(h) = handles(of_rect(rs[i])).iter().position(|&(x, y)| (x - q.0).hypot(y - q.1) <= tol) {
+1779 |             return Some((i, h as u8));
+1780 ~         }
+     |
+
+error: local variable doesn't need to be boxed here
+   --> src/ui/select_tools.rs:291:43
+    |
+291 |     pub fn quick_select_finish(&mut self, q: Box<QuickDrag>, cx: &mut Context<Self>) {
+    |                                           ^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#boxed_local
+    = note: `-D clippy::boxed-local` implied by `-D clippy::perf`
+    = help: to override `-D clippy::perf` add `#[allow(clippy::boxed_local)]`
+
+warning: this `if` statement can be collapsed
+   --> src/ui/style_ui.rs:298:9
+    |
+298 | /         if let Section::Fx(e) = section {
+299 | |             if !sty(&self.doc.layers[li]).enabled(e) {
+300 | |                 self.style_apply(|l| edit(l, |s| s.set_enabled(e, true)));
+301 | |             }
+302 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+298 ~         if let Section::Fx(e) = section
+299 ~             && !sty(&self.doc.layers[li]).enabled(e) {
+300 |                 self.style_apply(|l| edit(l, |s| s.set_enabled(e, true)));
+301 ~             }
+    |
+
+warning: this `if` statement can be collapsed
+   --> src/ui/style_ui.rs:358:9
+    |
+358 | /         if let Some(d) = &mut self.lstyle {
+359 | |             if !d.changed {
+360 | |                 d.changed = true;
+361 | |                 self.doc.push_undo("Layer Style");
+362 | |             }
+363 | |         }
+    | |_________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+358 ~         if let Some(d) = &mut self.lstyle
+359 ~             && !d.changed {
+360 |                 d.changed = true;
+361 |                 self.doc.push_undo("Layer Style");
+362 ~             }
+    |
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> src/ui/style_ui.rs:374:28
+    |
+374 |         let (same, apply): (bool, Box<dyn FnOnce(&mut Layer)>) = match (p, v) {
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#type_complexity
+
+warning: this `if` statement can be collapsed
+   --> src/ui/style_ui.rs:511:9
+    |
+511 | / ...   if let Section::Fx(e) = d.section {
+512 | | ...       if !style.enabled(e) {
+513 | | ...           body = body.child(div().text_size(px(11.)).text_color(rgb(DIM)).child("This effect is off: tick its checkbox to tur...
+514 | | ...       }
+515 | | ...   }
+    | |_______^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#collapsible_if
+help: collapse nested if block
+    |
+511 ~         if let Section::Fx(e) = d.section
+512 ~             && !style.enabled(e) {
+513 |                 body = body.child(div().text_size(px(11.)).text_color(rgb(DIM)).child("This effect is off: tick its checkbox to turn it on."));
+514 ~             }
+    |
+
+warning: `pixelforge` (bin "pixelforge") generated 164 warnings
+error: could not compile `pixelforge` (bin "pixelforge") due to 9 previous errors; 164 warnings emitted

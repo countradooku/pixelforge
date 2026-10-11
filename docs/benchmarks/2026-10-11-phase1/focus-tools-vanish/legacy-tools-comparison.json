@@ -1,0 +1,191 @@
+{
+  "generate test scene": {
+    "before": [
+      145.8,
+      122.7,
+      122.4,
+      123.8,
+      123.0,
+      123.2,
+      122.7,
+      124.7,
+      124.6
+    ],
+    "after": [
+      131.9,
+      124.4,
+      121.6,
+      123.3,
+      123.5,
+      124.7,
+      124.2,
+      126.6,
+      122.7
+    ],
+    "before_median": 123.2,
+    "after_median": 124.2,
+    "change_percent": 0.8116883116883189
+  },
+  "Vanishing Point: tear off a perpendicular plane": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "before_median": 0.0,
+    "after_median": 0.0,
+    "change_percent": null
+  },
+  "Vanishing Point brush dab, 200 px on the plane (median)": {
+    "before": [
+      0.4,
+      0.37,
+      0.37,
+      0.37,
+      0.36,
+      0.39,
+      0.38,
+      0.39,
+      0.4
+    ],
+    "after": [
+      0.4,
+      0.39,
+      0.37,
+      0.37,
+      0.36,
+      0.39,
+      0.38,
+      0.4,
+      0.37
+    ],
+    "before_median": 0.38,
+    "after_median": 0.38,
+    "change_percent": 0.0
+  },
+  "Vanishing Point stamp dab, 200 px (median)": {
+    "before": [
+      1.06,
+      0.96,
+      0.95,
+      0.98,
+      0.97,
+      0.97,
+      0.97,
+      0.98,
+      0.97
+    ],
+    "after": [
+      0.91,
+      0.85,
+      0.78,
+      0.82,
+      0.83,
+      0.83,
+      0.83,
+      0.86,
+      0.84
+    ],
+    "before_median": 0.97,
+    "after_median": 0.83,
+    "change_percent": -14.432989690721653
+  },
+  "Vanishing Point marquee copy, 1000 \u00d7 1000 plane px": {
+    "before": [
+      19.05,
+      16.11,
+      16.19,
+      16.24,
+      16.23,
+      16.87,
+      16.69,
+      17.36,
+      16.64
+    ],
+    "after": [
+      18.14,
+      16.59,
+      15.31,
+      15.66,
+      15.97,
+      16.41,
+      16.19,
+      16.54,
+      16.42
+    ],
+    "before_median": 16.64,
+    "after_median": 16.41,
+    "change_percent": -1.3822115384615419
+  },
+  "Vanishing Point marquee copy with Heal": {
+    "before": [
+      63.96,
+      53.28,
+      53.55,
+      55.66,
+      53.71,
+      54.79,
+      54.52,
+      55.0,
+      54.21
+    ],
+    "after": [
+      58.54,
+      55.39,
+      52.19,
+      54.21,
+      53.98,
+      55.42,
+      52.73,
+      54.46,
+      54.42
+    ],
+    "before_median": 54.52,
+    "after_median": 54.42,
+    "change_percent": -0.18341892883345645
+  },
+  "Vanishing Point: place a 2000 \u00d7 2000 image on the plane": {
+    "before": [
+      14.88,
+      11.79,
+      11.86,
+      11.8,
+      11.84,
+      11.94,
+      11.84,
+      11.85,
+      11.84
+    ],
+    "after": [
+      10.27,
+      9.57,
+      9.66,
+      9.56,
+      9.69,
+      9.67,
+      10.39,
+      10.13,
+      9.88
+    ],
+    "before_median": 11.84,
+    "after_median": 9.69,
+    "change_percent": -18.158783783783782
+  }
+}

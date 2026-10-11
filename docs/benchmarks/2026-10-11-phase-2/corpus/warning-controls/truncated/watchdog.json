@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "mode": "native LaunchServices",
+  "per_case_evidence": [
+    "negative-truncated/watchdog.json"
+  ],
+  "restoration_confirmed": false
+}

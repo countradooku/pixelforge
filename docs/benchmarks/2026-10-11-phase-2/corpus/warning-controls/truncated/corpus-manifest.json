@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "operation": "native-control",
+  "cases": [
+    {
+      "id": "negative-truncated",
+      "filename": "negative-truncated.psd",
+      "family": "negative-control",
+      "feature": "truncated",
+      "params": {},
+      "fidelity": "exact"
+    }
+  ],
+  "planned_count": 1,
+  "selected_count": 1,
+  "coverage_complete": true,
+  "standalone_validation": false,
+  "note": "Generated feature coverage is measured per distinct feature and parameter; failures remain failures.",
+  "generator_sha256": "9ae068493aaa8b4c8988ec7c597f4d94a32440ebaa2a4a16704e1fe2509f8fa6"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "suite": "engine",
+    "command": [
+      "python3",
+      "tools/phase2_compare.py",
+      "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+      "--out",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-engine",
+      "--suite",
+      "engine",
+      "--tiers",
+      "24,268",
+      "--reps",
+      "15"
+    ],
+    "exit_code": 0,
+    "seconds": 112.45118283299962
+  },
+  {
+    "suite": "gpu",
+    "command": [
+      "python3",
+      "tools/phase2_compare.py",
+      "/private/tmp/pixelforge-psd-scratchpad/phase-2-2026-10-11-153448/pixelforge-before",
+      "--out",
+      "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/focus-gpu",
+      "--suite",
+      "gpu",
+      "--tiers",
+      "150,268",
+      "--reps",
+      "15",
+      "--only",
+      "compositing"
+    ],
+    "exit_code": 0,
+    "seconds": 367.8609679580004
+  }
+]

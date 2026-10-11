@@ -1,0 +1,88 @@
+   Compiling pixelforge v0.1.0 (/Users/radudiaconu/Desktop/Code/Rust/pixelforge)
+    Finished `release` profile [optimized] target(s) in 30.44s
+     Running unittests src/main.rs (target/release/deps/pixelforge-ba98d3192aaf3d88)
+
+running 80 tests
+test engine::psd::compression::tests::all_methods_round_trip_boundary_runs_and_prediction_wrap ... ok
+test engine::psd::compression::tests::allocation_limit_precedes_decoding ... ok
+test engine::psd::compression::tests::bitmap_rows_use_ceil_byte_width ... ok
+test engine::psd::compression::tests::encoded_output_limit_applies_during_all_compressors ... ok
+test engine::psd::compression::tests::packbits_rejects_truncation_overrun_and_underrun ... ok
+test engine::psd::compression::tests::specification_packbits_vectors_decode_without_encoder ... ok
+test engine::psd::compression::tests::zip_rejects_truncation_appended_stream_and_expansion_beyond_dimensions ... ok
+test engine::psd::descriptor::tests::all_types_and_wire_distinctions_round_trip ... ok
+test engine::psd::descriptor::tests::bounded_suffix_and_prefix_consumption_are_preserved ... ok
+test engine::psd::descriptor::tests::editing_known_key_keeps_unknown_keys_payloads_and_order_exact ... ok
+test engine::psd::descriptor::tests::empty_string_identifier_cannot_emit_an_ambiguous_length ... ok
+test engine::psd::descriptor::tests::input_output_allocation_item_and_depth_limits_are_enforced ... ok
+test engine::psd::descriptor::tests::literal_integer_descriptor_matches_adobe_layout ... ok
+test engine::psd::descriptor::tests::malicious_lengths_fail_before_allocation ... ok
+test engine::psd::descriptor::tests::nested_unknown_type_preserves_parent_without_guessing_its_length ... ok
+test engine::psd::descriptor::tests::truncated_input_never_becomes_opaque_success ... ok
+test engine::psd::descriptor::tests::unknown_list_type_does_not_assume_a_payload_minimum ... ok
+test engine::psd::descriptor::tests::unknown_type_preserves_entire_bounded_parent ... ok
+test engine::psd::engine_data::tests::adding_key_keeps_unknown_value_lexemes ... ok
+test engine::psd::engine_data::tests::binary_strings_escape_parentheses_backslashes_and_all_byte_values ... ok
+test engine::psd::engine_data::tests::cannot_emit_nonfinite_real_or_operator_injection_atom ... ok
+test engine::psd::engine_data::tests::copied_document_remains_independently_editable ... ok
+test engine::psd::engine_data::tests::depth_count_input_and_allocation_limits_are_enforced ... ok
+test engine::psd::engine_data::tests::foreign_source_nodes_fail_instead_of_using_wrong_raw_bytes ... ok
+test engine::psd::engine_data::tests::implicit_root_and_duplicate_keys_are_lossless ... ok
+test engine::psd::engine_data::tests::invalid_utf16_is_preserved_but_not_silently_decoded ... ok
+test engine::psd::engine_data::tests::leaf_edit_preserves_unknown_sibling_bytes_and_whitespace ... ok
+test engine::psd::engine_data::tests::malformed_delimiters_escapes_and_incomplete_values_fail ... ok
+test engine::psd::engine_data::tests::real_type_and_negative_zero_survive_reencoding ... ok
+test engine::psd::engine_data::tests::untouched_tree_retains_every_lexical_byte ... ok
+test engine::psd::engine_data::tests::utf16_supplementary_characters_round_trip ... ok
+test engine::psd::inspect::tests::every_known_descriptor_envelope_is_checked ... ok
+test engine::psd::inspect::tests::future_mask_and_group_variants_are_opaque_not_malformed ... ok
+test engine::psd::inspect::tests::inspection_preserves_duplicate_layer_blocks_and_resource_order ... ok
+test engine::psd::inspect::tests::invalid_engine_data_is_a_visible_validation_failure ... ok
+test engine::psd::inspect::tests::malformed_known_envelope_is_reported_without_mutating_raw_document ... ok
+test engine::psd::inspect::tests::text_envelope_checks_both_descriptors_and_engine_data ... ok
+test engine::psd::inspect::tests::unknown_type_and_future_version_remain_opaque ... ok
+test engine::psd::mapping::advanced_mapping_tests::advanced_settings_roundtrip_preserve_unknowns_and_can_be_cleared ... ok
+test engine::psd::mapping::advanced_mapping_tests::pass_through_advanced_semantics_are_rejected_explicitly ... ok
+test engine::psd::mapping::tests::all_blend_keys_roundtrip_and_unknown_is_rejected ... ok
+test engine::psd::mapping::tests::changed_private_state_can_clear_selection ... ok
+test engine::psd::mapping::tests::channel_panel_prefers_unicode_names ... ok
+test engine::psd::mapping::tests::composite_edit_keeps_extra_alpha_and_spot_samples_exact ... ok
+test engine::psd::mapping::tests::cropped_pixel_edit_keeps_relative_mask_location_and_rejects_extra_channel_resize ... ok
+test engine::psd::mapping::tests::edited_group_blend_updates_both_records_and_preserves_divider_tail ... ok
+test engine::psd::mapping::tests::pixel_psd_and_psb_preserve_channels_and_private_selection ... ok
+test engine::psd::mapping::tests::preserved_references_block_unsafe_geometry_or_stack_changes ... ok
+test engine::psd::mapping::tests::sibling_pixel_edit_preserves_unknown_blocks_and_straight_channels ... ok
+test engine::psd::mapping::tests::unsupported_live_semantics_fail_without_creating_output ... ok
+test engine::psd::mapping::tests::user_mask_and_nested_groups_roundtrip_stable_ids ... ok
+test engine::psd::masks::tests::all_mask_parameters_and_noncanonical_double_bits_survive ... ok
+test engine::psd::masks::tests::blend_ranges_retain_split_sliders_without_silent_identity ... ok
+test engine::psd::masks::tests::group_divider_preserves_subtype_tail_and_checks_signature ... ok
+test engine::psd::masks::tests::mask_20byte_and_36byte_variants_preserve_padding_and_distinct_bounds ... ok
+test engine::psd::masks::tests::relative_mask_bounds_use_layer_origin_and_reject_overflow ... ok
+test engine::psd::masks::tests::truncated_parameter_and_real_mask_are_rejected ... ok
+test engine::psd::masks::tests::vector_knot_count_and_partial_record_are_checked ... ok
+test engine::psd::masks::tests::vector_mask_preserves_signed_knots_operations_and_unknown_fields ... ok
+test engine::psd::tests::color_modes_and_palette_survive_raw_round_trip ... ok
+test engine::psd::tests::every_truncated_prefix_fails_parse_or_composite_decode ... ok
+test engine::psd::tests::later_phase_depths_and_invalid_header_values_are_explicit_errors ... ok
+test engine::psd::tests::limits_reject_file_layer_and_block_counts ... ok
+test engine::psd::tests::malformed_additional_block_length_is_not_silently_preserved ... ok
+test engine::psd::tests::malformed_section_length_is_rejected_without_allocation ... ok
+test engine::psd::tests::odd_layer_info_length_is_rejected_without_reframing_following_sections ... ok
+test engine::psd::tests::psb_uses_eight_byte_lengths_only_for_specified_tag_keys ... ok
+test engine::psd::tests::psd_and_psb_preserve_all_structural_bytes_including_padding ... ok
+test engine::psd::tests::signed_layer_count_preserves_merged_transparency ... ok
+test engine::psd::tests::unknown_duplicate_keys_keep_order_and_opaque_tail ... ok
+test engine::psd::tests::unrelated_name_and_pixel_edit_keep_unknown_blocks_exact ... ok
+test engine::psd::text::tests::all_warp_styles_reencode_through_descriptor_fields ... ok
+test engine::psd::text::tests::authored_photoshop_text_files_decode_preserve_and_refuse_stale_global_cache ... ignored, Requires the explicitly supplied Photoshop-authored text corpus; never silently skipped
+test engine::psd::text::tests::changed_known_field_preserves_unknown_descriptor_and_engine_lexemes ... ok
+test engine::psd::text::tests::global_text_cache_is_visible_and_prevents_inconsistent_edits ... ok
+test engine::psd::text::tests::malformed_utf16_run_split_and_untracked_edit_are_rejected ... ok
+test engine::psd::text::tests::maps_utf16_text_character_and_paragraph_styles_and_box_without_rasterizing ... ok
+test engine::psd::text::tests::no_op_retains_every_byte_even_with_unsupported_font ... ok
+test engine::psd::text::tests::separate_edits_keep_unknown_run_origins_and_valid_utf16_lengths ... ok
+test engine::psd::text::tests::unsupported_edit_is_atomic_and_stored_raster_bounds_are_cleared ... ok
+
+test result: ok. 79 passed; 0 failed; 1 ignored; 0 measured; 431 filtered out; finished in 0.08s
+

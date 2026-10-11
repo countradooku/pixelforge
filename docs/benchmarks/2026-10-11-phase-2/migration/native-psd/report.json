@@ -1,0 +1,21 @@
+{
+  "operation": "native-verify",
+  "count": 1,
+  "failed": 1,
+  "status": "failed",
+  "coverage_complete": false,
+  "fidelity_deferred": true,
+  "warning_gate_verified": false,
+  "cases": [
+    {
+      "id": "standalone-two-pixel-layers",
+      "family": "standalone-writer",
+      "status": "failed",
+      "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 1490, \"name\": \"Adobe Photoshop\", \"layer\": 8, \"bounds\": {\"X\": 734, \"Height\": 224, \"Y\": 233, \"Width\": 260}}]",
+      "watchdog_dialog_confirmed": true,
+      "watchdog_passed": false,
+      "warning_gate_verified": false,
+      "restoration_confirmed": false
+    }
+  ]
+}

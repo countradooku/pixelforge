@@ -1,0 +1,31 @@
+  budget before: 0.0 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.1 MiB; depth 8 bits/channel
+Memory benchmark — 6000 × 4000; RGBA8, 20 undo states
+procedural LZ4: 29.689 ms encode, 5.543 ms decode+verify, 16777216 → 10787852 bytes (64.3%)
+procedural deflate-1: 68.059 ms encode, 43.282 ms decode+verify, 16777216 → 8240450 bytes (49.1%)
+incompressible LZ4: 0.026 ms encode, 0.016 ms decode+verify, 262144 → 263173 bytes (100.4%)
+incompressible deflate-1: 0.735 ms encode, 0.487 ms decode+verify, 262144 → 262369 bytes (100.1%)
+revision 00: 9.864 ms; 256.5 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+revision 01: 9.025 ms; 384.8 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+revision 02: 194.151 ms; 427.9 / 512 MB · 43.2 MB compressed · 45.6 MB scratch · 0.0 MB GPU
+revision 03: 232.992 ms; 441.0 / 512 MB · 56.0 MB compressed · 141.0 MB scratch · 0.0 MB GPU
+revision 04: 237.965 ms; 440.6 / 512 MB · 55.6 MB compressed · 252.7 MB scratch · 0.0 MB GPU
+revision 05: 238.974 ms; 435.9 / 512 MB · 51.1 MB compressed · 364.0 MB scratch · 0.0 MB GPU
+revision 06: 240.809 ms; 429.1 / 512 MB · 44.1 MB compressed · 470.8 MB scratch · 0.0 MB GPU
+revision 07: 228.294 ms; 422.3 / 512 MB · 37.5 MB compressed · 570.4 MB scratch · 0.0 MB GPU
+revision 08: 222.645 ms; 417.0 / 512 MB · 32.2 MB compressed · 659.9 MB scratch · 0.0 MB GPU
+revision 09: 204.617 ms; 413.4 / 512 MB · 28.7 MB compressed · 739.7 MB scratch · 0.0 MB GPU
+revision 10: 195.808 ms; 408.3 / 512 MB · 23.5 MB compressed · 817.1 MB scratch · 0.0 MB GPU
+revision 11: 183.996 ms; 403.9 / 512 MB · 19.1 MB compressed · 887.9 MB scratch · 0.0 MB GPU
+revision 12: 169.462 ms; 401.5 / 512 MB · 16.7 MB compressed · 949.7 MB scratch · 0.0 MB GPU
+revision 13: 160.055 ms; 399.8 / 512 MB · 15.0 MB compressed · 1005.8 MB scratch · 0.0 MB GPU
+revision 14: 147.085 ms; 398.4 / 512 MB · 13.7 MB compressed · 1057.1 MB scratch · 0.0 MB GPU
+revision 15: 132.266 ms; 397.0 / 512 MB · 12.3 MB compressed · 1104.7 MB scratch · 0.0 MB GPU
+revision 16: 123.171 ms; 395.9 / 512 MB · 11.2 MB compressed · 1148.3 MB scratch · 0.0 MB GPU
+revision 17: 108.020 ms; 398.5 / 512 MB · 13.8 MB compressed · 1181.4 MB scratch · 0.0 MB GPU
+revision 18: 111.195 ms; 394.4 / 512 MB · 9.7 MB compressed · 1225.1 MB scratch · 0.0 MB GPU
+revision 19: 95.500 ms; 393.5 / 512 MB · 8.8 MB compressed · 1259.9 MB scratch · 0.0 MB GPU
+undo exact: 20/20; median 0.247 ms; p95 0.311 ms
+32-bit document stress: unavailable until the float engine exists; no 8-bit conversion substituted
+  budget after: 0.0 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 516.5 MiB
+  memory after: RSS 857.0 MiB; peak RSS 857.0 MiB (process lifetime); page-ins 0 (includes file reads)

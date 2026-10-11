@@ -1,0 +1,24 @@
+{
+  "operation": "inspect_open",
+  "output": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/photoshop/blend-normal-o100-f100",
+  "cases": [
+    {
+      "id": "blend-normal-o100-f100",
+      "family": "blend",
+      "feature": "normal",
+      "variant": "o100-f100",
+      "params": {
+        "opacity": 100,
+        "fill": 100
+      },
+      "filename": "blend-normal-o100-f100.psd",
+      "fidelity": "exact"
+    }
+  ],
+  "input": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/roundtrip",
+  "reference": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/reopened",
+  "abort_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/photoshop/blend-normal-o100-f100/abort-requested.txt",
+  "expected_jsx_sha256": "6215f5de24f7fcf4437521ea2251bf5945e2b4295197b9ed0767fb551a1cb6b1",
+  "native_file": "/Users/radudiaconu/Desktop/Code/Rust/pixelforge/docs/benchmarks/2026-10-11-phase-2/corpus/pixelforge-results-m7ovphyt/roundtrip/blend-normal-o100-f100.psd",
+  "previous_document_id": null
+}

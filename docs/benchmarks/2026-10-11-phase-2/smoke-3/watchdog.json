@@ -1,0 +1,259 @@
+{
+  "status": "failed",
+  "restoration_confirmed": false,
+  "error": "Photoshop dialog detected; only the script bridge is stopped: [{\"id\": 1223, \"name\": \"Open\", \"layer\": 8, \"bounds\": {\"X\": 424, \"Height\": 448, \"Y\": 177, \"Width\": 880}}]",
+  "seconds": 4.234,
+  "observations": [
+    {
+      "seconds": 0.149,
+      "windows": [
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 0.724,
+      "windows": [
+        {
+          "id": 369,
+          "name": "pf-corpus-blend-normal-o100-f100 @ 100% (Foreground, RGB/8) *",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.315,
+      "windows": [
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": []
+    },
+    {
+      "seconds": 1.9,
+      "windows": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 2.481,
+      "windows": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 3.072,
+      "windows": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 3.646,
+      "windows": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 4.232,
+      "windows": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        },
+        {
+          "id": 369,
+          "name": "Adobe Photoshop 2026",
+          "layer": 0,
+          "bounds": {
+            "X": 0,
+            "Height": 1024,
+            "Y": 33,
+            "Width": 1728
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "id": 1223,
+          "name": "Open",
+          "layer": 8,
+          "bounds": {
+            "X": 424,
+            "Height": 448,
+            "Y": 177,
+            "Width": 880
+          }
+        }
+      ]
+    }
+  ]
+}

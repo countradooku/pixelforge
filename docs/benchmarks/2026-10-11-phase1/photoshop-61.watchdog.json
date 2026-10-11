@@ -1,0 +1,70 @@
+[
+  {
+    "seconds": 0.1,
+    "windows": [
+      {
+        "id": 369,
+        "name": "Adobe Photoshop 2026",
+        "layer": 0,
+        "bounds": {
+          "X": 0,
+          "Height": 1024,
+          "Y": 33,
+          "Width": 1728
+        }
+      }
+    ],
+    "dialogs": []
+  },
+  {
+    "seconds": 1.1,
+    "windows": [
+      {
+        "id": 369,
+        "name": "61.png @ 100% (Layer 1, RGB/8#)",
+        "layer": 0,
+        "bounds": {
+          "X": 0,
+          "Height": 1024,
+          "Y": 33,
+          "Width": 1728
+        }
+      }
+    ],
+    "dialogs": []
+  },
+  {
+    "seconds": 2.2,
+    "windows": [
+      {
+        "id": 369,
+        "name": "61.png @ 16,7% (Layer 1, RGB/8#) *",
+        "layer": 0,
+        "bounds": {
+          "X": 0,
+          "Height": 1024,
+          "Y": 33,
+          "Width": 1728
+        }
+      }
+    ],
+    "dialogs": []
+  },
+  {
+    "seconds": 3.4,
+    "windows": [
+      {
+        "id": 369,
+        "name": "61.png @ 16,7% (Layer 1, RGB/8#) *",
+        "layer": 0,
+        "bounds": {
+          "X": 0,
+          "Height": 1024,
+          "Y": 33,
+          "Width": 1728
+        }
+      }
+    ],
+    "dialogs": []
+  }
+]

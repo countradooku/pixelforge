@@ -1,0 +1,14 @@
+Tool benchmark — 8192 × 8192 (67 MP), 18 threads
+
+generate test scene                                            119.7 ms
+eyedropper / color sampler 1×1 average (median)                 0.00 ms   budget     4.0 ms   ok
+eyedropper / color sampler 11×11 average (median)               0.00 ms   budget     4.0 ms   ok
+eyedropper / color sampler 101×101 average (median)             0.01 ms   budget     4.0 ms   ok
+move tool: layer content bounds (Some((8192, 8192)))            0.25 ms   budget    30.0 ms   ok
+crop (tile-aligned), 268 MP → 205 MP                            2.98 ms   budget   400.0 ms   ok
+crop (unaligned), 268 MP → 205 MP                               5.74 ms   budget  1000.0 ms   ok
+straighten 3.5° (rotate + crop), 268 MP                        70.51 ms   budget  2000.0 ms   ok
+perspective crop → 6794 × 6298                                 53.38 ms   budget  3000.0 ms   ok
+free transform: scale layer 90%, 268 MP                        67.55 ms   budget  2000.0 ms   ok
+
+9 checks, 0 over budget

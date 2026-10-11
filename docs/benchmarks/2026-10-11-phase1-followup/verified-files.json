@@ -1,0 +1,13 @@
+{
+  "src/engine/objects.rs": "e9fc5ef72532549bce6997c81a00a5b1ead1670d5f2743d6cba88cd4d1417c5b",
+  "src/engine/graphcut.rs": "c20f7788750ccb8e90ec7f6574706bde665d91576ea6b753933a081b713a84b3",
+  "src/engine/segment.rs": "78beaf66f97706ea3813cd923121f555c0ea1779e04769e0b7b87bdb2c5d56c4",
+  "src/engine/gpu/cost.rs": "0a9d3dfa459a93b23ac92a045bedccb6e3a20d21342d099c7afbb9850a3c1570",
+  "src/engine/gpu/tests.rs": "4f8a0a2629a90f7168a87373f0b0326216e72d4a417c9f7f09008475d8755b98",
+  "src/engine/gpu/priors.txt": "b57bba0747f9e70e500e01bf8287f35b82fdb3b5ed6ab3c39d3d977156988312",
+  "src/bench_gpu.rs": "3cf4be334a2798f381feb613d35f683600ecec9dab7d4822ba177a37b43ed104",
+  "tools/phase1_compare.py": "4722b757f36d88923a42e7fa270e0a6dde9b003eb007cf9612eaa62bfaace6dd",
+  "tools/phase1_demo.py": "98e4097325411d60c88f8dabc12250bacd3c0474e1c4fb7136ed7f806a3e88d2",
+  "README.md": "85659b82f91a2595cee52acaba08a7950dcd2110961a4d7c08bad7454f63fef4",
+  "target/release/pixelforge": "59db5eeadb9c09b6a13b91c53425075b5da9d5046463de369e6f5542f08ac041"
+}

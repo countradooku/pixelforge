@@ -1,0 +1,1013 @@
+  budget before: 0.0 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 12.1 MiB; depth 8 bits/channel
+Memory benchmark — 14204 × 10652; RGBA8, 20 undo states
+revision 00: 2545.042 ms; 479.5 / 512 MB · 0.0 MB compressed · 652.1 MB scratch · 0.0 MB GPU
+revision 01: 2595.562 ms; 491.5 / 512 MB · 0.0 MB compressed · 1084.0 MB scratch · 0.0 MB GPU
+revision 02: 2291.035 ms; 487.0 / 512 MB · 0.0 MB compressed · 1492.8 MB scratch · 0.0 MB GPU
+revision 03: 2135.452 ms; 470.3 / 512 MB · 0.0 MB compressed · 1871.4 MB scratch · 0.0 MB GPU
+revision 04: 2378.587 ms; 489.8 / 512 MB · 0.0 MB compressed · 2207.4 MB scratch · 0.0 MB GPU
+
+thread '<unnamed>' (248634) panicked at /rustc/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4/library/core/src/slice/sort/shared/smallsort.rs:854:5:
+user-provided comparison function does not correctly implement a total order
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248645) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248633) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248636) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248647) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248646) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248632) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248634) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248641) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248631) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248639) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248637) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248643) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248638) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248644) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248648) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248635) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248642) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+thread '<unnamed>' (248640) panicked at src/engine/memory.rs:240:50:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+  budget after: 0.0 / 512 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 591.0 MiB
+  memory after: RSS 856.2 MiB; peak RSS 856.2 MiB (process lifetime); page-ins 0 (includes file reads)

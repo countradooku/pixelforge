@@ -1,0 +1,7 @@
+  budget before: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU
+  memory before: RSS 11.9 MiB; depth 8 bits/channel
+Filter benchmark — 8192 × 8192 (67 MP), 18 threads, default parameters
+
+Noise        Despeckle                            28.622 ms       2345 MP/s
+  budget after: 0.0 / 34406 MB · 0.0 MB compressed · 0.0 MB scratch · 0.0 MB GPU; peak tracked 597.2 MiB
+  memory after: RSS 727.5 MiB; peak RSS 727.5 MiB (process lifetime); page-ins 0 (includes file reads)
